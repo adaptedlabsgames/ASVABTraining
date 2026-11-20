@@ -172,7 +172,7 @@ function renderSetup() {
   drawPlan();
 
   mount(app, 
-    el('p', { class: 'small' }, el('a', { href: '#' }, '← Home')),
+    el('p', { class: 'small' }, el('a', { class: 'back-link', href: '#' }, '← Home')),
     el('h1', {}, 'Timed practice test'),
     el('p', { class: 'lead' }, 'Take the AFQT sections under real time limits, then see your estimated score and review every question.'),
     form,

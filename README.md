@@ -6,6 +6,12 @@ A free, static ASVAB practice site. It focuses on the four AFQT subtests: Arithm
 - Progress is saved in each student's browser (localStorage). Students don't need accounts.
 - Questions live in editable JSON files in `data/`.
 
+## Live site
+
+Hosted on GitHub Pages from the `main` branch: https://adaptedlabsgames.github.io/ASVABTraining/
+
+To make changes, work on a separate branch and merge it into `main`. The live site updates a minute or two after each merge.
+
 ## Run it locally
 
 The pages load question files with `fetch`, so they need a web server. Opening `index.html` directly from disk won't work.
@@ -123,3 +129,12 @@ The validator checks that every topic in every question bank has a guide.
 - "Didn't know it" sends a card back to box 1. It returns tomorrow, and up to twice more in the same session.
 
 Progress is saved by word, so you can add new words without resetting students' progress.
+
+## Hosting on GitHub Pages (one-time setup)
+
+1. In the repository on GitHub, open **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+3. Choose branch **main** and folder **/ (root)**, then click **Save**.
+4. After a minute or two, the site is live at https://adaptedlabsgames.github.io/ASVABTraining/.
+
+The empty `.nojekyll` file tells GitHub Pages to serve the files as they are, without processing them first. The site is plain static files and has no build step.

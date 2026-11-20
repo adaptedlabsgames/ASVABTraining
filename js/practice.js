@@ -70,7 +70,7 @@ export async function renderPractice(container, subtestId) {
 function showError(message) {
   mount(app, 
     el('p', { class: 'notice error' }, message),
-    el('p', {}, el('a', { href: '#' }, '← Back to home')),
+    el('p', {}, el('a', { class: 'back-link', href: '#' }, '← Back to home')),
   );
 }
 
@@ -112,10 +112,9 @@ function renderSetup() {
     el('fieldset', {},
       el('legend', {}, 'Topics'),
       el('p', { class: 'small muted', style: 'margin:0 0 8px' },
-        'Select ',
-        el('button', { type: 'button', class: 'link-btn', onclick: () => setAll(true) }, 'all'),
+        el('button', { type: 'button', class: 'link-btn', onclick: () => setAll(true) }, 'Select all'),
         ' · ',
-        el('button', { type: 'button', class: 'link-btn', onclick: () => setAll(false) }, 'none'),
+        el('button', { type: 'button', class: 'link-btn', onclick: () => setAll(false) }, 'Clear all'),
       ),
       el('div', { class: 'topic-list' }, topicBoxes),
     ),
@@ -158,7 +157,7 @@ function renderSetup() {
   sync();
 
   mount(app, 
-    el('p', { class: 'small' }, el('a', { href: '#' }, '← All subtests')),
+    el('p', { class: 'small' }, el('a', { class: 'back-link', href: '#' }, '← All subtests')),
     el('h1', {}, subtest.name),
     el('p', { class: 'lead' },
       overall.pct == null
@@ -244,7 +243,8 @@ function answer(choice) {
     ),
   );
   next.focus({ preventScroll: true });
-  next.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  next.scrollIntoView({ block: 'nearest', behavior: reduceMotion ? 'auto' : 'smooth' });
 }
 
 function nextQuestion() {
@@ -291,7 +291,7 @@ function renderSummary(results) {
   const rows = Object.entries(byTopic)
     .sort((a, b) => a[1].right / a[1].total - b[1].right / b[1].total)
     .map(([t, s]) => el('tr', {},
-      el('td', {}, topicLabel(t), ' ', el('a', { class: 'small', href: `#guide-${subtest.id}-${t}` }, 'Study guide')),
+      el('td', {}, topicLabel(t), ' ', el('a', { class: 'small guide-inline', href: `#guide-${subtest.id}-${t}` }, 'Study guide')),
       el('td', {}, `${s.right} / ${s.total}`)));
 
   const missedCards = missed.map((r) =>

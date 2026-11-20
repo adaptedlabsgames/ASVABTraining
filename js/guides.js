@@ -105,7 +105,7 @@ export async function renderGuide(app, subtestId, topicId) {
   if (!blocks || !label) {
     mount(app,
       el('p', { class: 'notice error' }, 'That study guide doesn’t exist.'),
-      el('p', {}, el('a', { href: '#guides' }, '← All study guides')));
+      el('p', {}, el('a', { class: 'back-link', href: '#guides' }, '← All study guides')));
     return;
   }
   document.title = `${label} · Study Guide · ASVAB Prep`;
@@ -117,7 +117,7 @@ export async function renderGuide(app, subtestId, topicId) {
   const count = bank.questions.filter((q) => q.topic === topicId).length;
 
   mount(app,
-    el('p', { class: 'small' }, el('a', { href: '#guides' }, '← All study guides')),
+    el('p', { class: 'small' }, el('a', { class: 'back-link', href: '#guides' }, '← All study guides')),
     el('div', { class: 'eyebrow' }, subtest.name),
     el('h1', {}, label),
     el('article', { class: 'card guide' }, blocks.map(block)),

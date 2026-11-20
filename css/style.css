@@ -504,7 +504,7 @@ td.nowrap { white-space: nowrap; }
 .site-nav { display: flex; gap: 4px; margin-left: auto; }
 .site-nav a {
   white-space: nowrap;
-  padding: 6px 10px;
+  padding: 12px 10px;
   border-radius: 8px;
   color: var(--muted);
   text-decoration: none;
@@ -574,7 +574,7 @@ td.nowrap { white-space: nowrap; }
 @media (max-width: 560px) {
   .topic-row { grid-template-columns: minmax(0, 1fr) 6.5rem 4rem; gap: 6px 10px; }
   .topic-row .topic-meter { grid-column: 1 / -1; grid-row: 2; }
-  .site-nav a { padding: 6px 8px; }
+  .site-nav a { padding: 12px 8px; }
 }
 
 /* Home: study tool cards */
@@ -685,3 +685,25 @@ td.nowrap { white-space: nowrap; }
   .fc-grade .btn { min-width: 0; flex: 1; }
   .site-nav { margin-left: 0; width: 100%; overflow-x: auto; }
 }
+
+/* Tap targets: standalone links and text buttons get at least 44px of height */
+.brand { padding-block: 10px; }
+.link-btn { min-height: 44px; padding: 0 4px; }
+.back-link, .guide-pager a { display: inline-flex; align-items: center; min-height: 44px; }
+.guide-mini, .guide-inline { display: inline-block; padding-block: 10px; }
+td .guide-inline { margin-left: 4px; }
+.flag-btn { min-height: 44px; }
+.qnum { height: 44px; }
+.qgrid { grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); }
+
+/* Footer */
+.site-footer {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-block: 0 32px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.site-footer p { margin: 0; padding-top: 16px; border-top: 1px solid var(--border); }
