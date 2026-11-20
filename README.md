@@ -20,7 +20,9 @@ python3 -m http.server 8000
 ```
 index.html          The whole site. Views switch by the address part after "#"
                     (no hash = home, #ar = Arithmetic Reasoning practice,
-                    #test = timed practice test, #progress = progress)
+                    #test = timed practice test, #progress = progress,
+                    #guides = study guides, #guide-ar-percents = one guide,
+                    #flashcards = vocabulary flashcards)
 css/style.css
 js/config.js        Subtest registry: add new subtests here
 js/quiz.js          Loading banks, picking and shuffling questions
@@ -31,8 +33,13 @@ js/practice.js      Practice view
 js/test.js          Timed test view (sections, timer, review, results)
 js/scoring.js       Test formats, section scoring and the AFQT estimate
 js/progress.js      Progress view (accuracy, missed-question review, history, reset)
+js/guides.js        Study guide index and topic pages
+js/flashcards.js    Vocabulary flashcards
+js/srs.js           Flashcard scheduling (spaced repetition)
 js/home.js          Home view
 data/<id>.json      Question banks
+data/guides.json    Study guide content, one per topic
+data/vocab.json     Flashcard words
 scripts/validate.mjs  Checks question banks for mistakes
 ```
 
@@ -91,3 +98,28 @@ The Progress page reads everything from the browser's saved data:
 - **Accuracy** counts every answer a student has given, in practice and on tests. Topics are listed weakest first. A topic needs at least 3 answers before it gets a level ("Needs work" under 60%, "Getting there" from 60%, "Strong" from 80%).
 - **Review what you missed** lists questions the student got wrong the last time they answered them. A question leaves the list once it's answered correctly.
 - **Reset progress** erases this device's saved answers, scores and any test in progress, after the student confirms.
+
+## Study guides
+
+`data/guides.json` holds one guide for each topic, stored by subtest and topic id (for example `"ar": { "percents": [ … ] }`). A guide is a list of blocks, and each block has exactly one of these keys:
+
+| Block | Shows |
+|---|---|
+| `{ "p": "text" }` | a paragraph |
+| `{ "h": "text" }` | a subheading |
+| `{ "list": ["…", "…"] }` | a bulleted list |
+| `{ "formula": ["…", "…"] }` | a highlighted box of rules or formulas |
+| `{ "example": { "q": "…", "steps": ["…"], "answer": "…" } }` | a worked example |
+| `{ "tip": "text" }` | a "Watch out" box |
+
+The validator checks that every topic in every question bank has a guide.
+
+## Flashcards
+
+`data/vocab.json` holds the words, each with `word`, `pos` (part of speech), `def` and `example`. Scheduling works like this:
+
+- A session holds every card that's due, plus up to 10 new ones.
+- "Knew it" moves a card up a box, so it waits longer before coming back: 2, 4, 7, then 14 days.
+- "Didn't know it" sends a card back to box 1. It returns tomorrow, and up to twice more in the same session.
+
+Progress is saved by word, so you can add new words without resetting students' progress.

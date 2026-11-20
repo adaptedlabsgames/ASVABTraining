@@ -10,7 +10,9 @@ const errors = [];
 const allIds = new Set();
 let total = 0;
 
-for (const file of readdirSync(dataDir).filter((f) => f.endsWith('.json'))) {
+const SPECIAL = ['guides.json', 'vocab.json'];
+const bankTopics = {};
+for (const file of readdirSync(dataDir).filter((f) => f.endsWith('.json') && !SPECIAL.includes(f))) {
   const where = (msg) => errors.push(`${file}: ${msg}`);
   let bank;
   try {
@@ -51,10 +53,47 @@ for (const file of readdirSync(dataDir).filter((f) => f.endsWith('.json'))) {
   for (const id of Object.keys(bank.passages || {})) {
     if (!bank.questions.some((q) => q.passage === id)) where(`passage "${id}" has no questions`);
   }
+  bankTopics[bank.subtest] = Object.keys(bank.topics || {});
   console.log(`${file}: ${bank.questions.length} questions`);
   for (const [t, label] of Object.entries(bank.topics || {})) {
     console.log(`  ${label.padEnd(30)} ${counts[t] || 0}`);
   }
+}
+
+// Study guides: one per topic, known block types only.
+const BLOCKS = ['p', 'h', 'list', 'formula', 'example', 'tip'];
+try {
+  const guides = JSON.parse(readFileSync(join(dataDir, 'guides.json'), 'utf8'));
+  let n = 0;
+  for (const [sub, topics] of Object.entries(bankTopics)) {
+    for (const t of topics) {
+      const blocks = guides[sub]?.[t];
+      if (!Array.isArray(blocks) || !blocks.length) { errors.push(`guides.json: missing guide for ${sub}/${t}`); continue; }
+      n += 1;
+      blocks.forEach((b, i) => {
+        const keys = Object.keys(b);
+        if (keys.length !== 1 || !BLOCKS.includes(keys[0])) errors.push(`guides.json: ${sub}/${t} block ${i + 1} should have exactly one of ${BLOCKS.join(', ')}`);
+        if (b.example && (!b.example.q || !Array.isArray(b.example.steps))) errors.push(`guides.json: ${sub}/${t} example ${i + 1} needs q and steps`);
+      });
+    }
+  }
+  console.log(`guides.json: ${n} topic guides`);
+} catch (e) {
+  errors.push(`guides.json: ${e.message}`);
+}
+
+// Flashcards: word, pos, def, example; no duplicate words.
+try {
+  const { cards } = JSON.parse(readFileSync(join(dataDir, 'vocab.json'), 'utf8'));
+  const seen = new Set();
+  cards.forEach((c, i) => {
+    for (const k of ['word', 'pos', 'def', 'example']) if (!c[k]?.trim()) errors.push(`vocab.json: card ${i + 1} missing ${k}`);
+    if (seen.has(c.word)) errors.push(`vocab.json: duplicate word "${c.word}"`);
+    seen.add(c.word);
+  });
+  console.log(`vocab.json: ${cards.length} flashcards`);
+} catch (e) {
+  errors.push(`vocab.json: ${e.message}`);
 }
 
 if (errors.length) {

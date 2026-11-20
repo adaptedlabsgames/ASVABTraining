@@ -1,9 +1,21 @@
 // Quiz engine: loading banks, choosing questions, shuffling answer choices.
 
-export async function loadBank(subtest) {
-  const res = await fetch(subtest.file);
-  if (!res.ok) throw new Error(`Could not load ${subtest.file} (${res.status})`);
-  return res.json();
+// Data files are fetched once per page load and shared (read-only).
+const cache = new Map();
+export function loadData(path) {
+  if (!cache.has(path)) {
+    const p = fetch(path).then((res) => {
+      if (!res.ok) throw new Error(`Could not load ${path} (${res.status})`);
+      return res.json();
+    });
+    p.catch(() => cache.delete(path)); // allow a retry after a failed load
+    cache.set(path, p);
+  }
+  return cache.get(path);
+}
+
+export function loadBank(subtest) {
+  return loadData(subtest.file);
 }
 
 export function shuffle(items) {

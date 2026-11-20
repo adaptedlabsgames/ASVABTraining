@@ -141,7 +141,7 @@ function draw(items) {
       el('h3', {}, subtest.name),
       el('div', { class: 'topic-rows' }, rows.map((r) =>
         el('div', { class: 'topic-row' },
-          el('div', { class: 'topic-name' }, r.label),
+          el('div', { class: 'topic-name' }, r.label, el('a', { class: 'small guide-mini', href: `#guide-${subtest.id}-${r.id}` }, 'Study guide')),
           el('div', { class: 'topic-meter' },
             meter(r.a.pct, `${r.label} accuracy`),
             el('span', { class: 'topic-num' }, r.a.pct == null ? `${r.qs.length} questions` : `${r.a.pct}% · ${plural(r.a.attempts, 'answer')}`),

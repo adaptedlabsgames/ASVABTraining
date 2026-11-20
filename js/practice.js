@@ -290,7 +290,9 @@ function renderSummary(results) {
   }
   const rows = Object.entries(byTopic)
     .sort((a, b) => a[1].right / a[1].total - b[1].right / b[1].total)
-    .map(([t, s]) => el('tr', {}, el('td', {}, topicLabel(t)), el('td', {}, `${s.right} / ${s.total}`)));
+    .map(([t, s]) => el('tr', {},
+      el('td', {}, topicLabel(t), ' ', el('a', { class: 'small', href: `#guide-${subtest.id}-${t}` }, 'Study guide')),
+      el('td', {}, `${s.right} / ${s.total}`)));
 
   const missedCards = missed.map((r) =>
     el('div', { class: 'card' },

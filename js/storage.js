@@ -119,7 +119,30 @@ export function resetAll() {
   try {
     localStorage.removeItem(KEY);
     localStorage.removeItem(TEST_KEY);
+    localStorage.removeItem(CARDS_KEY);
   } catch {
     // ignore
+  }
+}
+
+// Flashcard progress: { [word]: { box, due, seen } }
+const CARDS_KEY = 'asvab-prep.flashcards.v1';
+
+export function loadCardStates() {
+  try {
+    const raw = localStorage.getItem(CARDS_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
+}
+
+export function saveCardState(word, state) {
+  const all = loadCardStates();
+  all[word] = state;
+  try {
+    localStorage.setItem(CARDS_KEY, JSON.stringify(all));
+  } catch {
+    // Storage blocked: the session still works, it just isn't remembered.
   }
 }

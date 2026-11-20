@@ -1,0 +1,186 @@
+{
+  "ar": {
+    "percents": [
+      { "p": "Percent means \"per hundred.\" 35% = 35/100 = 0.35. Most percent problems ask one of three things: find the part, find the percent, or find the whole." },
+      { "formula": ["Part = Percent × Whole", "Percent = Part ÷ Whole × 100", "Whole = Part ÷ Percent", "Percent change = (New − Old) ÷ Old × 100"] },
+      { "h": "Shortcuts" },
+      { "list": ["10% of a number: move the decimal one place left. 10% of 80 = 8.", "5% is half of 10%, so 15% = 10% + 5%.", "25% off means you pay 75%: multiply by 0.75.", "A 6% raise means multiply by 1.06."] },
+      { "example": { "q": "A $40 shirt is 30% off. What is the sale price?", "steps": ["30% of 40 = 0.30 × 40 = $12", "40 − 12 = $28", "Or pay 70%: 0.70 × 40 = $28"], "answer": "$28" } },
+      { "tip": "Percent change always divides by the original amount. Two changes in a row, like up 20% and then down 20%, don't cancel out." }
+    ],
+    "ratios": [
+      { "p": "A ratio compares two amounts. 3:5 means for every 3 of one thing there are 5 of the other. A proportion says two ratios are equal." },
+      { "formula": ["a/b = c/d  →  a × d = b × c  (cross-multiply)", "One part = total ÷ (sum of the ratio numbers)"] },
+      { "example": { "q": "The ratio of boys to girls is 2:3 in a class of 25. How many girls are there?", "steps": ["2 + 3 = 5 parts", "25 ÷ 5 = 5 students per part", "Girls = 3 parts × 5 = 15"], "answer": "15 girls" } },
+      { "example": { "q": "If 4 tickets cost $30, how much do 6 tickets cost?", "steps": ["4/30 = 6/x", "4x = 180", "x = 45"], "answer": "$45" } },
+      { "tip": "Keep the units in the same order on both sides of a proportion: tickets/dollars = tickets/dollars." }
+    ],
+    "rates": [
+      { "p": "Rate problems connect how fast, how long and how much." },
+      { "formula": ["Distance = Rate × Time", "Rate = Distance ÷ Time", "Time = Distance ÷ Rate", "Working together: add the amounts each worker does per hour"] },
+      { "h": "Watch the setup" },
+      { "list": ["Moving apart or toward each other: add the speeds.", "One catching up to the other: subtract the speeds.", "Convert minutes to hours by dividing by 60. 45 minutes = 0.75 hour."] },
+      { "example": { "q": "A truck drives 150 miles in 2.5 hours. What is its average speed?", "steps": ["Rate = Distance ÷ Time", "150 ÷ 2.5 = 60"], "answer": "60 mph" } },
+      { "example": { "q": "One worker paints a fence in 3 hours. Another takes 6 hours. How long do they take together?", "steps": ["Per hour: 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2 of the fence", "Half a fence per hour means the whole fence takes 2 hours"], "answer": "2 hours" } },
+      { "tip": "Working together is always faster than the faster worker alone. If your answer is longer than that, check your setup." }
+    ],
+    "averages": [
+      { "p": "The average (mean) is the total divided by how many numbers there are." },
+      { "formula": ["Mean = Sum ÷ Count", "Sum = Mean × Count", "Median = the middle value after sorting (with an even count, average the two middle values)", "Mode = the value that appears most often"] },
+      { "example": { "q": "Your scores are 70, 80 and 90. What score do you need on test 4 to average 85?", "steps": ["Needed total: 85 × 4 = 340", "Current total: 70 + 80 + 90 = 240", "340 − 240 = 100"], "answer": "100" } },
+      { "tip": "When a problem gives an average and asks about a missing number, turn the average back into a total first." }
+    ],
+    "interest": [
+      { "p": "Simple interest is paid only on the starting amount. Compound interest is also paid on interest already earned." },
+      { "formula": ["Simple interest: I = P × r × t", "P = principal (starting amount), r = yearly rate as a decimal, t = time in years", "Total = P + I", "Compounded yearly: multiply by (1 + r) once for each year"] },
+      { "example": { "q": "$600 is invested at 5% simple interest for 3 years. How much interest does it earn?", "steps": ["I = 600 × 0.05 × 3", "= $90", "Total in the account: $690"], "answer": "$90 interest" } },
+      { "tip": "Time must be in years: 6 months = 0.5, 18 months = 1.5. Also check whether the question asks for the interest or the total." }
+    ],
+    "money": [
+      { "list": ["Unit price = price ÷ quantity. The lower unit price is the better buy.", "Time-and-a-half overtime = hourly rate × 1.5.", "Making change: add up the purchases first, then subtract from the amount paid.", "Fuel cost: miles ÷ miles per gallon = gallons, then gallons × price per gallon."] },
+      { "example": { "q": "A worker earns $12 an hour. One week they work 40 regular hours plus 5 overtime hours at time-and-a-half. What is their pay?", "steps": ["Regular: 40 × $12 = $480", "Overtime rate: $12 × 1.5 = $18", "Overtime pay: 5 × $18 = $90", "$480 + $90 = $570"], "answer": "$570" } },
+      { "tip": "Carpet and tile are priced by area (length × width). Fencing and trim are priced by perimeter (the distance around)." }
+    ],
+    "word-problems": [
+      { "p": "Translate the words into math one phrase at a time." },
+      { "list": ["\"is\" or \"equals\" → =", "\"of\" → ×  (half of x = x ÷ 2)", "\"more than\" → +, \"less than\" → −  (5 less than x = x − 5)", "\"per\" → ÷", "Consecutive numbers: n, n + 1, n + 2"] },
+      { "formula": ["Fraction of a number: divide by the bottom, then multiply by the top", "Dividing by a fraction = multiplying by its flip"] },
+      { "example": { "q": "Three consecutive whole numbers add up to 72. What is the largest?", "steps": ["n + (n + 1) + (n + 2) = 72", "3n + 3 = 72", "3n = 69, so n = 23", "The numbers are 23, 24 and 25"], "answer": "25" } },
+      { "tip": "Plug your answer back into the original words to check it. Many wrong choices are the right number for a different part of the problem." }
+    ],
+    "measurement": [
+      { "formula": ["12 inches = 1 foot · 3 feet = 1 yard · 5,280 feet = 1 mile", "60 seconds = 1 minute · 60 minutes = 1 hour", "1 quart = 4 cups · 4 quarts = 1 gallon", "16 ounces = 1 pound · 2,000 pounds = 1 ton", "1 square yard = 9 square feet"] },
+      { "list": ["Perimeter is the distance around: add the sides.", "Area is the space inside: for a rectangle, length × width.", "Volume is the space a box holds: length × width × height."] },
+      { "example": { "q": "A room is 15 feet by 12 feet. How many square yards of carpet cover it?", "steps": ["Area: 15 × 12 = 180 square feet", "180 ÷ 9 = 20 square yards"], "answer": "20 square yards" } },
+      { "tip": "Big unit to small unit: multiply. Small unit to big unit: divide. For area, the conversion is squared: 1 yard = 3 feet, so 1 square yard = 9 square feet." }
+    ]
+  },
+  "mk": {
+    "number": [
+      { "list": ["A prime number has exactly two factors: 1 and itself (2, 3, 5, 7, 11, 13, 17, 19, 23, 29 …). 1 is not prime, and 2 is the only even prime.", "Greatest common factor (GCF): the largest number that divides both. Least common multiple (LCM): the smallest number both divide into.", "Negatives: negative × negative = positive; negative × positive = negative. Subtracting a negative is the same as adding.", "Absolute value |x| is the distance from zero, so it is never negative."] },
+      { "h": "Order of operations" },
+      { "formula": ["1. Parentheses", "2. Exponents", "3. Multiply and divide, left to right", "4. Add and subtract, left to right"] },
+      { "h": "Divisibility rules" },
+      { "list": ["2: the last digit is even", "3: the digits add up to a multiple of 3", "5: ends in 0 or 5", "9: the digits add up to a multiple of 9", "10: ends in 0"] },
+      { "example": { "q": "What is 10 − 2 × 3²?", "steps": ["Exponent first: 3² = 9", "Multiply: 2 × 9 = 18", "Subtract: 10 − 18 = −8"], "answer": "−8" } },
+      { "tip": "Multiplying and dividing have equal rank, so work left to right: 12 ÷ 3 × 2 = 8, not 2." }
+    ],
+    "fractions": [
+      { "list": ["Add or subtract: find a common denominator, then add or subtract the tops.", "Multiply: top × top and bottom × bottom.", "Divide: flip the second fraction and multiply.", "Mixed numbers: change them to improper fractions first (2 1/3 = 7/3).", "Fraction to decimal: divide the top by the bottom (3/8 = 0.375).", "Decimal to percent: multiply by 100 (0.375 = 37.5%)."] },
+      { "formula": ["Multiplying decimals: multiply, then count the total decimal places in both numbers", "Dividing by a decimal: move both decimal points right until the divisor is a whole number"] },
+      { "h": "Worth memorizing" },
+      { "list": ["1/2 = 0.5 = 50%", "1/4 = 0.25 = 25%", "3/4 = 0.75 = 75%", "1/5 = 0.2 = 20%", "1/8 = 0.125 = 12.5%", "1/3 ≈ 0.333 ≈ 33.3%"] },
+      { "example": { "q": "What is 2/3 + 1/4?", "steps": ["Common denominator: 12", "2/3 = 8/12 and 1/4 = 3/12", "8/12 + 3/12 = 11/12"], "answer": "11/12" } },
+      { "tip": "To compare fractions quickly, change them to decimals." }
+    ],
+    "exponents": [
+      { "formula": ["xᵃ · xᵇ = xᵃ⁺ᵇ  (multiplying: add the exponents)", "xᵃ ÷ xᵇ = xᵃ⁻ᵇ  (dividing: subtract the exponents)", "(xᵃ)ᵇ: multiply the exponents", "x⁰ = 1", "x⁻ⁿ = 1/xⁿ"] },
+      { "h": "Square roots" },
+      { "list": ["√ asks which number times itself gives this one: √81 = 9.", "Simplify a root by pulling out a perfect square: √72 = √(36 × 2) = 6√2.", "√a + √b is not √(a + b).", "Perfect squares to know: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225."] },
+      { "h": "Scientific notation" },
+      { "p": "A number from 1 to 10 times a power of 10. A positive exponent means a big number and a negative exponent means a small one: 3,400 = 3.4 × 10³ and 0.0052 = 5.2 × 10⁻³." },
+      { "example": { "q": "Simplify (2x³)².", "steps": ["Square the 2: 4", "Square x³ by multiplying the exponents: x⁶", "Result: 4x⁶"], "answer": "4x⁶" } },
+      { "tip": "A negative exponent makes a fraction, not a negative number: 2⁻² = 1/4." }
+    ],
+    "equations": [
+      { "list": ["The goal is to get x alone. Whatever you do to one side, do to the other.", "Undo adding and subtracting first, then multiplying and dividing.", "Clear parentheses first: 3(x − 2) = 3x − 6.", "Inequalities use the same steps, but flip the sign when you multiply or divide by a negative number.", "Two equations (x + y = 10 and x − y = 2): add or subtract them to cancel one letter."] },
+      { "example": { "q": "Solve 4x − 7 = 2x + 9.", "steps": ["Subtract 2x from both sides: 2x − 7 = 9", "Add 7: 2x = 16", "Divide by 2: x = 8", "Check: 4(8) − 7 = 25 and 2(8) + 9 = 25 ✓"], "answer": "x = 8" } },
+      { "tip": "Check your answer by plugging it back in. On a multiple-choice test you can also plug in each choice." }
+    ],
+    "polynomials": [
+      { "list": ["Like terms have the same letter and power: 3x² and −x² combine, but 3x² and 3x do not.", "Distribute: a(b + c) = ab + ac.", "Multiply two binomials with FOIL: First, Outer, Inner, Last."] },
+      { "formula": ["(a + b)² = a² + 2ab + b²", "(a − b)² = a² − 2ab + b²", "(a + b)(a − b) = a² − b²"] },
+      { "h": "Factoring" },
+      { "p": "To factor x² + bx + c, find two numbers that multiply to c and add to b." },
+      { "example": { "q": "Factor x² − x − 12.", "steps": ["You need two numbers that multiply to −12 and add to −1", "−4 and 3 work", "x² − x − 12 = (x − 4)(x + 3)"], "answer": "(x − 4)(x + 3)" } },
+      { "tip": "(a + b)² is not a² + b². Don't forget the middle term." }
+    ],
+    "angles": [
+      { "list": ["Right angle = 90°, straight line = 180°, full circle = 360°.", "Complementary angles add to 90°. Supplementary angles add to 180°.", "Vertical angles (across from each other where two lines cross) are equal.", "When a line crosses two parallel lines, any two angles formed are either equal or add up to 180°.", "The angles of a triangle add to 180°.", "Isosceles triangle: two equal sides and two equal angles. Equilateral: all sides equal and every angle 60°."] },
+      { "formula": ["Pythagorean theorem (right triangles only): a² + b² = c², where c is the longest side", "Common right triangles: 3‑4‑5, 5‑12‑13, 6‑8‑10, 8‑15‑17", "Sum of a polygon's inside angles = (number of sides − 2) × 180°"] },
+      { "example": { "q": "A right triangle has legs of 9 and 12. How long is the longest side?", "steps": ["9² + 12² = 81 + 144 = 225", "√225 = 15", "Or spot it: 9‑12‑15 is 3‑4‑5 times 3"], "answer": "15" } },
+      { "tip": "Look for multiples of 3‑4‑5 and 5‑12‑13 to skip the math." }
+    ],
+    "area": [
+      { "formula": ["Rectangle: A = l × w, P = 2l + 2w", "Square: A = s², P = 4s", "Triangle: A = ½ × b × h", "Parallelogram: A = b × h", "Trapezoid: A = ½ × (b₁ + b₂) × h", "Box: V = l × w × h, surface area = 2(lw + lh + wh)", "Cube: V = s³", "Cylinder: V = π × r² × h"] },
+      { "h": "Scaling" },
+      { "list": ["Double every side: area × 4, volume × 8.", "Triple every side: area × 9, volume × 27."] },
+      { "example": { "q": "A rectangle's length is twice its width, and its perimeter is 36. What is its area?", "steps": ["Width = w, length = 2w", "Perimeter: 2(w + 2w) = 6w = 36, so w = 6", "Length = 12, area = 6 × 12 = 72"], "answer": "72" } },
+      { "tip": "The height in the triangle and parallelogram formulas is the straight-up distance, not the slanted side." }
+    ],
+    "circles": [
+      { "formula": ["Diameter = 2 × radius", "Circumference: C = 2πr = πd", "Area: A = πr²", "π ≈ 3.14"] },
+      { "list": ["If the answer choices contain π, leave π in your answer: a radius of 4 gives an area of 16π.", "From circumference to radius: divide by 2π.", "From area to radius: divide by π, then take the square root."] },
+      { "example": { "q": "A circle's area is 36π. What is its circumference?", "steps": ["r² = 36, so r = 6", "C = 2π × 6 = 12π"], "answer": "12π" } },
+      { "tip": "Check whether you're given the radius or the diameter. Using the diameter in A = πr² is the most common mistake." }
+    ],
+    "coordinates": [
+      { "formula": ["Slope = (y₂ − y₁) ÷ (x₂ − x₁)  (rise over run)", "Line: y = mx + b  (m = slope, b = y-intercept)", "Midpoint = ((x₁ + x₂) ÷ 2, (y₁ + y₂) ÷ 2)", "Distance = √((x₂ − x₁)² + (y₂ − y₁)²)"] },
+      { "list": ["Points are written (x, y): x is across and y is up.", "A positive slope rises from left to right, a negative slope falls, and a horizontal line has slope 0.", "Parallel lines have equal slopes."] },
+      { "example": { "q": "What is the slope of the line through (2, 1) and (6, 9)?", "steps": ["Rise: 9 − 1 = 8", "Run: 6 − 2 = 4", "Slope = 8 ÷ 4 = 2"], "answer": "2" } },
+      { "tip": "To check whether a point is on a line, plug its x into the equation and see if you get its y." }
+    ]
+  },
+  "wk": {
+    "common": [
+      { "p": "Word Knowledge questions ask which choice most nearly means a word. You don't need a perfect definition, just enough to pick the closest match." },
+      { "h": "Strategy" },
+      { "list": ["Use the word in a short phrase you know, like \"a hazard on the road.\"", "Decide whether the word feels positive or negative, and cross out choices with the opposite feeling.", "Watch for look-alikes: wary (cautious) and weary (tired), candid (honest) and candy.", "Pick the best match, not just a related word."] },
+      { "p": "Build vocabulary with the flashcards: 10 minutes a day works better than one long session." },
+      { "tip": "Word Knowledge has many questions and little time. Answer quickly, guess when you're stuck and keep moving. Never leave a blank." }
+    ],
+    "advanced": [
+      { "p": "Harder words are often built from Latin or Greek parts you already know from easier words." },
+      { "list": ["benevolent: bene (good) + vol (wish) → wanting good for others", "impartial: im (not) + partial (taking sides) → fair", "chronic: chron (time) → lasting a long time", "lucid: luc (light) → clear"] },
+      { "h": "Strategy" },
+      { "list": ["Break the word into parts.", "Think of related words you know: tenacious → tenacity.", "Cross out choices that only sound like the word: volatile does not mean voluntary."] },
+      { "tip": "Test writers like sound-alike wrong answers. If a choice looks a lot like the question word, be suspicious of it." }
+    ],
+    "context": [
+      { "p": "When the word appears in a sentence, the sentence usually holds a clue." },
+      { "list": ["Definition clue: the sentence explains the word.", "Contrast clue: but, although and unlike point to the opposite meaning.", "Example clue: examples show the meaning (\"perishable foods such as milk and fruit\").", "Cause and effect: so and because link the word to a result."] },
+      { "example": { "q": "\"Supplies were sparse, so each soldier received only a small portion.\" What does sparse mean?", "steps": ["Clue: \"so each soldier received only a small portion\" is the result", "Small portions mean the supplies were limited", "Sparse means scarce or limited"], "answer": "limited" } },
+      { "tip": "Cover the word, read the sentence and put in your own word. Then pick the choice closest to yours." }
+    ],
+    "parts": [
+      { "h": "Prefixes" },
+      { "list": ["pre-: before", "post-: after", "re-: again", "un-, in-, im-, ir-, il-: not", "dis-: not, apart", "mis-: wrongly", "mal-: bad", "anti-: against", "pro-: for, forward", "sub-: under", "super-: above", "inter-: between", "trans-: across", "bi-: two, tri-: three"] },
+      { "h": "Roots" },
+      { "list": ["bene: good", "chron: time", "spect: look", "dict: say", "port: carry", "scrib, script: write", "vis, vid: see", "aud: hear", "ject: throw", "rupt: break", "fort: strong", "luc: light", "cred: believe", "vol: wish"] },
+      { "h": "Suffixes" },
+      { "list": ["-less: without", "-ful: full of", "-able, -ible: can be", "-ology: study of", "-phobia: fear of"] },
+      { "tip": "Put the parts together: incredible = in (not) + cred (believe) + ible (can be) → can't be believed." }
+    ]
+  },
+  "pc": {
+    "main-idea": [
+      { "p": "The main idea is the one point the whole passage supports." },
+      { "list": ["Read the first and last sentences closely.", "Ask what every sentence has in common.", "Too narrow: a choice about one detail. Too broad: a choice bigger than the passage covers."] },
+      { "tip": "A choice can be true and still be wrong if it's only a detail." }
+    ],
+    "detail": [
+      { "p": "Detail questions ask what the passage says directly. They often start with \"According to the passage.\"" },
+      { "list": ["Find the question's key word in the passage and reread that sentence.", "The right answer often says the same thing in different words.", "Watch numbers and names: wrong choices swap them (monthly for yearly)."] },
+      { "tip": "Don't answer from what you already know. Use only the passage." }
+    ],
+    "inference": [
+      { "p": "Inference questions ask what the passage suggests but doesn't say outright. Look for words like implies, suggests and most likely." },
+      { "list": ["The answer must be supported by the passage, one small step beyond what it says.", "Be wary of choices with always, never or all unless the passage says so too.", "Ask: if the passage is true, must this be true as well?"] },
+      { "example": { "q": "A passage says, \"Many homes have at least one smoke detector that does not work.\" What does it imply?", "steps": ["It doesn't say directly that people are careless", "But a detector that doesn't work wasn't tested, or its battery wasn't replaced", "So the passage implies many people don't maintain their detectors"], "answer": "Many people don't maintain their smoke detectors." } },
+      { "tip": "The best inference is a small, safe step, not a big leap." }
+    ],
+    "purpose": [
+      { "p": "Purpose questions ask why the author wrote the passage. Tone questions ask how the author feels about the subject." },
+      { "h": "Common purposes" },
+      { "list": ["To inform or explain: facts, how something works", "To persuade: opinions, should and must, reasons to act", "To describe: details of a person, place or event", "To warn: risks and how to avoid them"] },
+      { "h": "Finding the tone" },
+      { "list": ["Look for opinion words: deserves, sadly, remarkable, unfortunately.", "Common tone answers: admiring, critical, neutral, concerned, hopeful."] },
+      { "tip": "Purpose answers usually start with a verb (to warn, to explain). Match the verb to what the whole passage does." }
+    ],
+    "vocab": [
+      { "p": "\"As used in the passage\" warns you that the word may have a less common meaning here." },
+      { "list": ["Reread the sentence with each choice in place of the word.", "Choose the meaning that fits this passage, even if another meaning is more familiar. In a passage about navigation, bearing means direction."] },
+      { "tip": "The word's most common meaning is often the trap." }
+    ]
+  }
+}

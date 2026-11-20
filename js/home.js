@@ -1,5 +1,5 @@
 import { SUBTESTS } from './config.js';
-import { load, loadActiveTest, lastAfqtTest } from './storage.js';
+import { load, loadActiveTest, lastAfqtTest, loadCardStates } from './storage.js';
 import { el, mount } from './dom.js';
 
 export function renderHome(app) {
@@ -54,6 +54,22 @@ export function renderHome(app) {
     el('a', { class: 'btn primary', href: '#test' }, active ? 'Resume your test' : 'Take a practice test'),
   );
 
+  const cardsSeen = Object.keys(loadCardStates()).length;
+  const tools = el('div', { class: 'grid' },
+    el('a', { class: 'card tool-card', href: '#guides' },
+      el('h3', {}, 'Study guides'),
+      el('p', {}, 'Short lessons for every AFQT topic, with formulas, worked examples and common traps.'),
+      el('span', { class: 'tool-cta' }, 'Open study guides →'),
+    ),
+    el('a', { class: 'card tool-card', href: '#flashcards' },
+      el('h3', {}, 'Vocabulary flashcards'),
+      el('p', {}, cardsSeen
+        ? `${cardsSeen} of 150 words started. Cards you miss come back sooner.`
+        : '150 common ASVAB words. Cards you miss come back sooner.'),
+      el('span', { class: 'tool-cta' }, 'Study flashcards →'),
+    ),
+  );
+
   mount(app, 
     el('h1', {}, 'Raise your ASVAB score'),
     el('p', { class: 'lead' },
@@ -62,5 +78,7 @@ export function renderHome(app) {
     testCard,
     el('h2', {}, 'Practice by subtest'),
     grid,
+    el('h2', {}, 'Study tools'),
+    tools,
   );
 }

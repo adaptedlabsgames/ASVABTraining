@@ -1,0 +1,904 @@
+{
+ "cards": [
+  {
+   "word": "abundant",
+   "pos": "adj.",
+   "def": "plentiful; more than enough",
+   "example": "The farm had an abundant harvest this year."
+  },
+  {
+   "word": "adequate",
+   "pos": "adj.",
+   "def": "good enough; sufficient",
+   "example": "The tent gave adequate protection from the rain."
+  },
+  {
+   "word": "adhere",
+   "pos": "verb",
+   "def": "to stick to; to follow closely",
+   "example": "Recruits must adhere to the schedule."
+  },
+  {
+   "word": "adjacent",
+   "pos": "adj.",
+   "def": "next to",
+   "example": "The motor pool is adjacent to the barracks."
+  },
+  {
+   "word": "advocate",
+   "pos": "verb",
+   "def": "to publicly support",
+   "example": "She advocates for safer roads."
+  },
+  {
+   "word": "aggravate",
+   "pos": "verb",
+   "def": "to make worse",
+   "example": "Running on the injury will aggravate it."
+  },
+  {
+   "word": "alleviate",
+   "pos": "verb",
+   "def": "to ease or lessen",
+   "example": "Rest can alleviate muscle pain."
+  },
+  {
+   "word": "allocate",
+   "pos": "verb",
+   "def": "to set aside for a purpose",
+   "example": "The unit allocated money for training."
+  },
+  {
+   "word": "ambiguous",
+   "pos": "adj.",
+   "def": "having more than one possible meaning; unclear",
+   "example": "The ambiguous order confused the squad."
+  },
+  {
+   "word": "amiable",
+   "pos": "adj.",
+   "def": "friendly and pleasant",
+   "example": "Our amiable neighbor waves every morning."
+  },
+  {
+   "word": "ample",
+   "pos": "adj.",
+   "def": "more than enough",
+   "example": "There was ample time to finish the test."
+  },
+  {
+   "word": "apprehensive",
+   "pos": "adj.",
+   "def": "worried about what may happen",
+   "example": "He was apprehensive before the interview."
+  },
+  {
+   "word": "arduous",
+   "pos": "adj.",
+   "def": "very difficult and tiring",
+   "example": "The climb was long and arduous."
+  },
+  {
+   "word": "assess",
+   "pos": "verb",
+   "def": "to judge or evaluate",
+   "example": "The medic assessed the injury."
+  },
+  {
+   "word": "audible",
+   "pos": "adj.",
+   "def": "loud enough to be heard",
+   "example": "The whistle was audible across the field."
+  },
+  {
+   "word": "austere",
+   "pos": "adj.",
+   "def": "plain and strict; without comforts",
+   "example": "The barracks were clean but austere."
+  },
+  {
+   "word": "benevolent",
+   "pos": "adj.",
+   "def": "kind; wanting to help others",
+   "example": "A benevolent donor paid for the new library."
+  },
+  {
+   "word": "berate",
+   "pos": "verb",
+   "def": "to scold angrily",
+   "example": "The coach berated the team after the loss."
+  },
+  {
+   "word": "brevity",
+   "pos": "noun",
+   "def": "shortness",
+   "example": "The brevity of his speech surprised everyone."
+  },
+  {
+   "word": "candid",
+   "pos": "adj.",
+   "def": "honest and direct",
+   "example": "Thanks for your candid feedback."
+  },
+  {
+   "word": "cautious",
+   "pos": "adj.",
+   "def": "careful to avoid danger",
+   "example": "A cautious driver slows down in fog."
+  },
+  {
+   "word": "coerce",
+   "pos": "verb",
+   "def": "to force someone by pressure or threats",
+   "example": "No one should be coerced into signing."
+  },
+  {
+   "word": "cohesive",
+   "pos": "adj.",
+   "def": "sticking together; unified",
+   "example": "The team stayed cohesive under pressure."
+  },
+  {
+   "word": "commend",
+   "pos": "verb",
+   "def": "to praise",
+   "example": "The captain commended her quick thinking."
+  },
+  {
+   "word": "compel",
+   "pos": "verb",
+   "def": "to force",
+   "example": "The storm compelled us to turn back."
+  },
+  {
+   "word": "competent",
+   "pos": "adj.",
+   "def": "having the needed skill",
+   "example": "He is a competent mechanic."
+  },
+  {
+   "word": "comply",
+   "pos": "verb",
+   "def": "to obey or follow a rule",
+   "example": "All drivers must comply with the speed limit."
+  },
+  {
+   "word": "concise",
+   "pos": "adj.",
+   "def": "brief but complete",
+   "example": "Write a concise report."
+  },
+  {
+   "word": "conceal",
+   "pos": "verb",
+   "def": "to hide",
+   "example": "He concealed the key under a rock."
+  },
+  {
+   "word": "concur",
+   "pos": "verb",
+   "def": "to agree",
+   "example": "The doctors concurred on the treatment."
+  },
+  {
+   "word": "condone",
+   "pos": "verb",
+   "def": "to accept or allow bad behavior",
+   "example": "The school does not condone cheating."
+  },
+  {
+   "word": "conspicuous",
+   "pos": "adj.",
+   "def": "easy to notice",
+   "example": "The bright vest made him conspicuous."
+  },
+  {
+   "word": "contempt",
+   "pos": "noun",
+   "def": "a feeling that someone or something is worthless",
+   "example": "She looked at the bully with contempt."
+  },
+  {
+   "word": "convene",
+   "pos": "verb",
+   "def": "to come together for a meeting",
+   "example": "The council will convene at noon."
+  },
+  {
+   "word": "convoluted",
+   "pos": "adj.",
+   "def": "very complicated and hard to follow",
+   "example": "The directions were so convoluted that we got lost."
+  },
+  {
+   "word": "credible",
+   "pos": "adj.",
+   "def": "believable",
+   "example": "The witness gave a credible account."
+  },
+  {
+   "word": "curtail",
+   "pos": "verb",
+   "def": "to cut short; to reduce",
+   "example": "The rain curtailed the game."
+  },
+  {
+   "word": "deceive",
+   "pos": "verb",
+   "def": "to make someone believe something false",
+   "example": "The ad was designed to deceive buyers."
+  },
+  {
+   "word": "defer",
+   "pos": "verb",
+   "def": "to put off until later",
+   "example": "He deferred his decision until Monday."
+  },
+  {
+   "word": "deficient",
+   "pos": "adj.",
+   "def": "lacking something needed",
+   "example": "A diet deficient in iron can cause fatigue."
+  },
+  {
+   "word": "delegate",
+   "pos": "verb",
+   "def": "to give a task to someone else",
+   "example": "A good leader delegates work."
+  },
+  {
+   "word": "deliberate",
+   "pos": "adj.",
+   "def": "done on purpose; careful and unhurried",
+   "example": "It was a deliberate choice, not an accident."
+  },
+  {
+   "word": "deplete",
+   "pos": "verb",
+   "def": "to use up",
+   "example": "The hikers depleted their water by noon."
+  },
+  {
+   "word": "deter",
+   "pos": "verb",
+   "def": "to discourage or prevent",
+   "example": "Bright lights deter burglars."
+  },
+  {
+   "word": "detrimental",
+   "pos": "adj.",
+   "def": "harmful",
+   "example": "Smoking is detrimental to your health."
+  },
+  {
+   "word": "diligent",
+   "pos": "adj.",
+   "def": "hardworking and careful",
+   "example": "A diligent student studies every day."
+  },
+  {
+   "word": "diminish",
+   "pos": "verb",
+   "def": "to make or become smaller",
+   "example": "The noise diminished as the train left."
+  },
+  {
+   "word": "discrepancy",
+   "pos": "noun",
+   "def": "a difference between things that should match",
+   "example": "There was a discrepancy between the two totals."
+  },
+  {
+   "word": "disperse",
+   "pos": "verb",
+   "def": "to scatter in different directions",
+   "example": "The crowd dispersed after the game."
+  },
+  {
+   "word": "dormant",
+   "pos": "adj.",
+   "def": "inactive, as if asleep",
+   "example": "The volcano has been dormant for centuries."
+  },
+  {
+   "word": "durable",
+   "pos": "adj.",
+   "def": "long-lasting; tough",
+   "example": "Durable boots can last for years."
+  },
+  {
+   "word": "elaborate",
+   "pos": "adj.",
+   "def": "detailed and complicated",
+   "example": "They made an elaborate plan for the trip."
+  },
+  {
+   "word": "eloquent",
+   "pos": "adj.",
+   "def": "well-spoken and persuasive",
+   "example": "Her eloquent speech moved the crowd."
+  },
+  {
+   "word": "eminent",
+   "pos": "adj.",
+   "def": "famous and respected",
+   "example": "An eminent scientist spoke at graduation."
+  },
+  {
+   "word": "endure",
+   "pos": "verb",
+   "def": "to put up with; to last",
+   "example": "They endured the cold all night."
+  },
+  {
+   "word": "enhance",
+   "pos": "verb",
+   "def": "to improve",
+   "example": "Practice enhances skill."
+  },
+  {
+   "word": "evade",
+   "pos": "verb",
+   "def": "to escape or avoid",
+   "example": "He evaded the question."
+  },
+  {
+   "word": "evident",
+   "pos": "adj.",
+   "def": "clear; obvious",
+   "example": "It was evident that she was tired."
+  },
+  {
+   "word": "exemplary",
+   "pos": "adj.",
+   "def": "serving as an excellent example",
+   "example": "His conduct was exemplary."
+  },
+  {
+   "word": "expedite",
+   "pos": "verb",
+   "def": "to speed up",
+   "example": "Filing online will expedite the process."
+  },
+  {
+   "word": "explicit",
+   "pos": "adj.",
+   "def": "stated clearly and in detail",
+   "example": "The instructions were explicit."
+  },
+  {
+   "word": "extensive",
+   "pos": "adj.",
+   "def": "large in area or amount",
+   "example": "The fire caused extensive damage."
+  },
+  {
+   "word": "fatigue",
+   "pos": "noun",
+   "def": "extreme tiredness",
+   "example": "Fatigue set in after the long march."
+  },
+  {
+   "word": "feasible",
+   "pos": "adj.",
+   "def": "possible; able to be done",
+   "example": "Is the plan feasible on our budget?"
+  },
+  {
+   "word": "feeble",
+   "pos": "adj.",
+   "def": "weak",
+   "example": "The old dog gave a feeble bark."
+  },
+  {
+   "word": "fluctuate",
+   "pos": "verb",
+   "def": "to rise and fall; to change often",
+   "example": "Gas prices fluctuate from week to week."
+  },
+  {
+   "word": "fortify",
+   "pos": "verb",
+   "def": "to strengthen",
+   "example": "They fortified the wall with sandbags."
+  },
+  {
+   "word": "fortitude",
+   "pos": "noun",
+   "def": "courage and strength in hard times",
+   "example": "She showed fortitude during her recovery."
+  },
+  {
+   "word": "frugal",
+   "pos": "adj.",
+   "def": "careful with money; avoiding waste",
+   "example": "A frugal shopper compares prices."
+  },
+  {
+   "word": "futile",
+   "pos": "adj.",
+   "def": "useless; having no effect",
+   "example": "It was futile to argue with him."
+  },
+  {
+   "word": "gregarious",
+   "pos": "adj.",
+   "def": "sociable; enjoying company",
+   "example": "Gregarious people enjoy big parties."
+  },
+  {
+   "word": "hamper",
+   "pos": "verb",
+   "def": "to slow down or get in the way of",
+   "example": "Snow hampered the search."
+  },
+  {
+   "word": "hazard",
+   "pos": "noun",
+   "def": "a danger",
+   "example": "Loose wires are a fire hazard."
+  },
+  {
+   "word": "hinder",
+   "pos": "verb",
+   "def": "to hold back or slow down",
+   "example": "Fear can hinder progress."
+  },
+  {
+   "word": "hostile",
+   "pos": "adj.",
+   "def": "unfriendly; aggressive",
+   "example": "The dog was hostile to strangers."
+  },
+  {
+   "word": "immerse",
+   "pos": "verb",
+   "def": "to cover completely in liquid; to involve deeply",
+   "example": "She immersed herself in her studies."
+  },
+  {
+   "word": "impartial",
+   "pos": "adj.",
+   "def": "fair; not taking sides",
+   "example": "A referee must be impartial."
+  },
+  {
+   "word": "impede",
+   "pos": "verb",
+   "def": "to block or slow",
+   "example": "Fallen trees impeded traffic."
+  },
+  {
+   "word": "imperative",
+   "pos": "adj.",
+   "def": "extremely important; urgent",
+   "example": "It is imperative that you arrive on time."
+  },
+  {
+   "word": "inevitable",
+   "pos": "adj.",
+   "def": "certain to happen",
+   "example": "Some change is inevitable."
+  },
+  {
+   "word": "inhibit",
+   "pos": "verb",
+   "def": "to hold back or prevent",
+   "example": "Cold weather inhibits plant growth."
+  },
+  {
+   "word": "innate",
+   "pos": "adj.",
+   "def": "present from birth; natural",
+   "example": "She has an innate sense of rhythm."
+  },
+  {
+   "word": "integrity",
+   "pos": "noun",
+   "def": "honesty and strong moral principles",
+   "example": "A leader needs integrity."
+  },
+  {
+   "word": "intrepid",
+   "pos": "adj.",
+   "def": "fearless; adventurous",
+   "example": "The intrepid explorer crossed the desert."
+  },
+  {
+   "word": "irrevocable",
+   "pos": "adj.",
+   "def": "impossible to undo or take back",
+   "example": "The decision is irrevocable."
+  },
+  {
+   "word": "jeopardize",
+   "pos": "verb",
+   "def": "to put in danger",
+   "example": "Speeding jeopardizes lives."
+  },
+  {
+   "word": "lament",
+   "pos": "verb",
+   "def": "to express sorrow about",
+   "example": "They lamented the loss of the old park."
+  },
+  {
+   "word": "lenient",
+   "pos": "adj.",
+   "def": "not strict; forgiving",
+   "example": "The teacher was lenient about late work."
+  },
+  {
+   "word": "lethargic",
+   "pos": "adj.",
+   "def": "sluggish; lacking energy",
+   "example": "The heat made everyone lethargic."
+  },
+  {
+   "word": "lucid",
+   "pos": "adj.",
+   "def": "clear; easy to understand",
+   "example": "She gave a lucid explanation."
+  },
+  {
+   "word": "meager",
+   "pos": "adj.",
+   "def": "very small in amount",
+   "example": "They lived on a meager income."
+  },
+  {
+   "word": "meticulous",
+   "pos": "adj.",
+   "def": "very careful about details",
+   "example": "He keeps meticulous records."
+  },
+  {
+   "word": "mitigate",
+   "pos": "verb",
+   "def": "to make less severe",
+   "example": "Sandbags mitigate flood damage."
+  },
+  {
+   "word": "negligent",
+   "pos": "adj.",
+   "def": "careless; not taking proper care",
+   "example": "The negligent driver caused a crash."
+  },
+  {
+   "word": "notorious",
+   "pos": "adj.",
+   "def": "famous for something bad",
+   "example": "That curve is notorious for accidents."
+  },
+  {
+   "word": "novice",
+   "pos": "noun",
+   "def": "a beginner",
+   "example": "The novice made a few mistakes on the first day."
+  },
+  {
+   "word": "obsolete",
+   "pos": "adj.",
+   "def": "out of date; no longer used",
+   "example": "Fax machines are nearly obsolete."
+  },
+  {
+   "word": "obstinate",
+   "pos": "adj.",
+   "def": "stubborn",
+   "example": "The obstinate mule refused to move."
+  },
+  {
+   "word": "omit",
+   "pos": "verb",
+   "def": "to leave out",
+   "example": "Don't omit your middle name on the form."
+  },
+  {
+   "word": "optimum",
+   "pos": "adj.",
+   "def": "best; most favorable",
+   "example": "Seventy degrees is the optimum temperature for this plant."
+  },
+  {
+   "word": "ostracize",
+   "pos": "verb",
+   "def": "to shut someone out of a group",
+   "example": "The group ostracized the newcomer."
+  },
+  {
+   "word": "paramount",
+   "pos": "adj.",
+   "def": "most important",
+   "example": "Safety is paramount."
+  },
+  {
+   "word": "perilous",
+   "pos": "adj.",
+   "def": "very dangerous",
+   "example": "The mountain crossing was perilous."
+  },
+  {
+   "word": "persevere",
+   "pos": "verb",
+   "def": "to keep going despite difficulty",
+   "example": "She persevered and finished the race."
+  },
+  {
+   "word": "placate",
+   "pos": "verb",
+   "def": "to calm an angry person",
+   "example": "He tried to placate the upset customer."
+  },
+  {
+   "word": "placid",
+   "pos": "adj.",
+   "def": "calm; peaceful",
+   "example": "The lake was placid at dawn."
+  },
+  {
+   "word": "plausible",
+   "pos": "adj.",
+   "def": "seeming reasonable or likely",
+   "example": "That's a plausible explanation."
+  },
+  {
+   "word": "pragmatic",
+   "pos": "adj.",
+   "def": "practical; realistic",
+   "example": "We need a pragmatic solution."
+  },
+  {
+   "word": "precarious",
+   "pos": "adj.",
+   "def": "unstable; risky",
+   "example": "The ladder was in a precarious position."
+  },
+  {
+   "word": "prevalent",
+   "pos": "adj.",
+   "def": "widespread; common",
+   "example": "Colds are prevalent in winter."
+  },
+  {
+   "word": "prolong",
+   "pos": "verb",
+   "def": "to make longer",
+   "example": "Don't prolong the meeting."
+  },
+  {
+   "word": "prudent",
+   "pos": "adj.",
+   "def": "wise and careful",
+   "example": "It's prudent to save part of every paycheck."
+  },
+  {
+   "word": "punctual",
+   "pos": "adj.",
+   "def": "on time",
+   "example": "Be punctual for formation."
+  },
+  {
+   "word": "rectify",
+   "pos": "verb",
+   "def": "to correct; to make right",
+   "example": "The bank rectified the error."
+  },
+  {
+   "word": "redundant",
+   "pos": "adj.",
+   "def": "unnecessary because it repeats something",
+   "example": "The second alarm was redundant."
+  },
+  {
+   "word": "reluctant",
+   "pos": "adj.",
+   "def": "unwilling; hesitant",
+   "example": "He was reluctant to leave."
+  },
+  {
+   "word": "remote",
+   "pos": "adj.",
+   "def": "far away; isolated",
+   "example": "They camped in a remote area."
+  },
+  {
+   "word": "replenish",
+   "pos": "verb",
+   "def": "to refill",
+   "example": "Replenish your water at each stop."
+  },
+  {
+   "word": "reprimand",
+   "pos": "verb",
+   "def": "to scold formally",
+   "example": "The officer reprimanded the late soldier."
+  },
+  {
+   "word": "resilient",
+   "pos": "adj.",
+   "def": "able to recover quickly",
+   "example": "Children are often resilient."
+  },
+  {
+   "word": "rigid",
+   "pos": "adj.",
+   "def": "stiff; not flexible",
+   "example": "The rules were rigid."
+  },
+  {
+   "word": "robust",
+   "pos": "adj.",
+   "def": "strong and healthy",
+   "example": "The robust engine ran for years."
+  },
+  {
+   "word": "scrutinize",
+   "pos": "verb",
+   "def": "to examine closely",
+   "example": "Inspectors scrutinize every weld."
+  },
+  {
+   "word": "sparse",
+   "pos": "adj.",
+   "def": "thinly spread; scarce",
+   "example": "Trees were sparse on the hill."
+  },
+  {
+   "word": "stagnant",
+   "pos": "adj.",
+   "def": "not moving or flowing; not growing",
+   "example": "Stagnant water breeds mosquitoes."
+  },
+  {
+   "word": "subordinate",
+   "pos": "noun",
+   "def": "someone lower in rank",
+   "example": "She trusted her subordinates."
+  },
+  {
+   "word": "subsequent",
+   "pos": "adj.",
+   "def": "coming after",
+   "example": "Subsequent tests showed improvement."
+  },
+  {
+   "word": "substantial",
+   "pos": "adj.",
+   "def": "large in amount or importance",
+   "example": "He made a substantial donation."
+  },
+  {
+   "word": "succinct",
+   "pos": "adj.",
+   "def": "brief and clear",
+   "example": "Give a succinct answer."
+  },
+  {
+   "word": "superficial",
+   "pos": "adj.",
+   "def": "on the surface only; shallow",
+   "example": "The cut was only superficial."
+  },
+  {
+   "word": "tactful",
+   "pos": "adj.",
+   "def": "careful not to offend",
+   "example": "She gave tactful advice."
+  },
+  {
+   "word": "tedious",
+   "pos": "adj.",
+   "def": "long and boring",
+   "example": "Filing paperwork is tedious."
+  },
+  {
+   "word": "tenacious",
+   "pos": "adj.",
+   "def": "persistent; not giving up",
+   "example": "The tenacious reporter got the story."
+  },
+  {
+   "word": "terse",
+   "pos": "adj.",
+   "def": "using few words, sometimes rudely",
+   "example": "He gave a terse reply."
+  },
+  {
+   "word": "thrive",
+   "pos": "verb",
+   "def": "to grow well; to succeed",
+   "example": "Plants thrive in sunlight."
+  },
+  {
+   "word": "timid",
+   "pos": "adj.",
+   "def": "shy; lacking courage",
+   "example": "The timid puppy hid under the bed."
+  },
+  {
+   "word": "tranquil",
+   "pos": "adj.",
+   "def": "calm and quiet",
+   "example": "The park was tranquil early in the morning."
+  },
+  {
+   "word": "trivial",
+   "pos": "adj.",
+   "def": "unimportant",
+   "example": "Don't worry about trivial details."
+  },
+  {
+   "word": "turbulent",
+   "pos": "adj.",
+   "def": "wild and disordered",
+   "example": "The plane flew through turbulent air."
+  },
+  {
+   "word": "unanimous",
+   "pos": "adj.",
+   "def": "agreed on by everyone",
+   "example": "The vote was unanimous."
+  },
+  {
+   "word": "undermine",
+   "pos": "verb",
+   "def": "to weaken gradually",
+   "example": "Rumors undermined his authority."
+  },
+  {
+   "word": "vacant",
+   "pos": "adj.",
+   "def": "empty; unoccupied",
+   "example": "The vacant house was for sale."
+  },
+  {
+   "word": "valid",
+   "pos": "adj.",
+   "def": "acceptable; based on good reasons",
+   "example": "You need a valid ID."
+  },
+  {
+   "word": "verify",
+   "pos": "verb",
+   "def": "to confirm that something is true",
+   "example": "Verify the address before mailing."
+  },
+  {
+   "word": "viable",
+   "pos": "adj.",
+   "def": "able to work or succeed",
+   "example": "Is the business plan viable?"
+  },
+  {
+   "word": "vigilant",
+   "pos": "adj.",
+   "def": "watchful; alert to danger",
+   "example": "Guards must stay vigilant."
+  },
+  {
+   "word": "vital",
+   "pos": "adj.",
+   "def": "essential; necessary for life",
+   "example": "Water is vital to survival."
+  },
+  {
+   "word": "volatile",
+   "pos": "adj.",
+   "def": "likely to change suddenly or explode",
+   "example": "Gasoline is volatile."
+  },
+  {
+   "word": "wary",
+   "pos": "adj.",
+   "def": "cautious; watchful",
+   "example": "Be wary of strangers online."
+  },
+  {
+   "word": "zealous",
+   "pos": "adj.",
+   "def": "full of enthusiasm",
+   "example": "A zealous fan cheered the whole game."
+  }
+ ]
+}

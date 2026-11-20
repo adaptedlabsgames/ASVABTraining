@@ -9,7 +9,7 @@ export function el(tag, attrs = {}, ...children) {
     else if (v === true) node.setAttribute(k, '');
     else node.setAttribute(k, v);
   }
-  for (const c of children.flat()) {
+  for (const c of children.flat(Infinity)) {
     if (c == null || c === false) continue;
     node.append(c);
   }
@@ -19,5 +19,5 @@ export function el(tag, attrs = {}, ...children) {
 // Replaces a container's content, skipping null/false entries
 // (Element.replaceChildren would print them as the text "null").
 export function mount(container, ...children) {
-  container.replaceChildren(...children.flat().filter((c) => c != null && c !== false));
+  container.replaceChildren(...children.flat(Infinity).filter((c) => c != null && c !== false));
 }
