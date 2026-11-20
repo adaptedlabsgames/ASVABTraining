@@ -1281,6 +1281,426 @@
       ],
       "answer": 0,
       "explanation": "Clarify means to make something easier to understand. Related word: clear.\nExample: \"Can you clarify the instructions?\""
+    },
+    {
+      "id": "wk-092",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Adroit most nearly means:",
+      "choices": [
+        "skillful",
+        "clumsy",
+        "cheerful",
+        "stubborn"
+      ],
+      "answer": 0,
+      "explanation": "Adroit means clever and skillful, especially with the hands or in handling situations.\nExample: \"An adroit mechanic can fix almost anything.\"\nIts opposite is maladroit, meaning clumsy."
+    },
+    {
+      "id": "wk-093",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Laconic most nearly means:",
+      "choices": [
+        "using few words",
+        "talkative",
+        "lazy",
+        "gentle"
+      ],
+      "answer": 0,
+      "explanation": "Laconic means saying very little; brief and to the point.\nExample: \"His laconic reply was just 'Fine.'\""
+    },
+    {
+      "id": "wk-094",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Ubiquitous most nearly means:",
+      "choices": [
+        "found everywhere",
+        "rare",
+        "ancient",
+        "invisible"
+      ],
+      "answer": 0,
+      "explanation": "Ubiquitous means present everywhere at once.\nExample: \"Cell phones have become ubiquitous.\""
+    },
+    {
+      "id": "wk-095",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Ephemeral most nearly means:",
+      "choices": [
+        "short-lived",
+        "permanent",
+        "heavenly",
+        "delicate"
+      ],
+      "answer": 0,
+      "explanation": "Ephemeral means lasting only a very short time.\nExample: \"Fame on social media is often ephemeral.\"\nTrap: it sounds airy and delicate, but the meaning is about time."
+    },
+    {
+      "id": "wk-096",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Garrulous most nearly means:",
+      "choices": [
+        "overly talkative",
+        "quiet",
+        "angry",
+        "generous"
+      ],
+      "answer": 0,
+      "explanation": "Garrulous means talking too much, especially about unimportant things.\nExample: \"The garrulous passenger talked for the whole flight.\""
+    },
+    {
+      "id": "wk-097",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Obdurate most nearly means:",
+      "choices": [
+        "stubborn",
+        "flexible",
+        "obvious",
+        "ashamed"
+      ],
+      "answer": 0,
+      "explanation": "Obdurate means stubbornly refusing to change your mind.\nExample: \"Despite every argument, he remained obdurate.\""
+    },
+    {
+      "id": "wk-098",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Sagacious most nearly means:",
+      "choices": [
+        "wise",
+        "foolish",
+        "sad",
+        "greedy"
+      ],
+      "answer": 0,
+      "explanation": "Sagacious means showing good judgment and wisdom. Related word: sage, a wise person.\nExample: \"The sagacious coach knew when to rest her players.\""
+    },
+    {
+      "id": "wk-099",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Tacit most nearly means:",
+      "choices": [
+        "unspoken",
+        "loud",
+        "written",
+        "rude"
+      ],
+      "answer": 0,
+      "explanation": "Tacit means understood without being said out loud.\nExample: \"There was a tacit agreement not to discuss the game.\""
+    },
+    {
+      "id": "wk-100",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Venerate most nearly means:",
+      "choices": [
+        "revere",
+        "mock",
+        "sell",
+        "forget"
+      ],
+      "answer": 0,
+      "explanation": "Venerate means to regard with deep respect.\nExample: \"The town venerates its veterans.\"\nRevere means the same thing."
+    },
+    {
+      "id": "wk-101",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Exacerbate most nearly means:",
+      "choices": [
+        "worsen",
+        "relieve",
+        "exaggerate",
+        "examine"
+      ],
+      "answer": 0,
+      "explanation": "Exacerbate means to make a problem or pain worse.\nExample: \"Scratching will only exacerbate the rash.\"\nTrap: exaggerate looks similar but means to overstate."
+    },
+    {
+      "id": "wk-102",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Indolent most nearly means:",
+      "choices": [
+        "lazy",
+        "energetic",
+        "honest",
+        "nervous"
+      ],
+      "answer": 0,
+      "explanation": "Indolent means lazy; avoiding work or effort.\nExample: \"The indolent cat slept in the sun all day.\""
+    },
+    {
+      "id": "wk-103",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Impetuous most nearly means:",
+      "choices": [
+        "rash",
+        "patient",
+        "important",
+        "polite"
+      ],
+      "answer": 0,
+      "explanation": "Impetuous means acting quickly without thinking.\nExample: \"His impetuous decision to quit surprised everyone.\"\nRash means the same thing here."
+    },
+    {
+      "id": "wk-104",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Pernicious most nearly means:",
+      "choices": [
+        "harmful",
+        "beneficial",
+        "picky",
+        "temporary"
+      ],
+      "answer": 0,
+      "explanation": "Pernicious means harmful, especially in a slow or hidden way.\nExample: \"Rumors can have a pernicious effect on a team.\""
+    },
+    {
+      "id": "wk-105",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Copious most nearly means:",
+      "choices": [
+        "plentiful",
+        "tiny",
+        "copied",
+        "careful"
+      ],
+      "answer": 0,
+      "explanation": "Copious means large in amount.\nExample: \"She took copious notes during the lecture.\"\nTrap: copious has nothing to do with copying."
+    },
+    {
+      "id": "wk-106",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Recalcitrant most nearly means:",
+      "choices": [
+        "defiant",
+        "cooperative",
+        "quiet",
+        "forgetful"
+      ],
+      "answer": 0,
+      "explanation": "Recalcitrant means stubbornly refusing to obey or cooperate.\nExample: \"The recalcitrant mule would not budge.\""
+    },
+    {
+      "id": "wk-107",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Innocuous most nearly means:",
+      "choices": [
+        "harmless",
+        "deadly",
+        "hidden",
+        "noisy"
+      ],
+      "answer": 0,
+      "explanation": "Innocuous means harmless and unlikely to offend or hurt.\nExample: \"It was an innocuous question, but she got upset.\""
+    },
+    {
+      "id": "wk-108",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Astute most nearly means:",
+      "choices": [
+        "shrewd",
+        "dull",
+        "rude",
+        "honest"
+      ],
+      "answer": 0,
+      "explanation": "Astute means quick to notice things and use them to your advantage.\nExample: \"An astute buyer spots a bargain.\""
+    },
+    {
+      "id": "wk-109",
+      "topic": "advanced",
+      "difficulty": 3,
+      "question": "Diffident most nearly means:",
+      "choices": [
+        "shy",
+        "different",
+        "bold",
+        "angry"
+      ],
+      "answer": 0,
+      "explanation": "Diffident means shy and lacking self-confidence.\nExample: \"The diffident student rarely raised his hand.\"\nTrap: different looks almost the same but means something else entirely."
+    },
+    {
+      "id": "wk-110",
+      "topic": "context",
+      "difficulty": 3,
+      "question": "The witness's account was corroborated by video from a nearby store.\n\nCorroborated most nearly means:",
+      "choices": [
+        "confirmed",
+        "contradicted",
+        "recorded",
+        "ignored"
+      ],
+      "answer": 0,
+      "explanation": "Corroborate means to support or confirm with evidence.\nThe video backs up what the witness said."
+    },
+    {
+      "id": "wk-111",
+      "topic": "context",
+      "difficulty": 3,
+      "question": "The instructions were so cryptic that no one knew where to begin.\n\nCryptic most nearly means:",
+      "choices": [
+        "puzzling",
+        "detailed",
+        "printed",
+        "cheerful"
+      ],
+      "answer": 0,
+      "explanation": "Cryptic means mysterious or hard to understand.\nThe clue: \"no one knew where to begin.\""
+    },
+    {
+      "id": "wk-112",
+      "topic": "context",
+      "difficulty": 3,
+      "question": "The senator's speech was full of bombastic claims but very few facts.\n\nBombastic most nearly means:",
+      "choices": [
+        "pompous and exaggerated",
+        "explosive",
+        "quiet",
+        "accurate"
+      ],
+      "answer": 0,
+      "explanation": "Bombastic means using big, showy words that sound important but say little.\nThe contrast clue \"but very few facts\" shows the claims were inflated.\nTrap: it sounds like bomb, but it isn't about explosions."
+    },
+    {
+      "id": "wk-113",
+      "topic": "context",
+      "difficulty": 3,
+      "question": "The new recruit was so affable that he made friends in every unit.\n\nAffable most nearly means:",
+      "choices": [
+        "friendly",
+        "fearful",
+        "capable",
+        "tired"
+      ],
+      "answer": 0,
+      "explanation": "Affable means friendly and easy to talk to.\nThe clue: he \"made friends in every unit.\""
+    },
+    {
+      "id": "wk-114",
+      "topic": "context",
+      "difficulty": 3,
+      "question": "Her decision to leave was not capricious; she had thought about it for months.\n\nCapricious most nearly means:",
+      "choices": [
+        "impulsive",
+        "careful",
+        "generous",
+        "sad"
+      ],
+      "answer": 0,
+      "explanation": "Capricious means changing suddenly without good reason.\nThe word not plus \"thought about it for months\" tells you capricious means the opposite of careful."
+    },
+    {
+      "id": "wk-115",
+      "topic": "context",
+      "difficulty": 3,
+      "question": "The committee tried to ameliorate conditions in the barracks by adding heat and new bunks.\n\nAmeliorate most nearly means:",
+      "choices": [
+        "improve",
+        "worsen",
+        "inspect",
+        "describe"
+      ],
+      "answer": 0,
+      "explanation": "Ameliorate means to make something better.\nAdding heat and new bunks improves conditions."
+    },
+    {
+      "id": "wk-116",
+      "topic": "context",
+      "difficulty": 3,
+      "question": "The sergeant's admonition was clear: anyone late to formation would lose weekend leave.\n\nAdmonition most nearly means:",
+      "choices": [
+        "warning",
+        "praise",
+        "question",
+        "joke"
+      ],
+      "answer": 0,
+      "explanation": "An admonition is a firm warning or scolding.\nThe sentence describes a penalty, which is a warning."
+    },
+    {
+      "id": "wk-117",
+      "topic": "context",
+      "difficulty": 3,
+      "question": "Years of neglect had left the building dilapidated, with broken windows and a sagging roof.\n\nDilapidated most nearly means:",
+      "choices": [
+        "falling apart",
+        "newly built",
+        "crowded",
+        "haunted"
+      ],
+      "answer": 0,
+      "explanation": "Dilapidated means run-down from age or neglect.\nThe clues are the broken windows and sagging roof."
+    },
+    {
+      "id": "wk-118",
+      "topic": "context",
+      "difficulty": 3,
+      "question": "The negotiator remained imperturbable even when the talks grew heated.\n\nImperturbable most nearly means:",
+      "choices": [
+        "calm",
+        "angry",
+        "impatient",
+        "confused"
+      ],
+      "answer": 0,
+      "explanation": "Imperturbable means impossible to upset; always calm.\nBreak it down: im- (not) + perturb (disturb) + -able."
+    },
+    {
+      "id": "wk-119",
+      "topic": "context",
+      "difficulty": 3,
+      "question": "The evidence was so incontrovertible that the defense did not even challenge it.\n\nIncontrovertible most nearly means:",
+      "choices": [
+        "undeniable",
+        "doubtful",
+        "hidden",
+        "illegal"
+      ],
+      "answer": 0,
+      "explanation": "Incontrovertible means impossible to argue against.\nBreak it down: in- (not) + controvert (dispute) + -ible.\nThe defense didn't challenge it because it couldn't be denied."
+    },
+    {
+      "id": "wk-120",
+      "topic": "context",
+      "difficulty": 3,
+      "question": "Despite a lackluster first half, the team rallied to win the game.\n\nLackluster most nearly means:",
+      "choices": [
+        "dull",
+        "brilliant",
+        "lucky",
+        "long"
+      ],
+      "answer": 0,
+      "explanation": "Lackluster means lacking energy or brightness; dull.\nThe word despite signals a contrast with the strong finish."
+    },
+    {
+      "id": "wk-121",
+      "topic": "context",
+      "difficulty": 3,
+      "question": "The supply sergeant was so parsimonious that he refused to hand out even one extra pencil.\n\nParsimonious most nearly means:",
+      "choices": [
+        "stingy",
+        "generous",
+        "organized",
+        "careless"
+      ],
+      "answer": 0,
+      "explanation": "Parsimonious means extremely unwilling to spend or give.\nThe clue: he wouldn't give out even one pencil."
     }
   ]
 }
