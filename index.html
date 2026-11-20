@@ -2,22 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>ASVAB Prep</title>
   <meta name="description" content="Free ASVAB practice questions with explanations.">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="inner"><a class="brand" href="index.html">ASVAB <span>Prep</span></a></div>
+    <div class="inner"><a class="brand" href="#">ASVAB <span>Prep</span></a></div>
   </header>
-  <main>
-    <h1>Raise your ASVAB score</h1>
-    <p class="lead">Practice the four subtests that make up your AFQT score. Every question comes with a step-by-step explanation. Your progress is saved in this browser.</p>
-
-    <h2>AFQT subtests</h2>
-    <div class="grid" id="subtests"></div>
+  <main id="app" aria-live="polite">
+    <p class="muted">Loading…</p>
   </main>
-  <script type="module" src="js/home.js"></script>
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>

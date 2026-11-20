@@ -6,23 +6,35 @@ import { el } from './dom.js';
 const LETTERS = 'ABCDEFGH';
 const COUNTS = [10, 20, 0]; // 0 = all matching questions
 
-const app = document.getElementById('app');
-const subtest = getSubtest(new URLSearchParams(location.search).get('s'));
-
+let app = null;
+let subtest = null;
 let bank = null;
 let prefs = null; // last setup choices, reused for "New set"
 let session = null; // { items, index, results, answered }
+const banks = {}; // loaded banks, cached by subtest id
 
-init();
+// Called when the router shows another view, so a stale quiz stops
+// reacting to keys and a slow bank load doesn't draw over the new view.
+export function leavePractice() {
+  session = null;
+  subtest = null;
+}
 
-async function init() {
+export async function renderPractice(container, subtestId) {
+  app = container;
+  session = null;
+  subtest = getSubtest(subtestId);
   if (!subtest || !subtest.ready) {
     showError('That subtest isn’t available yet.');
     return;
   }
   document.title = `${subtest.name} · ASVAB Prep`;
+  app.replaceChildren(el('p', { class: 'muted' }, 'Loading…'));
+  const wanted = subtest;
   try {
-    bank = await loadBank(subtest);
+    banks[wanted.id] ||= await loadBank(wanted);
+    if (subtest !== wanted) return; // navigated away while loading
+    bank = banks[wanted.id];
   } catch {
     showError(
       'Could not load the questions. If you opened this file directly from your computer, ' +
@@ -37,7 +49,7 @@ async function init() {
 function showError(message) {
   app.replaceChildren(
     el('p', { class: 'notice error' }, message),
-    el('p', {}, el('a', { href: 'index.html' }, '← Back to home')),
+    el('p', {}, el('a', { href: '#' }, '← Back to home')),
   );
 }
 
@@ -121,7 +133,7 @@ function renderSetup() {
   sync();
 
   app.replaceChildren(
-    el('p', { class: 'small' }, el('a', { href: 'index.html' }, '← All subtests')),
+    el('p', { class: 'small' }, el('a', { href: '#' }, '← All subtests')),
     el('h1', {}, subtest.name),
     el('p', { class: 'lead' },
       overall.pct == null
@@ -277,7 +289,7 @@ function renderSummary(results) {
             `Retry ${missed.length} missed`)
           : null,
         el('button', { class: missed.length ? 'btn' : 'btn primary', type: 'button', onclick: renderSetup }, 'New practice set'),
-        el('a', { class: 'btn', href: 'index.html' }, 'Home'),
+        el('a', { class: 'btn', href: '#' }, 'Home'),
       ),
     ),
     el('h2', {}, 'By topic'),

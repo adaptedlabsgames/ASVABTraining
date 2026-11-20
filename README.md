@@ -18,14 +18,15 @@ python3 -m http.server 8000
 ## Project layout
 
 ```
-index.html          Home page: list of subtests
-practice.html       Practice mode (?s=ar picks the subtest)
+index.html          The whole site. Views switch by the address part after "#"
+                    (no hash = home, #ar = Arithmetic Reasoning practice)
 css/style.css
 js/config.js        Subtest registry: add new subtests here
 js/quiz.js          Loading banks, picking and shuffling questions
 js/storage.js       Saved progress (localStorage)
-js/practice.js      Practice page UI
-js/home.js          Home page UI
+js/app.js           Picks the view from the address
+js/practice.js      Practice view
+js/home.js          Home view
 data/<id>.json      Question banks
 scripts/validate.mjs  Checks question banks for mistakes
 ```
