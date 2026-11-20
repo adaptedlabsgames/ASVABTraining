@@ -44,6 +44,7 @@ js/guides.js        Study guide index and topic pages
 js/flashcards.js    Vocabulary flashcards
 js/srs.js           Flashcard scheduling (spaced repetition)
 js/plan.js          Study plan built from a student's score report
+js/share.js         The progress summary students send to their teacher
 js/home.js          Home view
 data/<id>.json      Question banks
 data/guides.json    Study guide content, one per topic
@@ -105,6 +106,7 @@ The Progress page reads everything from the browser's saved data:
 
 - **Accuracy** counts every answer a student has given, in practice and on tests. Topics are listed weakest first. A topic needs at least 3 answers before it gets a level ("Needs work" under 60%, "Getting there" from 60%, "Strong" from 80%).
 - **Review what you missed** lists questions the student got wrong the last time they answered them. A question leaves the list once it's answered correctly.
+- **Send your progress to your teacher** builds a short plain-text summary that a student can copy (or share on a phone) and paste into a text or email. It includes an optional name, days active in the last two weeks, practice sets and timed tests, the latest AFQT estimate, accuracy by subtest, the five weakest topics (with at least 3 answers each), the study plan focus, flashcard progress and how many missed questions are left to review. Nothing is sent automatically, and the student can see the full text before copying it.
 - **Reset progress** erases this device's saved answers, scores and any test in progress, after the student confirms.
 
 ## Study guides

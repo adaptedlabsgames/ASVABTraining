@@ -121,6 +121,7 @@ export function resetAll() {
     localStorage.removeItem(TEST_KEY);
     localStorage.removeItem(CARDS_KEY);
     localStorage.removeItem(PLAN_KEY);
+    localStorage.removeItem(NAME_KEY);
   } catch {
     // ignore
   }
@@ -171,6 +172,27 @@ export function savePlan(scores) {
 export function clearPlan() {
   try {
     localStorage.removeItem(PLAN_KEY);
+    localStorage.removeItem(NAME_KEY);
+  } catch {
+    // ignore
+  }
+}
+
+// The name a student types for the progress summary (optional).
+const NAME_KEY = 'asvab-prep.name.v1';
+
+export function loadName() {
+  try {
+    return localStorage.getItem(NAME_KEY) || '';
+  } catch {
+    return '';
+  }
+}
+
+export function saveName(name) {
+  try {
+    if (name) localStorage.setItem(NAME_KEY, name);
+    else localStorage.removeItem(NAME_KEY);
   } catch {
     // ignore
   }

@@ -782,3 +782,33 @@ td .guide-inline { margin-left: 4px; }
   border-radius: 6px;
   background: var(--figure-bg);
 }
+
+/* Send progress to teacher */
+.share-card input {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  font: inherit;
+  font-size: 1rem;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  min-height: 44px;
+}
+.share-status:empty { display: none; }
+.share-status { margin: 10px 0 0; }
+.share-preview { margin-top: 12px; }
+.share-preview summary { cursor: pointer; color: var(--accent); font-weight: 600; min-height: 44px; display: flex; align-items: center; }
+.share-text {
+  width: 100%;
+  margin-top: 6px;
+  font: 0.85rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: var(--text);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  resize: vertical;
+}

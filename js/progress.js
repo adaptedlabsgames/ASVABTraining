@@ -1,8 +1,9 @@
 // Progress page: accuracy by subtest and topic, missed-question review,
 // practice test history, recent sessions and a reset.
 import { SUBTESTS } from './config.js';
-import { loadBank } from './quiz.js';
-import { load, accuracy, missedIds, resetAll, loadActiveTest } from './storage.js';
+import { loadBank, loadData } from './quiz.js';
+import { load, accuracy, missedIds, resetAll, loadActiveTest, loadPlan, loadCardStates, loadName, saveName } from './storage.js';
+import { buildSummary } from './share.js';
 import { presetPractice } from './practice.js';
 import { FORMATS } from './scoring.js';
 import { el, mount } from './dom.js';
@@ -21,8 +22,12 @@ export async function renderProgress(container) {
   mount(app, el('p', { class: 'muted' }, 'Loading…'));
   const subtests = SUBTESTS.filter((s) => s.ready);
   let banks;
+  let deckSize = 0;
   try {
-    banks = await Promise.all(subtests.map((s) => loadBank(s)));
+    [deckSize, ...banks] = await Promise.all([
+      loadData('data/vocab.json').then((v) => v.cards.length).catch(() => 0),
+      ...subtests.map((s) => loadBank(s)),
+    ]);
   } catch {
     if (mine === token) {
       mount(app, el('p', { class: 'notice error' }, 'Could not load the question banks. Check your connection and reload the page.'));
@@ -30,7 +35,7 @@ export async function renderProgress(container) {
     return;
   }
   if (mine !== token) return;
-  draw(subtests.map((s, i) => ({ subtest: s, bank: banks[i] })));
+  draw(subtests.map((s, i) => ({ subtest: s, bank: banks[i] })), deckSize);
 }
 
 /* ---------- Building blocks ---------- */
@@ -74,7 +79,7 @@ function openPractice(subtestId, opts) {
 
 /* ---------- Page ---------- */
 
-function draw(items) {
+function draw(items, deckSize = 0) {
   const data = load();
   const history = data.questions;
   const missed = new Set(missedIds(history));
@@ -179,12 +184,76 @@ function draw(items) {
         el('p', { style: 'margin:0 0 10px' },
           'This erases every saved answer, score and test in progress on this device. It can’t be undone.'),
         el('div', { class: 'actions', style: 'margin-top:0' },
-          el('button', { class: 'btn danger', type: 'button', onclick: () => { resetAll(); draw(items); } }, 'Erase my progress'),
+          el('button', { class: 'btn danger', type: 'button', onclick: () => { resetAll(); draw(items, deckSize); } }, 'Erase my progress'),
           el('button', { class: 'btn', type: 'button', onclick: () => drawReset(false) }, 'Cancel'),
         ))
       : el('button', { class: 'btn', type: 'button', onclick: () => drawReset(true) }, 'Reset progress'));
   }
   drawReset(false);
+
+  /* Send to teacher */
+  const nameInput = el('input', {
+    id: 'share-name', type: 'text', autocomplete: 'name', maxlength: '60',
+    placeholder: 'Your name (optional)', value: loadName(),
+  });
+  const preview = el('textarea', { id: 'share-text', class: 'share-text', readonly: true, rows: '12', 'aria-label': 'Progress summary' });
+  const status = el('p', { class: 'small muted share-status', role: 'status' });
+  const summary = () => buildSummary({
+    items, data, plan: loadPlan(), cardStates: loadCardStates(), totalCards: deckSize,
+    missed: [...missed], name: nameInput.value.trim(),
+  });
+  function refresh() {
+    preview.value = summary();
+  }
+  nameInput.addEventListener('input', () => { saveName(nameInput.value.trim()); refresh(); status.textContent = ''; });
+  refresh();
+
+  function selectPreview() {
+    const box = preview.closest('details');
+    if (box) box.open = true; // hidden text can't be selected
+    preview.focus();
+    preview.select();
+    preview.setSelectionRange(0, preview.value.length);
+  }
+  const copyBtn = el('button', {
+    class: 'btn primary',
+    type: 'button',
+    onclick: () => {
+      refresh();
+      const text = preview.value;
+      const done = () => { status.textContent = 'Copied. Paste it into a text or email to your teacher.'; };
+      const manual = () => {
+        selectPreview();
+        status.textContent = 'Couldn’t copy automatically. The summary is selected: copy it (press and hold on a phone, or Ctrl+C), then paste it into a message.';
+      };
+      try {
+        if (navigator.clipboard?.writeText) navigator.clipboard.writeText(text).then(done, manual);
+        else manual();
+      } catch {
+        manual();
+      }
+    },
+  }, 'Copy summary');
+  const shareBtn = typeof navigator.share === 'function'
+    ? el('button', {
+      class: 'btn',
+      type: 'button',
+      onclick: () => {
+        refresh();
+        navigator.share({ title: 'ASVAB Prep progress', text: preview.value }).catch(() => {});
+      },
+    }, 'Share…')
+    : null;
+  const shareCard = el('div', { class: 'card share-card' },
+    el('label', { class: 'small', for: 'share-name', style: 'font-weight:600' }, 'Name to show on the summary'),
+    nameInput,
+    el('div', { class: 'actions', style: 'margin-top:12px' }, copyBtn, shareBtn),
+    status,
+    el('details', { class: 'share-preview' },
+      el('summary', {}, 'See what will be sent'),
+      preview,
+    ),
+  );
 
   mount(app,
     el('h1', {}, 'Your progress'),
@@ -194,6 +263,10 @@ function draw(items) {
         : 'Nothing here yet. Practice a subtest or take a practice test, and your results will show up here.'),
     active ? el('p', { class: 'notice' }, 'You have a practice test in progress. ', el('a', { href: '#test' }, 'Resume it')) : null,
     el('p', { class: 'small' }, 'Have a score report? ', el('a', { href: '#plan' }, 'Turn it into a study plan'), '.'),
+    el('h2', {}, 'Send your progress to your teacher'),
+    el('p', { class: 'small muted section-note' },
+      'Copy a short summary of your practice and paste it into a text or email. Nothing is sent unless you send it.'),
+    shareCard,
     el('h2', {}, 'By subtest'),
     overview,
     el('h2', {}, 'Review what you missed'),
