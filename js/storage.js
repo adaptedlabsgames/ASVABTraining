@@ -120,6 +120,7 @@ export function resetAll() {
     localStorage.removeItem(KEY);
     localStorage.removeItem(TEST_KEY);
     localStorage.removeItem(CARDS_KEY);
+    localStorage.removeItem(PLAN_KEY);
   } catch {
     // ignore
   }
@@ -144,5 +145,33 @@ export function saveCardState(word, state) {
     localStorage.setItem(CARDS_KEY, JSON.stringify(all));
   } catch {
     // Storage blocked: the session still works, it just isn't remembered.
+  }
+}
+
+// Study plan from a score report: { scores: { afqt, ar, wk, ... }, savedAt }
+const PLAN_KEY = 'asvab-prep.plan.v1';
+
+export function loadPlan() {
+  try {
+    const raw = localStorage.getItem(PLAN_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+export function savePlan(scores) {
+  try {
+    localStorage.setItem(PLAN_KEY, JSON.stringify({ scores, savedAt: Date.now() }));
+  } catch {
+    // Storage blocked: the plan still shows, it just isn't remembered.
+  }
+}
+
+export function clearPlan() {
+  try {
+    localStorage.removeItem(PLAN_KEY);
+  } catch {
+    // ignore
   }
 }

@@ -28,7 +28,8 @@ index.html          The whole site. Views switch by the address part after "#"
                     (no hash = home, #ar = Arithmetic Reasoning practice,
                     #test = timed practice test, #progress = progress,
                     #guides = study guides, #guide-ar-percents = one guide,
-                    #flashcards = vocabulary flashcards)
+                    #flashcards = vocabulary flashcards,
+                    #plan = study plan from a score report)
 css/style.css
 js/config.js        Subtest registry: add new subtests here
 js/quiz.js          Loading banks, picking and shuffling questions
@@ -42,6 +43,7 @@ js/progress.js      Progress view (accuracy, missed-question review, history, re
 js/guides.js        Study guide index and topic pages
 js/flashcards.js    Vocabulary flashcards
 js/srs.js           Flashcard scheduling (spaced repetition)
+js/plan.js          Study plan built from a student's score report
 js/home.js          Home view
 data/<id>.json      Question banks
 data/guides.json    Study guide content, one per topic
@@ -138,3 +140,19 @@ Progress is saved by word, so you can add new words without resetting students' 
 4. After a minute or two, the site is live at https://adaptedlabsgames.github.io/ASVABTraining/.
 
 The empty `.nojekyll` file tells GitHub Pages to serve the files as they are, without processing them first. The site is plain static files and has no build step.
+
+## Difficulty
+
+Every question has a `difficulty` from 1 to 3. On the practice setup page, students can choose **Easy first** (the default: every level, easiest first), **Easy**, **Medium**, **Hard** or **Mixed**. Questions a student missed last time still come first when "Focus on weak spots" is on.
+
+## Study plan
+
+On the **Study plan** page (`#plan`), a student types in the percentile scores from their ASVAB score report. The page then:
+
+- Shows their AFQT category and their next goal: 31 to enlist with most branches, then 50 (Category IIIA).
+- Ranks the four AFQT subtests from lowest to highest and marks the two lowest "Focus first".
+- Suggests a practice difficulty for each subtest: Easy below the 20th percentile, Easy first from 20 to 49, and Mixed from 50 up.
+- Builds a simple weekly routine.
+- Lists any technical subtest scores they entered.
+
+The scores are saved only in that browser. "Reset progress" on the Progress page clears them along with everything else.

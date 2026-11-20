@@ -193,6 +193,7 @@ function draw(items) {
         ? 'Accuracy counts every answer you’ve given in practice and on tests. Work on the weakest topics first.'
         : 'Nothing here yet. Practice a subtest or take a practice test, and your results will show up here.'),
     active ? el('p', { class: 'notice' }, 'You have a practice test in progress. ', el('a', { href: '#test' }, 'Resume it')) : null,
+    el('p', { class: 'small' }, 'Have a score report? ', el('a', { href: '#plan' }, 'Turn it into a study plan'), '.'),
     el('h2', {}, 'By subtest'),
     overview,
     el('h2', {}, 'Review what you missed'),

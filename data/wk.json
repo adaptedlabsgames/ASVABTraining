@@ -9,370 +9,1278 @@
   },
   "questions": [
     {
-      "id": "wk-001", "topic": "common", "difficulty": 1,
+      "id": "wk-001",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Abundant most nearly means:",
-      "choices": ["plentiful", "scarce", "heavy", "ancient"], "answer": 0,
+      "choices": [
+        "plentiful",
+        "scarce",
+        "heavy",
+        "ancient"
+      ],
+      "answer": 0,
       "explanation": "Abundant means existing in large amounts.\nExample: \"The farm produced an abundant harvest.\"\nScarce is its opposite."
     },
     {
-      "id": "wk-002", "topic": "common", "difficulty": 1,
+      "id": "wk-002",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Candid most nearly means:",
-      "choices": ["frank", "sweet", "hidden", "careful"], "answer": 0,
+      "choices": [
+        "frank",
+        "sweet",
+        "hidden",
+        "careful"
+      ],
+      "answer": 0,
       "explanation": "Candid means honest and direct, even when the truth is uncomfortable.\nExample: \"She gave a candid answer about her mistakes.\"\nDon't confuse it with candy (sweet)."
     },
     {
-      "id": "wk-003", "topic": "common", "difficulty": 1,
+      "id": "wk-003",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Diligent most nearly means:",
-      "choices": ["lazy", "hardworking", "clever", "polite"], "answer": 1,
+      "choices": [
+        "lazy",
+        "hardworking",
+        "clever",
+        "polite"
+      ],
+      "answer": 1,
       "explanation": "Diligent means showing steady, careful effort.\nExample: \"A diligent student reviews her notes every night.\""
     },
     {
-      "id": "wk-004", "topic": "common", "difficulty": 1,
+      "id": "wk-004",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Hostile most nearly means:",
-      "choices": ["friendly", "unfriendly", "sick", "generous"], "answer": 1,
+      "choices": [
+        "friendly",
+        "unfriendly",
+        "sick",
+        "generous"
+      ],
+      "answer": 1,
       "explanation": "Hostile means unfriendly or aggressive, like an enemy.\nExample: \"The troops moved through hostile territory.\""
     },
     {
-      "id": "wk-005", "topic": "common", "difficulty": 1,
+      "id": "wk-005",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Vacant most nearly means:",
-      "choices": ["empty", "full", "rented", "noisy"], "answer": 0,
+      "choices": [
+        "empty",
+        "full",
+        "rented",
+        "noisy"
+      ],
+      "answer": 0,
       "explanation": "Vacant means empty or unoccupied.\nExample: \"The vacant lot was full of weeds.\"\nRelated word: vacation, when you leave your usual place empty."
     },
     {
-      "id": "wk-006", "topic": "common", "difficulty": 1,
+      "id": "wk-006",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Hazard most nearly means:",
-      "choices": ["danger", "reward", "signal", "delay"], "answer": 0,
+      "choices": [
+        "danger",
+        "reward",
+        "signal",
+        "delay"
+      ],
+      "answer": 0,
       "explanation": "A hazard is a danger or risk.\nExample: \"Ice on the road is a hazard to drivers.\"\nYou may know it from \"hazard lights\" on a car."
     },
     {
-      "id": "wk-007", "topic": "common", "difficulty": 1,
+      "id": "wk-007",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Fatigue most nearly means:",
-      "choices": ["exhaustion", "fear", "hunger", "anger"], "answer": 0,
+      "choices": [
+        "exhaustion",
+        "fear",
+        "hunger",
+        "anger"
+      ],
+      "answer": 0,
       "explanation": "Fatigue means extreme tiredness.\nExample: \"After the long march, the soldiers fought fatigue.\"\nRelated: \"battle fatigue,\" \"fatigues\" (work uniforms)."
     },
     {
-      "id": "wk-008", "topic": "common", "difficulty": 1,
+      "id": "wk-008",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Rigid most nearly means:",
-      "choices": ["stiff", "wet", "fragile", "smooth"], "answer": 0,
+      "choices": [
+        "stiff",
+        "wet",
+        "fragile",
+        "smooth"
+      ],
+      "answer": 0,
       "explanation": "Rigid means stiff and not able to bend, or strict and unwilling to change.\nExample: \"The cast kept his arm rigid.\""
     },
     {
-      "id": "wk-009", "topic": "common", "difficulty": 1,
+      "id": "wk-009",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Brief most nearly means:",
-      "choices": ["short", "bright", "loud", "important"], "answer": 0,
+      "choices": [
+        "short",
+        "bright",
+        "loud",
+        "important"
+      ],
+      "answer": 0,
       "explanation": "Brief means short in time or length.\nExample: \"The captain gave a brief speech.\"\nA \"briefing\" is a short meeting that gives key information."
     },
     {
-      "id": "wk-010", "topic": "common", "difficulty": 1,
+      "id": "wk-010",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Conceal most nearly means:",
-      "choices": ["hide", "reveal", "build", "cancel"], "answer": 0,
+      "choices": [
+        "hide",
+        "reveal",
+        "build",
+        "cancel"
+      ],
+      "answer": 0,
       "explanation": "Conceal means to hide or keep out of sight.\nExample: \"Camouflage helps conceal soldiers in the field.\"\nReveal is its opposite."
     },
     {
-      "id": "wk-011", "topic": "common", "difficulty": 2,
+      "id": "wk-011",
+      "topic": "common",
+      "difficulty": 2,
       "question": "Hinder most nearly means:",
-      "choices": ["obstruct", "assist", "follow", "hurry"], "answer": 0,
+      "choices": [
+        "obstruct",
+        "assist",
+        "follow",
+        "hurry"
+      ],
+      "answer": 0,
       "explanation": "Hinder means to get in the way of or slow down.\nExample: \"Heavy rain hindered the rescue effort.\"\nTip: things that hinder you hold you behind."
     },
     {
-      "id": "wk-012", "topic": "common", "difficulty": 1,
+      "id": "wk-012",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Ample most nearly means:",
-      "choices": ["sufficient", "tiny", "empty", "early"], "answer": 0,
+      "choices": [
+        "sufficient",
+        "tiny",
+        "empty",
+        "early"
+      ],
+      "answer": 0,
       "explanation": "Ample means more than enough.\nExample: \"There was ample food for everyone.\""
     },
     {
-      "id": "wk-013", "topic": "common", "difficulty": 1,
+      "id": "wk-013",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Feeble most nearly means:",
-      "choices": ["weak", "angry", "cheerful", "quick"], "answer": 0,
+      "choices": [
+        "weak",
+        "angry",
+        "cheerful",
+        "quick"
+      ],
+      "answer": 0,
       "explanation": "Feeble means weak, without strength.\nExample: \"The sick puppy let out a feeble cry.\""
     },
     {
-      "id": "wk-014", "topic": "common", "difficulty": 2,
+      "id": "wk-014",
+      "topic": "common",
+      "difficulty": 2,
       "question": "Prudent most nearly means:",
-      "choices": ["wise", "rude", "proud", "rich"], "answer": 0,
+      "choices": [
+        "wise",
+        "rude",
+        "proud",
+        "rich"
+      ],
+      "answer": 0,
       "explanation": "Prudent means showing careful, sensible judgment.\nExample: \"It is prudent to save part of every paycheck.\""
     },
     {
-      "id": "wk-015", "topic": "common", "difficulty": 1,
+      "id": "wk-015",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Vital most nearly means:",
-      "choices": ["essential", "minor", "visible", "recent"], "answer": 0,
+      "choices": [
+        "essential",
+        "minor",
+        "visible",
+        "recent"
+      ],
+      "answer": 0,
       "explanation": "Vital means absolutely necessary.\nExample: \"Water is vital to survival.\"\n\"Vital signs\" are the measurements most necessary for life, such as pulse and breathing."
     },
     {
-      "id": "wk-016", "topic": "common", "difficulty": 2,
+      "id": "wk-016",
+      "topic": "common",
+      "difficulty": 2,
       "question": "Wary most nearly means:",
-      "choices": ["cautious", "tired", "angry", "careless"], "answer": 0,
+      "choices": [
+        "cautious",
+        "tired",
+        "angry",
+        "careless"
+      ],
+      "answer": 0,
       "explanation": "Wary means watchful and cautious about possible danger.\nExample: \"Be wary of emails asking for passwords.\"\nDon't confuse it with weary, which means tired."
     },
     {
-      "id": "wk-017", "topic": "common", "difficulty": 1,
+      "id": "wk-017",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Novice most nearly means:",
-      "choices": ["beginner", "expert", "author", "leader"], "answer": 0,
+      "choices": [
+        "beginner",
+        "expert",
+        "author",
+        "leader"
+      ],
+      "answer": 0,
       "explanation": "A novice is someone new to an activity.\nExample: \"The novice climber stayed on easy trails.\"\nRelated: novel and nova, both meaning new."
     },
     {
-      "id": "wk-018", "topic": "common", "difficulty": 1,
+      "id": "wk-018",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Mend most nearly means:",
-      "choices": ["repair", "break", "bend", "sell"], "answer": 0,
+      "choices": [
+        "repair",
+        "break",
+        "bend",
+        "sell"
+      ],
+      "answer": 0,
       "explanation": "Mend means to fix or repair.\nExample: \"He mended the torn sleeve.\""
     },
     {
-      "id": "wk-019", "topic": "common", "difficulty": 2,
+      "id": "wk-019",
+      "topic": "common",
+      "difficulty": 2,
       "question": "Placid most nearly means:",
-      "choices": ["calm", "plain", "stormy", "pale"], "answer": 0,
+      "choices": [
+        "calm",
+        "plain",
+        "stormy",
+        "pale"
+      ],
+      "answer": 0,
       "explanation": "Placid means calm and peaceful, not easily upset.\nExample: \"The lake was placid at sunrise.\""
     },
     {
-      "id": "wk-020", "topic": "common", "difficulty": 1,
+      "id": "wk-020",
+      "topic": "common",
+      "difficulty": 1,
       "question": "Omit most nearly means:",
-      "choices": ["leave out", "include", "repeat", "send out"], "answer": 0,
+      "choices": [
+        "leave out",
+        "include",
+        "repeat",
+        "send out"
+      ],
+      "answer": 0,
       "explanation": "Omit means to leave out or skip.\nExample: \"Don't omit any steps in the checklist.\"\nAn omission is something left out."
     },
     {
-      "id": "wk-021", "topic": "advanced", "difficulty": 2,
+      "id": "wk-021",
+      "topic": "advanced",
+      "difficulty": 2,
       "question": "Ambiguous most nearly means:",
-      "choices": ["unclear", "confident", "ambitious", "obvious"], "answer": 0,
+      "choices": [
+        "unclear",
+        "confident",
+        "ambitious",
+        "obvious"
+      ],
+      "answer": 0,
       "explanation": "Ambiguous means having more than one possible meaning, so it is unclear.\nExample: \"The order was ambiguous, so the squad asked for clarification.\"\nThe root ambi- means both (as in ambidextrous)."
     },
     {
-      "id": "wk-022", "topic": "advanced", "difficulty": 2,
+      "id": "wk-022",
+      "topic": "advanced",
+      "difficulty": 2,
       "question": "Benevolent most nearly means:",
-      "choices": ["kind", "evil", "wealthy", "nervous"], "answer": 0,
+      "choices": [
+        "kind",
+        "evil",
+        "wealthy",
+        "nervous"
+      ],
+      "answer": 0,
       "explanation": "Benevolent means kind and wanting to do good.\nExample: \"A benevolent neighbor shoveled everyone's sidewalks.\"\nThe root bene- means good (benefit, benefactor)."
     },
     {
-      "id": "wk-023", "topic": "advanced", "difficulty": 2,
+      "id": "wk-023",
+      "topic": "advanced",
+      "difficulty": 2,
       "question": "Cumbersome most nearly means:",
-      "choices": ["bulky", "cheerful", "fragile", "simple"], "answer": 0,
+      "choices": [
+        "bulky",
+        "cheerful",
+        "fragile",
+        "simple"
+      ],
+      "answer": 0,
       "explanation": "Cumbersome means large or heavy and therefore hard to carry or use.\nExample: \"The old radio was too cumbersome to take on patrol.\""
     },
     {
-      "id": "wk-024", "topic": "advanced", "difficulty": 2,
+      "id": "wk-024",
+      "topic": "advanced",
+      "difficulty": 2,
       "question": "Deplete most nearly means:",
-      "choices": ["exhaust", "replenish", "decorate", "explain"], "answer": 0,
+      "choices": [
+        "exhaust",
+        "replenish",
+        "decorate",
+        "explain"
+      ],
+      "answer": 0,
       "explanation": "Deplete means to use up a supply.\nExample: \"The long winter depleted the town's fuel.\"\nReplenish (refill) is its opposite."
     },
     {
-      "id": "wk-025", "topic": "advanced", "difficulty": 2,
+      "id": "wk-025",
+      "topic": "advanced",
+      "difficulty": 2,
       "question": "Eloquent most nearly means:",
-      "choices": ["articulate", "silent", "rude", "elderly"], "answer": 0,
+      "choices": [
+        "articulate",
+        "silent",
+        "rude",
+        "elderly"
+      ],
+      "answer": 0,
       "explanation": "Eloquent means speaking or writing clearly and persuasively.\nExample: \"Her eloquent speech moved the audience.\""
     },
     {
-      "id": "wk-026", "topic": "advanced", "difficulty": 2,
+      "id": "wk-026",
+      "topic": "advanced",
+      "difficulty": 2,
       "question": "Frugal most nearly means:",
-      "choices": ["thrifty", "wasteful", "fragile", "friendly"], "answer": 0,
+      "choices": [
+        "thrifty",
+        "wasteful",
+        "fragile",
+        "friendly"
+      ],
+      "answer": 0,
       "explanation": "Frugal means careful with money; avoiding waste.\nExample: \"By being frugal, he saved enough for a car.\""
     },
     {
-      "id": "wk-027", "topic": "advanced", "difficulty": 3,
+      "id": "wk-027",
+      "topic": "advanced",
+      "difficulty": 3,
       "question": "Gregarious most nearly means:",
-      "choices": ["sociable", "greedy", "shy", "serious"], "answer": 0,
+      "choices": [
+        "sociable",
+        "greedy",
+        "shy",
+        "serious"
+      ],
+      "answer": 0,
       "explanation": "Gregarious means enjoying the company of others.\nExample: \"The gregarious recruit made friends on the first day.\"\nThe root greg- means flock or group (congregate)."
     },
     {
-      "id": "wk-028", "topic": "advanced", "difficulty": 2,
+      "id": "wk-028",
+      "topic": "advanced",
+      "difficulty": 2,
       "question": "Impartial most nearly means:",
-      "choices": ["fair", "incomplete", "biased", "important"], "answer": 0,
+      "choices": [
+        "fair",
+        "incomplete",
+        "biased",
+        "important"
+      ],
+      "answer": 0,
       "explanation": "Impartial means not favoring one side.\nExample: \"A judge must be impartial.\"\nTrap: it does not mean \"not partial\" in the sense of incomplete."
     },
     {
-      "id": "wk-029", "topic": "advanced", "difficulty": 2,
+      "id": "wk-029",
+      "topic": "advanced",
+      "difficulty": 2,
       "question": "Lucid most nearly means:",
-      "choices": ["clear", "lucky", "confusing", "lazy"], "answer": 0,
+      "choices": [
+        "clear",
+        "lucky",
+        "confusing",
+        "lazy"
+      ],
+      "answer": 0,
       "explanation": "Lucid means clear and easy to understand.\nExample: \"The instructor gave a lucid explanation.\"\nThe root luc- means light (as in translucent)."
     },
     {
-      "id": "wk-030", "topic": "advanced", "difficulty": 2,
+      "id": "wk-030",
+      "topic": "advanced",
+      "difficulty": 2,
       "question": "Meticulous most nearly means:",
-      "choices": ["thorough", "sloppy", "tiny", "musical"], "answer": 0,
+      "choices": [
+        "thorough",
+        "sloppy",
+        "tiny",
+        "musical"
+      ],
+      "answer": 0,
       "explanation": "Meticulous means extremely careful and precise about details.\nExample: \"She kept meticulous maintenance records.\""
     },
     {
-      "id": "wk-031", "topic": "advanced", "difficulty": 2,
+      "id": "wk-031",
+      "topic": "advanced",
+      "difficulty": 2,
       "question": "Obsolete most nearly means:",
-      "choices": ["outdated", "modern", "obvious", "absolute"], "answer": 0,
+      "choices": [
+        "outdated",
+        "modern",
+        "obvious",
+        "absolute"
+      ],
+      "answer": 0,
       "explanation": "Obsolete means no longer used because something newer has replaced it.\nExample: \"Pay phones are nearly obsolete.\""
     },
     {
-      "id": "wk-032", "topic": "advanced", "difficulty": 2,
+      "id": "wk-032",
+      "topic": "advanced",
+      "difficulty": 2,
       "question": "Pragmatic most nearly means:",
-      "choices": ["practical", "dramatic", "idealistic", "friendly"], "answer": 0,
+      "choices": [
+        "practical",
+        "dramatic",
+        "idealistic",
+        "friendly"
+      ],
+      "answer": 0,
       "explanation": "Pragmatic means dealing with things in a sensible, realistic way.\nExample: \"We need a pragmatic plan that fits our budget.\""
     },
     {
-      "id": "wk-033", "topic": "advanced", "difficulty": 2,
+      "id": "wk-033",
+      "topic": "advanced",
+      "difficulty": 2,
       "question": "Reprimand most nearly means:",
-      "choices": ["scold", "reward", "remind", "repeat"], "answer": 0,
+      "choices": [
+        "scold",
+        "reward",
+        "remind",
+        "repeat"
+      ],
+      "answer": 0,
       "explanation": "Reprimand means to formally criticize someone for doing wrong.\nExample: \"The sergeant reprimanded him for being late.\""
     },
     {
-      "id": "wk-034", "topic": "advanced", "difficulty": 2,
+      "id": "wk-034",
+      "topic": "advanced",
+      "difficulty": 2,
       "question": "Tenacious most nearly means:",
-      "choices": ["persistent", "tender", "weak", "tense"], "answer": 0,
+      "choices": [
+        "persistent",
+        "tender",
+        "weak",
+        "tense"
+      ],
+      "answer": 0,
       "explanation": "Tenacious means holding on firmly; refusing to give up.\nExample: \"The tenacious runner finished despite an injury.\""
     },
     {
-      "id": "wk-035", "topic": "advanced", "difficulty": 3,
+      "id": "wk-035",
+      "topic": "advanced",
+      "difficulty": 3,
       "question": "Volatile most nearly means:",
-      "choices": ["unstable", "valuable", "calm", "voluntary"], "answer": 0,
+      "choices": [
+        "unstable",
+        "valuable",
+        "calm",
+        "voluntary"
+      ],
+      "answer": 0,
       "explanation": "Volatile means likely to change suddenly or explode.\nExample: \"Gasoline is a volatile liquid.\" or \"a volatile temper.\""
     },
     {
-      "id": "wk-036", "topic": "context", "difficulty": 2,
+      "id": "wk-036",
+      "topic": "context",
+      "difficulty": 2,
       "question": "The sergeant's terse reply made it clear that he did not want to talk.\n\nTerse most nearly means:",
-      "choices": ["brief", "polite", "loud", "confused"], "answer": 0,
+      "choices": [
+        "brief",
+        "polite",
+        "loud",
+        "confused"
+      ],
+      "answer": 0,
       "explanation": "Terse means using very few words, often in an abrupt way.\nThe clue is that he \"did not want to talk,\" so his reply was short."
     },
     {
-      "id": "wk-037", "topic": "context", "difficulty": 2,
+      "id": "wk-037",
+      "topic": "context",
+      "difficulty": 2,
       "question": "The mechanic was able to rectify the problem with the engine in under an hour.\n\nRectify most nearly means:",
-      "choices": ["fix", "find", "explain", "cause"], "answer": 0,
+      "choices": [
+        "fix",
+        "find",
+        "explain",
+        "cause"
+      ],
+      "answer": 0,
       "explanation": "Rectify means to correct or make right.\nA mechanic dealing with an engine problem in under an hour is fixing it."
     },
     {
-      "id": "wk-038", "topic": "context", "difficulty": 2,
+      "id": "wk-038",
+      "topic": "context",
+      "difficulty": 2,
       "question": "The recruits were apprehensive about their first parachute jump.\n\nApprehensive most nearly means:",
-      "choices": ["anxious", "excited", "prepared", "unaware"], "answer": 0,
+      "choices": [
+        "anxious",
+        "excited",
+        "prepared",
+        "unaware"
+      ],
+      "answer": 0,
       "explanation": "Apprehensive means worried or uneasy that something bad may happen.\nA first parachute jump is a situation where people often feel nervous."
     },
     {
-      "id": "wk-039", "topic": "context", "difficulty": 1,
+      "id": "wk-039",
+      "topic": "context",
+      "difficulty": 1,
       "question": "The witness gave a credible account of the accident.\n\nCredible most nearly means:",
-      "choices": ["believable", "false", "long", "emotional"], "answer": 0,
+      "choices": [
+        "believable",
+        "false",
+        "long",
+        "emotional"
+      ],
+      "answer": 0,
       "explanation": "Credible means able to be believed.\nRelated words: credit and credentials, both about trust."
     },
     {
-      "id": "wk-040", "topic": "context", "difficulty": 1,
+      "id": "wk-040",
+      "topic": "context",
+      "difficulty": 1,
       "question": "The storm caused extensive damage across the base.\n\nExtensive most nearly means:",
-      "choices": ["widespread", "minor", "sudden", "hidden"], "answer": 0,
+      "choices": [
+        "widespread",
+        "minor",
+        "sudden",
+        "hidden"
+      ],
+      "answer": 0,
       "explanation": "Extensive means covering a large area or amount.\nThe phrase \"across the base\" tells you the damage was spread out."
     },
     {
-      "id": "wk-041", "topic": "context", "difficulty": 1,
+      "id": "wk-041",
+      "topic": "context",
+      "difficulty": 1,
       "question": "She was reluctant to lend her car to a stranger.\n\nReluctant most nearly means:",
-      "choices": ["unwilling", "eager", "able", "forced"], "answer": 0,
+      "choices": [
+        "unwilling",
+        "eager",
+        "able",
+        "forced"
+      ],
+      "answer": 0,
       "explanation": "Reluctant means hesitant or not wanting to do something.\nMost people would not want to lend a car to a stranger."
     },
     {
-      "id": "wk-042", "topic": "context", "difficulty": 3,
+      "id": "wk-042",
+      "topic": "context",
+      "difficulty": 3,
       "question": "The general's decision was final and irrevocable.\n\nIrrevocable most nearly means:",
-      "choices": ["permanent", "unpopular", "quick", "temporary"], "answer": 0,
+      "choices": [
+        "permanent",
+        "unpopular",
+        "quick",
+        "temporary"
+      ],
+      "answer": 0,
       "explanation": "Irrevocable means unable to be changed or taken back.\nBreak it apart: ir- (not) + revoke (take back) + -able.\nThe word \"final\" is also a clue."
     },
     {
-      "id": "wk-043", "topic": "context", "difficulty": 2,
+      "id": "wk-043",
+      "topic": "context",
+      "difficulty": 2,
       "question": "The new policy will curtail overtime hours for all employees.\n\nCurtail most nearly means:",
-      "choices": ["reduce", "extend", "pay", "track"], "answer": 0,
+      "choices": [
+        "reduce",
+        "extend",
+        "pay",
+        "track"
+      ],
+      "answer": 0,
       "explanation": "Curtail means to cut short or reduce.\nTip: think of \"cutting the tail\" off something."
     },
     {
-      "id": "wk-044", "topic": "context", "difficulty": 2,
+      "id": "wk-044",
+      "topic": "context",
+      "difficulty": 2,
       "question": "His explanation was so convoluted that no one could follow it.\n\nConvoluted most nearly means:",
-      "choices": ["complicated", "short", "boring", "accurate"], "answer": 0,
+      "choices": [
+        "complicated",
+        "short",
+        "boring",
+        "accurate"
+      ],
+      "answer": 0,
       "explanation": "Convoluted means extremely complex and hard to follow.\nThe clue is \"no one could follow it.\""
     },
     {
-      "id": "wk-045", "topic": "context", "difficulty": 1,
+      "id": "wk-045",
+      "topic": "context",
+      "difficulty": 1,
       "question": "The captain commended the team for its quick response.\n\nCommended most nearly means:",
-      "choices": ["praised", "criticized", "ordered", "paid"], "answer": 0,
+      "choices": [
+        "praised",
+        "criticized",
+        "ordered",
+        "paid"
+      ],
+      "answer": 0,
       "explanation": "Commend means to praise formally.\nA \"commendation\" is an official award or praise. A quick response is something to praise."
     },
     {
-      "id": "wk-046", "topic": "context", "difficulty": 2,
+      "id": "wk-046",
+      "topic": "context",
+      "difficulty": 2,
       "question": "Supplies were sparse, so each soldier received only a small portion.\n\nSparse most nearly means:",
-      "choices": ["limited", "plentiful", "spoiled", "heavy"], "answer": 0,
+      "choices": [
+        "limited",
+        "plentiful",
+        "spoiled",
+        "heavy"
+      ],
+      "answer": 0,
       "explanation": "Sparse means thinly scattered or in short supply.\nThe clue is \"only a small portion.\""
     },
     {
-      "id": "wk-047", "topic": "context", "difficulty": 2,
+      "id": "wk-047",
+      "topic": "context",
+      "difficulty": 2,
       "question": "The two reports were identical except for one minor discrepancy.\n\nDiscrepancy most nearly means:",
-      "choices": ["inconsistency", "similarity", "signature", "delay"], "answer": 0,
+      "choices": [
+        "inconsistency",
+        "similarity",
+        "signature",
+        "delay"
+      ],
+      "answer": 0,
       "explanation": "A discrepancy is a difference between things that should match.\nThe word \"except\" signals that one thing was different."
     },
     {
-      "id": "wk-048", "topic": "context", "difficulty": 2,
+      "id": "wk-048",
+      "topic": "context",
+      "difficulty": 2,
       "question": "The hikers were famished after the all-day march with no lunch break.\n\nFamished most nearly means:",
-      "choices": ["starving", "sunburned", "lost", "cold"], "answer": 0,
+      "choices": [
+        "starving",
+        "sunburned",
+        "lost",
+        "cold"
+      ],
+      "answer": 0,
       "explanation": "Famished means extremely hungry.\nThe clue \"no lunch break\" points to hunger. Related word: famine."
     },
     {
-      "id": "wk-049", "topic": "context", "difficulty": 2,
+      "id": "wk-049",
+      "topic": "context",
+      "difficulty": 2,
       "question": "The officer tried to placate the angry crowd.\n\nPlacate most nearly means:",
-      "choices": ["calm", "provoke", "count", "ignore"], "answer": 0,
+      "choices": [
+        "calm",
+        "provoke",
+        "count",
+        "ignore"
+      ],
+      "answer": 0,
       "explanation": "Placate means to make someone less angry.\nProvoke means the opposite: to make someone angry."
     },
     {
-      "id": "wk-050", "topic": "context", "difficulty": 2,
+      "id": "wk-050",
+      "topic": "context",
+      "difficulty": 2,
       "question": "The instructions were explicit, leaving no room for confusion.\n\nExplicit most nearly means:",
-      "choices": ["clearly stated", "only hinted at", "lengthy", "unusual"], "answer": 0,
+      "choices": [
+        "clearly stated",
+        "only hinted at",
+        "lengthy",
+        "unusual"
+      ],
+      "answer": 0,
       "explanation": "Explicit means stated clearly and in detail.\nIts opposite is implicit, meaning suggested but not directly stated."
     },
     {
-      "id": "wk-051", "topic": "context", "difficulty": 1,
+      "id": "wk-051",
+      "topic": "context",
+      "difficulty": 1,
       "question": "Regular maintenance can prolong the life of a vehicle.\n\nProlong most nearly means:",
-      "choices": ["extend", "shorten", "measure", "insure"], "answer": 0,
+      "choices": [
+        "extend",
+        "shorten",
+        "measure",
+        "insure"
+      ],
+      "answer": 0,
       "explanation": "Prolong means to make something last longer.\nNotice the word \"long\" inside prolong."
     },
     {
-      "id": "wk-052", "topic": "context", "difficulty": 3,
+      "id": "wk-052",
+      "topic": "context",
+      "difficulty": 3,
       "question": "The soldier showed great fortitude during the long and difficult mission.\n\nFortitude most nearly means:",
-      "choices": ["courage", "wealth", "speed", "fear"], "answer": 0,
+      "choices": [
+        "courage",
+        "wealth",
+        "speed",
+        "fear"
+      ],
+      "answer": 0,
       "explanation": "Fortitude means strength of mind that lets someone face hardship with courage.\nThe root fort- means strong (fort, fortify)."
     },
     {
-      "id": "wk-053", "topic": "context", "difficulty": 2,
+      "id": "wk-053",
+      "topic": "context",
+      "difficulty": 2,
       "question": "The mayor's statement was meant to alleviate public concern about the water supply.\n\nAlleviate most nearly means:",
-      "choices": ["ease", "increase", "explain", "ignore"], "answer": 0,
+      "choices": [
+        "ease",
+        "increase",
+        "explain",
+        "ignore"
+      ],
+      "answer": 0,
       "explanation": "Alleviate means to make a problem or pain less severe.\nExample: \"Aspirin can alleviate a headache.\""
     },
     {
-      "id": "wk-054", "topic": "parts", "difficulty": 1,
+      "id": "wk-054",
+      "topic": "parts",
+      "difficulty": 1,
       "question": "The prefix pre-, as in preview and prepay, means:",
-      "choices": ["before", "after", "against", "again"], "answer": 0,
+      "choices": [
+        "before",
+        "after",
+        "against",
+        "again"
+      ],
+      "answer": 0,
       "explanation": "Pre- means before.\nPreview = view before; prepay = pay before; precaution = care taken before."
     },
     {
-      "id": "wk-055", "topic": "parts", "difficulty": 1,
+      "id": "wk-055",
+      "topic": "parts",
+      "difficulty": 1,
       "question": "Benefit, benefactor, and benevolent all share the root bene, which means:",
-      "choices": ["good", "bad", "many", "life"], "answer": 0,
+      "choices": [
+        "good",
+        "bad",
+        "many",
+        "life"
+      ],
+      "answer": 0,
       "explanation": "Bene means good or well.\nA benefit is something good; a benefactor does good for others."
     },
     {
-      "id": "wk-056", "topic": "parts", "difficulty": 1,
+      "id": "wk-056",
+      "topic": "parts",
+      "difficulty": 1,
       "question": "The prefix mal-, as in malfunction and malnutrition, means:",
-      "choices": ["bad or wrong", "small", "many", "beyond"], "answer": 0,
+      "choices": [
+        "bad or wrong",
+        "small",
+        "many",
+        "beyond"
+      ],
+      "answer": 0,
       "explanation": "Mal- means bad or badly.\nMalfunction = a bad function (failure); malnutrition = bad nutrition."
     },
     {
-      "id": "wk-057", "topic": "parts", "difficulty": 2,
+      "id": "wk-057",
+      "topic": "parts",
+      "difficulty": 2,
       "question": "The root chron, as in chronological and chronic, means:",
-      "choices": ["time", "color", "sound", "body"], "answer": 0,
+      "choices": [
+        "time",
+        "color",
+        "sound",
+        "body"
+      ],
+      "answer": 0,
       "explanation": "Chron means time.\nChronological = in time order; chronic = lasting a long time; synchronize = happen at the same time."
     },
     {
-      "id": "wk-058", "topic": "parts", "difficulty": 1,
+      "id": "wk-058",
+      "topic": "parts",
+      "difficulty": 1,
       "question": "The prefix anti-, as in antifreeze and antibiotic, means:",
-      "choices": ["against", "before", "under", "twice"], "answer": 0,
+      "choices": [
+        "against",
+        "before",
+        "under",
+        "twice"
+      ],
+      "answer": 0,
       "explanation": "Anti- means against.\nAntifreeze works against freezing; an antibiotic works against bacteria."
     },
     {
-      "id": "wk-059", "topic": "parts", "difficulty": 2,
+      "id": "wk-059",
+      "topic": "parts",
+      "difficulty": 2,
       "question": "The root spect, as in inspect and spectator, means:",
-      "choices": ["look", "speak", "carry", "believe"], "answer": 0,
+      "choices": [
+        "look",
+        "speak",
+        "carry",
+        "believe"
+      ],
+      "answer": 0,
       "explanation": "Spect means look or see.\nInspect = look into; spectator = one who watches; spectacles = glasses."
     },
     {
-      "id": "wk-060", "topic": "parts", "difficulty": 1,
+      "id": "wk-060",
+      "topic": "parts",
+      "difficulty": 1,
       "question": "The suffix -less, as in fearless and careless, means:",
-      "choices": ["without", "full of", "like", "more"], "answer": 0,
+      "choices": [
+        "without",
+        "full of",
+        "like",
+        "more"
+      ],
+      "answer": 0,
       "explanation": "-less means without.\nFearless = without fear. Compare -ful, which means full of (fearful)."
     },
     {
-      "id": "wk-061", "topic": "parts", "difficulty": 1,
+      "id": "wk-061",
+      "topic": "parts",
+      "difficulty": 1,
       "question": "The prefix sub-, as in submarine and subway, means:",
-      "choices": ["under", "over", "across", "half"], "answer": 0,
+      "choices": [
+        "under",
+        "over",
+        "across",
+        "half"
+      ],
+      "answer": 0,
       "explanation": "Sub- means under or below.\nSubmarine = under the sea; subway = a way under the ground; substandard = below standard."
+    },
+    {
+      "id": "wk-062",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Rapid most nearly means:",
+      "choices": [
+        "fast",
+        "slow",
+        "loud",
+        "wet"
+      ],
+      "answer": 0,
+      "explanation": "Rapid means very fast.\nExample: \"The river's rapid current swept the log away.\""
+    },
+    {
+      "id": "wk-063",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Damp most nearly means:",
+      "choices": [
+        "slightly wet",
+        "dry",
+        "cold",
+        "dark"
+      ],
+      "answer": 0,
+      "explanation": "Damp means a little wet.\nExample: \"Hang the damp towel up to dry.\""
+    },
+    {
+      "id": "wk-064",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Fragile most nearly means:",
+      "choices": [
+        "easily broken",
+        "heavy",
+        "strong",
+        "expensive"
+      ],
+      "answer": 0,
+      "explanation": "Fragile means easy to break or damage.\nExample: \"The box was marked FRAGILE because it held glasses.\""
+    },
+    {
+      "id": "wk-065",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Purchase most nearly means:",
+      "choices": [
+        "buy",
+        "sell",
+        "borrow",
+        "return"
+      ],
+      "answer": 0,
+      "explanation": "Purchase means to buy.\nExample: \"She purchased a new pair of boots.\""
+    },
+    {
+      "id": "wk-066",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Assist most nearly means:",
+      "choices": [
+        "help",
+        "stop",
+        "ask",
+        "follow"
+      ],
+      "answer": 0,
+      "explanation": "Assist means to help.\nExample: \"The nurse assisted the doctor.\""
+    },
+    {
+      "id": "wk-067",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Vanish most nearly means:",
+      "choices": [
+        "disappear",
+        "arrive",
+        "shout",
+        "grow"
+      ],
+      "answer": 0,
+      "explanation": "Vanish means to disappear suddenly.\nExample: \"The fog vanished when the sun came out.\""
+    },
+    {
+      "id": "wk-068",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Courteous most nearly means:",
+      "choices": [
+        "polite",
+        "rude",
+        "brave",
+        "tired"
+      ],
+      "answer": 0,
+      "explanation": "Courteous means polite and respectful. Related word: courtesy.\nExample: \"The courteous clerk held the door open.\""
+    },
+    {
+      "id": "wk-069",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Enormous most nearly means:",
+      "choices": [
+        "huge",
+        "tiny",
+        "quiet",
+        "pretty"
+      ],
+      "answer": 0,
+      "explanation": "Enormous means very large.\nExample: \"An enormous truck blocked the road.\""
+    },
+    {
+      "id": "wk-070",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Ancient most nearly means:",
+      "choices": [
+        "very old",
+        "brand new",
+        "broken",
+        "famous"
+      ],
+      "answer": 0,
+      "explanation": "Ancient means extremely old, from long ago.\nExample: \"They visited ancient ruins in Greece.\""
+    },
+    {
+      "id": "wk-071",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Obtain most nearly means:",
+      "choices": [
+        "get",
+        "lose",
+        "hide",
+        "fix"
+      ],
+      "answer": 0,
+      "explanation": "Obtain means to get or gain something.\nExample: \"You must obtain a permit before building.\""
+    },
+    {
+      "id": "wk-072",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Weary most nearly means:",
+      "choices": [
+        "tired",
+        "careful",
+        "angry",
+        "hungry"
+      ],
+      "answer": 0,
+      "explanation": "Weary means very tired.\nExample: \"The weary soldiers rested after the march.\"\nDon't confuse it with wary, which means cautious."
+    },
+    {
+      "id": "wk-073",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Seldom most nearly means:",
+      "choices": [
+        "rarely",
+        "often",
+        "always",
+        "loudly"
+      ],
+      "answer": 0,
+      "explanation": "Seldom means not often; rarely.\nExample: \"It seldom snows in Florida.\""
+    },
+    {
+      "id": "wk-074",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Tidy most nearly means:",
+      "choices": [
+        "neat",
+        "messy",
+        "small",
+        "late"
+      ],
+      "answer": 0,
+      "explanation": "Tidy means neat and in order.\nExample: \"Keep your locker tidy for inspection.\""
+    },
+    {
+      "id": "wk-075",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Halt most nearly means:",
+      "choices": [
+        "stop",
+        "start",
+        "walk",
+        "call"
+      ],
+      "answer": 0,
+      "explanation": "Halt means to stop.\nExample: \"The guard shouted, 'Halt!'\""
+    },
+    {
+      "id": "wk-076",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Inquire most nearly means:",
+      "choices": [
+        "ask",
+        "answer",
+        "wait",
+        "forget"
+      ],
+      "answer": 0,
+      "explanation": "Inquire means to ask for information. Related word: inquiry.\nExample: \"She called to inquire about the job.\""
+    },
+    {
+      "id": "wk-077",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Prohibit most nearly means:",
+      "choices": [
+        "forbid",
+        "allow",
+        "require",
+        "explain"
+      ],
+      "answer": 0,
+      "explanation": "Prohibit means to forbid by rule or law.\nExample: \"The sign prohibits smoking.\""
+    },
+    {
+      "id": "wk-078",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Accurate most nearly means:",
+      "choices": [
+        "correct",
+        "careless",
+        "quick",
+        "loud"
+      ],
+      "answer": 0,
+      "explanation": "Accurate means exactly right; without mistakes.\nExample: \"An accurate map shows every road.\""
+    },
+    {
+      "id": "wk-079",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Odor most nearly means:",
+      "choices": [
+        "smell",
+        "color",
+        "sound",
+        "taste"
+      ],
+      "answer": 0,
+      "explanation": "An odor is a smell, often an unpleasant one.\nExample: \"A strange odor came from the fridge.\""
+    },
+    {
+      "id": "wk-080",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Peril most nearly means:",
+      "choices": [
+        "danger",
+        "safety",
+        "reward",
+        "journey"
+      ],
+      "answer": 0,
+      "explanation": "Peril means serious danger. Related word: perilous.\nExample: \"The sailors were in peril during the storm.\""
+    },
+    {
+      "id": "wk-081",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Hasty most nearly means:",
+      "choices": [
+        "hurried",
+        "careful",
+        "slow",
+        "kind"
+      ],
+      "answer": 0,
+      "explanation": "Hasty means done too quickly, often without enough thought. Related word: haste.\nExample: \"He made a hasty decision he later regretted.\""
+    },
+    {
+      "id": "wk-082",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Frigid most nearly means:",
+      "choices": [
+        "very cold",
+        "very hot",
+        "wet",
+        "windy"
+      ],
+      "answer": 0,
+      "explanation": "Frigid means extremely cold.\nExample: \"The frigid wind made their faces numb.\""
+    },
+    {
+      "id": "wk-083",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Gloomy most nearly means:",
+      "choices": [
+        "dark and sad",
+        "bright and cheerful",
+        "noisy",
+        "crowded"
+      ],
+      "answer": 0,
+      "explanation": "Gloomy means dark, or sad and without hope.\nExample: \"It was a gloomy, rainy afternoon.\""
+    },
+    {
+      "id": "wk-084",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Sturdy most nearly means:",
+      "choices": [
+        "strong",
+        "weak",
+        "tall",
+        "shiny"
+      ],
+      "answer": 0,
+      "explanation": "Sturdy means strong and solidly built.\nExample: \"Stand on a sturdy ladder, not a chair.\""
+    },
+    {
+      "id": "wk-085",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Commence most nearly means:",
+      "choices": [
+        "begin",
+        "end",
+        "delay",
+        "repeat"
+      ],
+      "answer": 0,
+      "explanation": "Commence means to begin. Graduation is called commencement because it is a new beginning.\nExample: \"Training will commence at 0600.\""
+    },
+    {
+      "id": "wk-086",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Conclude most nearly means:",
+      "choices": [
+        "end",
+        "start",
+        "argue",
+        "doubt"
+      ],
+      "answer": 0,
+      "explanation": "Conclude means to end or finish. It can also mean to decide after thinking.\nExample: \"The meeting concluded at noon.\""
+    },
+    {
+      "id": "wk-087",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Fierce most nearly means:",
+      "choices": [
+        "violent",
+        "gentle",
+        "tiny",
+        "sleepy"
+      ],
+      "answer": 0,
+      "explanation": "Fierce means violent, intense or aggressive.\nExample: \"A fierce storm knocked down trees.\""
+    },
+    {
+      "id": "wk-088",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Mimic most nearly means:",
+      "choices": [
+        "copy",
+        "ignore",
+        "praise",
+        "teach"
+      ],
+      "answer": 0,
+      "explanation": "Mimic means to copy the way someone looks, sounds or acts.\nExample: \"Parrots can mimic human speech.\""
+    },
+    {
+      "id": "wk-089",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Drowsy most nearly means:",
+      "choices": [
+        "sleepy",
+        "alert",
+        "angry",
+        "hungry"
+      ],
+      "answer": 0,
+      "explanation": "Drowsy means sleepy.\nExample: \"Some cold medicines make you drowsy.\""
+    },
+    {
+      "id": "wk-090",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Brisk most nearly means:",
+      "choices": [
+        "quick and lively",
+        "slow and tired",
+        "heavy",
+        "dull"
+      ],
+      "answer": 0,
+      "explanation": "Brisk means quick and energetic. It can also describe cool, fresh air.\nExample: \"They took a brisk walk around the block.\""
+    },
+    {
+      "id": "wk-091",
+      "topic": "common",
+      "difficulty": 1,
+      "question": "Clarify most nearly means:",
+      "choices": [
+        "make clear",
+        "confuse",
+        "shorten",
+        "hide"
+      ],
+      "answer": 0,
+      "explanation": "Clarify means to make something easier to understand. Related word: clear.\nExample: \"Can you clarify the instructions?\""
     }
   ]
 }

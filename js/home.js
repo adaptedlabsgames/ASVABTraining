@@ -1,5 +1,6 @@
 import { SUBTESTS } from './config.js';
-import { load, loadActiveTest, lastAfqtTest, loadCardStates } from './storage.js';
+import { load, loadActiveTest, lastAfqtTest, loadCardStates, loadPlan } from './storage.js';
+import { focusOrder } from './plan.js';
 import { el, mount } from './dom.js';
 
 export function renderHome(app) {
@@ -50,6 +51,15 @@ export function renderHome(app) {
     el('a', { class: 'btn primary', href: '#test' }, active ? 'Resume your test' : 'Take a practice test'),
   );
 
+  const plan = loadPlan();
+  const focus = plan ? focusOrder(plan.scores).filter((x) => x.pct != null).slice(0, 2).map((x) => SUBTESTS.find((t) => t.id === x.id)?.name) : [];
+  const planCard = el('a', { class: 'card tool-card plan-card', href: '#plan' },
+    el('h3', {}, plan ? 'Your study plan' : 'Got an ASVAB score report?'),
+    el('p', {}, plan
+      ? `Focus first: ${focus.join(' and ')}.`
+      : 'Type in your percentile scores and get a plan that shows what to work on first.'),
+    el('span', { class: 'tool-cta' }, plan ? 'Open my plan →' : 'Make my study plan →'),
+  );
   const cardsSeen = Object.keys(loadCardStates()).length;
   const tools = el('div', { class: 'grid' },
     el('a', { class: 'card tool-card', href: '#guides' },
@@ -72,6 +82,7 @@ export function renderHome(app) {
       'Practice the four subtests that make up your AFQT score. Every question comes with a ' +
       'step-by-step explanation. Your progress is saved in this browser.'),
     testCard,
+    planCard,
     el('h2', {}, 'Practice by subtest'),
     grid,
     el('h2', {}, 'Technical subtests'),

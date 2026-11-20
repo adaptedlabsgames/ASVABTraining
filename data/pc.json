@@ -24,248 +24,918 @@
     "p13": "Recycling an aluminum can saves about 95 percent of the energy needed to make a new can from raw ore. Aluminum can also be recycled again and again without losing quality. A can that is returned for recycling can be back on a store shelf as a new can in as little as two months.",
     "p14": "In many small towns, there is no paid fire department. Instead, residents train in their spare time and answer calls at all hours, often leaving their jobs or families at a moment's notice. They receive little or no pay. Without these volunteers, many rural communities would have no fire protection at all, and their dedication deserves far more recognition than it usually gets.",
     "p15": "Underinflated tires wear out faster, lower fuel economy, and make a vehicle harder to control. Because tires slowly lose air over time and in cold weather, drivers should check tire pressure at least once a month. The correct pressure is listed on a sticker inside the driver's door. The number printed on the side of the tire is the maximum pressure the tire can safely hold, not the recommended pressure.",
-    "p16": "Some kinds of bamboo can grow more than two feet in a single day, making bamboo one of the fastest-growing plants on Earth. Despite its treelike height, bamboo is actually a type of grass. Its strength and rapid growth have made it a popular building material in many parts of Asia, where it is used for scaffolding, floors, and furniture."
+    "p16": "Some kinds of bamboo can grow more than two feet in a single day, making bamboo one of the fastest-growing plants on Earth. Despite its treelike height, bamboo is actually a type of grass. Its strength and rapid growth have made it a popular building material in many parts of Asia, where it is used for scaffolding, floors, and furniture.",
+    "p17": "Maria wanted to save money for a car. Each week, she put half of her paycheck into a savings account. She stopped buying lunch and started packing food from home. After one year, she had saved enough to buy a used car.",
+    "p18": "Dogs pant to cool down. Unlike people, dogs have very few sweat glands in their skin. When a dog pants, water evaporates from its tongue and mouth, and that carries heat away from its body.",
+    "p19": "The town library will be closed on Monday for the holiday. It will open again on Tuesday at 9:00 a.m. Books that are due on Monday may be returned on Tuesday without a late fee.",
+    "p20": "Many people think bats are blind, but this is not true. All bats can see. Many bats also use echolocation: they make high-pitched sounds and listen for the echoes to find insects in the dark.",
+    "p21": "Sergeant Lee told the recruits to drink water before the march, even if they were not thirsty. \"By the time you feel thirsty,\" she said, \"your body is already low on water.\"",
+    "p22": "Wearing a seat belt is one of the most effective ways to reduce injuries in a car crash. A seat belt keeps you from being thrown against the dashboard or out of the vehicle. Buckling up takes only a few seconds.",
+    "p23": "Honey almost never spoils. It contains very little water and is naturally acidic, so bacteria have a hard time growing in it. Kept in a sealed jar, honey can last for many years.",
+    "p24": "The new gym on base is open from 5:00 a.m. to 10:00 p.m. every day. Service members may bring one guest. Guests must be at least 16 years old and must sign in at the front desk.",
+    "p25": "Kevin failed his first driving test because he forgot to signal before changing lanes. He practiced with his uncle every weekend for a month. On his second try, he passed easily.",
+    "p26": "Volunteers planted 200 trees in the park last Saturday. The trees will provide shade in the summer and help keep soil from washing away when it rains. The city plans to hold another planting day in the fall."
   },
   "questions": [
     {
-      "id": "pc-001", "passage": "p01", "topic": "main-idea", "difficulty": 1,
+      "id": "pc-001",
+      "passage": "p01",
+      "topic": "main-idea",
+      "difficulty": 1,
       "question": "The main idea of the passage is that:",
-      "choices": ["people working in the heat should drink water regularly to avoid dehydration", "sweating is the only way the body cools itself", "dark yellow urine is a sign of serious illness", "people should avoid salt in hot weather"], "answer": 0,
+      "choices": [
+        "people working in the heat should drink water regularly to avoid dehydration",
+        "sweating is the only way the body cools itself",
+        "dark yellow urine is a sign of serious illness",
+        "people should avoid salt in hot weather"
+      ],
+      "answer": 0,
       "explanation": "The passage explains how sweating causes water loss and ends with its main advice: drink water at regular intervals. The other choices either overstate a detail or are not mentioned.\nTip: the main idea is often in the first or last sentence."
     },
     {
-      "id": "pc-002", "passage": "p01", "topic": "detail", "difficulty": 1,
+      "id": "pc-002",
+      "passage": "p01",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "According to the passage, sweat cools the body by:",
-      "choices": ["evaporating and carrying heat away", "adding salt to the skin", "slowing the heart rate", "causing thirst"], "answer": 0,
+      "choices": [
+        "evaporating and carrying heat away",
+        "adding salt to the skin",
+        "slowing the heart rate",
+        "causing thirst"
+      ],
+      "answer": 0,
       "explanation": "The second sentence states it directly: \"As sweat evaporates from the skin, it carries heat away.\""
     },
     {
-      "id": "pc-003", "passage": "p01", "topic": "inference", "difficulty": 2,
+      "id": "pc-003",
+      "passage": "p01",
+      "topic": "inference",
+      "difficulty": 2,
       "question": "Why does the passage advise drinking water before feeling thirsty?",
-      "choices": ["Thirst may not appear until the body already needs water", "Drinking water stops all sweating", "Thirst only happens at night", "Salt prevents thirst"], "answer": 0,
+      "choices": [
+        "Thirst may not appear until the body already needs water",
+        "Drinking water stops all sweating",
+        "Thirst only happens at night",
+        "Salt prevents thirst"
+      ],
+      "answer": 0,
       "explanation": "The passage says \"thirst often lags behind the body's actual need,\" meaning you are already low on water by the time you feel thirsty."
     },
     {
-      "id": "pc-004", "passage": "p02", "topic": "detail", "difficulty": 1,
+      "id": "pc-004",
+      "passage": "p02",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "According to the passage, how long did the Pony Express operate?",
-      "choices": ["About eighteen months", "About ten days", "About ten years", "About two months"], "answer": 0,
+      "choices": [
+        "About eighteen months",
+        "About ten days",
+        "About ten years",
+        "About two months"
+      ],
+      "answer": 0,
       "explanation": "The passage states \"the service lasted only about eighteen months.\" Ten days was how long a letter took to cross the route."
     },
     {
-      "id": "pc-005", "passage": "p02", "topic": "inference", "difficulty": 2,
+      "id": "pc-005",
+      "passage": "p02",
+      "topic": "inference",
+      "difficulty": 2,
       "question": "The passage suggests that the Pony Express closed mainly because:",
-      "choices": ["a much faster way to send messages became available", "the riders refused to keep working", "horses became too expensive", "stagecoaches were faster"], "answer": 0,
+      "choices": [
+        "a much faster way to send messages became available",
+        "the riders refused to keep working",
+        "horses became too expensive",
+        "stagecoaches were faster"
+      ],
+      "answer": 0,
       "explanation": "The passage connects the closing to the completed telegraph, which could send messages \"in minutes.\" It also notes the service was never profitable. Stagecoaches were slower, not faster."
     },
     {
-      "id": "pc-006", "passage": "p02", "topic": "vocab", "difficulty": 1,
+      "id": "pc-006",
+      "passage": "p02",
+      "topic": "vocab",
+      "difficulty": 1,
       "question": "As used in the passage, the word profitable most nearly means:",
-      "choices": ["making money", "famous", "dangerous", "fast"], "answer": 0,
+      "choices": [
+        "making money",
+        "famous",
+        "dangerous",
+        "fast"
+      ],
+      "answer": 0,
       "explanation": "Profitable means bringing in more money than it costs. \"Never profitable\" means the business always lost money."
     },
     {
-      "id": "pc-007", "passage": "p03", "topic": "main-idea", "difficulty": 1,
+      "id": "pc-007",
+      "passage": "p03",
+      "topic": "main-idea",
+      "difficulty": 1,
       "question": "Which statement best expresses the main idea of the passage?",
-      "choices": ["Smoke detectors protect people only if they are kept in working order", "Most house fires start at night", "Smoke detectors should be replaced every month", "Fire officials install detectors in most homes"], "answer": 0,
+      "choices": [
+        "Smoke detectors protect people only if they are kept in working order",
+        "Most house fires start at night",
+        "Smoke detectors should be replaced every month",
+        "Fire officials install detectors in most homes"
+      ],
+      "answer": 0,
       "explanation": "The key sentence is \"Smoke detectors give early warning, but only if they work,\" and the rest explains how to keep them working. The passage says to test them monthly, not replace them monthly."
     },
     {
-      "id": "pc-008", "passage": "p03", "topic": "detail", "difficulty": 1,
+      "id": "pc-008",
+      "passage": "p03",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "According to the passage, how often should the entire smoke detector be replaced?",
-      "choices": ["Every ten years", "Every year", "Every month", "After every fire"], "answer": 0,
+      "choices": [
+        "Every ten years",
+        "Every year",
+        "Every month",
+        "After every fire"
+      ],
+      "answer": 0,
       "explanation": "The passage says to replace \"the entire unit every ten years.\" Batteries are replaced yearly, and the detector is tested monthly. Read carefully which item each number goes with."
     },
     {
-      "id": "pc-009", "passage": "p03", "topic": "inference", "difficulty": 2,
+      "id": "pc-009",
+      "passage": "p03",
+      "topic": "inference",
+      "difficulty": 2,
       "question": "The last sentence of the passage suggests that many people:",
-      "choices": ["do not maintain their smoke detectors properly", "test their detectors every month", "have no smoke detectors at all", "have more detectors than they need"], "answer": 0,
+      "choices": [
+        "do not maintain their smoke detectors properly",
+        "test their detectors every month",
+        "have no smoke detectors at all",
+        "have more detectors than they need"
+      ],
+      "answer": 0,
       "explanation": "If \"many homes have at least one detector that does not work,\" then many people are not testing their detectors or replacing the batteries."
     },
     {
-      "id": "pc-010", "passage": "p04", "topic": "purpose", "difficulty": 2,
+      "id": "pc-010",
+      "passage": "p04",
+      "topic": "purpose",
+      "difficulty": 2,
       "question": "The author's main purpose is to:",
-      "choices": ["encourage adults to start learning a new language", "explain how children learn pronunciation", "argue that grammar is not important", "compare two different languages"], "answer": 0,
+      "choices": [
+        "encourage adults to start learning a new language",
+        "explain how children learn pronunciation",
+        "argue that grammar is not important",
+        "compare two different languages"
+      ],
+      "answer": 0,
       "explanation": "The author challenges the belief that only children can learn languages, lists adult advantages, and ends with \"Age … is a poor excuse for not starting.\" That is encouragement aimed at adults."
     },
     {
-      "id": "pc-011", "passage": "p04", "topic": "detail", "difficulty": 1,
+      "id": "pc-011",
+      "passage": "p04",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "According to the passage, children have an advantage over adults in:",
-      "choices": ["pronunciation", "grammar", "memory techniques", "early progress"], "answer": 0,
+      "choices": [
+        "pronunciation",
+        "grammar",
+        "memory techniques",
+        "early progress"
+      ],
+      "answer": 0,
       "explanation": "\"Young children pick up pronunciation more easily.\" Grammar, memory techniques, and faster early progress are listed as adult advantages."
     },
     {
-      "id": "pc-012", "passage": "p04", "topic": "inference", "difficulty": 2,
+      "id": "pc-012",
+      "passage": "p04",
+      "topic": "inference",
+      "difficulty": 2,
       "question": "By calling age \"a poor excuse,\" the author suggests that:",
-      "choices": ["age should not stop an adult from learning a language", "adults make too many excuses at work", "children learn faster in every way", "most adults already speak two languages"], "answer": 0,
+      "choices": [
+        "age should not stop an adult from learning a language",
+        "adults make too many excuses at work",
+        "children learn faster in every way",
+        "most adults already speak two languages"
+      ],
+      "answer": 0,
       "explanation": "A poor excuse is a weak reason for not doing something. The author means age is not a good reason to avoid learning a language."
     },
     {
-      "id": "pc-013", "passage": "p05", "topic": "main-idea", "difficulty": 1,
+      "id": "pc-013",
+      "passage": "p05",
+      "topic": "main-idea",
+      "difficulty": 1,
       "question": "The main idea of the passage is that:",
-      "choices": ["honeybees are most valuable to people as pollinators of crops", "honeybees make honey from pollen", "farmers raise bees mainly to sell honey", "almonds are the most important crop"], "answer": 0,
+      "choices": [
+        "honeybees are most valuable to people as pollinators of crops",
+        "honeybees make honey from pollen",
+        "farmers raise bees mainly to sell honey",
+        "almonds are the most important crop"
+      ],
+      "answer": 0,
       "explanation": "The first sentence sets it up: bees' \"greatest value … lies elsewhere\" than honey. The rest explains that value: pollinating crops."
     },
     {
-      "id": "pc-014", "passage": "p05", "topic": "inference", "difficulty": 2,
+      "id": "pc-014",
+      "passage": "p05",
+      "topic": "inference",
+      "difficulty": 2,
       "question": "Based on the passage, farmers rent hives during the blooming season because:",
-      "choices": ["the bees help the crops produce fruit", "they want to sell the honey", "the bees protect flowers from other insects", "hives are cheaper in the spring"], "answer": 0,
+      "choices": [
+        "the bees help the crops produce fruit",
+        "they want to sell the honey",
+        "the bees protect flowers from other insects",
+        "hives are cheaper in the spring"
+      ],
+      "answer": 0,
       "explanation": "The passage says crops depend on bee pollination to produce fruit and seeds, and the last sentence begins \"For this reason,\" linking the hive rentals to pollination."
     },
     {
-      "id": "pc-015", "passage": "p06", "topic": "detail", "difficulty": 1,
+      "id": "pc-015",
+      "passage": "p06",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "According to the passage, declination is:",
-      "choices": ["the difference between magnetic north and true north", "the direction of the North Pole", "a type of military map", "the distance covered on a long march"], "answer": 0,
+      "choices": [
+        "the difference between magnetic north and true north",
+        "the direction of the North Pole",
+        "a type of military map",
+        "the distance covered on a long march"
+      ],
+      "answer": 0,
       "explanation": "\"The difference between the two, called declination …\" — the two being magnetic north and true north."
     },
     {
-      "id": "pc-016", "passage": "p06", "topic": "vocab", "difficulty": 2,
+      "id": "pc-016",
+      "passage": "p06",
+      "topic": "vocab",
+      "difficulty": 2,
       "question": "As used in the passage, the word bearing most nearly means:",
-      "choices": ["direction", "weight", "behavior", "patience"], "answer": 0,
+      "choices": [
+        "direction",
+        "weight",
+        "behavior",
+        "patience"
+      ],
+      "answer": 0,
       "explanation": "In navigation, a bearing is the direction you travel, measured as an angle on a compass. Bearing can mean other things (such as how someone carries themselves), but context here is about navigation."
     },
     {
-      "id": "pc-017", "passage": "p06", "topic": "inference", "difficulty": 2,
+      "id": "pc-017",
+      "passage": "p06",
+      "topic": "inference",
+      "difficulty": 2,
       "question": "The passage implies that ignoring declination causes the biggest errors when a person:",
-      "choices": ["travels a long distance", "reads a small map", "walks at night", "uses a new compass"], "answer": 0,
+      "choices": [
+        "travels a long distance",
+        "reads a small map",
+        "walks at night",
+        "uses a new compass"
+      ],
+      "answer": 0,
       "explanation": "The last sentence says ignoring declination can put you \"hundreds of meters off course over a long march.\" A small angle error grows the farther you go."
     },
     {
-      "id": "pc-018", "passage": "p07", "topic": "main-idea", "difficulty": 1,
+      "id": "pc-018",
+      "passage": "p07",
+      "topic": "main-idea",
+      "difficulty": 1,
       "question": "Which statement best summarizes the passage?",
-      "choices": ["Getting enough sleep on a regular schedule matters for health and safety", "Sleeping late on weekends makes up for lost sleep", "Most accidents happen on weekends", "Adults need more sleep than children"], "answer": 0,
+      "choices": [
+        "Getting enough sleep on a regular schedule matters for health and safety",
+        "Sleeping late on weekends makes up for lost sleep",
+        "Most accidents happen on weekends",
+        "Adults need more sleep than children"
+      ],
+      "answer": 0,
       "explanation": "The passage lists the dangers of short sleep and recommends a consistent schedule. It directly says weekend sleep does not fully make up for lost sleep, so the second choice is wrong."
     },
     {
-      "id": "pc-019", "passage": "p07", "topic": "detail", "difficulty": 1,
+      "id": "pc-019",
+      "passage": "p07",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "What do experts recommend, according to the passage?",
-      "choices": ["Going to bed and waking up at about the same time every day", "Sleeping late on weekends", "Sleeping no more than seven hours", "Taking naps at work"], "answer": 0,
+      "choices": [
+        "Going to bed and waking up at about the same time every day",
+        "Sleeping late on weekends",
+        "Sleeping no more than seven hours",
+        "Taking naps at work"
+      ],
+      "answer": 0,
       "explanation": "The last sentence: \"Experts recommend going to bed and waking up at about the same time every day, even on days off.\""
     },
     {
-      "id": "pc-020", "passage": "p08", "topic": "detail", "difficulty": 1,
+      "id": "pc-020",
+      "passage": "p08",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "According to the notice, what must a driver do if a vehicle is damaged?",
-      "choices": ["Report it on Form 12 before leaving the lot", "Return the vehicle with a full tank", "Sign the vehicle out after 0800", "Wait thirty days before driving again"], "answer": 0,
+      "choices": [
+        "Report it on Form 12 before leaving the lot",
+        "Return the vehicle with a full tank",
+        "Sign the vehicle out after 0800",
+        "Wait thirty days before driving again"
+      ],
+      "answer": 0,
       "explanation": "\"Any damage must be reported on Form 12 before the driver leaves the lot.\" Note the fuel rule is half a tank, not a full tank."
     },
     {
-      "id": "pc-021", "passage": "p08", "topic": "purpose", "difficulty": 1,
+      "id": "pc-021",
+      "passage": "p08",
+      "topic": "purpose",
+      "difficulty": 1,
       "question": "The main purpose of the notice is to:",
-      "choices": ["explain new rules for using vehicles", "announce the opening of a motor pool", "describe how to repair vehicles", "list drivers who lost their privileges"], "answer": 0,
+      "choices": [
+        "explain new rules for using vehicles",
+        "announce the opening of a motor pool",
+        "describe how to repair vehicles",
+        "list drivers who lost their privileges"
+      ],
+      "answer": 0,
       "explanation": "Everything in the notice is a rule about signing out, fueling, and reporting damage, plus the penalty for breaking those rules."
     },
     {
-      "id": "pc-022", "passage": "p08", "topic": "detail", "difficulty": 1,
+      "id": "pc-022",
+      "passage": "p08",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "What happens to drivers who do not follow the procedures?",
-      "choices": ["They lose vehicle privileges for thirty days", "They must pay for a full tank of fuel", "They must fill out Form 12", "They must report on Monday"], "answer": 0,
+      "choices": [
+        "They lose vehicle privileges for thirty days",
+        "They must pay for a full tank of fuel",
+        "They must fill out Form 12",
+        "They must report on Monday"
+      ],
+      "answer": 0,
       "explanation": "The last sentence states the penalty: \"Drivers who do not follow these procedures will lose vehicle privileges for thirty days.\""
     },
     {
-      "id": "pc-023", "passage": "p09", "topic": "detail", "difficulty": 1,
+      "id": "pc-023",
+      "passage": "p09",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "According to the passage, why do you see lightning before you hear thunder?",
-      "choices": ["Light travels faster than sound", "Thunder forms after the lightning is over", "The flash is closer to you than the sound", "Ears react more slowly than eyes"], "answer": 0,
+      "choices": [
+        "Light travels faster than sound",
+        "Thunder forms after the lightning is over",
+        "The flash is closer to you than the sound",
+        "Ears react more slowly than eyes"
+      ],
+      "answer": 0,
       "explanation": "\"Because light travels much faster than sound, you see the flash before you hear the thunder.\""
     },
     {
-      "id": "pc-024", "passage": "p09", "topic": "inference", "difficulty": 2,
+      "id": "pc-024",
+      "passage": "p09",
+      "topic": "inference",
+      "difficulty": 2,
       "question": "Using the method in the passage, if you count 15 seconds between the flash and the thunder, about how far away is the strike?",
-      "choices": ["3 miles", "5 miles", "15 miles", "75 miles"], "answer": 0,
+      "choices": [
+        "3 miles",
+        "5 miles",
+        "15 miles",
+        "75 miles"
+      ],
+      "answer": 0,
       "explanation": "The passage says to divide the seconds by five: 15 ÷ 5 = 3 miles. Since 15 seconds is less than 30, the storm is also close enough to be dangerous."
     },
     {
-      "id": "pc-025", "passage": "p10", "topic": "inference", "difficulty": 2,
+      "id": "pc-025",
+      "passage": "p10",
+      "topic": "inference",
+      "difficulty": 2,
       "question": "Based on the passage, the Navajo language made a good code mainly because:",
-      "choices": ["few people outside the Navajo community understood it", "it was easy to write down", "machines could translate it quickly", "the enemy already used it"], "answer": 0,
+      "choices": [
+        "few people outside the Navajo community understood it",
+        "it was easy to write down",
+        "machines could translate it quickly",
+        "the enemy already used it"
+      ],
+      "answer": 0,
       "explanation": "The passage says the language \"had no written form and was spoken by very few outsiders,\" so the enemy had no way to learn it."
     },
     {
-      "id": "pc-026", "passage": "p10", "topic": "vocab", "difficulty": 1,
+      "id": "pc-026",
+      "passage": "p10",
+      "topic": "vocab",
+      "difficulty": 1,
       "question": "As used in the passage, decode most nearly means:",
-      "choices": ["turn a coded message back into plain language", "write a new message", "send a message by radio", "break a promise"], "answer": 0,
+      "choices": [
+        "turn a coded message back into plain language",
+        "write a new message",
+        "send a message by radio",
+        "break a promise"
+      ],
+      "answer": 0,
       "explanation": "To encode is to put a message into code; to decode is to turn it back into ordinary language. The prefix de- means to reverse or undo."
     },
     {
-      "id": "pc-027", "passage": "p10", "topic": "main-idea", "difficulty": 1,
+      "id": "pc-027",
+      "passage": "p10",
+      "topic": "main-idea",
+      "difficulty": 1,
       "question": "Which statement best expresses the main idea of the passage?",
-      "choices": ["Navajo code talkers gave the Marines a fast and secure way to send messages", "Machines were the fastest way to send wartime messages", "The Navajo language was invented during World War II", "The Marine Corps created a new written language"], "answer": 0,
+      "choices": [
+        "Navajo code talkers gave the Marines a fast and secure way to send messages",
+        "Machines were the fastest way to send wartime messages",
+        "The Navajo language was invented during World War II",
+        "The Marine Corps created a new written language"
+      ],
+      "answer": 0,
       "explanation": "The passage describes the need for secure messages, how the Navajo code met it, its speed, and that it was never broken. The language already existed; it was not invented for the war."
     },
     {
-      "id": "pc-028", "passage": "p11", "topic": "purpose", "difficulty": 2,
+      "id": "pc-028",
+      "passage": "p11",
+      "topic": "purpose",
+      "difficulty": 2,
       "question": "The author's main purpose is to:",
-      "choices": ["warn readers about the cost of carrying a credit card balance", "convince readers never to use credit cards", "explain how to apply for a credit card", "compare interest rates at different banks"], "answer": 0,
+      "choices": [
+        "warn readers about the cost of carrying a credit card balance",
+        "convince readers never to use credit cards",
+        "explain how to apply for a credit card",
+        "compare interest rates at different banks"
+      ],
+      "answer": 0,
       "explanation": "The author calls cards \"a useful tool,\" so they are not saying never use them. The focus is the expense of carrying a balance and how to avoid it."
     },
     {
-      "id": "pc-029", "passage": "p11", "topic": "detail", "difficulty": 1,
+      "id": "pc-029",
+      "passage": "p11",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "According to the passage, how can a cardholder avoid interest charges entirely?",
-      "choices": ["Pay the full balance every month", "Pay the minimum every month", "Keep the balance under $1,000", "Use the card only once a year"], "answer": 0,
+      "choices": [
+        "Pay the full balance every month",
+        "Pay the minimum every month",
+        "Keep the balance under $1,000",
+        "Use the card only once a year"
+      ],
+      "answer": 0,
       "explanation": "The last sentence: \"Paying the full balance every month avoids interest charges entirely.\" Paying only the minimum is what makes debt expensive."
     },
     {
-      "id": "pc-030", "passage": "p12", "topic": "detail", "difficulty": 1,
+      "id": "pc-030",
+      "passage": "p12",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "According to the passage, a warm-up:",
-      "choices": ["raises body temperature and increases blood flow to the muscles", "guarantees that no injury will happen", "can replace the workout itself", "lowers the heart rate before exercise"], "answer": 0,
+      "choices": [
+        "raises body temperature and increases blood flow to the muscles",
+        "guarantees that no injury will happen",
+        "can replace the workout itself",
+        "lowers the heart rate before exercise"
+      ],
+      "answer": 0,
       "explanation": "The first sentence says this directly. Note the passage says a warm-up \"may reduce the risk of injury,\" not that it guarantees safety."
     },
     {
-      "id": "pc-031", "passage": "p12", "topic": "inference", "difficulty": 2,
+      "id": "pc-031",
+      "passage": "p12",
+      "topic": "inference",
+      "difficulty": 2,
       "question": "The passage suggests that advice about stretching before exercise:",
-      "choices": ["has changed over time", "has always been the same", "was never widely followed", "is required by law"], "answer": 0,
+      "choices": [
+        "has changed over time",
+        "has always been the same",
+        "was never widely followed",
+        "is required by law"
+      ],
+      "answer": 0,
       "explanation": "Long stretches were \"once standard advice\" but are \"now considered less useful,\" which shows the advice has changed."
     },
     {
-      "id": "pc-032", "passage": "p13", "topic": "main-idea", "difficulty": 1,
+      "id": "pc-032",
+      "passage": "p13",
+      "topic": "main-idea",
+      "difficulty": 1,
       "question": "The main idea of the passage is that:",
-      "choices": ["recycling aluminum saves energy, and the metal can be reused many times", "aluminum cans are made from raw ore", "recycled cans take years to return to stores", "new cans are better quality than recycled cans"], "answer": 0,
+      "choices": [
+        "recycling aluminum saves energy, and the metal can be reused many times",
+        "aluminum cans are made from raw ore",
+        "recycled cans take years to return to stores",
+        "new cans are better quality than recycled cans"
+      ],
+      "answer": 0,
       "explanation": "All three sentences describe benefits of recycling aluminum: energy savings, no loss of quality, and quick reuse. The passage says recycled aluminum does not lose quality."
     },
     {
-      "id": "pc-033", "passage": "p13", "topic": "detail", "difficulty": 1,
+      "id": "pc-033",
+      "passage": "p13",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "According to the passage, recycling an aluminum can saves about how much of the energy needed to make a new can from ore?",
-      "choices": ["95 percent", "60 percent", "50 percent", "2 percent"], "answer": 0,
+      "choices": [
+        "95 percent",
+        "60 percent",
+        "50 percent",
+        "2 percent"
+      ],
+      "answer": 0,
       "explanation": "The first sentence states \"about 95 percent.\""
     },
     {
-      "id": "pc-034", "passage": "p14", "topic": "purpose", "difficulty": 2,
+      "id": "pc-034",
+      "passage": "p14",
+      "topic": "purpose",
+      "difficulty": 2,
       "question": "The author's attitude toward volunteer firefighters is best described as:",
-      "choices": ["admiring", "critical", "uninterested", "amused"], "answer": 0,
+      "choices": [
+        "admiring",
+        "critical",
+        "uninterested",
+        "amused"
+      ],
+      "answer": 0,
       "explanation": "The author praises their sacrifice and says their dedication \"deserves far more recognition.\" Those are words of admiration."
     },
     {
-      "id": "pc-035", "passage": "p14", "topic": "detail", "difficulty": 1,
+      "id": "pc-035",
+      "passage": "p14",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "According to the passage, volunteer firefighters:",
-      "choices": ["receive little or no pay", "are trained by paid fire departments", "answer calls only during the day", "mostly live in large cities"], "answer": 0,
+      "choices": [
+        "receive little or no pay",
+        "are trained by paid fire departments",
+        "answer calls only during the day",
+        "mostly live in large cities"
+      ],
+      "answer": 0,
       "explanation": "\"They receive little or no pay.\" The passage says they answer calls \"at all hours\" and serve small towns."
     },
     {
-      "id": "pc-036", "passage": "p14", "topic": "vocab", "difficulty": 1,
+      "id": "pc-036",
+      "passage": "p14",
+      "topic": "vocab",
+      "difficulty": 1,
       "question": "As used in the passage, dedication most nearly means:",
-      "choices": ["commitment", "payment", "training", "location"], "answer": 0,
+      "choices": [
+        "commitment",
+        "payment",
+        "training",
+        "location"
+      ],
+      "answer": 0,
       "explanation": "Dedication means devotion or commitment to a task or cause, shown here by leaving jobs and families to answer calls."
     },
     {
-      "id": "pc-037", "passage": "p15", "topic": "detail", "difficulty": 1,
+      "id": "pc-037",
+      "passage": "p15",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "According to the passage, where can a driver find the correct tire pressure?",
-      "choices": ["On a sticker inside the driver's door", "On the side of the tire", "In the owner's monthly bill", "At any gas station"], "answer": 0,
+      "choices": [
+        "On a sticker inside the driver's door",
+        "On the side of the tire",
+        "In the owner's monthly bill",
+        "At any gas station"
+      ],
+      "answer": 0,
       "explanation": "\"The correct pressure is listed on a sticker inside the driver's door.\" The number on the tire is the maximum, not the recommended pressure."
     },
     {
-      "id": "pc-038", "passage": "p15", "topic": "inference", "difficulty": 2,
+      "id": "pc-038",
+      "passage": "p15",
+      "topic": "inference",
+      "difficulty": 2,
       "question": "Based on the passage, a driver who fills tires to the number printed on the tire would most likely:",
-      "choices": ["put in more air than recommended", "put in exactly the recommended amount", "underinflate the tires", "damage the door sticker"], "answer": 0,
+      "choices": [
+        "put in more air than recommended",
+        "put in exactly the recommended amount",
+        "underinflate the tires",
+        "damage the door sticker"
+      ],
+      "answer": 0,
       "explanation": "The tire shows the maximum pressure it can safely hold. Since that is higher than the recommended pressure, filling to it means using more air than recommended."
     },
     {
-      "id": "pc-039", "passage": "p16", "topic": "detail", "difficulty": 1,
+      "id": "pc-039",
+      "passage": "p16",
+      "topic": "detail",
+      "difficulty": 1,
       "question": "According to the passage, bamboo is a type of:",
-      "choices": ["grass", "tree", "vine", "fern"], "answer": 0,
+      "choices": [
+        "grass",
+        "tree",
+        "vine",
+        "fern"
+      ],
+      "answer": 0,
       "explanation": "\"Despite its treelike height, bamboo is actually a type of grass.\" The word despite signals a surprising fact: it looks like a tree but is not."
     },
     {
-      "id": "pc-040", "passage": "p16", "topic": "main-idea", "difficulty": 1,
+      "id": "pc-040",
+      "passage": "p16",
+      "topic": "main-idea",
+      "difficulty": 1,
       "question": "Which statement best summarizes the passage?",
-      "choices": ["Bamboo is a fast-growing, strong grass that is widely used for building", "Bamboo is used only to make furniture", "Bamboo is the tallest tree in Asia", "Most buildings in Asia are made entirely of bamboo"], "answer": 0,
+      "choices": [
+        "Bamboo is a fast-growing, strong grass that is widely used for building",
+        "Bamboo is used only to make furniture",
+        "Bamboo is the tallest tree in Asia",
+        "Most buildings in Asia are made entirely of bamboo"
+      ],
+      "answer": 0,
       "explanation": "The passage covers bamboo's fast growth, that it is a grass, and its use as a building material. The other choices are too narrow, incorrect, or exaggerated."
+    },
+    {
+      "id": "pc-041",
+      "passage": "p17",
+      "topic": "main-idea",
+      "difficulty": 1,
+      "question": "What is the main idea of the passage?",
+      "choices": [
+        "Maria saved money carefully so she could buy a car",
+        "Maria liked packing her own lunch",
+        "Maria's job paid very well",
+        "Maria bought a brand-new car"
+      ],
+      "answer": 0,
+      "explanation": "Every sentence is about how Maria saved for a car. Watch the details: she bought a used car, not a new one."
+    },
+    {
+      "id": "pc-042",
+      "passage": "p17",
+      "topic": "detail",
+      "difficulty": 1,
+      "question": "According to the passage, how did Maria save money?",
+      "choices": [
+        "She put half of each paycheck into savings",
+        "She borrowed money from her parents",
+        "She sold her old bike",
+        "She worked a second job"
+      ],
+      "answer": 0,
+      "explanation": "The second sentence says she put half of her paycheck into a savings account each week. The other choices are never mentioned."
+    },
+    {
+      "id": "pc-043",
+      "passage": "p18",
+      "topic": "detail",
+      "difficulty": 1,
+      "question": "According to the passage, why do dogs pant?",
+      "choices": [
+        "To cool down",
+        "Because they are hungry",
+        "To show they are angry",
+        "To clean their teeth"
+      ],
+      "answer": 0,
+      "explanation": "The first sentence answers it directly: \"Dogs pant to cool down.\""
+    },
+    {
+      "id": "pc-044",
+      "passage": "p18",
+      "topic": "detail",
+      "difficulty": 1,
+      "question": "According to the passage, how are dogs different from people?",
+      "choices": [
+        "Dogs have far fewer sweat glands in their skin",
+        "Dogs do not need water",
+        "Dogs cannot feel heat",
+        "Dogs sweat more than people"
+      ],
+      "answer": 0,
+      "explanation": "\"Unlike people, dogs have very few sweat glands in their skin.\" The word unlike signals a difference."
+    },
+    {
+      "id": "pc-045",
+      "passage": "p19",
+      "topic": "detail",
+      "difficulty": 1,
+      "question": "When will the library open again?",
+      "choices": [
+        "Tuesday at 9:00 a.m.",
+        "Monday at 9:00 a.m.",
+        "Tuesday at noon",
+        "Wednesday morning"
+      ],
+      "answer": 0,
+      "explanation": "\"It will open again on Tuesday at 9:00 a.m.\" Monday is the day it is closed."
+    },
+    {
+      "id": "pc-046",
+      "passage": "p19",
+      "topic": "inference",
+      "difficulty": 1,
+      "question": "A person has a book due on Monday and returns it on Tuesday. What will most likely happen?",
+      "choices": [
+        "They won't pay a late fee",
+        "They will pay a late fee",
+        "They will lose their library card",
+        "They will have to buy the book"
+      ],
+      "answer": 0,
+      "explanation": "The last sentence says books due Monday may be returned Tuesday without a late fee."
+    },
+    {
+      "id": "pc-047",
+      "passage": "p20",
+      "topic": "purpose",
+      "difficulty": 1,
+      "question": "What is the passage mainly doing?",
+      "choices": [
+        "Correcting a false belief about bats and explaining how they find food",
+        "Warning that bats are dangerous",
+        "Describing where bats live",
+        "Arguing that bats should be protected"
+      ],
+      "answer": 0,
+      "explanation": "It opens with a myth (\"bats are blind\"), says it isn't true, then explains echolocation. Nothing is said about danger, habitats or protection."
+    },
+    {
+      "id": "pc-048",
+      "passage": "p20",
+      "topic": "vocab",
+      "difficulty": 1,
+      "question": "As used in the passage, echolocation means:",
+      "choices": [
+        "Finding things by listening to echoes",
+        "Seeing in the dark with special eyes",
+        "Flying very fast",
+        "Sleeping upside down"
+      ],
+      "answer": 0,
+      "explanation": "The passage defines it right after the colon: bats make sounds and listen for the echoes. Definitions often follow a colon or a comma."
+    },
+    {
+      "id": "pc-049",
+      "passage": "p21",
+      "topic": "inference",
+      "difficulty": 1,
+      "question": "Why did Sergeant Lee tell the recruits to drink water before they were thirsty?",
+      "choices": [
+        "Feeling thirsty means the body is already low on water",
+        "The march would be very short",
+        "The water was about to run out",
+        "Drinking water makes people march faster"
+      ],
+      "answer": 0,
+      "explanation": "Her own words explain it: \"By the time you feel thirsty, your body is already low on water.\""
+    },
+    {
+      "id": "pc-050",
+      "passage": "p21",
+      "topic": "detail",
+      "difficulty": 1,
+      "question": "Who gave the advice about drinking water?",
+      "choices": [
+        "Sergeant Lee",
+        "The recruits",
+        "A doctor",
+        "A captain"
+      ],
+      "answer": 0,
+      "explanation": "The first sentence says Sergeant Lee told the recruits. The recruits received the advice; they didn't give it."
+    },
+    {
+      "id": "pc-051",
+      "passage": "p22",
+      "topic": "purpose",
+      "difficulty": 1,
+      "question": "What is the author's main purpose?",
+      "choices": [
+        "To persuade readers to wear seat belts",
+        "To explain how cars are built",
+        "To describe a specific crash",
+        "To compare different cars"
+      ],
+      "answer": 0,
+      "explanation": "The passage gives reasons to buckle up and points out how easy it is. Giving reasons to do something is persuading."
+    },
+    {
+      "id": "pc-052",
+      "passage": "p22",
+      "topic": "detail",
+      "difficulty": 1,
+      "question": "According to the passage, a seat belt keeps you from:",
+      "choices": [
+        "Being thrown against the dashboard or out of the vehicle",
+        "Driving too fast",
+        "Getting a ticket",
+        "Running out of gas"
+      ],
+      "answer": 0,
+      "explanation": "The second sentence lists exactly these two dangers."
+    },
+    {
+      "id": "pc-053",
+      "passage": "p23",
+      "topic": "main-idea",
+      "difficulty": 1,
+      "question": "What is the main idea of the passage?",
+      "choices": [
+        "Honey can last a very long time without spoiling",
+        "Honey is made by bees",
+        "Honey should be kept in the refrigerator",
+        "Bacteria are good for honey"
+      ],
+      "answer": 0,
+      "explanation": "The passage is about why honey almost never spoils. \"Made by bees\" is true, but the passage never says it, so it can't be the main idea."
+    },
+    {
+      "id": "pc-054",
+      "passage": "p23",
+      "topic": "detail",
+      "difficulty": 1,
+      "question": "According to the passage, why doesn't honey spoil easily?",
+      "choices": [
+        "Its low water content and acidity make it hard for bacteria to grow",
+        "It is kept cold",
+        "Bees add preservatives",
+        "It is cooked before it is sold"
+      ],
+      "answer": 0,
+      "explanation": "The second sentence gives both reasons: very little water and natural acidity."
+    },
+    {
+      "id": "pc-055",
+      "passage": "p24",
+      "topic": "detail",
+      "difficulty": 1,
+      "question": "According to the notice, what must guests do?",
+      "choices": [
+        "Sign in at the front desk",
+        "Pay a fee",
+        "Show two forms of ID",
+        "Arrive before 5:00 a.m."
+      ],
+      "answer": 0,
+      "explanation": "\"Guests must be at least 16 years old and must sign in at the front desk.\" A fee and IDs are never mentioned."
+    },
+    {
+      "id": "pc-056",
+      "passage": "p24",
+      "topic": "inference",
+      "difficulty": 1,
+      "question": "A service member wants to bring a 14-year-old cousin to the gym. Based on the notice:",
+      "choices": [
+        "The cousin can't come as a guest",
+        "The cousin can come after signing in",
+        "The cousin can come after 10:00 p.m.",
+        "The cousin can come with a second guest"
+      ],
+      "answer": 0,
+      "explanation": "Guests must be at least 16, so a 14-year-old can't be a guest, even after signing in."
+    },
+    {
+      "id": "pc-057",
+      "passage": "p25",
+      "topic": "main-idea",
+      "difficulty": 1,
+      "question": "What is the main idea of the passage?",
+      "choices": [
+        "Practicing helped Kevin pass his driving test",
+        "Kevin's uncle teaches driving for a living",
+        "Kevin never uses his turn signal",
+        "Driving tests are too hard"
+      ],
+      "answer": 0,
+      "explanation": "Kevin failed, practiced for a month and then passed easily. The passage is about practice paying off."
+    },
+    {
+      "id": "pc-058",
+      "passage": "p25",
+      "topic": "detail",
+      "difficulty": 1,
+      "question": "According to the passage, why did Kevin fail his first driving test?",
+      "choices": [
+        "He didn't signal before changing lanes",
+        "He drove too fast",
+        "He hit a curb",
+        "He arrived late"
+      ],
+      "answer": 0,
+      "explanation": "The first sentence says he \"forgot to signal before changing lanes.\""
+    },
+    {
+      "id": "pc-059",
+      "passage": "p26",
+      "topic": "detail",
+      "difficulty": 1,
+      "question": "According to the passage, the new trees will help:",
+      "choices": [
+        "Keep soil from washing away",
+        "Lower taxes",
+        "Bring in tourists",
+        "Reduce traffic"
+      ],
+      "answer": 0,
+      "explanation": "The passage lists two benefits: shade in summer, and keeping soil from washing away when it rains."
+    },
+    {
+      "id": "pc-060",
+      "passage": "p26",
+      "topic": "vocab",
+      "difficulty": 1,
+      "question": "As used in the passage, provide most nearly means:",
+      "choices": [
+        "Give",
+        "Take away",
+        "Sell",
+        "Hide"
+      ],
+      "answer": 0,
+      "explanation": "The trees will provide shade, meaning they will give shade. Test it by swapping the word in: \"The trees will give shade.\""
     }
   ]
 }

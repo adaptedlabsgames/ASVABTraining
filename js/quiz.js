@@ -35,12 +35,27 @@ function priority(q, history) {
   return 2; // got it right last time
 }
 
-export function pickQuestions(questions, { topics, count, focusWeak }, history) {
-  let pool = shuffle(questions.filter((q) => topics.includes(q.topic)));
-  if (focusWeak) {
-    // Array.prototype.sort is stable, so order stays random within each group.
-    pool.sort((a, b) => priority(a, history) - priority(b, history));
-  }
+// level: 'easy-first' (all levels, easiest first), 'mixed' (all levels,
+// random order) or 1 / 2 / 3 (only that difficulty).
+export const LEVELS = [
+  { value: 'easy-first', label: 'Easy first' },
+  { value: '1', label: 'Easy' },
+  { value: '2', label: 'Medium' },
+  { value: '3', label: 'Hard' },
+  { value: 'mixed', label: 'Mixed' },
+];
+
+export function matchingQuestions(questions, { topics, level }) {
+  const only = ['1', '2', '3'].includes(String(level)) ? Number(level) : null;
+  return questions.filter((q) => topics.includes(q.topic) && (only == null || q.difficulty === only));
+}
+
+export function pickQuestions(questions, { topics, count, focusWeak, level = 'easy-first' }, history) {
+  const pool = shuffle(matchingQuestions(questions, { topics, level }));
+  const weak = (q) => (focusWeak ? priority(q, history) : 0);
+  const ease = (q) => (level === 'easy-first' ? q.difficulty : 0);
+  // Array.prototype.sort is stable, so order stays random within each group.
+  pool.sort((a, b) => weak(a) - weak(b) || ease(a) - ease(b));
   return count ? pool.slice(0, count) : pool;
 }
 

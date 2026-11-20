@@ -1,5 +1,5 @@
 import { getSubtest } from './config.js';
-import { loadBank, pickQuestions, prepare, shuffle } from './quiz.js';
+import { loadBank, pickQuestions, matchingQuestions, prepare, shuffle, LEVELS } from './quiz.js';
 import { load, recordAnswer, recordSession, accuracy } from './storage.js';
 import { el, mount } from './dom.js';
 
@@ -16,8 +16,9 @@ const banks = {}; // loaded banks, cached by subtest id
 // Another page (such as Progress) can ask practice to open with chosen
 // topics or a specific list of questions. Read once, then cleared.
 let pending = null;
-export function presetPractice(subtestId, { topics = null, questionIds = null } = {}) {
-  pending = { subtestId, topics, questionIds };
+let lastLevel = 'easy-first'; // remembered between subtests during a visit
+export function presetPractice(subtestId, { topics = null, questionIds = null, level = null } = {}) {
+  pending = { subtestId, topics, questionIds, level };
 }
 
 // Called when the router shows another view, so a stale quiz stops
@@ -49,7 +50,7 @@ export async function renderPractice(container, subtestId) {
     );
     return;
   }
-  prefs = { topics: Object.keys(bank.topics), count: 10, focusWeak: true };
+  prefs = { topics: Object.keys(bank.topics), count: 10, focusWeak: true, level: lastLevel };
   const preset = pending && pending.subtestId === wanted.id ? pending : null;
   pending = null;
   if (preset?.questionIds) {
@@ -60,6 +61,7 @@ export async function renderPractice(container, subtestId) {
       return;
     }
   }
+  if (preset?.level) prefs.level = preset.level;
   if (preset?.topics) {
     const valid = preset.topics.filter((t) => bank.topics[t]);
     if (valid.length) prefs.topics = valid;
@@ -108,6 +110,7 @@ function renderSetup() {
   );
 
   const start = el('button', { class: 'btn primary', type: 'submit' }, 'Start practice');
+  const matchNote = el('span', { class: 'small muted', role: 'status', style: 'align-self:center' });
   const form = el('form', { class: 'card' },
     el('fieldset', {},
       el('legend', {}, 'Topics'),
@@ -122,6 +125,16 @@ function renderSetup() {
       el('legend', {}, 'How many'),
       el('div', { class: 'segmented' }, countRadios),
     ),
+    el('fieldset', {},
+      el('legend', {}, 'Difficulty'),
+      el('div', { class: 'segmented' }, LEVELS.map((l) =>
+        el('label', {},
+          el('input', { type: 'radio', name: 'level', value: l.value, checked: String(prefs.level) === l.value }),
+          el('span', {}, l.label),
+        ))),
+      el('p', { class: 'small muted', style: 'margin:8px 0 0' },
+        '“Easy first” uses every level but starts with the easiest questions. A good place to start.'),
+    ),
     el('label', { class: 'check' },
       el('input', { type: 'checkbox', name: 'focusWeak', checked: prefs.focusWeak }),
       el('span', { class: 'label' },
@@ -130,7 +143,7 @@ function renderSetup() {
         el('span', { class: 'small muted' }, 'Questions you missed last time or haven’t seen yet come first.'),
       ),
     ),
-    el('div', { class: 'actions' }, start),
+    el('div', { class: 'actions' }, start, matchNote),
   );
 
   function selectedTopics() {
@@ -140,8 +153,13 @@ function renderSetup() {
     form.querySelectorAll('input[name=topic]').forEach((i) => { i.checked = on; });
     sync();
   }
+  const selectedLevel = () => form.querySelector('input[name=level]:checked').value;
   function sync() {
-    start.disabled = selectedTopics().length === 0;
+    const n = matchingQuestions(bank.questions, { topics: selectedTopics(), level: selectedLevel() }).length;
+    start.disabled = n === 0;
+    matchNote.textContent = selectedTopics().length === 0
+      ? 'Pick at least one topic.'
+      : n === 0 ? 'No questions match. Try another difficulty.' : `${n} question${n === 1 ? '' : 's'} match`;
   }
   form.addEventListener('change', sync);
   form.addEventListener('submit', (e) => {
@@ -150,7 +168,9 @@ function renderSetup() {
       topics: selectedTopics(),
       count: Number(form.querySelector('input[name=count]:checked').value),
       focusWeak: form.querySelector('input[name=focusWeak]').checked,
+      level: selectedLevel(),
     };
+    lastLevel = prefs.level;
     const picked = pickQuestions(bank.questions, prefs, load().questions);
     startSession(picked);
   });
