@@ -17,7 +17,12 @@
       "topic": "percents",
       "difficulty": 1,
       "question": "A jacket that normally costs $80 is on sale for 25% off. What is the sale price?",
-      "choices": ["$55", "$60", "$64", "$20"],
+      "choices": [
+        "$55",
+        "$60",
+        "$64",
+        "$20"
+      ],
       "answer": 1,
       "explanation": "25% of $80 = 0.25 × 80 = $20 off.\n$80 − $20 = $60.\nShortcut: paying 75% of the price, 0.75 × 80 = $60."
     },
@@ -26,7 +31,12 @@
       "topic": "percents",
       "difficulty": 1,
       "question": "A class has 30 students, and 40% of them are girls. How many students are boys?",
-      "choices": ["12", "15", "18", "20"],
+      "choices": [
+        "12",
+        "15",
+        "18",
+        "20"
+      ],
       "answer": 2,
       "explanation": "If 40% are girls, then 100% − 40% = 60% are boys.\n0.60 × 30 = 18 boys.\n(12 is the number of girls — read carefully which group is asked for.)"
     },
@@ -35,7 +45,12 @@
       "topic": "percents",
       "difficulty": 2,
       "question": "A town's population grew from 2,000 to 2,500. By what percent did the population increase?",
-      "choices": ["20%", "25%", "50%", "500%"],
+      "choices": [
+        "20%",
+        "25%",
+        "50%",
+        "500%"
+      ],
       "answer": 1,
       "explanation": "Percent change = (change ÷ original) × 100.\nChange = 2,500 − 2,000 = 500.\n500 ÷ 2,000 = 0.25 = 25%.\n(Dividing by the new number, 500 ÷ 2,500 = 20%, is a common mistake.)"
     },
@@ -44,7 +59,12 @@
       "topic": "percents",
       "difficulty": 2,
       "question": "A worker earns $15.00 per hour and receives a 6% raise. What is the new hourly wage?",
-      "choices": ["$15.06", "$15.60", "$15.90", "$16.50"],
+      "choices": [
+        "$15.06",
+        "$15.60",
+        "$15.90",
+        "$16.50"
+      ],
       "answer": 2,
       "explanation": "6% of $15.00 = 0.06 × 15 = $0.90.\n$15.00 + $0.90 = $15.90."
     },
@@ -53,7 +73,12 @@
       "topic": "percents",
       "difficulty": 1,
       "question": "18 is what percent of 72?",
-      "choices": ["18%", "20%", "25%", "40%"],
+      "choices": [
+        "18%",
+        "20%",
+        "25%",
+        "40%"
+      ],
       "answer": 2,
       "explanation": "Percent = part ÷ whole × 100.\n18 ÷ 72 = 0.25 = 25%.\n(Check: 72 ÷ 4 = 18, and one-fourth is 25%.)"
     },
@@ -62,7 +87,12 @@
       "topic": "percents",
       "difficulty": 1,
       "question": "A recruit answered 42 out of 50 questions correctly on a quiz. What percent did the recruit get correct?",
-      "choices": ["82%", "84%", "86%", "88%"],
+      "choices": [
+        "82%",
+        "84%",
+        "86%",
+        "88%"
+      ],
       "answer": 1,
       "explanation": "42 ÷ 50 = 0.84 = 84%.\nShortcut: multiply both numbers by 2 to get 84 out of 100."
     },
@@ -71,7 +101,12 @@
       "topic": "percents",
       "difficulty": 3,
       "question": "A $50 item has its price raised by 20%. Later, the new price is lowered by 20%. What is the final price?",
-      "choices": ["$48", "$50", "$52", "$40"],
+      "choices": [
+        "$48",
+        "$50",
+        "$52",
+        "$40"
+      ],
       "answer": 0,
       "explanation": "Raise 20%: 50 × 1.20 = $60.\nLower 20% of the NEW price: 60 × 0.80 = $48.\nThe price does not return to $50 because the second 20% is taken from a larger number."
     },
@@ -80,7 +115,12 @@
       "topic": "percents",
       "difficulty": 1,
       "question": "A meal costs $40. If you leave a 15% tip, what is the total amount you pay?",
-      "choices": ["$44", "$45", "$46", "$55"],
+      "choices": [
+        "$44",
+        "$45",
+        "$46",
+        "$55"
+      ],
       "answer": 2,
       "explanation": "15% of $40: 10% is $4 and 5% is $2, so 15% is $6.\n$40 + $6 = $46."
     },
@@ -89,7 +129,12 @@
       "topic": "ratios",
       "difficulty": 1,
       "question": "A recipe uses 3 cups of flour for every 2 cups of sugar. How many cups of sugar are needed with 9 cups of flour?",
-      "choices": ["4", "5", "6", "8"],
+      "choices": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
       "answer": 2,
       "explanation": "Set up a proportion: 3/2 = 9/x.\n9 is 3 × 3, so multiply the sugar by 3 too: 2 × 3 = 6 cups."
     },
@@ -98,7 +143,12 @@
       "topic": "ratios",
       "difficulty": 2,
       "question": "The ratio of boys to girls in a class is 3:5. If there are 40 students, how many are boys?",
-      "choices": ["12", "15", "24", "25"],
+      "choices": [
+        "12",
+        "15",
+        "24",
+        "25"
+      ],
       "answer": 1,
       "explanation": "The ratio 3:5 means 3 + 5 = 8 equal parts.\nEach part = 40 ÷ 8 = 5 students.\nBoys = 3 parts × 5 = 15."
     },
@@ -107,7 +157,12 @@
       "topic": "ratios",
       "difficulty": 1,
       "question": "On a map, 1 inch represents 20 miles. How many miles do 3.5 inches represent?",
-      "choices": ["60 miles", "65 miles", "70 miles", "75 miles"],
+      "choices": [
+        "60 miles",
+        "65 miles",
+        "70 miles",
+        "75 miles"
+      ],
       "answer": 2,
       "explanation": "3.5 × 20 = 70 miles."
     },
@@ -116,7 +171,12 @@
       "topic": "ratios",
       "difficulty": 2,
       "question": "Four gallons of paint cover 1,200 square feet. How many gallons are needed to cover 3,000 square feet?",
-      "choices": ["8", "9", "10", "12"],
+      "choices": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
       "answer": 2,
       "explanation": "One gallon covers 1,200 ÷ 4 = 300 square feet.\n3,000 ÷ 300 = 10 gallons."
     },
@@ -125,7 +185,12 @@
       "topic": "ratios",
       "difficulty": 1,
       "question": "Five pens cost $3.50. At the same price per pen, how much do 8 pens cost?",
-      "choices": ["$5.20", "$5.60", "$6.00", "$7.00"],
+      "choices": [
+        "$5.20",
+        "$5.60",
+        "$6.00",
+        "$7.00"
+      ],
       "answer": 1,
       "explanation": "One pen = $3.50 ÷ 5 = $0.70.\n8 pens = 8 × $0.70 = $5.60."
     },
@@ -134,7 +199,12 @@
       "topic": "ratios",
       "difficulty": 2,
       "question": "Two numbers are in the ratio 2:3. The larger number is 24. What is the smaller number?",
-      "choices": ["12", "16", "18", "20"],
+      "choices": [
+        "12",
+        "16",
+        "18",
+        "20"
+      ],
       "answer": 1,
       "explanation": "The larger number is 3 parts, so one part = 24 ÷ 3 = 8.\nThe smaller number is 2 parts = 2 × 8 = 16."
     },
@@ -143,7 +213,12 @@
       "topic": "ratios",
       "difficulty": 2,
       "question": "A squad of 12 soldiers is made up only of privates and corporals, in a ratio of 5 privates to 1 corporal. How many privates are in the squad?",
-      "choices": ["8", "9", "10", "11"],
+      "choices": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
       "answer": 2,
       "explanation": "5:1 means 5 + 1 = 6 parts.\nOne part = 12 ÷ 6 = 2 soldiers.\nPrivates = 5 × 2 = 10."
     },
@@ -152,7 +227,12 @@
       "topic": "ratios",
       "difficulty": 3,
       "question": "A truck uses 6 gallons of fuel to travel 90 miles. How many gallons will it use to travel 255 miles?",
-      "choices": ["15", "16", "17", "18"],
+      "choices": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
       "answer": 2,
       "explanation": "Miles per gallon = 90 ÷ 6 = 15.\nGallons needed = 255 ÷ 15 = 17."
     },
@@ -161,7 +241,12 @@
       "topic": "rates",
       "difficulty": 1,
       "question": "A car travels at 55 miles per hour for 4 hours. How far does it travel?",
-      "choices": ["200 miles", "210 miles", "220 miles", "240 miles"],
+      "choices": [
+        "200 miles",
+        "210 miles",
+        "220 miles",
+        "240 miles"
+      ],
       "answer": 2,
       "explanation": "Distance = rate × time.\n55 × 4 = 220 miles."
     },
@@ -170,7 +255,12 @@
       "topic": "rates",
       "difficulty": 2,
       "question": "A runner covers 6 miles in 45 minutes. What is the runner's average speed in miles per hour?",
-      "choices": ["7 mph", "7.5 mph", "8 mph", "9 mph"],
+      "choices": [
+        "7 mph",
+        "7.5 mph",
+        "8 mph",
+        "9 mph"
+      ],
       "answer": 2,
       "explanation": "45 minutes = 0.75 hour.\nSpeed = distance ÷ time = 6 ÷ 0.75 = 8 mph.\n(Or: 45 minutes is 3/4 of an hour, so in a full hour the runner goes 6 × 4/3 = 8 miles.)"
     },
@@ -179,7 +269,12 @@
       "topic": "rates",
       "difficulty": 2,
       "question": "Two trains leave the same station at the same time, traveling in opposite directions. One goes 50 mph and the other goes 70 mph. How far apart are they after 3 hours?",
-      "choices": ["60 miles", "120 miles", "300 miles", "360 miles"],
+      "choices": [
+        "60 miles",
+        "120 miles",
+        "300 miles",
+        "360 miles"
+      ],
       "answer": 3,
       "explanation": "Moving in opposite directions, the distance between them grows at 50 + 70 = 120 miles per hour.\n120 × 3 = 360 miles."
     },
@@ -188,7 +283,12 @@
       "topic": "rates",
       "difficulty": 3,
       "question": "Pipe A can fill a tank in 6 hours. Pipe B can fill the same tank in 3 hours. How long will it take to fill the tank using both pipes together?",
-      "choices": ["1.5 hours", "2 hours", "4.5 hours", "9 hours"],
+      "choices": [
+        "1.5 hours",
+        "2 hours",
+        "4.5 hours",
+        "9 hours"
+      ],
       "answer": 1,
       "explanation": "Add the amount each pipe fills per hour:\nA fills 1/6 per hour, B fills 1/3 = 2/6 per hour.\nTogether: 1/6 + 2/6 = 3/6 = 1/2 tank per hour.\nSo the full tank takes 2 hours."
     },
@@ -197,7 +297,12 @@
       "topic": "rates",
       "difficulty": 1,
       "question": "A convoy travels 180 miles at an average speed of 45 miles per hour. How long does the trip take?",
-      "choices": ["3 hours", "3.5 hours", "4 hours", "4.5 hours"],
+      "choices": [
+        "3 hours",
+        "3.5 hours",
+        "4 hours",
+        "4.5 hours"
+      ],
       "answer": 2,
       "explanation": "Time = distance ÷ rate.\n180 ÷ 45 = 4 hours."
     },
@@ -206,7 +311,12 @@
       "topic": "rates",
       "difficulty": 1,
       "question": "A clerk types 60 words per minute. How many minutes will it take to type a 1,500-word report?",
-      "choices": ["20 minutes", "25 minutes", "30 minutes", "35 minutes"],
+      "choices": [
+        "20 minutes",
+        "25 minutes",
+        "30 minutes",
+        "35 minutes"
+      ],
       "answer": 1,
       "explanation": "1,500 ÷ 60 = 25 minutes."
     },
@@ -215,7 +325,12 @@
       "topic": "rates",
       "difficulty": 2,
       "question": "A plane flies 1,200 miles in 2.5 hours. What is its average speed?",
-      "choices": ["400 mph", "450 mph", "480 mph", "500 mph"],
+      "choices": [
+        "400 mph",
+        "450 mph",
+        "480 mph",
+        "500 mph"
+      ],
       "answer": 2,
       "explanation": "Speed = 1,200 ÷ 2.5 = 480 mph.\nTip: double both numbers to remove the decimal: 2,400 ÷ 5 = 480."
     },
@@ -224,7 +339,12 @@
       "topic": "rates",
       "difficulty": 3,
       "question": "Jake can paint a room in 4 hours. Sam can paint the same room in 12 hours. How long will it take them working together?",
-      "choices": ["3 hours", "4 hours", "6 hours", "8 hours"],
+      "choices": [
+        "3 hours",
+        "4 hours",
+        "6 hours",
+        "8 hours"
+      ],
       "answer": 0,
       "explanation": "Jake paints 1/4 of the room per hour = 3/12.\nSam paints 1/12 per hour.\nTogether: 3/12 + 1/12 = 4/12 = 1/3 of the room per hour.\nSo the whole room takes 3 hours.\n(Together is always faster than the faster worker alone.)"
     },
@@ -233,7 +353,12 @@
       "topic": "averages",
       "difficulty": 1,
       "question": "A student's test scores are 85, 90, 78, and 87. What is the average (mean) score?",
-      "choices": ["83", "85", "86", "88"],
+      "choices": [
+        "83",
+        "85",
+        "86",
+        "88"
+      ],
       "answer": 1,
       "explanation": "Add the scores: 85 + 90 + 78 + 87 = 340.\nDivide by the number of scores: 340 ÷ 4 = 85."
     },
@@ -242,7 +367,12 @@
       "topic": "averages",
       "difficulty": 1,
       "question": "The average of five numbers is 12. What is the sum of the five numbers?",
-      "choices": ["17", "48", "60", "72"],
+      "choices": [
+        "17",
+        "48",
+        "60",
+        "72"
+      ],
       "answer": 2,
       "explanation": "Sum = average × count.\n12 × 5 = 60."
     },
@@ -251,7 +381,12 @@
       "topic": "averages",
       "difficulty": 2,
       "question": "A student scored 80, 85, and 90 on three tests. What score is needed on the fourth test to have an average of 87?",
-      "choices": ["90", "92", "93", "95"],
+      "choices": [
+        "90",
+        "92",
+        "93",
+        "95"
+      ],
       "answer": 2,
       "explanation": "To average 87 over 4 tests, the total must be 87 × 4 = 348.\nCurrent total: 80 + 85 + 90 = 255.\nNeeded: 348 − 255 = 93."
     },
@@ -260,7 +395,12 @@
       "topic": "averages",
       "difficulty": 2,
       "question": "A recruit ran a mile three times with times of 7:00, 6:40, and 6:50 (minutes:seconds). What was the average time?",
-      "choices": ["6:45", "6:50", "6:55", "7:00"],
+      "choices": [
+        "6:45",
+        "6:50",
+        "6:55",
+        "7:00"
+      ],
       "answer": 1,
       "explanation": "Convert to seconds: 420, 400, and 410.\nTotal = 1,230 seconds. 1,230 ÷ 3 = 410 seconds.\n410 seconds = 6 minutes 50 seconds."
     },
@@ -269,7 +409,12 @@
       "topic": "averages",
       "difficulty": 3,
       "question": "The average of six numbers is 20. When one number is removed, the average of the remaining five numbers is 18. What number was removed?",
-      "choices": ["20", "25", "30", "38"],
+      "choices": [
+        "20",
+        "25",
+        "30",
+        "38"
+      ],
       "answer": 2,
       "explanation": "Sum of six numbers = 6 × 20 = 120.\nSum of the remaining five = 5 × 18 = 90.\nRemoved number = 120 − 90 = 30."
     },
@@ -278,7 +423,12 @@
       "topic": "averages",
       "difficulty": 2,
       "question": "What is the median of these numbers: 3, 9, 4, 7, 15?",
-      "choices": ["7", "7.6", "9", "4"],
+      "choices": [
+        "7",
+        "7.6",
+        "9",
+        "4"
+      ],
       "answer": 0,
       "explanation": "The median is the middle value after sorting.\nSorted: 3, 4, 7, 9, 15. The middle (3rd of 5) is 7.\n(7.6 is the mean, not the median.)"
     },
@@ -287,7 +437,12 @@
       "topic": "averages",
       "difficulty": 1,
       "question": "A worker's hours over five weeks were 38, 42, 40, 45, and 35. What was the average number of hours per week?",
-      "choices": ["38", "40", "41", "42"],
+      "choices": [
+        "38",
+        "40",
+        "41",
+        "42"
+      ],
       "answer": 1,
       "explanation": "38 + 42 + 40 + 45 + 35 = 200.\n200 ÷ 5 = 40 hours."
     },
@@ -296,7 +451,12 @@
       "topic": "interest",
       "difficulty": 1,
       "question": "How much simple interest is earned on $1,000 at 5% per year for 3 years?",
-      "choices": ["$50", "$150", "$157.63", "$1,150"],
+      "choices": [
+        "$50",
+        "$150",
+        "$157.63",
+        "$1,150"
+      ],
       "answer": 1,
       "explanation": "Simple interest: I = P × r × t.\nI = 1,000 × 0.05 × 3 = $150.\n($1,150 is the total balance, not the interest.)"
     },
@@ -305,7 +465,12 @@
       "topic": "interest",
       "difficulty": 2,
       "question": "$2,500 is deposited in an account that pays 4% simple interest per year. What is the total in the account after 2 years?",
-      "choices": ["$2,600", "$2,700", "$2,704", "$2,800"],
+      "choices": [
+        "$2,600",
+        "$2,700",
+        "$2,704",
+        "$2,800"
+      ],
       "answer": 1,
       "explanation": "Interest = 2,500 × 0.04 × 2 = $200.\nTotal = $2,500 + $200 = $2,700."
     },
@@ -314,7 +479,12 @@
       "topic": "interest",
       "difficulty": 2,
       "question": "$500 earns $60 in simple interest over 2 years. What is the annual interest rate?",
-      "choices": ["5%", "6%", "10%", "12%"],
+      "choices": [
+        "5%",
+        "6%",
+        "10%",
+        "12%"
+      ],
       "answer": 1,
       "explanation": "I = P × r × t, so r = I ÷ (P × t).\nr = 60 ÷ (500 × 2) = 60 ÷ 1,000 = 0.06 = 6%.\n(12% is the total over both years, not the yearly rate.)"
     },
@@ -323,7 +493,12 @@
       "topic": "interest",
       "difficulty": 2,
       "question": "How much simple interest is earned on $1,200 at 6% per year for 6 months?",
-      "choices": ["$36", "$72", "$360", "$432"],
+      "choices": [
+        "$36",
+        "$72",
+        "$360",
+        "$432"
+      ],
       "answer": 0,
       "explanation": "Time must be in years: 6 months = 0.5 year.\nI = 1,200 × 0.06 × 0.5 = $36."
     },
@@ -332,7 +507,12 @@
       "topic": "interest",
       "difficulty": 3,
       "question": "$1,000 is invested at 10% interest compounded once a year. How much is in the account after 2 years?",
-      "choices": ["$1,200", "$1,210", "$1,220", "$1,100"],
+      "choices": [
+        "$1,200",
+        "$1,210",
+        "$1,220",
+        "$1,100"
+      ],
       "answer": 1,
       "explanation": "Compound interest earns interest on the interest.\nAfter year 1: 1,000 × 1.10 = $1,100.\nAfter year 2: 1,100 × 1.10 = $1,210."
     },
@@ -341,7 +521,12 @@
       "topic": "interest",
       "difficulty": 1,
       "question": "A $3,000 loan is charged 8% simple interest for one year. What is the total amount repaid?",
-      "choices": ["$3,024", "$3,240", "$3,800", "$3,080"],
+      "choices": [
+        "$3,024",
+        "$3,240",
+        "$3,800",
+        "$3,080"
+      ],
       "answer": 1,
       "explanation": "Interest = 3,000 × 0.08 × 1 = $240.\nTotal repaid = $3,000 + $240 = $3,240."
     },
@@ -350,7 +535,12 @@
       "topic": "interest",
       "difficulty": 2,
       "question": "How many years will it take $800 to earn $120 in simple interest at 5% per year?",
-      "choices": ["2 years", "3 years", "4 years", "5 years"],
+      "choices": [
+        "2 years",
+        "3 years",
+        "4 years",
+        "5 years"
+      ],
       "answer": 1,
       "explanation": "Interest per year = 800 × 0.05 = $40.\n$120 ÷ $40 per year = 3 years."
     },
@@ -359,7 +549,12 @@
       "topic": "money",
       "difficulty": 2,
       "question": "Which is the better buy: a 12-ounce box of cereal for $3.00 or a 16-ounce box for $3.60?",
-      "choices": ["The 12-ounce box", "The 16-ounce box", "They cost the same per ounce", "It cannot be determined"],
+      "choices": [
+        "The 12-ounce box",
+        "The 16-ounce box",
+        "They cost the same per ounce",
+        "It cannot be determined"
+      ],
       "answer": 1,
       "explanation": "Compare price per ounce:\n12 oz: $3.00 ÷ 12 = $0.25 per ounce.\n16 oz: $3.60 ÷ 16 = $0.225 per ounce.\nThe 16-ounce box costs less per ounce."
     },
@@ -368,7 +563,12 @@
       "topic": "money",
       "difficulty": 1,
       "question": "You buy 3 shirts at $12.50 each and a pair of pants for $28.00. You pay with a $100 bill. How much change do you get?",
-      "choices": ["$34.50", "$35.50", "$44.50", "$65.50"],
+      "choices": [
+        "$34.50",
+        "$35.50",
+        "$44.50",
+        "$65.50"
+      ],
       "answer": 0,
       "explanation": "Shirts: 3 × $12.50 = $37.50.\nTotal: $37.50 + $28.00 = $65.50.\nChange: $100.00 − $65.50 = $34.50."
     },
@@ -377,7 +577,12 @@
       "topic": "money",
       "difficulty": 2,
       "question": "A worker earns $14 per hour for the first 40 hours each week and time-and-a-half for overtime. How much does the worker earn in a week with 46 hours?",
-      "choices": ["$644", "$686", "$700", "$728"],
+      "choices": [
+        "$644",
+        "$686",
+        "$700",
+        "$728"
+      ],
       "answer": 1,
       "explanation": "Regular pay: 40 × $14 = $560.\nOvertime rate: $14 × 1.5 = $21 per hour.\nOvertime pay: 6 × $21 = $126.\nTotal: $560 + $126 = $686."
     },
@@ -386,7 +591,12 @@
       "topic": "money",
       "difficulty": 3,
       "question": "A car gets 30 miles per gallon, and gas costs $3.40 per gallon. How much will gas cost for a 255-mile trip?",
-      "choices": ["$25.50", "$28.90", "$30.60", "$86.70"],
+      "choices": [
+        "$25.50",
+        "$28.90",
+        "$30.60",
+        "$86.70"
+      ],
       "answer": 1,
       "explanation": "Gallons needed: 255 ÷ 30 = 8.5 gallons.\nCost: 8.5 × $3.40 = $28.90."
     },
@@ -395,7 +605,12 @@
       "topic": "money",
       "difficulty": 1,
       "question": "A dozen eggs costs $3.60. At the same rate, how much do 30 eggs cost?",
-      "choices": ["$8.40", "$9.00", "$10.80", "$7.20"],
+      "choices": [
+        "$8.40",
+        "$9.00",
+        "$10.80",
+        "$7.20"
+      ],
       "answer": 1,
       "explanation": "One egg: $3.60 ÷ 12 = $0.30.\n30 eggs: 30 × $0.30 = $9.00."
     },
@@ -404,7 +619,12 @@
       "topic": "money",
       "difficulty": 2,
       "question": "Maria earns $2,400 a month. She spends 1/3 of it on rent and 1/4 of it on food. How much is left?",
-      "choices": ["$800", "$1,000", "$1,200", "$1,400"],
+      "choices": [
+        "$800",
+        "$1,000",
+        "$1,200",
+        "$1,400"
+      ],
       "answer": 1,
       "explanation": "Rent: 2,400 ÷ 3 = $800.\nFood: 2,400 ÷ 4 = $600.\nLeft: $2,400 − $800 − $600 = $1,000."
     },
@@ -413,7 +633,12 @@
       "topic": "money",
       "difficulty": 2,
       "question": "Carpet costs $4.50 per square foot. How much will it cost to carpet a room that is 12 feet by 15 feet?",
-      "choices": ["$243", "$540", "$810", "$900"],
+      "choices": [
+        "$243",
+        "$540",
+        "$810",
+        "$900"
+      ],
       "answer": 2,
       "explanation": "Area = 12 × 15 = 180 square feet.\nCost = 180 × $4.50 = $810.\n($243 comes from using the perimeter, 54 feet, instead of the area.)"
     },
@@ -422,7 +647,12 @@
       "topic": "money",
       "difficulty": 1,
       "question": "Three friends split a $57 dinner bill plus a $9 tip equally. How much does each person pay?",
-      "choices": ["$19", "$21", "$22", "$24"],
+      "choices": [
+        "$19",
+        "$21",
+        "$22",
+        "$24"
+      ],
       "answer": 2,
       "explanation": "Total: $57 + $9 = $66.\nEach pays $66 ÷ 3 = $22."
     },
@@ -431,7 +661,12 @@
       "topic": "word-problems",
       "difficulty": 1,
       "question": "A water tank holds 60 gallons when full. It is now 3/4 full. How many gallons are in the tank?",
-      "choices": ["40", "45", "48", "50"],
+      "choices": [
+        "40",
+        "45",
+        "48",
+        "50"
+      ],
       "answer": 1,
       "explanation": "3/4 of 60 = 60 ÷ 4 × 3 = 15 × 3 = 45 gallons."
     },
@@ -440,7 +675,12 @@
       "topic": "word-problems",
       "difficulty": 2,
       "question": "A 24-foot rope is cut into pieces that are each 2/3 of a foot long. How many pieces are there?",
-      "choices": ["16", "32", "36", "48"],
+      "choices": [
+        "16",
+        "32",
+        "36",
+        "48"
+      ],
       "answer": 2,
       "explanation": "Divide: 24 ÷ 2/3 = 24 × 3/2 = 36 pieces.\n(16 comes from multiplying by 2/3 instead of dividing.)"
     },
@@ -449,7 +689,12 @@
       "topic": "word-problems",
       "difficulty": 1,
       "question": "Half of a number plus 7 equals 19. What is the number?",
-      "choices": ["12", "24", "26", "52"],
+      "choices": [
+        "12",
+        "24",
+        "26",
+        "52"
+      ],
       "answer": 1,
       "explanation": "Write it as an equation: n/2 + 7 = 19.\nSubtract 7: n/2 = 12.\nMultiply by 2: n = 24."
     },
@@ -458,7 +703,12 @@
       "topic": "word-problems",
       "difficulty": 3,
       "question": "In a unit, 1/5 of the soldiers are on leave, and 1/4 of the remaining soldiers are on guard duty. If 36 soldiers are neither on leave nor on guard duty, how many soldiers are in the unit?",
-      "choices": ["48", "60", "72", "80"],
+      "choices": [
+        "48",
+        "60",
+        "72",
+        "80"
+      ],
       "answer": 1,
       "explanation": "After 1/5 leave, 4/5 remain.\n1/4 of those are on guard, so 3/4 of the 4/5 are left: 3/4 × 4/5 = 3/5 of the unit.\n3/5 of the unit = 36, so the unit = 36 ÷ 3 × 5 = 60.\nCheck: 12 on leave, 12 on guard, 36 left."
     },
@@ -467,7 +717,12 @@
       "topic": "word-problems",
       "difficulty": 2,
       "question": "The sum of three consecutive whole numbers is 51. What is the largest of the three numbers?",
-      "choices": ["16", "17", "18", "19"],
+      "choices": [
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
       "answer": 2,
       "explanation": "The middle number is the average: 51 ÷ 3 = 17.\nThe numbers are 16, 17, 18, so the largest is 18."
     },
@@ -476,7 +731,12 @@
       "topic": "word-problems",
       "difficulty": 3,
       "question": "Ann is 3 times as old as her son. In 12 years, she will be twice as old as her son. How old is her son now?",
-      "choices": ["8", "10", "12", "14"],
+      "choices": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
       "answer": 2,
       "explanation": "Let the son's age be s, so Ann is 3s.\nIn 12 years: 3s + 12 = 2(s + 12).\n3s + 12 = 2s + 24, so s = 12.\nCheck: Ann is 36. In 12 years she is 48 and her son is 24 — exactly twice."
     },
@@ -485,7 +745,12 @@
       "topic": "word-problems",
       "difficulty": 1,
       "question": "A student has read 2/5 of a 250-page book. How many pages are left to read?",
-      "choices": ["100", "125", "150", "175"],
+      "choices": [
+        "100",
+        "125",
+        "150",
+        "175"
+      ],
       "answer": 2,
       "explanation": "Pages read: 2/5 × 250 = 100.\nPages left: 250 − 100 = 150.\n(Or: 3/5 of the book is left, and 3/5 × 250 = 150.)"
     },
@@ -494,7 +759,12 @@
       "topic": "measurement",
       "difficulty": 1,
       "question": "How many inches are in 4.5 feet?",
-      "choices": ["45", "48", "54", "60"],
+      "choices": [
+        "45",
+        "48",
+        "54",
+        "60"
+      ],
       "answer": 2,
       "explanation": "1 foot = 12 inches.\n4.5 × 12 = 54 inches."
     },
@@ -503,7 +773,12 @@
       "topic": "measurement",
       "difficulty": 1,
       "question": "A rectangular yard is 30 feet long and 20 feet wide. How many feet of fencing are needed to go all the way around it?",
-      "choices": ["50 feet", "100 feet", "600 feet", "120 feet"],
+      "choices": [
+        "50 feet",
+        "100 feet",
+        "600 feet",
+        "120 feet"
+      ],
       "answer": 1,
       "explanation": "Fencing goes around the edge, so find the perimeter.\nPerimeter = 2 × (30 + 20) = 2 × 50 = 100 feet.\n(600 is the area in square feet.)"
     },
@@ -512,7 +787,12 @@
       "topic": "measurement",
       "difficulty": 2,
       "question": "A room is 12 feet by 9 feet. How many square yards of carpet are needed to cover the floor?",
-      "choices": ["12", "36", "21", "108"],
+      "choices": [
+        "12",
+        "36",
+        "21",
+        "108"
+      ],
       "answer": 0,
       "explanation": "Area = 12 × 9 = 108 square feet.\n1 square yard = 3 ft × 3 ft = 9 square feet.\n108 ÷ 9 = 12 square yards.\n(Or convert first: 4 yd × 3 yd = 12 square yards.)"
     },
@@ -521,7 +801,12 @@
       "topic": "measurement",
       "difficulty": 1,
       "question": "How many minutes are in 2.5 hours?",
-      "choices": ["125", "140", "150", "250"],
+      "choices": [
+        "125",
+        "140",
+        "150",
+        "250"
+      ],
       "answer": 2,
       "explanation": "2.5 × 60 = 150 minutes."
     },
@@ -530,7 +815,12 @@
       "topic": "measurement",
       "difficulty": 1,
       "question": "A box is 4 feet long, 3 feet wide, and 2 feet high. What is its volume?",
-      "choices": ["9 cubic feet", "24 cubic feet", "26 cubic feet", "48 cubic feet"],
+      "choices": [
+        "9 cubic feet",
+        "24 cubic feet",
+        "26 cubic feet",
+        "48 cubic feet"
+      ],
       "answer": 1,
       "explanation": "Volume = length × width × height.\n4 × 3 × 2 = 24 cubic feet."
     },
@@ -539,7 +829,12 @@
       "topic": "measurement",
       "difficulty": 2,
       "question": "A circular pool has a diameter of 20 feet. Using π ≈ 3.14, what is the distance around the pool?",
-      "choices": ["31.4 feet", "62.8 feet", "125.6 feet", "314 feet"],
+      "choices": [
+        "31.4 feet",
+        "62.8 feet",
+        "125.6 feet",
+        "314 feet"
+      ],
       "answer": 1,
       "explanation": "Distance around a circle is the circumference: C = π × d.\nC = 3.14 × 20 = 62.8 feet.\n(314 is the area, π × r² = 3.14 × 100.)"
     },
@@ -548,9 +843,224 @@
       "topic": "measurement",
       "difficulty": 1,
       "question": "A recipe calls for 3 quarts of milk. How many cups is that?",
-      "choices": ["6", "8", "12", "16"],
+      "choices": [
+        "6",
+        "8",
+        "12",
+        "16"
+      ],
       "answer": 2,
       "explanation": "1 quart = 4 cups.\n3 × 4 = 12 cups."
+    },
+    {
+      "id": "ar-061",
+      "topic": "percents",
+      "difficulty": 2,
+      "question": "A $40 item is marked up 35%. A customer then uses a 10% off coupon on the new price. How much does the customer pay?",
+      "choices": [
+        "$48.60",
+        "$50.00",
+        "$45.00",
+        "$54.00"
+      ],
+      "answer": 0,
+      "explanation": "Markup: 40 × 1.35 = $54.00.\nCoupon on the new price: 54 × 0.90 = $48.60.\n($50.00 comes from adding 35% and subtracting 10% as if it were one 25% change. It isn't, because the 10% is taken from a bigger number.)"
+    },
+    {
+      "id": "ar-062",
+      "topic": "percents",
+      "difficulty": 3,
+      "question": "After a 20% raise, a worker earns $18.00 an hour. What was the hourly pay before the raise?",
+      "choices": [
+        "$15.00",
+        "$14.40",
+        "$16.00",
+        "$21.60"
+      ],
+      "answer": 0,
+      "explanation": "The new pay is 120% of the old pay: old × 1.20 = 18.\nOld pay = 18 ÷ 1.20 = $15.00.\nTrap: taking 20% off $18 (= $14.40) is wrong, because the 20% was figured on the old, smaller amount."
+    },
+    {
+      "id": "ar-063",
+      "topic": "percents",
+      "difficulty": 2,
+      "question": "A car's value dropped from $20,000 to $17,000 in one year. By what percent did its value drop?",
+      "choices": [
+        "15%",
+        "3%",
+        "17.6%",
+        "85%"
+      ],
+      "answer": 0,
+      "explanation": "Change = 20,000 − 17,000 = 3,000.\nPercent change = 3,000 ÷ 20,000 (the original value) = 0.15 = 15%.\n(17.6% comes from dividing by the new value instead of the original.)"
+    },
+    {
+      "id": "ar-064",
+      "topic": "ratios",
+      "difficulty": 3,
+      "question": "Blue and white paint are mixed in a ratio of 2 to 5. How much blue paint is needed to make 21 gallons of the mix?",
+      "choices": [
+        "6 gallons",
+        "8.4 gallons",
+        "4.2 gallons",
+        "15 gallons"
+      ],
+      "answer": 0,
+      "explanation": "The ratio 2:5 means 2 + 5 = 7 parts in all.\nOne part = 21 ÷ 7 = 3 gallons.\nBlue = 2 parts = 6 gallons. (White is the other 15 gallons.)"
+    },
+    {
+      "id": "ar-065",
+      "topic": "rates",
+      "difficulty": 3,
+      "question": "A truck leaves a base at 8:00 a.m. traveling 50 mph. A car leaves the same base at 9:00 a.m. on the same road, traveling 70 mph. At what time does the car catch up to the truck?",
+      "choices": [
+        "11:30 a.m.",
+        "10:30 a.m.",
+        "11:00 a.m.",
+        "12:30 p.m."
+      ],
+      "answer": 0,
+      "explanation": "By 9:00, the truck is 50 miles ahead.\nThe car gains 70 − 50 = 20 miles every hour.\n50 ÷ 20 = 2.5 hours after 9:00 = 11:30 a.m."
+    },
+    {
+      "id": "ar-066",
+      "topic": "rates",
+      "difficulty": 2,
+      "question": "A pump fills a 1,200-gallon tank at 40 gallons per minute, but a leak drains 10 gallons per minute. How long does it take to fill the tank?",
+      "choices": [
+        "40 minutes",
+        "30 minutes",
+        "24 minutes",
+        "120 minutes"
+      ],
+      "answer": 0,
+      "explanation": "The tank gains 40 − 10 = 30 gallons each minute.\n1,200 ÷ 30 = 40 minutes.\n(24 minutes comes from adding the leak instead of subtracting it.)"
+    },
+    {
+      "id": "ar-067",
+      "topic": "averages",
+      "difficulty": 2,
+      "question": "The average of four numbers is 15. Three of the numbers are 12, 18 and 10. What is the fourth number?",
+      "choices": [
+        "20",
+        "15",
+        "13",
+        "26"
+      ],
+      "answer": 0,
+      "explanation": "Total of all four = 15 × 4 = 60.\nThree known numbers add to 12 + 18 + 10 = 40.\nFourth = 60 − 40 = 20."
+    },
+    {
+      "id": "ar-068",
+      "topic": "averages",
+      "difficulty": 3,
+      "question": "One class of 20 students averaged 80 on a test. Another class of 30 students averaged 70. What was the average score of all 50 students?",
+      "choices": [
+        "74",
+        "75",
+        "72",
+        "76"
+      ],
+      "answer": 0,
+      "explanation": "You can't just average 80 and 70, because the classes are different sizes.\nTotal points: 20 × 80 = 1,600 and 30 × 70 = 2,100.\n(1,600 + 2,100) ÷ 50 = 3,700 ÷ 50 = 74."
+    },
+    {
+      "id": "ar-069",
+      "topic": "interest",
+      "difficulty": 3,
+      "question": "$5,000 is invested at 3% simple interest per year. How many years will it take for the balance to reach $5,600?",
+      "choices": [
+        "4 years",
+        "3 years",
+        "5 years",
+        "12 years"
+      ],
+      "answer": 0,
+      "explanation": "Interest needed = 5,600 − 5,000 = $600.\nInterest per year = 5,000 × 0.03 = $150.\n600 ÷ 150 = 4 years."
+    },
+    {
+      "id": "ar-070",
+      "topic": "money",
+      "difficulty": 3,
+      "question": "A phone plan costs $25 a month, plus $0.10 for each text over 500. One month the bill was $33.50. How many texts were sent that month?",
+      "choices": [
+        "585",
+        "85",
+        "335",
+        "850"
+      ],
+      "answer": 0,
+      "explanation": "Extra charge = 33.50 − 25.00 = $8.50.\nTexts over the limit = 8.50 ÷ 0.10 = 85.\nTotal texts = 500 + 85 = 585.\n(85 is only the texts over the limit, a common stopping point.)"
+    },
+    {
+      "id": "ar-071",
+      "topic": "money",
+      "difficulty": 2,
+      "question": "Tires cost $96 each, or $340 for a set of four. How much do you save per tire by buying the set?",
+      "choices": [
+        "$11",
+        "$44",
+        "$85",
+        "$9"
+      ],
+      "answer": 0,
+      "explanation": "Four separate tires: 4 × 96 = $384.\nSavings on the set: 384 − 340 = $44 in all.\nPer tire: 44 ÷ 4 = $11.\n(Read carefully: the question asks per tire, not in all.)"
+    },
+    {
+      "id": "ar-072",
+      "topic": "word-problems",
+      "difficulty": 3,
+      "question": "A 34-foot rope is cut into three pieces. The second piece is twice as long as the first, and the third piece is 4 feet longer than the second. How long is the first piece?",
+      "choices": [
+        "6 feet",
+        "5 feet",
+        "12 feet",
+        "16 feet"
+      ],
+      "answer": 0,
+      "explanation": "Let the first piece be x. The second is 2x and the third is 2x + 4.\nx + 2x + 2x + 4 = 34, so 5x = 30 and x = 6 feet.\nCheck: 6 + 12 + 16 = 34."
+    },
+    {
+      "id": "ar-073",
+      "topic": "word-problems",
+      "difficulty": 2,
+      "question": "Tickets cost $8 for adults and $5 for children. A group of 12 people paid $78 in all. How many adults were in the group?",
+      "choices": [
+        "6",
+        "4",
+        "8",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "Let a = adults, so 12 − a are children.\n8a + 5(12 − a) = 78\n8a + 60 − 5a = 78, so 3a = 18 and a = 6.\nCheck: 6 × $8 + 6 × $5 = 48 + 30 = $78."
+    },
+    {
+      "id": "ar-074",
+      "topic": "measurement",
+      "difficulty": 2,
+      "question": "A recipe uses 2.5 pounds of meat to serve 8 people. How many ounces of meat is that per person?",
+      "choices": [
+        "5 ounces",
+        "2.5 ounces",
+        "3.2 ounces",
+        "20 ounces"
+      ],
+      "answer": 0,
+      "explanation": "1 pound = 16 ounces, so 2.5 pounds = 40 ounces.\n40 ÷ 8 people = 5 ounces each."
+    },
+    {
+      "id": "ar-075",
+      "topic": "measurement",
+      "difficulty": 3,
+      "question": "A garden bed 18 feet long and 12 feet wide needs a layer of mulch 3 inches deep. How many cubic feet of mulch are needed?",
+      "choices": [
+        "54",
+        "648",
+        "216",
+        "72"
+      ],
+      "answer": 0,
+      "explanation": "Change inches to feet first: 3 inches = 0.25 foot.\nVolume = 18 × 12 × 0.25 = 54 cubic feet.\n(648 comes from multiplying by 3 without changing inches to feet. 216 is just the area in square feet.)"
     }
   ]
 }
