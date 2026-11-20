@@ -1,7 +1,7 @@
 import { getSubtest } from './config.js';
 import { loadBank, pickQuestions, matchingQuestions, prepare, shuffle, LEVELS } from './quiz.js';
 import { load, recordAnswer, recordSession, accuracy } from './storage.js';
-import { el, mount } from './dom.js';
+import { el, mount, figure } from './dom.js';
 
 const LETTERS = 'ABCDEFGH';
 const COUNTS = [10, 20, 0]; // 0 = all matching questions
@@ -223,6 +223,7 @@ function renderQuestion() {
           el('div', { class: 'passage-label' }, 'Read the passage'),
           el('p', {}, passageText(q)))
         : null,
+      figure(q),
       el('p', { class: 'question-text' }, q.question),
       el('ol', { class: 'choices' }, choiceButtons),
       el('div', { id: 'feedback' }),
@@ -321,6 +322,7 @@ function renderSummary(results) {
           el('summary', {}, 'Show passage'),
           el('p', {}, passageText(r.q)))
         : null,
+      figure(r.q),
       el('p', { class: 'q' }, r.q.question),
       el('p', { class: 'ans' },
         'Your answer: ', el('span', { style: 'color:var(--bad)' }, r.q.choices[r.choice]),

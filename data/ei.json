@@ -1,0 +1,703 @@
+{
+  "subtest": "ei",
+  "name": "Electronics Information",
+  "topics": {
+    "basics": "Electricity Basics",
+    "ohms": "Ohm's Law & Power",
+    "circuits": "Series & Parallel Circuits",
+    "components": "Components & Symbols",
+    "wiring": "Household Wiring & Safety"
+  },
+  "questions": [
+    {
+      "id": "ei-001",
+      "topic": "basics",
+      "difficulty": 1,
+      "question": "What is the unit of electric current?",
+      "choices": [
+        "Ampere (amp)",
+        "Volt",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": 0,
+      "explanation": "Current is measured in amperes (amps). Volts measure voltage, ohms measure resistance and watts measure power."
+    },
+    {
+      "id": "ei-002",
+      "topic": "basics",
+      "difficulty": 1,
+      "question": "What is the unit of electrical resistance?",
+      "choices": [
+        "Ohm",
+        "Ampere",
+        "Volt",
+        "Farad"
+      ],
+      "answer": 0,
+      "explanation": "Resistance is measured in ohms, written with the symbol Ω. Farads measure capacitance."
+    },
+    {
+      "id": "ei-003",
+      "topic": "basics",
+      "difficulty": 1,
+      "question": "Voltage is best described as:",
+      "choices": [
+        "The electrical push that moves current through a circuit",
+        "The flow of electrons",
+        "Opposition to the flow of current",
+        "How fast energy is used"
+      ],
+      "answer": 0,
+      "explanation": "Voltage is the electrical pressure that pushes current. A water-pipe comparison helps: voltage is the water pressure, current is how much water flows and resistance is how narrow the pipe is."
+    },
+    {
+      "id": "ei-004",
+      "topic": "basics",
+      "difficulty": 1,
+      "question": "Which of these is the best conductor of electricity?",
+      "choices": [
+        "Copper",
+        "Rubber",
+        "Glass",
+        "Dry wood"
+      ],
+      "answer": 0,
+      "explanation": "Metals such as copper, silver and aluminum are good conductors. Rubber, glass and dry wood are insulators."
+    },
+    {
+      "id": "ei-005",
+      "topic": "basics",
+      "difficulty": 1,
+      "question": "Current that flows in only one direction is called:",
+      "choices": [
+        "Direct current (DC)",
+        "Alternating current (AC)",
+        "Static electricity",
+        "Three-phase current"
+      ],
+      "answer": 0,
+      "explanation": "Batteries supply direct current (DC). Wall outlets supply alternating current (AC), which reverses direction many times a second."
+    },
+    {
+      "id": "ei-006",
+      "topic": "basics",
+      "difficulty": 1,
+      "question": "Standard household outlets in the United States supply about:",
+      "choices": [
+        "120 volts AC",
+        "12 volts DC",
+        "240 volts DC",
+        "1.5 volts AC"
+      ],
+      "answer": 0,
+      "explanation": "Ordinary U.S. outlets supply about 120 volts AC. Large appliances such as dryers and ovens use 240-volt circuits. Cars use 12 volts DC, and a AA battery gives 1.5 volts DC."
+    },
+    {
+      "id": "ei-007",
+      "topic": "basics",
+      "difficulty": 2,
+      "question": "The alternating current in U.S. homes changes direction how many times per second (its frequency)?",
+      "choices": [
+        "60 cycles (60 hertz)",
+        "50 cycles (50 hertz)",
+        "120 cycles (120 hertz)",
+        "12 cycles (12 hertz)"
+      ],
+      "answer": 0,
+      "explanation": "U.S. power is 60 hertz (Hz), meaning 60 complete cycles each second. Much of Europe and Asia uses 50 Hz."
+    },
+    {
+      "id": "ei-008",
+      "topic": "basics",
+      "difficulty": 1,
+      "question": "Which instrument measures electric current?",
+      "choices": [
+        "Ammeter",
+        "Voltmeter",
+        "Ohmmeter",
+        "Barometer"
+      ],
+      "answer": 0,
+      "explanation": "An ammeter measures current (amps), a voltmeter measures voltage and an ohmmeter measures resistance. A multimeter can do all three."
+    },
+    {
+      "id": "ei-009",
+      "topic": "basics",
+      "difficulty": 1,
+      "question": "The flow of electric charge through a conductor is called:",
+      "choices": [
+        "Current",
+        "Voltage",
+        "Resistance",
+        "Capacitance"
+      ],
+      "answer": 0,
+      "explanation": "Current is the flow of charge, usually electrons moving through a wire."
+    },
+    {
+      "id": "ei-010",
+      "topic": "basics",
+      "difficulty": 2,
+      "question": "How many amperes is 1 milliampere?",
+      "choices": [
+        "0.001 ampere",
+        "1,000 amperes",
+        "0.1 ampere",
+        "1,000,000 amperes"
+      ],
+      "answer": 0,
+      "explanation": "Milli- means one-thousandth, so 1 milliampere (mA) = 0.001 A. Kilo- means one thousand: 1 kilowatt = 1,000 watts."
+    },
+    {
+      "id": "ei-011",
+      "topic": "ohms",
+      "difficulty": 1,
+      "question": "Which formula is Ohm's law?",
+      "choices": [
+        "V = I × R",
+        "P = V × R",
+        "I = V × R",
+        "R = V × I"
+      ],
+      "answer": 0,
+      "explanation": "Ohm's law: voltage (V) = current (I) × resistance (R). Rearranged: I = V ÷ R and R = V ÷ I."
+    },
+    {
+      "id": "ei-012",
+      "topic": "ohms",
+      "difficulty": 1,
+      "question": "A 12-volt battery is connected to a 4-ohm resistor. How much current flows?",
+      "choices": [
+        "3 amps",
+        "48 amps",
+        "0.33 amps",
+        "16 amps"
+      ],
+      "answer": 0,
+      "explanation": "I = V ÷ R = 12 ÷ 4 = 3 amps."
+    },
+    {
+      "id": "ei-013",
+      "topic": "ohms",
+      "difficulty": 1,
+      "question": "A current of 2 amps flows through a 10-ohm resistor. What is the voltage across it?",
+      "choices": [
+        "20 volts",
+        "5 volts",
+        "12 volts",
+        "0.2 volts"
+      ],
+      "answer": 0,
+      "explanation": "V = I × R = 2 × 10 = 20 volts."
+    },
+    {
+      "id": "ei-014",
+      "topic": "ohms",
+      "difficulty": 2,
+      "question": "A 9-volt battery pushes 3 amps through a circuit. What is the circuit's resistance?",
+      "choices": [
+        "3 ohms",
+        "27 ohms",
+        "6 ohms",
+        "12 ohms"
+      ],
+      "answer": 0,
+      "explanation": "R = V ÷ I = 9 ÷ 3 = 3 ohms."
+    },
+    {
+      "id": "ei-015",
+      "topic": "ohms",
+      "difficulty": 1,
+      "question": "Which formula gives electrical power?",
+      "choices": [
+        "P = V × I",
+        "P = V ÷ I",
+        "P = I ÷ V",
+        "P = V + I"
+      ],
+      "answer": 0,
+      "explanation": "Power (watts) = voltage (volts) × current (amps)."
+    },
+    {
+      "id": "ei-016",
+      "topic": "ohms",
+      "difficulty": 2,
+      "question": "An appliance plugged into a 120-volt outlet draws 5 amps. How much power does it use?",
+      "choices": [
+        "600 watts",
+        "24 watts",
+        "125 watts",
+        "115 watts"
+      ],
+      "answer": 0,
+      "explanation": "P = V × I = 120 × 5 = 600 watts."
+    },
+    {
+      "id": "ei-017",
+      "topic": "ohms",
+      "difficulty": 2,
+      "question": "How much current does a 60-watt bulb draw on a 120-volt circuit?",
+      "choices": [
+        "0.5 amp",
+        "2 amps",
+        "180 amps",
+        "7,200 amps"
+      ],
+      "answer": 0,
+      "explanation": "I = P ÷ V = 60 ÷ 120 = 0.5 amp."
+    },
+    {
+      "id": "ei-018",
+      "topic": "ohms",
+      "difficulty": 2,
+      "question": "If the voltage stays the same and the resistance is doubled, the current:",
+      "choices": [
+        "Is cut in half",
+        "Doubles",
+        "Stays the same",
+        "Is four times as large"
+      ],
+      "answer": 0,
+      "explanation": "I = V ÷ R. Doubling R with the same V makes I half as large. More resistance means less current."
+    },
+    {
+      "id": "ei-019",
+      "topic": "ohms",
+      "difficulty": 3,
+      "question": "A 1,500-watt heater runs for 2 hours. How much energy does it use?",
+      "choices": [
+        "3 kilowatt-hours",
+        "750 watt-hours",
+        "1.5 kilowatt-hours",
+        "3,000 kilowatt-hours"
+      ],
+      "answer": 0,
+      "explanation": "Energy = power × time = 1,500 W × 2 h = 3,000 watt-hours.\n3,000 watt-hours = 3 kilowatt-hours (kWh), the unit on electric bills."
+    },
+    {
+      "id": "ei-020",
+      "topic": "circuits",
+      "difficulty": 1,
+      "figure": "data/figures/ei-series-2r.svg",
+      "figureAlt": "A series circuit: a 12-volt battery in a single loop with a 2-ohm resistor and a 4-ohm resistor.",
+      "question": "What is the total resistance of the circuit shown?",
+      "choices": [
+        "6 ohms",
+        "1.33 ohms",
+        "8 ohms",
+        "2 ohms"
+      ],
+      "answer": 0,
+      "explanation": "In a series circuit, resistances add: 2 + 4 = 6 ohms."
+    },
+    {
+      "id": "ei-021",
+      "topic": "circuits",
+      "difficulty": 2,
+      "figure": "data/figures/ei-series-2r.svg",
+      "figureAlt": "A series circuit: a 12-volt battery in a single loop with a 2-ohm resistor and a 4-ohm resistor.",
+      "question": "How much current flows in the circuit shown?",
+      "choices": [
+        "2 amps",
+        "6 amps",
+        "0.5 amp",
+        "72 amps"
+      ],
+      "answer": 0,
+      "explanation": "Total resistance = 2 + 4 = 6 ohms.\nI = V ÷ R = 12 ÷ 6 = 2 amps. In a series circuit, the same current flows through every part."
+    },
+    {
+      "id": "ei-022",
+      "topic": "circuits",
+      "difficulty": 3,
+      "figure": "data/figures/ei-series-2r.svg",
+      "figureAlt": "A series circuit: a 12-volt battery in a single loop with a 2-ohm resistor and a 4-ohm resistor.",
+      "question": "In the circuit shown, what is the voltage across the 4-ohm resistor?",
+      "choices": [
+        "8 volts",
+        "4 volts",
+        "12 volts",
+        "2 volts"
+      ],
+      "answer": 0,
+      "explanation": "Current = 12 ÷ 6 = 2 amps.\nVoltage across the 4-ohm resistor = 2 × 4 = 8 volts.\nCheck: the 2-ohm resistor gets 4 volts, and 8 + 4 = 12 volts, the battery's total."
+    },
+    {
+      "id": "ei-023",
+      "topic": "circuits",
+      "difficulty": 2,
+      "figure": "data/figures/ei-parallel-2r.svg",
+      "figureAlt": "A parallel circuit: a 12-volt battery with two 6-ohm resistors, each on its own branch.",
+      "question": "What is the total resistance of the circuit shown?",
+      "choices": [
+        "3 ohms",
+        "12 ohms",
+        "6 ohms",
+        "36 ohms"
+      ],
+      "answer": 0,
+      "explanation": "Two equal resistors in parallel give half the resistance of one: 6 ÷ 2 = 3 ohms. Parallel paths always make the total smaller than the smallest single resistor."
+    },
+    {
+      "id": "ei-024",
+      "topic": "circuits",
+      "difficulty": 3,
+      "figure": "data/figures/ei-parallel-2r.svg",
+      "figureAlt": "A parallel circuit: a 12-volt battery with two 6-ohm resistors, each on its own branch.",
+      "question": "How much total current does the battery supply in the circuit shown?",
+      "choices": [
+        "4 amps",
+        "2 amps",
+        "1 amp",
+        "72 amps"
+      ],
+      "answer": 0,
+      "explanation": "Each branch gets the full 12 volts: 12 ÷ 6 = 2 amps per branch.\nTotal = 2 + 2 = 4 amps. (Or: 12 ÷ 3 ohms total = 4 amps.)"
+    },
+    {
+      "id": "ei-025",
+      "topic": "circuits",
+      "difficulty": 1,
+      "figure": "data/figures/ei-series-lamps.svg",
+      "figureAlt": "Three lamps, A, B and C, connected one after another in a single loop with a battery.",
+      "question": "In the circuit shown, lamp B burns out. What happens to lamps A and C?",
+      "choices": [
+        "They go out",
+        "They stay lit",
+        "They get brighter",
+        "Only lamp A stays lit"
+      ],
+      "answer": 0,
+      "explanation": "This is a series circuit, so there is only one path for current. When any lamp burns out, the path is broken and every lamp goes out. Old holiday light strings worked this way."
+    },
+    {
+      "id": "ei-026",
+      "topic": "circuits",
+      "difficulty": 1,
+      "figure": "data/figures/ei-parallel-lamps.svg",
+      "figureAlt": "Three lamps, A, B and C, each on its own branch connected across a battery.",
+      "question": "In the circuit shown, lamp B burns out. What happens to lamps A and C?",
+      "choices": [
+        "They stay lit",
+        "They go out",
+        "They flicker on and off",
+        "Only lamp C stays lit"
+      ],
+      "answer": 0,
+      "explanation": "This is a parallel circuit, so each lamp has its own path to the battery. One lamp burning out doesn't break the others' paths. Houses are wired in parallel for this reason."
+    },
+    {
+      "id": "ei-027",
+      "topic": "circuits",
+      "difficulty": 1,
+      "figure": "data/figures/ei-open-switch.svg",
+      "figureAlt": "A battery, a lamp and an open switch connected in one loop.",
+      "question": "Will the lamp in the circuit shown light up?",
+      "choices": [
+        "No, because the open switch breaks the circuit",
+        "Yes, because the battery is connected",
+        "Only if the battery is turned around",
+        "Yes, but only dimly"
+      ],
+      "answer": 0,
+      "explanation": "Current needs a complete loop. The switch is open (its lever is raised), so the circuit is broken and no current flows."
+    },
+    {
+      "id": "ei-028",
+      "topic": "circuits",
+      "difficulty": 2,
+      "question": "In a series circuit, the current is:",
+      "choices": [
+        "The same through every part",
+        "Divided among the branches",
+        "Largest at the last resistor",
+        "Zero at the battery"
+      ],
+      "answer": 0,
+      "explanation": "A series circuit has one path, so the same current flows through every part. In a parallel circuit, current divides among the branches."
+    },
+    {
+      "id": "ei-029",
+      "topic": "circuits",
+      "difficulty": 3,
+      "question": "Adding more resistors in parallel makes the circuit's total resistance:",
+      "choices": [
+        "Smaller",
+        "Larger",
+        "Stay the same",
+        "Drop to zero"
+      ],
+      "answer": 0,
+      "explanation": "Each new parallel branch gives current another path, so the total resistance goes down. (Adding resistors in series makes it go up.)"
+    },
+    {
+      "id": "ei-030",
+      "topic": "components",
+      "difficulty": 1,
+      "figure": "data/figures/sym-resistor.svg",
+      "figureAlt": "A circuit symbol.",
+      "question": "What does this circuit symbol represent?",
+      "choices": [
+        "Resistor",
+        "Capacitor",
+        "Battery",
+        "Diode"
+      ],
+      "answer": 0,
+      "explanation": "The zigzag line is a resistor, a part that limits current."
+    },
+    {
+      "id": "ei-031",
+      "topic": "components",
+      "difficulty": 2,
+      "figure": "data/figures/sym-capacitor.svg",
+      "figureAlt": "A circuit symbol.",
+      "question": "What does this circuit symbol represent?",
+      "choices": [
+        "Capacitor",
+        "Resistor",
+        "Ground",
+        "Diode"
+      ],
+      "answer": 0,
+      "explanation": "Two equal parallel plates with a gap between them form a capacitor, which stores electric charge. A battery symbol looks similar, but its plates are different lengths."
+    },
+    {
+      "id": "ei-032",
+      "topic": "components",
+      "difficulty": 2,
+      "figure": "data/figures/sym-battery.svg",
+      "figureAlt": "A circuit symbol.",
+      "question": "What does this circuit symbol represent?",
+      "choices": [
+        "Battery",
+        "Capacitor",
+        "Resistor",
+        "Lamp"
+      ],
+      "answer": 0,
+      "explanation": "Pairs of long and short lines make a battery. The long line is the positive (+) side. A capacitor's two plates are equal in length."
+    },
+    {
+      "id": "ei-033",
+      "topic": "components",
+      "difficulty": 1,
+      "figure": "data/figures/sym-ground.svg",
+      "figureAlt": "A circuit symbol.",
+      "question": "What does this circuit symbol represent?",
+      "choices": [
+        "Ground",
+        "Battery",
+        "Capacitor",
+        "Antenna"
+      ],
+      "answer": 0,
+      "explanation": "Three horizontal lines that get shorter as they go down mark a ground connection, a common reference point at zero volts."
+    },
+    {
+      "id": "ei-034",
+      "topic": "components",
+      "difficulty": 2,
+      "figure": "data/figures/sym-diode.svg",
+      "figureAlt": "A circuit symbol.",
+      "question": "What does this circuit symbol represent?",
+      "choices": [
+        "Diode",
+        "Transistor",
+        "Resistor",
+        "Fuse"
+      ],
+      "answer": 0,
+      "explanation": "A triangle pointing at a bar is a diode. Current can flow only in the direction the triangle points. An LED adds two small arrows for the light it gives off."
+    },
+    {
+      "id": "ei-035",
+      "topic": "components",
+      "difficulty": 1,
+      "figure": "data/figures/sym-lamp.svg",
+      "figureAlt": "A circuit symbol.",
+      "question": "What does this circuit symbol represent?",
+      "choices": [
+        "Lamp (light bulb)",
+        "Voltmeter",
+        "Ground",
+        "Resistor"
+      ],
+      "answer": 0,
+      "explanation": "A circle with an X inside is a lamp. Meters are drawn as a circle with a letter inside, such as V for a voltmeter."
+    },
+    {
+      "id": "ei-036",
+      "topic": "components",
+      "difficulty": 1,
+      "figure": "data/figures/sym-switch.svg",
+      "figureAlt": "A circuit symbol.",
+      "question": "What does this circuit symbol represent?",
+      "choices": [
+        "Open switch",
+        "Fuse",
+        "Resistor",
+        "Ground"
+      ],
+      "answer": 0,
+      "explanation": "A lever lifted away from a contact is an open switch. When the lever touches the contact, the switch is closed and current can flow."
+    },
+    {
+      "id": "ei-037",
+      "topic": "components",
+      "difficulty": 2,
+      "figure": "data/figures/sym-inductor.svg",
+      "figureAlt": "A circuit symbol.",
+      "question": "What does this circuit symbol represent?",
+      "choices": [
+        "Inductor (coil)",
+        "Resistor",
+        "Capacitor",
+        "Diode"
+      ],
+      "answer": 0,
+      "explanation": "A row of loops is an inductor, a coil of wire that stores energy in a magnetic field. Transformers are made from coils like these."
+    },
+    {
+      "id": "ei-038",
+      "topic": "components",
+      "difficulty": 1,
+      "question": "Which component stores electric charge?",
+      "choices": [
+        "Capacitor",
+        "Resistor",
+        "Diode",
+        "Fuse"
+      ],
+      "answer": 0,
+      "explanation": "A capacitor stores charge on its plates and can release it quickly, as a camera flash does."
+    },
+    {
+      "id": "ei-039",
+      "topic": "components",
+      "difficulty": 2,
+      "question": "What is a transformer used for?",
+      "choices": [
+        "To raise or lower AC voltage",
+        "To change AC into DC",
+        "To store electric charge",
+        "To measure current"
+      ],
+      "answer": 0,
+      "explanation": "A transformer uses two coils to step AC voltage up or down. Power lines carry very high voltage that transformers lower before it enters homes. A rectifier is what changes AC into DC."
+    },
+    {
+      "id": "ei-040",
+      "topic": "components",
+      "difficulty": 2,
+      "question": "Which component can work as an electronic switch or an amplifier?",
+      "choices": [
+        "Transistor",
+        "Capacitor",
+        "Resistor",
+        "Fuse"
+      ],
+      "answer": 0,
+      "explanation": "A transistor uses a small current or voltage to control a larger one, so it can switch circuits on and off or amplify signals. Computer chips contain billions of them."
+    },
+    {
+      "id": "ei-041",
+      "topic": "components",
+      "difficulty": 2,
+      "question": "A device that changes AC into DC is called a:",
+      "choices": [
+        "Rectifier",
+        "Transformer",
+        "Capacitor",
+        "Generator"
+      ],
+      "answer": 0,
+      "explanation": "A rectifier, usually built from diodes, lets current through in only one direction, turning AC into DC. Phone chargers contain one."
+    },
+    {
+      "id": "ei-042",
+      "topic": "wiring",
+      "difficulty": 1,
+      "question": "In standard U.S. household wiring, what is the green or bare copper wire?",
+      "choices": [
+        "Ground",
+        "Hot",
+        "Neutral",
+        "Switch leg"
+      ],
+      "answer": 0,
+      "explanation": "Green or bare copper is the ground wire. Black (or red) is usually hot, and white is neutral."
+    },
+    {
+      "id": "ei-043",
+      "topic": "wiring",
+      "difficulty": 1,
+      "question": "What does a circuit breaker do?",
+      "choices": [
+        "Shuts off the circuit automatically when too much current flows",
+        "Raises the voltage",
+        "Stores extra power",
+        "Changes AC into DC"
+      ],
+      "answer": 0,
+      "explanation": "A breaker trips (opens) when current gets too high, protecting the wiring from overheating. Unlike a fuse, it can be reset instead of replaced."
+    },
+    {
+      "id": "ei-044",
+      "topic": "wiring",
+      "difficulty": 2,
+      "question": "Why are GFCI outlets used near sinks and outdoors?",
+      "choices": [
+        "They cut power quickly if current leaks to ground",
+        "They lower the electric bill",
+        "They raise the voltage",
+        "They protect against lightning strikes"
+      ],
+      "answer": 0,
+      "explanation": "A GFCI (ground fault circuit interrupter) senses current leaking out of the circuit, such as through water or a person, and cuts power in a fraction of a second."
+    },
+    {
+      "id": "ei-045",
+      "topic": "wiring",
+      "difficulty": 2,
+      "question": "In the American Wire Gauge (AWG) system, a smaller gauge number means the wire is:",
+      "choices": [
+        "Thicker and can carry more current",
+        "Thinner and carries less current",
+        "Longer",
+        "Better insulated"
+      ],
+      "answer": 0,
+      "explanation": "Wire gauge numbers run backward: 12-gauge wire is thicker than 14-gauge and can safely carry more current."
+    },
+    {
+      "id": "ei-046",
+      "topic": "wiring",
+      "difficulty": 1,
+      "question": "Before working on a household electrical circuit, you should first:",
+      "choices": [
+        "Turn off the breaker and confirm the power is off with a tester",
+        "Turn off the light switch only",
+        "Work quickly to limit your exposure",
+        "Stand on a wet floor for better footing"
+      ],
+      "answer": 0,
+      "explanation": "Shut off the circuit at the breaker panel, then confirm it's dead with a voltage tester. A wall switch may not disconnect every wire."
+    },
+    {
+      "id": "ei-047",
+      "topic": "wiring",
+      "difficulty": 2,
+      "question": "What mostly determines how dangerous an electric shock is?",
+      "choices": [
+        "How much current flows through the body",
+        "The color of the wire",
+        "The length of the wire",
+        "The brand of the outlet"
+      ],
+      "answer": 0,
+      "explanation": "Current through the body does the harm. Even a fraction of an amp through the chest can stop the heart. Wet skin lowers the body's resistance and lets more current flow."
+    }
+  ]
+}

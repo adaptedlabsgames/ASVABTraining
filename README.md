@@ -1,6 +1,6 @@
 # ASVAB Prep
 
-A free, static ASVAB practice site. It covers the four AFQT subtests (Arithmetic Reasoning, Math Knowledge, Word Knowledge and Paragraph Comprehension) plus General Science and Auto & Shop. Electronics and Mechanical Comprehension are listed as coming soon.
+A free, static ASVAB practice site. It covers the four AFQT subtests (Arithmetic Reasoning, Math Knowledge, Word Knowledge and Paragraph Comprehension) plus General Science, Auto & Shop and Electronics. Mechanical Comprehension is listed as coming soon.
 
 - Plain HTML, CSS and JavaScript. There is no build step and nothing to install.
 - Progress is saved in each student's browser (localStorage). Students don't need accounts.
@@ -95,7 +95,7 @@ node scripts/validate.mjs
 
 ## Timed test and AFQT estimate
 
-Question counts and time limits for the timed test are in `FORMATS` in `js/scoring.js`. They follow the paper ASVAB: AR 30 questions in 36 min, WK 35 in 11, PC 15 in 13, MK 25 in 24, GS 25 in 11, AS 25 in 11. Half length uses roughly half of each. Any live subtest with an entry in `FORMATS` can be taken as a single timed section. Only the four AFQT sections produce an AFQT estimate.
+Question counts and time limits for the timed test are in `FORMATS` in `js/scoring.js`. They follow the paper ASVAB: AR 30 questions in 36 min, WK 35 in 11, PC 15 in 13, MK 25 in 24, GS 25 in 11, AS 25 in 11, EI 20 in 9. Half length uses roughly half of each. Any live subtest with an entry in `FORMATS` can be taken as a single timed section. Only the four AFQT sections produce an AFQT estimate.
 
 The estimated AFQT range weights each section the way the AFQT does: Word Knowledge and Paragraph Comprehension together count twice. It applies that weighting to percent correct and shows a band of ±8. Real AFQT scores are percentiles based on national norms that aren't public, so the estimate is only a rough guide. The site says so wherever the estimate appears.
 
@@ -119,6 +119,7 @@ The Progress page reads everything from the browser's saved data:
 | `{ "formula": ["…", "…"] }` | a highlighted box of rules or formulas |
 | `{ "example": { "q": "…", "steps": ["…"], "answer": "…" } }` | a worked example |
 | `{ "tip": "text" }` | a "Watch out" box |
+| `{ "figure": { "src": "data/figures/….svg", "alt": "…" } }` | a diagram |
 
 The validator checks that every topic in every question bank has a guide.
 
@@ -156,3 +157,9 @@ On the **Study plan** page (`#plan`), a student types in the percentile scores f
 - Lists any technical subtest scores they entered.
 
 The scores are saved only in that browser. "Reset progress" on the Progress page clears them along with everything else.
+
+## Diagrams
+
+A question can show a diagram. Add `"figure": "data/figures/name.svg"` and `"figureAlt": "a text description for screen readers"` to the question. Guides can include one as a `figure` block (see above).
+
+The circuit diagrams are drawn by `scripts/make_figures.py`. To change one, edit the script and run `python3 scripts/make_figures.py`; don't edit the SVG files by hand. The site shows diagrams on a light panel, so dark lines work in both light and dark mode. The validator checks that every figure file exists and has a description.

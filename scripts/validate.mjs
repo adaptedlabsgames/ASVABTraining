@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Checks every question bank in data/ for format mistakes.
 // Usage: node scripts/validate.mjs
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -49,6 +49,10 @@ for (const file of readdirSync(dataDir).filter((f) => f.endsWith('.json') && !SP
     }
     if (!q.explanation?.trim()) at('missing explanation');
     if (q.passage !== undefined && !bank.passages?.[q.passage]) at(`unknown passage "${q.passage}"`);
+    if (q.figure !== undefined) {
+      if (!existsSync(join(dataDir, '..', q.figure))) at(`figure file not found: ${q.figure}`);
+      if (!q.figureAlt?.trim()) at('a question with a figure needs figureAlt (a text description)');
+    }
   }
   for (const id of Object.keys(bank.passages || {})) {
     if (!bank.questions.some((q) => q.passage === id)) where(`passage "${id}" has no questions`);
@@ -61,7 +65,7 @@ for (const file of readdirSync(dataDir).filter((f) => f.endsWith('.json') && !SP
 }
 
 // Study guides: one per topic, known block types only.
-const BLOCKS = ['p', 'h', 'list', 'formula', 'example', 'tip'];
+const BLOCKS = ['p', 'h', 'list', 'formula', 'example', 'tip', 'figure'];
 try {
   const guides = JSON.parse(readFileSync(join(dataDir, 'guides.json'), 'utf8'));
   let n = 0;
@@ -74,6 +78,7 @@ try {
         const keys = Object.keys(b);
         if (keys.length !== 1 || !BLOCKS.includes(keys[0])) errors.push(`guides.json: ${sub}/${t} block ${i + 1} should have exactly one of ${BLOCKS.join(', ')}`);
         if (b.example && (!b.example.q || !Array.isArray(b.example.steps))) errors.push(`guides.json: ${sub}/${t} example ${i + 1} needs q and steps`);
+        if (b.figure && (!b.figure.alt || !existsSync(join(dataDir, '..', b.figure.src || '')))) errors.push(`guides.json: ${sub}/${t} figure ${i + 1} needs an existing src and an alt`);
       });
     }
   }

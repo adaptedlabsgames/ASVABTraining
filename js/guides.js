@@ -4,7 +4,7 @@ import { SUBTESTS, getSubtest } from './config.js';
 import { loadBank, loadData } from './quiz.js';
 import { accuracy, load } from './storage.js';
 import { presetPractice } from './practice.js';
-import { el, mount } from './dom.js';
+import { el, mount, figure } from './dom.js';
 
 const GUIDES_FILE = 'data/guides.json';
 let token = 0;
@@ -82,6 +82,7 @@ function block(b) {
     );
   }
   if (b.tip) return el('div', { class: 'tip' }, el('strong', {}, 'Watch out: '), b.tip);
+  if (b.figure) return figure({ figure: b.figure.src, figureAlt: b.figure.alt });
   return null;
 }
 

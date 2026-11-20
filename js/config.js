@@ -60,7 +60,7 @@ export const SUBTESTS = [
     name: 'Electronics Information',
     short: 'EI',
     afqt: false,
-    ready: false,
+    ready: true,
     file: 'data/ei.json',
     blurb: 'Current, voltage, resistance, circuits and electronic parts.',
   },

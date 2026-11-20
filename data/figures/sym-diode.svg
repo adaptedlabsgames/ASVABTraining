@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80" fill="none" stroke="#1a1f29" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, Helvetica, sans-serif" font-size="15">
+<path d="M20 40 H84" />
+<path d="M84 20 L84 60 L116 40 Z" fill="#1a1f29"/>
+<path d="M116 20 V60" />
+<path d="M116 40 H180" />
+</svg>

@@ -1292,5 +1292,182 @@
         "tip": "Sandpaper grit: higher numbers are finer. Start coarse (like 80) to remove material and finish fine (like 220) to smooth it."
       }
     ]
+  },
+  "ei": {
+    "basics": [
+      {
+        "p": "Three quantities describe every circuit. A water pipe makes a good comparison: voltage is the pressure, current is how much water flows and resistance is how narrow the pipe is."
+      },
+      {
+        "formula": [
+          "Voltage (V): the push, measured in volts",
+          "Current (I): the flow, measured in amperes (amps)",
+          "Resistance (R): opposition to flow, measured in ohms (Ω)",
+          "Power (P): how fast energy is used, measured in watts (W)"
+        ]
+      },
+      {
+        "h": "AC and DC"
+      },
+      {
+        "list": [
+          "Direct current (DC) flows one way. Batteries and car systems use DC.",
+          "Alternating current (AC) reverses direction many times a second. U.S. outlets supply about 120 volts AC at 60 hertz.",
+          "Conductors (copper, aluminum, silver) carry current easily. Insulators (rubber, plastic, glass) block it."
+        ]
+      },
+      {
+        "h": "Meters and prefixes"
+      },
+      {
+        "list": [
+          "Ammeter: current. Voltmeter: voltage. Ohmmeter: resistance. A multimeter measures all three.",
+          "milli- = one-thousandth (1 mA = 0.001 A). kilo- = one thousand (1 kW = 1,000 W). mega- = one million."
+        ]
+      },
+      {
+        "tip": "Don't mix up the units: volts measure the push, amps measure the flow and watts measure power."
+      }
+    ],
+    "ohms": [
+      {
+        "formula": [
+          "Ohm's law: V = I × R",
+          "Current: I = V ÷ R",
+          "Resistance: R = V ÷ I",
+          "Power: P = V × I",
+          "Energy = power × time (kilowatt-hours on an electric bill)"
+        ]
+      },
+      {
+        "p": "Memory trick: write V on top and I × R underneath. Cover the one you want, and the other two show how to find it."
+      },
+      {
+        "example": {
+          "q": "A 12-volt battery is connected to a 4-ohm resistor. How much current flows, and how much power is used?",
+          "steps": [
+            "I = V ÷ R = 12 ÷ 4 = 3 amps",
+            "P = V × I = 12 × 3 = 36 watts"
+          ],
+          "answer": "3 amps and 36 watts"
+        }
+      },
+      {
+        "list": [
+          "More voltage with the same resistance: more current.",
+          "More resistance with the same voltage: less current.",
+          "Watts ÷ volts = amps. A 60-watt bulb on 120 volts draws 0.5 amp."
+        ]
+      },
+      {
+        "tip": "Check which quantity the question asks for, and make sure your answer has the right unit: amps, volts, ohms or watts."
+      }
+    ],
+    "circuits": [
+      {
+        "h": "Series: one path"
+      },
+      {
+        "figure": {
+          "src": "data/figures/ei-series-2r.svg",
+          "alt": "A series circuit: a 12-volt battery in a single loop with a 2-ohm resistor and a 4-ohm resistor."
+        }
+      },
+      {
+        "list": [
+          "Resistances add: 2 Ω + 4 Ω = 6 Ω.",
+          "The same current flows through every part: 12 V ÷ 6 Ω = 2 A.",
+          "The voltage is shared: 4 V across the 2 Ω resistor and 8 V across the 4 Ω resistor.",
+          "If one part fails, the whole circuit stops."
+        ]
+      },
+      {
+        "h": "Parallel: several paths"
+      },
+      {
+        "figure": {
+          "src": "data/figures/ei-parallel-2r.svg",
+          "alt": "A parallel circuit: a 12-volt battery with two 6-ohm resistors, each on its own branch."
+        }
+      },
+      {
+        "list": [
+          "Every branch gets the full voltage (12 V each).",
+          "Current splits among the branches: 2 A + 2 A = 4 A total.",
+          "Total resistance is smaller than the smallest branch. Two equal resistors give half of one: 6 Ω ÷ 2 = 3 Ω.",
+          "If one branch fails, the others keep working. Houses are wired in parallel."
+        ]
+      },
+      {
+        "formula": [
+          "Series: R total = R1 + R2 + …",
+          "Two in parallel: R total = (R1 × R2) ÷ (R1 + R2)"
+        ]
+      },
+      {
+        "tip": "Adding resistors in series raises the total resistance. Adding them in parallel lowers it."
+      }
+    ],
+    "components": [
+      {
+        "list": [
+          "Resistor (zigzag): limits current.",
+          "Capacitor (two equal plates): stores charge.",
+          "Battery (long and short plates; the long one is +): supplies DC voltage.",
+          "Diode (triangle and bar): lets current flow one way only. An LED is a diode that gives off light.",
+          "Inductor (coil of loops): stores energy in a magnetic field.",
+          "Lamp (circle with an X), switch (lever and contact), ground (three shrinking lines)."
+        ]
+      },
+      {
+        "h": "Bigger parts"
+      },
+      {
+        "list": [
+          "Transformer: steps AC voltage up or down.",
+          "Rectifier: changes AC into DC (made from diodes).",
+          "Transistor: an electronic switch or amplifier.",
+          "Fuse and circuit breaker: open the circuit when the current is too high."
+        ]
+      },
+      {
+        "tip": "Battery and capacitor symbols look alike. A battery's plates are different lengths; a capacitor's plates are equal."
+      }
+    ],
+    "wiring": [
+      {
+        "h": "U.S. household wire colors"
+      },
+      {
+        "list": [
+          "Black (or red): hot, carrying current from the panel.",
+          "White: neutral, the return path.",
+          "Green or bare copper: ground, for safety."
+        ]
+      },
+      {
+        "h": "Protection"
+      },
+      {
+        "list": [
+          "Circuit breakers trip when current is too high and can be reset. Fuses melt and must be replaced.",
+          "GFCI outlets cut power within a fraction of a second if current leaks to ground. They're used near water, in kitchens, bathrooms and outdoors.",
+          "Wire gauge: smaller numbers are thicker wire. 12-gauge carries more current than 14-gauge."
+        ]
+      },
+      {
+        "h": "Working safely"
+      },
+      {
+        "list": [
+          "Turn off the breaker, then confirm the power is off with a tester before touching wires.",
+          "Current through the body is what causes harm. Wet skin lets more current flow, so keep hands and floors dry.",
+          "Use a Class C fire extinguisher on electrical fires, never water."
+        ]
+      },
+      {
+        "tip": "A wall switch doesn't make a circuit safe to work on. Shut it off at the breaker panel."
+      }
+    ]
   }
 }

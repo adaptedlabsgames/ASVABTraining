@@ -21,3 +21,11 @@ export function el(tag, attrs = {}, ...children) {
 export function mount(container, ...children) {
   container.replaceChildren(...children.flat(Infinity).filter((c) => c != null && c !== false));
 }
+
+// A question's diagram, if it has one. The image sits on a white panel
+// so its dark lines read the same in light and dark mode.
+export function figure(q) {
+  if (!q.figure) return null;
+  return el('figure', { class: 'q-figure' },
+    el('img', { src: q.figure, alt: q.figureAlt || 'Diagram for this question', loading: 'lazy', decoding: 'async' }));
+}

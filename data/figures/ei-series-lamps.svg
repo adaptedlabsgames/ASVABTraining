@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200" width="340" height="200" fill="none" stroke="#1a1f29" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, Helvetica, sans-serif" font-size="15">
+<path d="M40 40 V94.0" />
+<path d="M24 94.0 H56" />
+<path d="M32 106.0 H48" stroke-width="4"/>
+<path d="M40 106.0 V160" />
+<text x="16" y="90.0" fill="#1a1f29" stroke="none" text-anchor="middle" font-size="16" font-weight="bold">+</text>
+<path d="M40 40 H280 V160 H40" />
+<circle cx="120" cy="40" r="14" fill="#ffffff"/>
+<path d="M110.102 30.102 L129.898 49.897999999999996 M129.898 30.102 L110.102 49.897999999999996" />
+<circle cx="210" cy="40" r="14" fill="#ffffff"/>
+<path d="M200.102 30.102 L219.898 49.897999999999996 M219.898 30.102 L200.102 49.897999999999996" />
+<circle cx="280" cy="100" r="14" fill="#ffffff"/>
+<path d="M270.102 90.102 L289.898 109.898 M289.898 90.102 L270.102 109.898" />
+<text x="120" y="20" fill="#1a1f29" stroke="none" text-anchor="middle" font-size="15" font-weight="normal">A</text>
+<text x="210" y="20" fill="#1a1f29" stroke="none" text-anchor="middle" font-size="15" font-weight="normal">B</text>
+<text x="304" y="105" fill="#1a1f29" stroke="none" text-anchor="start" font-size="15" font-weight="normal">C</text>
+</svg>

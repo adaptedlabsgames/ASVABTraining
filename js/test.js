@@ -3,7 +3,7 @@ import { SUBTESTS, getSubtest } from './config.js';
 import { loadBank, prepare, pickBalanced } from './quiz.js';
 import { recordAnswer, recordSession, loadActiveTest, saveActiveTest, clearActiveTest } from './storage.js';
 import { FORMATS, AFQT_ORDER, afqtEstimate, scoreSection } from './scoring.js';
-import { el, mount } from './dom.js';
+import { el, mount, figure } from './dom.js';
 
 const LETTERS = 'ABCDEFGH';
 // Subtests that can be taken as a single timed section.
@@ -317,6 +317,7 @@ function renderQuestion(focusChoice = null) {
       q.passageText
         ? el('div', { class: 'passage' }, el('div', { class: 'passage-label' }, 'Read the passage'), el('p', {}, q.passageText))
         : null,
+      figure(q),
       el('p', { class: 'question-text' }, q.question),
       el('ol', { class: 'choices' }, choices),
       el('div', { class: 'actions nav-row' },
@@ -550,6 +551,7 @@ function renderResults(finished, scores, estimate) {
           q.passageText
             ? el('details', { class: 'passage-toggle' }, el('summary', {}, 'Show passage'), el('p', {}, q.passageText))
             : null,
+          figure(q),
           el('p', { class: 'q' }, q.question),
           el('p', { class: 'ans' },
             a != null && !right ? ['Your answer: ', el('span', { style: 'color:var(--bad)' }, q.choices[a]), el('br')] : null,
