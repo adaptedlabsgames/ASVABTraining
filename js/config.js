@@ -51,7 +51,7 @@ export const SUBTESTS = [
     name: 'Auto & Shop Information',
     short: 'AS',
     afqt: false,
-    ready: false,
+    ready: true,
     file: 'data/as.json',
     blurb: 'Engines, brakes and car systems, plus tools, fasteners and shop practices.',
   },

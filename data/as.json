@@ -1,0 +1,686 @@
+{
+  "subtest": "as",
+  "name": "Auto & Shop Information",
+  "topics": {
+    "engine": "Engines",
+    "systems": "Cooling, Fuel & Exhaust",
+    "electrical": "Electrical & Ignition",
+    "drivetrain": "Drivetrain, Brakes & Suspension",
+    "tools": "Tools",
+    "shop": "Fasteners, Measuring & Safety"
+  },
+  "questions": [
+    {
+      "id": "as-001",
+      "topic": "engine",
+      "difficulty": 1,
+      "question": "In a four-stroke gasoline engine, what is the correct order of the strokes?",
+      "choices": [
+        "Intake, compression, power, exhaust",
+        "Intake, power, compression, exhaust",
+        "Compression, intake, power, exhaust",
+        "Intake, compression, exhaust, power"
+      ],
+      "answer": 0,
+      "explanation": "Intake: the piston moves down and draws in air and fuel.\nCompression: the piston moves up and squeezes the mixture.\nPower: the spark ignites it and pushes the piston down.\nExhaust: the piston moves up and pushes out burned gases.\nMemory hook: suck, squeeze, bang, blow."
+    },
+    {
+      "id": "as-002",
+      "topic": "engine",
+      "difficulty": 1,
+      "question": "Which part changes the up-and-down motion of the pistons into rotating motion?",
+      "choices": [
+        "Crankshaft",
+        "Camshaft",
+        "Flywheel",
+        "Timing belt"
+      ],
+      "answer": 0,
+      "explanation": "Connecting rods link each piston to the crankshaft, which turns their up-and-down motion into rotation. The camshaft opens and closes the valves."
+    },
+    {
+      "id": "as-003",
+      "topic": "engine",
+      "difficulty": 1,
+      "question": "What ignites the air-fuel mixture in a gasoline engine?",
+      "choices": [
+        "Spark plug",
+        "Glow plug",
+        "Fuel injector",
+        "Oil pump"
+      ],
+      "answer": 0,
+      "explanation": "In a gasoline engine, the spark plug makes a spark that ignites the compressed mixture. Glow plugs are used in diesel engines to help them start when cold."
+    },
+    {
+      "id": "as-004",
+      "topic": "engine",
+      "difficulty": 2,
+      "question": "How does a diesel engine ignite its fuel?",
+      "choices": [
+        "Heat produced by compressing air",
+        "A spark from a spark plug",
+        "A flame from the exhaust",
+        "Static electricity in the fuel"
+      ],
+      "answer": 0,
+      "explanation": "A diesel squeezes air so tightly that it gets very hot. When fuel is sprayed in, the heat ignites it, so no spark plug is needed. This is called compression ignition."
+    },
+    {
+      "id": "as-005",
+      "topic": "engine",
+      "difficulty": 2,
+      "question": "In most engines, the camshaft is used to open and close the:",
+      "choices": [
+        "Valves",
+        "Pistons",
+        "Piston rings",
+        "Cylinder head"
+      ],
+      "answer": 0,
+      "explanation": "Lobes on the camshaft push the intake and exhaust valves open at the right moment in each cycle. The camshaft is driven by the crankshaft through a timing belt or chain."
+    },
+    {
+      "id": "as-006",
+      "topic": "engine",
+      "difficulty": 2,
+      "question": "What is the main job of piston rings?",
+      "choices": [
+        "To seal the gap between the piston and the cylinder wall",
+        "To connect the piston to the crankshaft",
+        "To cool the exhaust gases",
+        "To open the valves"
+      ],
+      "answer": 0,
+      "explanation": "Piston rings seal the cylinder, so compression and combustion pressure don't leak past the piston, and they keep oil out of the combustion chamber. Worn rings can cause low compression and oil burning (blue smoke)."
+    },
+    {
+      "id": "as-007",
+      "topic": "engine",
+      "difficulty": 2,
+      "question": "An engine's displacement is a measure of:",
+      "choices": [
+        "The total volume swept by all of its pistons",
+        "The weight of the engine",
+        "How much horsepower it makes",
+        "The size of the fuel tank"
+      ],
+      "answer": 0,
+      "explanation": "Displacement is the combined volume the pistons sweep through in all the cylinders, given in liters or cubic inches. A 2.0-liter engine displaces 2 liters."
+    },
+    {
+      "id": "as-008",
+      "topic": "engine",
+      "difficulty": 3,
+      "question": "A knocking or pinging sound from a gasoline engine under load is most often caused by:",
+      "choices": [
+        "Fuel igniting too early in the cylinder",
+        "Too much oil in the crankcase",
+        "A loose gas cap",
+        "Worn brake pads"
+      ],
+      "answer": 0,
+      "explanation": "Knocking (detonation) happens when the fuel ignites at the wrong time instead of burning smoothly from the spark. Fuel with too low an octane rating and incorrect ignition timing are common causes."
+    },
+    {
+      "id": "as-009",
+      "topic": "systems",
+      "difficulty": 2,
+      "question": "What does the thermostat in an engine's cooling system do?",
+      "choices": [
+        "Controls coolant flow to the radiator based on temperature",
+        "Measures oil pressure",
+        "Pumps coolant through the engine",
+        "Cools the exhaust"
+      ],
+      "answer": 0,
+      "explanation": "The thermostat stays closed while the engine is cold so it warms up quickly, then opens to send coolant to the radiator. A thermostat stuck closed can make the engine overheat."
+    },
+    {
+      "id": "as-010",
+      "topic": "systems",
+      "difficulty": 1,
+      "question": "Which part circulates coolant through the engine and radiator?",
+      "choices": [
+        "Water pump",
+        "Thermostat",
+        "Radiator cap",
+        "Oil pump"
+      ],
+      "answer": 0,
+      "explanation": "The water pump moves coolant through the engine and radiator. It is usually driven by a belt from the crankshaft. The oil pump moves oil, not coolant."
+    },
+    {
+      "id": "as-011",
+      "topic": "systems",
+      "difficulty": 1,
+      "question": "What is the main purpose of motor oil?",
+      "choices": [
+        "To reduce friction between moving parts",
+        "To cool the passenger cabin",
+        "To raise the fuel's octane",
+        "To charge the battery"
+      ],
+      "answer": 0,
+      "explanation": "Oil lubricates moving parts so metal doesn't grind on metal. It also helps carry away heat and dirt."
+    },
+    {
+      "id": "as-012",
+      "topic": "systems",
+      "difficulty": 2,
+      "question": "What does a catalytic converter do?",
+      "choices": [
+        "Reduces harmful gases in the exhaust",
+        "Quiets exhaust noise",
+        "Filters the air going into the engine",
+        "Converts AC power to DC power"
+      ],
+      "answer": 0,
+      "explanation": "A catalytic converter uses chemical reactions to turn harmful exhaust gases into less harmful ones. The muffler is the part that reduces noise."
+    },
+    {
+      "id": "as-013",
+      "topic": "systems",
+      "difficulty": 1,
+      "question": "What is the main job of a muffler?",
+      "choices": [
+        "To reduce exhaust noise",
+        "To reduce harmful emissions",
+        "To cool the engine",
+        "To filter the fuel"
+      ],
+      "answer": 0,
+      "explanation": "The muffler quiets the sound of the exhaust. Reducing emissions is the catalytic converter's job."
+    },
+    {
+      "id": "as-014",
+      "topic": "systems",
+      "difficulty": 1,
+      "question": "What do fuel injectors do?",
+      "choices": [
+        "Spray fuel into the engine",
+        "Ignite the fuel",
+        "Pump coolant",
+        "Filter the oil"
+      ],
+      "answer": 0,
+      "explanation": "Fuel injectors spray a fine, measured mist of fuel into the intake or directly into the cylinders. Most modern cars use fuel injection instead of a carburetor."
+    },
+    {
+      "id": "as-015",
+      "topic": "systems",
+      "difficulty": 1,
+      "question": "What does an engine's air filter do?",
+      "choices": [
+        "Keeps dirt and dust out of the air going into the engine",
+        "Cools the air coming into the cabin",
+        "Removes water from the fuel",
+        "Cleans the exhaust"
+      ],
+      "answer": 0,
+      "explanation": "The engine needs a lot of air, and the air filter traps dirt that would wear out its parts. A clogged air filter can reduce power and fuel economy."
+    },
+    {
+      "id": "as-016",
+      "topic": "systems",
+      "difficulty": 2,
+      "question": "Why is antifreeze mixed with water in a car's cooling system?",
+      "choices": [
+        "To lower the freezing point and raise the boiling point",
+        "To lubricate the pistons",
+        "To raise the fuel's octane",
+        "To help charge the battery"
+      ],
+      "answer": 0,
+      "explanation": "Coolant (antifreeze mixed with water) keeps the cooling system from freezing in winter and boiling over in summer. It also helps prevent corrosion."
+    },
+    {
+      "id": "as-017",
+      "topic": "electrical",
+      "difficulty": 1,
+      "question": "Most passenger cars use a battery of how many volts?",
+      "choices": [
+        "12 volts",
+        "6 volts",
+        "24 volts",
+        "120 volts"
+      ],
+      "answer": 0,
+      "explanation": "Nearly all modern cars and light trucks have a 12-volt system. Some heavy trucks and military vehicles use 24 volts. Household outlets in the U.S. supply 120 volts."
+    },
+    {
+      "id": "as-018",
+      "topic": "electrical",
+      "difficulty": 1,
+      "question": "Which part recharges the battery while the engine is running?",
+      "choices": [
+        "Alternator",
+        "Starter motor",
+        "Ignition coil",
+        "Distributor"
+      ],
+      "answer": 0,
+      "explanation": "The alternator is driven by a belt from the engine and generates electricity to run the car's electrical system and recharge the battery."
+    },
+    {
+      "id": "as-019",
+      "topic": "electrical",
+      "difficulty": 1,
+      "question": "What does the starter motor do?",
+      "choices": [
+        "Turns the engine over to start it",
+        "Charges the battery",
+        "Fires the spark plugs",
+        "Pumps fuel to the engine"
+      ],
+      "answer": 0,
+      "explanation": "The starter is an electric motor that spins the engine until it runs on its own. It draws a large current from the battery."
+    },
+    {
+      "id": "as-020",
+      "topic": "electrical",
+      "difficulty": 2,
+      "question": "What does an ignition coil do?",
+      "choices": [
+        "Steps up battery voltage to fire the spark plugs",
+        "Stores extra fuel",
+        "Charges the battery",
+        "Powers the dashboard lights"
+      ],
+      "answer": 0,
+      "explanation": "A spark plug needs thousands of volts to make a spark. The ignition coil works like a transformer, raising the battery's 12 volts to that level."
+    },
+    {
+      "id": "as-021",
+      "topic": "electrical",
+      "difficulty": 2,
+      "question": "How does a fuse protect an electrical circuit?",
+      "choices": [
+        "It melts and opens the circuit when too much current flows",
+        "It stores extra current for later",
+        "It raises the voltage",
+        "It permanently grounds the battery"
+      ],
+      "answer": 0,
+      "explanation": "A fuse contains a thin metal strip that melts if the current gets too high. That breaks the circuit before wires overheat or a fire starts. A blown fuse must be replaced with one of the same rating."
+    },
+    {
+      "id": "as-022",
+      "topic": "electrical",
+      "difficulty": 2,
+      "question": "You turn the key and hear rapid clicking, but the engine doesn't crank. What is the most likely cause?",
+      "choices": [
+        "A weak or dead battery",
+        "Low tire pressure",
+        "Worn brake pads",
+        "A dirty air filter"
+      ],
+      "answer": 0,
+      "explanation": "Rapid clicking usually means the starter isn't getting enough current, most often because the battery is weak or the cable connections are loose or corroded."
+    },
+    {
+      "id": "as-023",
+      "topic": "electrical",
+      "difficulty": 2,
+      "question": "When removing a car battery, which cable should you disconnect first?",
+      "choices": [
+        "The negative (−) cable",
+        "The positive (+) cable",
+        "Either one",
+        "Both at the same time"
+      ],
+      "answer": 0,
+      "explanation": "Disconnect the negative (ground) cable first. Then, if your wrench touches metal while you loosen the positive terminal, it can't cause a short. When reconnecting, attach the positive cable first."
+    },
+    {
+      "id": "as-024",
+      "topic": "electrical",
+      "difficulty": 3,
+      "question": "A car's headlights dim when the engine idles and brighten when it revs. What is the most likely cause?",
+      "choices": [
+        "A weak alternator or loose drive belt",
+        "Low engine oil",
+        "Worn tires",
+        "A clogged fuel filter"
+      ],
+      "answer": 0,
+      "explanation": "At idle, a weak alternator or a slipping belt may not produce enough current, so the lights dim. At higher engine speed, output rises and the lights brighten."
+    },
+    {
+      "id": "as-025",
+      "topic": "drivetrain",
+      "difficulty": 1,
+      "question": "Most car brake systems transfer force from the pedal to the brakes using:",
+      "choices": [
+        "Hydraulic brake fluid",
+        "Compressed air",
+        "Steel cables",
+        "Engine oil"
+      ],
+      "answer": 0,
+      "explanation": "Pressing the pedal pushes brake fluid from the master cylinder through the brake lines to each wheel. Liquid doesn't compress, so the force is passed along. Large trucks often use air brakes instead."
+    },
+    {
+      "id": "as-026",
+      "topic": "drivetrain",
+      "difficulty": 2,
+      "question": "In a disc brake, the brake pads squeeze against the:",
+      "choices": [
+        "Rotor",
+        "Drum",
+        "Master cylinder",
+        "Axle"
+      ],
+      "answer": 0,
+      "explanation": "The caliper presses the pads against the spinning rotor (disc) to slow the wheel. In drum brakes, brake shoes press outward against the inside of a drum."
+    },
+    {
+      "id": "as-027",
+      "topic": "drivetrain",
+      "difficulty": 2,
+      "question": "What does the differential do?",
+      "choices": [
+        "Lets the drive wheels turn at different speeds in a turn",
+        "Changes the engine's gear ratio for higher speeds",
+        "Connects and disconnects the engine from the transmission",
+        "Stops the wheels from locking"
+      ],
+      "answer": 0,
+      "explanation": "In a turn, the outside wheel travels farther than the inside wheel. The differential lets them turn at different speeds while both still get power."
+    },
+    {
+      "id": "as-028",
+      "topic": "drivetrain",
+      "difficulty": 1,
+      "question": "In a car with a manual transmission, what does the clutch do?",
+      "choices": [
+        "Connects and disconnects the engine from the transmission",
+        "Slows the car down",
+        "Lets the wheels turn at different speeds",
+        "Controls the fuel mixture"
+      ],
+      "answer": 0,
+      "explanation": "Pressing the clutch pedal disconnects the engine from the transmission so you can change gears or stop without stalling."
+    },
+    {
+      "id": "as-029",
+      "topic": "drivetrain",
+      "difficulty": 1,
+      "question": "What does an anti-lock braking system (ABS) do?",
+      "choices": [
+        "Keeps the wheels from locking up during hard braking",
+        "Makes the car accelerate faster",
+        "Keeps the battery charged",
+        "Adjusts the headlights"
+      ],
+      "answer": 0,
+      "explanation": "ABS rapidly pulses the brakes when a wheel is about to lock. A rolling tire grips better than a skidding one, so the driver can keep steering."
+    },
+    {
+      "id": "as-030",
+      "topic": "drivetrain",
+      "difficulty": 2,
+      "question": "What is the main job of shock absorbers?",
+      "choices": [
+        "To stop the springs from bouncing up and down",
+        "To support the vehicle's weight",
+        "To absorb engine vibration",
+        "To cushion the bumpers in a crash"
+      ],
+      "answer": 0,
+      "explanation": "The springs hold up the vehicle's weight, and the shock absorbers dampen the springs' bouncing. Worn shocks make a car bounce and sway."
+    },
+    {
+      "id": "as-031",
+      "topic": "drivetrain",
+      "difficulty": 2,
+      "question": "A brake pedal that feels soft and spongy most likely means:",
+      "choices": [
+        "There is air in the brake lines",
+        "The tires are worn",
+        "The engine oil is low",
+        "The spark plugs are bad"
+      ],
+      "answer": 0,
+      "explanation": "Air compresses but brake fluid doesn't, so air in the lines makes the pedal feel soft. Bleeding the brakes removes the air. A low fluid level or a leak can also cause it."
+    },
+    {
+      "id": "as-032",
+      "topic": "drivetrain",
+      "difficulty": 2,
+      "question": "A car that pulls to one side and wears its tires unevenly most likely needs:",
+      "choices": [
+        "A wheel alignment",
+        "A new muffler",
+        "An oil change",
+        "A new battery"
+      ],
+      "answer": 0,
+      "explanation": "When the wheels aren't aligned, they don't point straight, so the car pulls and the tires scrub as they roll. Uneven tire pressure can also cause pulling."
+    },
+    {
+      "id": "as-033",
+      "topic": "tools",
+      "difficulty": 1,
+      "question": "Which saw is designed for cutting metal?",
+      "choices": [
+        "Hacksaw",
+        "Coping saw",
+        "Crosscut saw",
+        "Rip saw"
+      ],
+      "answer": 0,
+      "explanation": "A hacksaw has a fine-toothed blade held tight in a frame for cutting metal. A crosscut saw cuts across wood grain, a rip saw cuts along it, and a coping saw cuts curves in wood."
+    },
+    {
+      "id": "as-034",
+      "topic": "tools",
+      "difficulty": 1,
+      "question": "Which tool tightens a bolt to an exact, specified tightness?",
+      "choices": [
+        "Torque wrench",
+        "Pipe wrench",
+        "Adjustable wrench",
+        "Allen wrench"
+      ],
+      "answer": 0,
+      "explanation": "A torque wrench shows or clicks at a set torque, in units such as foot-pounds. It's used where overtightening or undertightening would cause problems, such as on wheel lug nuts and engine head bolts."
+    },
+    {
+      "id": "as-035",
+      "topic": "tools",
+      "difficulty": 1,
+      "question": "A Phillips screwdriver fits screws that have:",
+      "choices": [
+        "A cross-shaped slot",
+        "A single straight slot",
+        "A six-sided hole",
+        "A square head"
+      ],
+      "answer": 0,
+      "explanation": "Phillips screws have a cross (+) shaped recess. A flat-blade (slotted) screwdriver fits a single straight slot, and an Allen wrench fits a six-sided hole."
+    },
+    {
+      "id": "as-036",
+      "topic": "tools",
+      "difficulty": 1,
+      "question": "Which tool is made for gripping and turning round pipe?",
+      "choices": [
+        "Pipe wrench",
+        "Box-end wrench",
+        "Socket wrench",
+        "Torque wrench"
+      ],
+      "answer": 0,
+      "explanation": "A pipe wrench has serrated jaws that bite into round pipe, and grips tighter as you turn it. Box-end and socket wrenches are made for six-sided nuts and bolt heads."
+    },
+    {
+      "id": "as-037",
+      "topic": "tools",
+      "difficulty": 2,
+      "question": "What should you use to strike a wood chisel with a wooden handle?",
+      "choices": [
+        "A wooden or rubber mallet",
+        "A sledgehammer",
+        "A ball-peen hammer",
+        "A pry bar"
+      ],
+      "answer": 0,
+      "explanation": "A mallet drives the chisel without splitting or mushrooming its handle. Steel hammers are for nails, metal punches and metal chisels."
+    },
+    {
+      "id": "as-038",
+      "topic": "tools",
+      "difficulty": 2,
+      "question": "A ball-peen hammer is mainly used for:",
+      "choices": [
+        "Shaping metal and striking metal punches and chisels",
+        "Pulling nails",
+        "Driving fence posts",
+        "Installing drywall"
+      ],
+      "answer": 0,
+      "explanation": "The rounded peen shapes metal and sets rivets, and the flat face strikes punches and cold chisels. A claw hammer is the one for driving and pulling nails."
+    },
+    {
+      "id": "as-039",
+      "topic": "tools",
+      "difficulty": 2,
+      "question": "What is a hand plane used for?",
+      "choices": [
+        "Shaving and smoothing wood surfaces",
+        "Cutting curves in wood",
+        "Drilling holes",
+        "Measuring angles"
+      ],
+      "answer": 0,
+      "explanation": "A plane's blade shaves thin layers off wood to flatten, smooth or trim it to size."
+    },
+    {
+      "id": "as-040",
+      "topic": "tools",
+      "difficulty": 1,
+      "question": "An Allen wrench (hex key) is used on fasteners that have:",
+      "choices": [
+        "A six-sided hole in the head",
+        "A cross-shaped slot",
+        "A square head",
+        "Wings for turning by hand"
+      ],
+      "answer": 0,
+      "explanation": "Allen wrenches are L-shaped six-sided keys that fit hex sockets, common on furniture, bicycles and machinery. Wing nuts are the ones turned by hand."
+    },
+    {
+      "id": "as-041",
+      "topic": "shop",
+      "difficulty": 2,
+      "question": "A micrometer is used to:",
+      "choices": [
+        "Measure thickness very precisely",
+        "Measure electrical current",
+        "Measure angles",
+        "Check tire pressure"
+      ],
+      "answer": 0,
+      "explanation": "A micrometer measures small dimensions very precisely, often to a thousandth of an inch (0.001\"). It is used on parts like crankshafts and spark plug gaps. An ammeter is the tool that measures current."
+    },
+    {
+      "id": "as-042",
+      "topic": "shop",
+      "difficulty": 2,
+      "question": "Which fastener is meant to be permanent and is often used to join sheet metal?",
+      "choices": [
+        "Rivet",
+        "Bolt",
+        "Wood screw",
+        "Wing nut"
+      ],
+      "answer": 0,
+      "explanation": "A rivet is deformed as it is set, so it can't simply be unscrewed. Removing one means drilling or grinding it out. Bolts, screws and wing nuts can be removed."
+    },
+    {
+      "id": "as-043",
+      "topic": "shop",
+      "difficulty": 2,
+      "question": "What is a lock washer used for?",
+      "choices": [
+        "To keep a nut or bolt from loosening from vibration",
+        "To make a bolt longer",
+        "To seal a leak",
+        "To mark where a hole should be drilled"
+      ],
+      "answer": 0,
+      "explanation": "A lock washer, such as a split or toothed washer, bites into the nut and surface so vibration doesn't loosen the fastener."
+    },
+    {
+      "id": "as-044",
+      "topic": "shop",
+      "difficulty": 1,
+      "question": "Which tool checks whether a surface is perfectly horizontal?",
+      "choices": [
+        "Level",
+        "Plumb bob",
+        "Chalk line",
+        "Tape measure"
+      ],
+      "answer": 0,
+      "explanation": "A level has a bubble that centers when the surface is horizontal (level). A plumb bob hangs straight down to check whether something is vertical (plumb)."
+    },
+    {
+      "id": "as-045",
+      "topic": "shop",
+      "difficulty": 1,
+      "question": "A framing square is mainly used to:",
+      "choices": [
+        "Mark and check right (90°) angles",
+        "Measure curves",
+        "Check the depth of holes",
+        "Find studs behind a wall"
+      ],
+      "answer": 0,
+      "explanation": "A framing (carpenter's) square is an L-shaped steel ruler for marking and checking 90° angles in layout and framing."
+    },
+    {
+      "id": "as-046",
+      "topic": "shop",
+      "difficulty": 1,
+      "question": "What is the most important protective gear when using a bench grinder?",
+      "choices": [
+        "Safety glasses or a face shield",
+        "Hearing protection only",
+        "A dust mask only",
+        "Steel-toed boots only"
+      ],
+      "answer": 0,
+      "explanation": "Grinders throw sparks and metal chips, so eye protection comes first. Loose gloves and clothing are dangerous near spinning wheels because they can get caught."
+    },
+    {
+      "id": "as-047",
+      "topic": "shop",
+      "difficulty": 2,
+      "question": "A Class C fire extinguisher is rated for fires involving:",
+      "choices": [
+        "Energized electrical equipment",
+        "Ordinary wood and paper",
+        "Flammable liquids such as gasoline",
+        "Burning metals"
+      ],
+      "answer": 0,
+      "explanation": "Class A: ordinary combustibles (wood, paper, cloth). Class B: flammable liquids. Class C: energized electrical equipment. Class D: burning metals. Class K: cooking oils and fats. Never use water on an electrical fire."
+    },
+    {
+      "id": "as-048",
+      "topic": "shop",
+      "difficulty": 2,
+      "question": "Sandpaper with a higher grit number, such as 220, is:",
+      "choices": [
+        "Finer, for smoothing",
+        "Coarser, for removing a lot of material",
+        "Only for metal",
+        "Only for wet sanding"
+      ],
+      "answer": 0,
+      "explanation": "The grit number counts how finely the abrasive is graded. Higher numbers are finer and leave a smoother finish; lower numbers (like 60) are coarse and remove material fast."
+    }
+  ]
+}

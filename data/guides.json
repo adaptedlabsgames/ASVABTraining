@@ -1063,5 +1063,234 @@
         "tip": "Air is mostly nitrogen (about 78%), not oxygen (about 21%)."
       }
     ]
+  },
+  "as": {
+    "engine": [
+      {
+        "h": "The four-stroke cycle"
+      },
+      {
+        "formula": [
+          "1. Intake: the piston moves down and draws in air and fuel",
+          "2. Compression: the piston moves up and squeezes the mixture",
+          "3. Power: the mixture ignites and pushes the piston down",
+          "4. Exhaust: the piston moves up and pushes out burned gases"
+        ]
+      },
+      {
+        "p": "Memory hook: suck, squeeze, bang, blow. The crankshaft turns twice for each full cycle."
+      },
+      {
+        "h": "Key parts"
+      },
+      {
+        "list": [
+          "Piston: moves up and down in the cylinder. Piston rings seal it against the cylinder wall.",
+          "Connecting rod and crankshaft: turn the pistons' up-and-down motion into rotation.",
+          "Camshaft: opens and closes the intake and exhaust valves. A timing belt or chain keeps it in step with the crankshaft.",
+          "Spark plug: ignites the mixture in a gasoline engine.",
+          "Displacement: the total volume swept by all the pistons, in liters or cubic inches."
+        ]
+      },
+      {
+        "h": "Gasoline vs. diesel"
+      },
+      {
+        "list": [
+          "Gasoline engines use a spark to ignite the fuel.",
+          "Diesel engines compress air until it's hot enough to ignite the fuel (compression ignition). Glow plugs help them start when cold."
+        ]
+      },
+      {
+        "tip": "Blue exhaust smoke usually means the engine is burning oil (often worn rings or valve seals). Black smoke means too much fuel. White smoke can mean coolant is getting into the cylinders."
+      }
+    ],
+    "systems": [
+      {
+        "h": "Cooling system"
+      },
+      {
+        "list": [
+          "Water pump: circulates coolant through the engine and radiator.",
+          "Radiator: releases the coolant's heat into the air.",
+          "Thermostat: stays closed until the engine warms up, then opens to send coolant to the radiator.",
+          "Coolant (antifreeze and water): lowers the freezing point and raises the boiling point."
+        ]
+      },
+      {
+        "h": "Lubrication"
+      },
+      {
+        "p": "Motor oil reduces friction between moving parts and carries away heat and dirt. The oil pump pushes it through the engine, and the oil filter cleans it."
+      },
+      {
+        "h": "Fuel and air"
+      },
+      {
+        "list": [
+          "Fuel pump: moves fuel from the tank to the engine.",
+          "Fuel injectors: spray measured fuel into the engine. Older engines used a carburetor.",
+          "Air filter: keeps dirt out of the engine's air intake."
+        ]
+      },
+      {
+        "h": "Exhaust"
+      },
+      {
+        "list": [
+          "Catalytic converter: turns harmful exhaust gases into less harmful ones.",
+          "Muffler: reduces exhaust noise."
+        ]
+      },
+      {
+        "tip": "Never open a hot radiator cap. The coolant is under pressure and can spray out boiling."
+      }
+    ],
+    "electrical": [
+      {
+        "list": [
+          "Battery: stores power to start the car. Most cars use 12 volts.",
+          "Alternator: generates electricity while the engine runs and recharges the battery.",
+          "Starter motor: spins the engine to start it.",
+          "Ignition coil: raises 12 volts to the thousands of volts a spark plug needs.",
+          "Fuse: melts and opens the circuit if too much current flows. Replace it with one of the same rating."
+        ]
+      },
+      {
+        "h": "Troubleshooting"
+      },
+      {
+        "list": [
+          "Rapid clicking but no crank: weak battery or loose, corroded cables.",
+          "Lights dim at idle and brighten when revving: weak alternator or slipping belt.",
+          "Battery warning light while driving: the charging system (alternator or belt) has a problem."
+        ]
+      },
+      {
+        "h": "Battery safety"
+      },
+      {
+        "list": [
+          "Disconnect the negative (−) cable first and reconnect it last.",
+          "Batteries can give off explosive hydrogen gas, so keep sparks and flames away."
+        ]
+      },
+      {
+        "tip": "When jump-starting, connect the last clamp to bare metal on the dead car's engine, away from the battery, not to the dead battery's negative post."
+      }
+    ],
+    "drivetrain": [
+      {
+        "h": "Drivetrain"
+      },
+      {
+        "list": [
+          "Transmission: changes gear ratios so the engine stays in its useful speed range.",
+          "Clutch (manual transmissions): connects and disconnects the engine from the transmission.",
+          "Driveshaft: carries power from the transmission to the rear axle on rear-wheel-drive vehicles.",
+          "Differential: lets the drive wheels turn at different speeds in a turn."
+        ]
+      },
+      {
+        "h": "Brakes"
+      },
+      {
+        "list": [
+          "Most cars use hydraulic brakes: the pedal pushes brake fluid from the master cylinder to each wheel.",
+          "Disc brakes: a caliper squeezes pads against a rotor. Drum brakes: shoes press against the inside of a drum.",
+          "ABS keeps the wheels from locking during hard braking, so you can still steer.",
+          "A spongy pedal usually means air in the brake lines."
+        ]
+      },
+      {
+        "h": "Suspension and steering"
+      },
+      {
+        "list": [
+          "Springs carry the vehicle's weight; shock absorbers stop the bouncing.",
+          "Pulling to one side and uneven tire wear point to an alignment problem or uneven tire pressure."
+        ]
+      },
+      {
+        "tip": "A grinding noise when braking often means the pads are worn down to metal. Fix it right away, before the rotors are damaged."
+      }
+    ],
+    "tools": [
+      {
+        "h": "Saws"
+      },
+      {
+        "list": [
+          "Crosscut saw: cuts across the wood grain.",
+          "Rip saw: cuts along the grain.",
+          "Coping saw: cuts curves in wood.",
+          "Hacksaw: cuts metal."
+        ]
+      },
+      {
+        "h": "Wrenches"
+      },
+      {
+        "list": [
+          "Open-end and box-end wrenches: fit nuts and bolt heads; box-end wrenches grip all six sides.",
+          "Socket wrench (ratchet): turns sockets quickly without lifting the wrench off.",
+          "Adjustable wrench: one wrench for many sizes.",
+          "Torque wrench: tightens to an exact torque.",
+          "Pipe wrench: grips round pipe.",
+          "Allen wrench (hex key): fits six-sided holes."
+        ]
+      },
+      {
+        "h": "Hammers and other tools"
+      },
+      {
+        "list": [
+          "Claw hammer: drives and pulls nails. Ball-peen hammer: metalwork, punches and rivets. Mallet: strikes wood chisels without damaging them.",
+          "Phillips screwdriver: cross-shaped slot. Flat-blade screwdriver: single straight slot.",
+          "Plane: shaves and smooths wood. Chisel: cuts and shapes wood or metal.",
+          "Vise: holds work steady on a bench. Clamps: hold pieces together while glue dries."
+        ]
+      },
+      {
+        "tip": "Pull a wrench toward you rather than pushing it. If it slips, you're less likely to smash your knuckles."
+      }
+    ],
+    "shop": [
+      {
+        "h": "Fasteners"
+      },
+      {
+        "list": [
+          "Bolt and nut: removable, and very strong when tightened correctly.",
+          "Rivet: permanent, used for sheet metal and aircraft skins.",
+          "Lock washer: keeps nuts from loosening from vibration. A flat washer spreads the load.",
+          "Wood screws grip wood with their threads. Nails hold by friction."
+        ]
+      },
+      {
+        "h": "Measuring and layout"
+      },
+      {
+        "list": [
+          "Micrometer: very precise measurements, often to 0.001 inch. Calipers measure inside and outside diameters.",
+          "Level: checks horizontal. Plumb bob: checks vertical.",
+          "Framing or try square: marks and checks 90° angles.",
+          "Feeler gauge: measures small gaps, such as valve clearance."
+        ]
+      },
+      {
+        "h": "Safety"
+      },
+      {
+        "list": [
+          "Wear eye protection when cutting, grinding or drilling.",
+          "Keep loose clothing, jewelry and gloves away from spinning tools.",
+          "Fire extinguisher classes: A ordinary materials, B flammable liquids, C electrical, D metals, K cooking oils."
+        ]
+      },
+      {
+        "tip": "Sandpaper grit: higher numbers are finer. Start coarse (like 80) to remove material and finish fine (like 220) to smooth it."
+      }
+    ]
   }
 }
