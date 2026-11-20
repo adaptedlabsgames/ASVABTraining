@@ -155,6 +155,7 @@ On the **Study plan** page (`#plan`), a student types in the percentile scores f
 - Suggests a practice difficulty for each subtest: Easy below the 20th percentile, Easy first from 20 to 49, and Mixed from 50 up.
 - Builds a simple weekly routine.
 - Lists any technical subtest scores they entered.
+- Shows any Career Exploration Scores they entered (Verbal Skills, Math Skills, Science and Technical Skills) as a summary. These combine several subtests, so they don't change the plan.
 
 The scores are saved only in that browser. "Reset progress" on the Progress page clears them along with everything else.
 

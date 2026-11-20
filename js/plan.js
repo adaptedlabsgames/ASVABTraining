@@ -10,7 +10,18 @@ import { el, mount } from './dom.js';
 
 const AFQT_PARTS = ['ar', 'wk', 'pc', 'mk'];
 const TECH_PARTS = ['gs', 'as', 'ei', 'mc', 'ao'];
-const NAMES = { ao: 'Assembling Objects' }; // not in config (no practice yet)
+// Career Exploration Scores on the student (CEP) report. Each one is a
+// combination of subtests, so they're shown as a summary but don't change
+// the plan.
+const CAREER_PARTS = [
+  { id: 'verbal', name: 'Verbal Skills', from: ['wk', 'pc'] },
+  { id: 'math', name: 'Math Skills', from: ['ar', 'mk'] },
+  { id: 'scitech', name: 'Science and Technical Skills', from: ['gs', 'ei', 'mc'] },
+];
+const NAMES = {
+  ao: 'Assembling Objects', // not in config (no practice yet)
+  ...Object.fromEntries(CAREER_PARTS.map((c) => [c.id, c.name])),
+};
 const nameOf = (id) => getSubtest(id)?.name || NAMES[id] || id;
 
 const ENLIST_MIN = 31;
@@ -77,6 +88,12 @@ function renderForm(scores) {
       ),
     ),
     el('fieldset', {},
+      el('legend', {}, 'Career Exploration Scores (optional)'),
+      el('p', { class: 'small muted', style: 'margin:0 0 10px' },
+        'These are combinations of the subtests below. They’re shown on your plan as a summary but don’t change it.'),
+      el('div', { class: 'score-grid' }, CAREER_PARTS.map((c) => field(c.id, c.name, scores[c.id]))),
+    ),
+    el('fieldset', {},
       el('legend', {}, 'AFQT subtests'),
       el('div', { class: 'score-grid' }, AFQT_PARTS.map((id) => field(id, nameOf(id), scores[id]))),
     ),
@@ -123,6 +140,7 @@ function renderForm(scores) {
       el('ul', {},
         el('li', {}, 'Use the Percentile Scores column (on a school report it may be labeled with your grade, like “12th Grade Students”), not the standard scores.'),
         el('li', {}, 'Your AFQT is listed as “Military Entrance Score (AFQT).”'),
+        el('li', {}, 'Verbal Skills, Math Skills and Science and Technical Skills at the top of a school report are optional. Each one combines several subtests: Verbal Skills is Word Knowledge and Paragraph Comprehension, Math Skills is Arithmetic Reasoning and Math Knowledge, and Science and Technical Skills is General Science, Electronics and Mechanical Comprehension.'),
         el('li', {}, 'Leave out anything you don’t have. Your scores are saved only in this browser.'),
       ),
     ),
@@ -164,6 +182,23 @@ function afqtSummary(afqt) {
     el('p', { style: 'margin:12px 0 0' }, goal),
     el('p', { class: 'small muted', style: 'margin:8px 0 0' }, 'Requirements change and differ by branch, so confirm with a recruiter.'),
   );
+}
+
+function careerSummary(scores) {
+  const entered = CAREER_PARTS.filter((c) => scores[c.id] != null);
+  if (!entered.length) return null;
+  return [
+    el('h2', {}, 'Career Exploration Scores'),
+    el('div', { class: 'card list-card' }, entered.map((c) =>
+      el('div', { class: 'list-row' },
+        el('div', {},
+          el('strong', {}, c.name),
+          el('div', { class: 'small muted' }, `Made up of ${c.from.map(nameOf).join(', ').replace(/, ([^,]*)$/, ' and $1')}`)),
+        el('span', { class: 'nowrap' }, `${ordinal(scores[c.id])} percentile`),
+      ))),
+    el('p', { class: 'small muted section-note', style: 'margin-top:8px' },
+      'These scores summarize your subtests to help match you with career fields. To raise one, work on the subtests it’s made of; your plan below already covers them.'),
+  ];
 }
 
 function renderResult(scores) {
@@ -218,6 +253,7 @@ function renderResult(scores) {
   mount(app,
     el('h1', {}, 'Your study plan'),
     afqtSummary(scores.afqt),
+    careerSummary(scores),
     el('h2', {}, 'What to work on, in order'),
     el('p', { class: 'small muted section-note' },
       'Lowest scores first. Word Knowledge and Paragraph Comprehension together count for about half of your AFQT, so reading and vocabulary pay off twice.'),
