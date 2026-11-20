@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 200" width="340" height="200" fill="none" stroke="#1a1f29" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, Helvetica, sans-serif" font-size="15">
+<path d="M100 60 H240 M100 140 H240" />
+<circle cx="100" cy="100" r="40" fill="#ffffff"/>
+<circle cx="100" cy="100" r="4" fill="#1a1f29" stroke="none"/>
+<circle cx="240" cy="100" r="40" fill="#ffffff"/>
+<circle cx="240" cy="100" r="4" fill="#1a1f29" stroke="none"/>
+<path d="M49.8 71.0 A58 58 0 0 1 150.2 71.0" />
+<path d="M150.2 71.0 L140.8 65.3 L150.0 60.0 Z" fill="#1a1f29"/>
+<text x="100" y="174" fill="#1a1f29" stroke="none" text-anchor="middle" font-size="15" font-weight="bold">Driver</text>
+<text x="240" y="174" fill="#1a1f29" stroke="none" text-anchor="middle" font-size="15" font-weight="bold">?</text>
+</svg>

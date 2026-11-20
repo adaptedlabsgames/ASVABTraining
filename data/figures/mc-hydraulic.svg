@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 230" width="340" height="230" fill="none" stroke="#1a1f29" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, Helvetica, sans-serif" font-size="15">
+<path d="M60 80 H90 V150 H200 V80 H290 V170 H60 Z" fill="#cfe0f5" stroke="none"/>
+<path d="M60 50 V170 H290 V50 M90 50 V150 H200 V50" />
+<rect x="60" y="72" width="30" height="8" fill="#1a1f29" stroke="none"/>
+<rect x="200" y="72" width="90" height="8" fill="#1a1f29" stroke="none"/>
+<path d="M75.0 14.0 L75.0 68.0" />
+<path d="M75.0 68.0 L70.7 59.0 L79.3 59.0 Z" fill="#1a1f29"/>
+<text x="98" y="26" fill="#1a1f29" stroke="none" text-anchor="start" font-size="15" font-weight="bold">10 lb</text>
+<path d="M245.0 66.0 L245.0 16.0" />
+<path d="M245.0 16.0 L249.3 25.0 L240.7 25.0 Z" fill="#1a1f29"/>
+<text x="260" y="30" fill="#1a1f29" stroke="none" text-anchor="start" font-size="15" font-weight="bold">?</text>
+<text x="75" y="196" fill="#1a1f29" stroke="none" text-anchor="middle" font-size="15" font-weight="normal">Area: 2 sq in</text>
+<text x="245" y="196" fill="#1a1f29" stroke="none" text-anchor="middle" font-size="15" font-weight="normal">Area: 20 sq in</text>
+</svg>

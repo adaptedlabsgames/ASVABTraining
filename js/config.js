@@ -69,7 +69,7 @@ export const SUBTESTS = [
     name: 'Mechanical Comprehension',
     short: 'MC',
     afqt: false,
-    ready: false,
+    ready: true,
     file: 'data/mc.json',
     blurb: 'Levers, pulleys, gears, pressure and how machines work.',
   },

@@ -17,6 +17,7 @@ export const FORMATS = {
       gs: { count: 25, minutes: 11 },
       as: { count: 25, minutes: 11 },
       ei: { count: 20, minutes: 9 },
+      mc: { count: 25, minutes: 19 },
     },
   },
   half: {
@@ -29,6 +30,7 @@ export const FORMATS = {
       gs: { count: 13, minutes: 6 },
       as: { count: 13, minutes: 6 },
       ei: { count: 10, minutes: 5 },
+      mc: { count: 13, minutes: 10 },
     },
   },
 };

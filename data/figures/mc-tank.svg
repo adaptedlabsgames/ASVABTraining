@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 210" width="300" height="210" fill="none" stroke="#1a1f29" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, Helvetica, sans-serif" font-size="15">
+<path d="M90 40 H210 V180 H90 Z" fill="#cfe0f5" stroke="none"/>
+<path d="M90 20 V180 H210 V20" />
+<path d="M90 40 H210" stroke-width="1.5" stroke-dasharray="6 5"/>
+<circle cx="210" cy="70" r="4" fill="#ffffff"/>
+<circle cx="210" cy="110" r="4" fill="#ffffff"/>
+<circle cx="210" cy="150" r="4" fill="#ffffff"/>
+<text x="228" y="75" fill="#1a1f29" stroke="none" text-anchor="start" font-size="15" font-weight="bold">A</text>
+<text x="228" y="115" fill="#1a1f29" stroke="none" text-anchor="start" font-size="15" font-weight="bold">B</text>
+<text x="228" y="155" fill="#1a1f29" stroke="none" text-anchor="start" font-size="15" font-weight="bold">C</text>
+<text x="150" y="200" fill="#1a1f29" stroke="none" text-anchor="middle" font-size="15" font-weight="normal">Water tank with three holes</text>
+</svg>

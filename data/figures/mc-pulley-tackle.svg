@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 250" width="320" height="250" fill="none" stroke="#1a1f29" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, Helvetica, sans-serif" font-size="15">
+<path d="M90 20 H230" />
+<path d="M98 20 l-8 -8 M110 20 l-8 -8 M122 20 l-8 -8 M134 20 l-8 -8 M146 20 l-8 -8 M158 20 l-8 -8 M170 20 l-8 -8 M182 20 l-8 -8 M194 20 l-8 -8 M206 20 l-8 -8 M218 20 l-8 -8 M230 20 l-8 -8" stroke-width="1.5"/>
+<path d="M160 20 V35" />
+<rect x="108" y="35" width="104" height="10" rx="3" fill="#ffffff"/>
+<path d="M120 60 V140 M150 60 V140 M170 60 V140 M200 60 V140" />
+<circle cx="135" cy="60" r="15" fill="#ffffff"/>
+<circle cx="135" cy="60" r="4" fill="#1a1f29" stroke="none"/>
+<circle cx="185" cy="60" r="15" fill="#ffffff"/>
+<circle cx="185" cy="60" r="4" fill="#1a1f29" stroke="none"/>
+<circle cx="135" cy="140" r="15" fill="#ffffff"/>
+<circle cx="135" cy="140" r="4" fill="#1a1f29" stroke="none"/>
+<circle cx="185" cy="140" r="15" fill="#ffffff"/>
+<circle cx="185" cy="140" r="4" fill="#1a1f29" stroke="none"/>
+<rect x="108" y="155" width="104" height="10" rx="3" fill="#ffffff"/>
+<path d="M185 45 V45 M185 45 Q240 45 250 70 V170" />
+<path d="M250.0 170.0 L250.0 210.0" />
+<path d="M250.0 210.0 L245.7 201.0 L254.3 201.0 Z" fill="#1a1f29"/>
+<text x="262" y="196" fill="#1a1f29" stroke="none" text-anchor="start" font-size="15" font-weight="bold">Pull = ?</text>
+<path d="M160 165 V180" />
+<rect x="125" y="180" width="70" height="44" rx="3" fill="#ffffff"/>
+<text x="160.0" y="207.0" fill="#1a1f29" stroke="none" text-anchor="middle" font-size="15" font-weight="bold">200 lb</text>
+</svg>

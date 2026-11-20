@@ -1469,5 +1469,225 @@
         "tip": "A wall switch doesn't make a circuit safe to work on. Shut it off at the breaker panel."
       }
     ]
+  },
+  "mc": {
+    "levers": [
+      {
+        "p": "A lever is a bar that pivots on a fulcrum. It balances when weight × distance from the fulcrum is equal on both sides."
+      },
+      {
+        "formula": [
+          "Balance: weight₁ × distance₁ = weight₂ × distance₂",
+          "Mechanical advantage = effort arm ÷ load arm"
+        ]
+      },
+      {
+        "figure": {
+          "src": "data/figures/mc-lever-force.svg",
+          "alt": "A lever with a 100-pound weight 3 feet from the fulcrum and an unknown force 6 feet from it on the other side."
+        }
+      },
+      {
+        "example": {
+          "q": "In the diagram, how much force balances the lever?",
+          "steps": [
+            "Left side: 100 lb × 3 ft = 300",
+            "Right side: force × 6 ft = 300",
+            "Force = 300 ÷ 6 = 50 lb"
+          ],
+          "answer": "50 lb"
+        }
+      },
+      {
+        "h": "Three classes"
+      },
+      {
+        "list": [
+          "First class: fulcrum in the middle (seesaw, crowbar, pliers).",
+          "Second class: load in the middle (wheelbarrow, nutcracker). Always saves force.",
+          "Third class: effort in the middle (broom, tweezers, your forearm). Costs force but gains speed and distance."
+        ]
+      },
+      {
+        "tip": "The longer the arm you push on, the less force you need, but you have to move it farther."
+      }
+    ],
+    "pulleys": [
+      {
+        "formula": [
+          "Force needed = load ÷ number of rope segments holding up the load",
+          "Rope pulled = distance lifted × mechanical advantage"
+        ]
+      },
+      {
+        "list": [
+          "Single fixed pulley: changes direction only. Mechanical advantage 1.",
+          "Single movable pulley: two segments hold the load. Mechanical advantage 2.",
+          "Block and tackle: count the segments holding up the lower block."
+        ]
+      },
+      {
+        "figure": {
+          "src": "data/figures/mc-pulley-tackle.svg",
+          "alt": "A block and tackle with four rope segments holding up a 200-pound load and a free end pulled down."
+        }
+      },
+      {
+        "example": {
+          "q": "In the diagram, how much force lifts the 200-pound weight?",
+          "steps": [
+            "Count the segments holding the lower block: 4",
+            "200 ÷ 4 = 50 lb"
+          ],
+          "answer": "50 lb"
+        }
+      },
+      {
+        "tip": "Don't count the free end you pull on unless it pulls upward on the moving block."
+      }
+    ],
+    "gears": [
+      {
+        "list": [
+          "Two meshed gears turn in opposite directions.",
+          "In a row of gears, every other gear turns the same direction.",
+          "An open belt keeps the same direction. A crossed belt reverses it.",
+          "A smaller gear turns faster than the larger gear it drives."
+        ]
+      },
+      {
+        "figure": {
+          "src": "data/figures/mc-gears-teeth.svg",
+          "alt": "Two meshed gears: A with 10 teeth and B with 30 teeth."
+        }
+      },
+      {
+        "formula": [
+          "Turns of B = turns of A × (teeth on A ÷ teeth on B)",
+          "Small gear driving large gear: slower, more turning force (torque)",
+          "Large gear driving small gear: faster, less turning force"
+        ]
+      },
+      {
+        "example": {
+          "q": "In the diagram, gear A turns 3 times. How many times does gear B turn?",
+          "steps": [
+            "Teeth passed: 3 × 10 = 30",
+            "30 ÷ 30 teeth on B = 1"
+          ],
+          "answer": "1 time"
+        }
+      },
+      {
+        "tip": "For direction questions, number the gears and alternate: 1 clockwise, 2 counterclockwise, 3 clockwise, and so on."
+      }
+    ],
+    "simple": [
+      {
+        "h": "Ramps (inclined planes)"
+      },
+      {
+        "formula": [
+          "Mechanical advantage = length of ramp ÷ height",
+          "Force = weight ÷ mechanical advantage"
+        ]
+      },
+      {
+        "figure": {
+          "src": "data/figures/mc-ramp.svg",
+          "alt": "A 200-pound box on a ramp 12 feet long that rises 3 feet."
+        }
+      },
+      {
+        "example": {
+          "q": "In the diagram, how much force pushes the box up the ramp (ignoring friction)?",
+          "steps": [
+            "Mechanical advantage = 12 ÷ 3 = 4",
+            "200 ÷ 4 = 50 lb"
+          ],
+          "answer": "50 lb"
+        }
+      },
+      {
+        "h": "Screws, wedges and wheels"
+      },
+      {
+        "list": [
+          "A screw is a ramp wrapped around a shaft. Finer threads take more turns but less force per turn.",
+          "A wedge (axe, knife, doorstop) turns a push into a force that splits or holds.",
+          "Wheel and axle (doorknob, steering wheel, screwdriver): mechanical advantage = wheel radius ÷ axle radius."
+        ]
+      },
+      {
+        "tip": "Every simple machine trades force for distance. Less force always means moving farther."
+      }
+    ],
+    "forces": [
+      {
+        "formula": [
+          "Work = force × distance (foot-pounds)",
+          "Power = work ÷ time",
+          "Spring stretch is proportional to force (until it's overstretched)"
+        ]
+      },
+      {
+        "list": [
+          "No movement means no work in the physics sense, even if holding something is tiring.",
+          "Friction resists motion. Oil, grease and ball bearings reduce it.",
+          "Inertia: objects keep doing what they're doing. Loose items slide to the outside of a turn.",
+          "A low center of gravity and a wide base make objects more stable.",
+          "On a spinning wheel, points farther from the center move faster.",
+          "No machine is 100% efficient. Some energy is always lost to friction as heat."
+        ]
+      },
+      {
+        "example": {
+          "q": "A 30-pound box is lifted 4 feet. How much work is done?",
+          "steps": [
+            "Work = force × distance",
+            "30 × 4 = 120"
+          ],
+          "answer": "120 foot-pounds"
+        }
+      },
+      {
+        "tip": "Machines can reduce force, but they never reduce the total work. You always pay with distance."
+      }
+    ],
+    "fluids": [
+      {
+        "formula": [
+          "Pressure = force ÷ area (pounds per square inch, psi)",
+          "Hydraulics: the pressure is the same everywhere in the fluid"
+        ]
+      },
+      {
+        "figure": {
+          "src": "data/figures/mc-hydraulic.svg",
+          "alt": "A hydraulic press: 10 pounds on a 2-square-inch piston, connected to a 20-square-inch piston."
+        }
+      },
+      {
+        "example": {
+          "q": "In the diagram, how much force does the large piston produce?",
+          "steps": [
+            "Pressure = 10 lb ÷ 2 sq in = 5 psi",
+            "Large piston: 5 psi × 20 sq in = 100 lb"
+          ],
+          "answer": "100 lb"
+        }
+      },
+      {
+        "list": [
+          "Water pressure increases with depth, so dams are thickest at the bottom.",
+          "Liquids barely compress, which is why hydraulic brakes and lifts work.",
+          "An object floats when it pushes aside its own weight in water (Archimedes' principle).",
+          "Heating a gas in a sealed container raises its pressure."
+        ]
+      },
+      {
+        "tip": "In hydraulics, a bigger piston means more force, but it moves a shorter distance."
+      }
+    ]
   }
 }

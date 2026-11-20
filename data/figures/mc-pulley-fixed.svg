@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 230" width="300" height="230" fill="none" stroke="#1a1f29" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" font-family="Arial, Helvetica, sans-serif" font-size="15">
+<path d="M90 20 H230" />
+<path d="M98 20 l-8 -8 M110 20 l-8 -8 M122 20 l-8 -8 M134 20 l-8 -8 M146 20 l-8 -8 M158 20 l-8 -8 M170 20 l-8 -8 M182 20 l-8 -8 M194 20 l-8 -8 M206 20 l-8 -8 M218 20 l-8 -8 M230 20 l-8 -8" stroke-width="1.5"/>
+<path d="M160 20 V36" />
+<circle cx="160" cy="56" r="20" fill="#ffffff"/>
+<circle cx="160" cy="56" r="4" fill="#1a1f29" stroke="none"/>
+<path d="M140 56 V150" />
+<path d="M180 56 V170" />
+<rect x="110" y="150" width="60" height="44" rx="3" fill="#ffffff"/>
+<text x="140.0" y="177.0" fill="#1a1f29" stroke="none" text-anchor="middle" font-size="15" font-weight="bold">100 lb</text>
+<path d="M180.0 170.0 L180.0 214.0" />
+<path d="M180.0 214.0 L175.7 205.0 L184.3 205.0 Z" fill="#1a1f29"/>
+<text x="205" y="200" fill="#1a1f29" stroke="none" text-anchor="start" font-size="15" font-weight="bold">Pull = ?</text>
+</svg>

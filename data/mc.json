@@ -1,0 +1,658 @@
+{
+  "subtest": "mc",
+  "name": "Mechanical Comprehension",
+  "topics": {
+    "levers": "Levers",
+    "pulleys": "Pulleys",
+    "gears": "Gears & Belts",
+    "simple": "Ramps, Screws, Wedges & Wheels",
+    "forces": "Force, Work & Energy",
+    "fluids": "Pressure & Fluids"
+  },
+  "questions": [
+    {
+      "id": "mc-001",
+      "topic": "levers",
+      "difficulty": 2,
+      "figure": "data/figures/mc-lever-force.svg",
+      "figureAlt": "A lever on a fulcrum. A 100-pound weight sits 3 feet to the left of the fulcrum. An unknown downward force pushes 6 feet to the right of the fulcrum.",
+      "question": "How much force is needed at the right end to balance the lever?",
+      "choices": [
+        "50 lb",
+        "200 lb",
+        "100 lb",
+        "25 lb"
+      ],
+      "answer": 0,
+      "explanation": "A lever balances when weight × distance is the same on both sides.\n100 lb × 3 ft = 300.\nForce × 6 ft = 300, so force = 50 lb.\nThe longer arm needs less force."
+    },
+    {
+      "id": "mc-002",
+      "topic": "levers",
+      "difficulty": 2,
+      "figure": "data/figures/mc-lever-distance.svg",
+      "figureAlt": "A lever on a fulcrum. A 60-pound weight sits 4 feet to the left of the fulcrum. A 40-pound weight sits an unknown distance to the right.",
+      "question": "How far from the fulcrum must the 40-pound weight sit to balance the lever?",
+      "choices": [
+        "6 ft",
+        "4 ft",
+        "2.7 ft",
+        "10 ft"
+      ],
+      "answer": 0,
+      "explanation": "Balance: weight × distance must match on both sides.\n60 × 4 = 240.\n40 × distance = 240, so distance = 6 ft.\nThe lighter weight has to sit farther out."
+    },
+    {
+      "id": "mc-003",
+      "topic": "levers",
+      "difficulty": 1,
+      "question": "A lever has an effort arm 8 feet long and a load arm 2 feet long. What is its mechanical advantage?",
+      "choices": [
+        "4",
+        "16",
+        "6",
+        "0.25"
+      ],
+      "answer": 0,
+      "explanation": "Mechanical advantage = effort arm ÷ load arm = 8 ÷ 2 = 4. Each pound of effort lifts 4 pounds."
+    },
+    {
+      "id": "mc-004",
+      "topic": "levers",
+      "difficulty": 2,
+      "question": "Which of these is a second-class lever, with the load between the fulcrum and the effort?",
+      "choices": [
+        "Wheelbarrow",
+        "Seesaw",
+        "Tweezers",
+        "Fishing rod"
+      ],
+      "answer": 0,
+      "explanation": "In a wheelbarrow, the wheel is the fulcrum, the load is in the middle and you lift at the handles. A seesaw is first-class (fulcrum in the middle). Tweezers and fishing rods are third-class (effort in the middle)."
+    },
+    {
+      "id": "mc-005",
+      "topic": "levers",
+      "difficulty": 1,
+      "question": "On a lever, moving the fulcrum closer to the load makes the load:",
+      "choices": [
+        "Easier to lift",
+        "Harder to lift",
+        "No easier or harder to lift",
+        "Impossible to lift"
+      ],
+      "answer": 0,
+      "explanation": "Moving the fulcrum toward the load makes the effort arm longer and the load arm shorter, so less force is needed. The trade-off: you push through a longer distance."
+    },
+    {
+      "id": "mc-006",
+      "topic": "levers",
+      "difficulty": 1,
+      "question": "In a first-class lever, where is the fulcrum?",
+      "choices": [
+        "Between the effort and the load",
+        "At one end, with the load in the middle",
+        "At one end, with the effort in the middle",
+        "There is no fulcrum"
+      ],
+      "answer": 0,
+      "explanation": "First class: fulcrum in the middle (seesaw, crowbar). Second class: load in the middle (wheelbarrow). Third class: effort in the middle (broom, tweezers)."
+    },
+    {
+      "id": "mc-007",
+      "topic": "levers",
+      "difficulty": 3,
+      "question": "In a third-class lever, such as a broom, the effort is between the fulcrum and the load. Compared with the effort, the load:",
+      "choices": [
+        "Moves farther and faster, but more force is needed",
+        "Moves a shorter distance, and less force is needed",
+        "Moves the same distance with the same force",
+        "Doesn't move"
+      ],
+      "answer": 0,
+      "explanation": "A third-class lever always needs more force than the load, but it moves the load farther and faster. That's why a broom or bat swings its end so quickly."
+    },
+    {
+      "id": "mc-008",
+      "topic": "pulleys",
+      "difficulty": 1,
+      "figure": "data/figures/mc-pulley-fixed.svg",
+      "figureAlt": "A single pulley attached to the ceiling. A rope runs over it from a 100-pound weight to a person pulling down on the other end.",
+      "question": "Ignoring friction, how much force is needed to lift the 100-pound weight?",
+      "choices": [
+        "100 lb",
+        "50 lb",
+        "200 lb",
+        "25 lb"
+      ],
+      "answer": 0,
+      "explanation": "A single fixed pulley doesn't reduce the force. It only changes its direction, so you can pull down to lift up. Mechanical advantage = 1."
+    },
+    {
+      "id": "mc-009",
+      "topic": "pulleys",
+      "difficulty": 2,
+      "figure": "data/figures/mc-pulley-movable.svg",
+      "figureAlt": "A rope tied to the ceiling runs down under a pulley that holds a 100-pound weight, then back up to a person pulling up.",
+      "question": "Ignoring friction and the pulley's weight, how much force is needed to lift the 100-pound weight?",
+      "choices": [
+        "50 lb",
+        "100 lb",
+        "200 lb",
+        "25 lb"
+      ],
+      "answer": 0,
+      "explanation": "Two rope segments hold up the movable pulley, so each carries half the load: 100 ÷ 2 = 50 lb. The trade-off: you pull 2 feet of rope for every foot the weight rises."
+    },
+    {
+      "id": "mc-010",
+      "topic": "pulleys",
+      "difficulty": 2,
+      "figure": "data/figures/mc-pulley-tackle.svg",
+      "figureAlt": "A block and tackle: an upper pulley block attached to the ceiling and a lower block holding a 200-pound weight, with four rope segments between the blocks and a free end pulled down.",
+      "question": "Ignoring friction, how much force is needed to lift the 200-pound weight?",
+      "choices": [
+        "50 lb",
+        "200 lb",
+        "100 lb",
+        "40 lb"
+      ],
+      "answer": 0,
+      "explanation": "Count the rope segments holding up the lower block: 4. Force = 200 ÷ 4 = 50 lb. The free end you pull doesn't count, because it doesn't hold up the load."
+    },
+    {
+      "id": "mc-011",
+      "topic": "pulleys",
+      "difficulty": 2,
+      "question": "A pulley system has a mechanical advantage of 2. To raise a load 3 feet, how much rope must you pull?",
+      "choices": [
+        "6 feet",
+        "3 feet",
+        "1.5 feet",
+        "9 feet"
+      ],
+      "answer": 0,
+      "explanation": "Machines trade force for distance. With a mechanical advantage of 2, you use half the force but pull twice as far: 3 × 2 = 6 feet."
+    },
+    {
+      "id": "mc-012",
+      "topic": "pulleys",
+      "difficulty": 1,
+      "question": "What is the main benefit of a single fixed pulley?",
+      "choices": [
+        "It changes the direction of the force",
+        "It cuts the force needed in half",
+        "It doubles the lifting speed",
+        "It removes all friction"
+      ],
+      "answer": 0,
+      "explanation": "A single fixed pulley lets you pull down to lift something up, which is easier and safer, but it doesn't reduce the force."
+    },
+    {
+      "id": "mc-013",
+      "topic": "pulleys",
+      "difficulty": 2,
+      "question": "In a block and tackle, three rope segments hold up the load. Ignoring friction, how much force lifts 300 pounds?",
+      "choices": [
+        "100 lb",
+        "300 lb",
+        "150 lb",
+        "900 lb"
+      ],
+      "answer": 0,
+      "explanation": "Force = load ÷ supporting segments = 300 ÷ 3 = 100 lb."
+    },
+    {
+      "id": "mc-014",
+      "topic": "gears",
+      "difficulty": 1,
+      "figure": "data/figures/mc-gears-pair.svg",
+      "figureAlt": "Two meshed gears, A and B. Gear A turns clockwise.",
+      "question": "Gear A turns clockwise. Which way does gear B turn?",
+      "choices": [
+        "Counterclockwise",
+        "Clockwise",
+        "It doesn't turn",
+        "It switches back and forth"
+      ],
+      "answer": 0,
+      "explanation": "Two meshed gears always turn in opposite directions."
+    },
+    {
+      "id": "mc-015",
+      "topic": "gears",
+      "difficulty": 2,
+      "figure": "data/figures/mc-gears-three.svg",
+      "figureAlt": "Three gears in a row, A, B and C, each meshed with the next. Gear A turns clockwise.",
+      "question": "Gear A turns clockwise. Which way does gear C turn?",
+      "choices": [
+        "Clockwise",
+        "Counterclockwise",
+        "It doesn't turn",
+        "It switches back and forth"
+      ],
+      "answer": 0,
+      "explanation": "Each meshed gear reverses direction: A clockwise, B counterclockwise, C clockwise. In a row of gears, every other gear turns the same way."
+    },
+    {
+      "id": "mc-016",
+      "topic": "gears",
+      "difficulty": 2,
+      "figure": "data/figures/mc-gears-teeth.svg",
+      "figureAlt": "Two meshed gears: gear A has 10 teeth and gear B has 30 teeth.",
+      "question": "Gear A turns 3 full times. How many times does gear B turn?",
+      "choices": [
+        "1 time",
+        "3 times",
+        "9 times",
+        "30 times"
+      ],
+      "answer": 0,
+      "explanation": "A turning 3 times moves 3 × 10 = 30 teeth past the contact point. B has 30 teeth, so it turns 30 ÷ 30 = 1 time."
+    },
+    {
+      "id": "mc-017",
+      "topic": "gears",
+      "difficulty": 1,
+      "figure": "data/figures/mc-gears-teeth.svg",
+      "figureAlt": "Two meshed gears: gear A has 10 teeth and gear B has 30 teeth.",
+      "question": "Which gear turns faster?",
+      "choices": [
+        "Gear A, the smaller gear",
+        "Gear B, the larger gear",
+        "Both turn at the same speed",
+        "It depends on which way they turn"
+      ],
+      "answer": 0,
+      "explanation": "The smaller gear must turn more times to keep up with the larger one. Here A turns 3 times for every 1 turn of B."
+    },
+    {
+      "id": "mc-018",
+      "topic": "gears",
+      "difficulty": 1,
+      "figure": "data/figures/mc-belt-open.svg",
+      "figureAlt": "Two pulleys joined by a belt that runs straight from one to the other. The driver pulley on the left turns clockwise.",
+      "question": "The driver pulley turns clockwise. Which way does the other pulley turn?",
+      "choices": [
+        "Clockwise",
+        "Counterclockwise",
+        "It doesn't turn",
+        "It switches back and forth"
+      ],
+      "answer": 0,
+      "explanation": "With a straight (open) belt, both pulleys turn the same direction."
+    },
+    {
+      "id": "mc-019",
+      "topic": "gears",
+      "difficulty": 2,
+      "figure": "data/figures/mc-belt-crossed.svg",
+      "figureAlt": "Two pulleys joined by a belt that crosses over itself in the middle. The driver pulley on the left turns clockwise.",
+      "question": "The driver pulley turns clockwise. Which way does the other pulley turn?",
+      "choices": [
+        "Counterclockwise",
+        "Clockwise",
+        "It doesn't turn",
+        "It switches back and forth"
+      ],
+      "answer": 0,
+      "explanation": "A crossed belt reverses direction, so the second pulley turns counterclockwise."
+    },
+    {
+      "id": "mc-020",
+      "topic": "gears",
+      "difficulty": 2,
+      "question": "When a small gear drives a large gear, the large gear turns:",
+      "choices": [
+        "Slower, but with more turning force",
+        "Faster, but with less turning force",
+        "At the same speed and force",
+        "Not at all"
+      ],
+      "answer": 0,
+      "explanation": "Gearing trades speed for turning force (torque). A small gear driving a large one gives more torque and less speed, like low gear on a bike."
+    },
+    {
+      "id": "mc-021",
+      "topic": "gears",
+      "difficulty": 3,
+      "question": "A 12-tooth gear turning at 90 revolutions per minute drives a 36-tooth gear. How fast does the 36-tooth gear turn?",
+      "choices": [
+        "30 rpm",
+        "270 rpm",
+        "90 rpm",
+        "45 rpm"
+      ],
+      "answer": 0,
+      "explanation": "Speed changes in the opposite ratio to the teeth: 36 ÷ 12 = 3, so the larger gear turns 3 times slower.\n90 ÷ 3 = 30 rpm."
+    },
+    {
+      "id": "mc-022",
+      "topic": "simple",
+      "difficulty": 2,
+      "figure": "data/figures/mc-ramp.svg",
+      "figureAlt": "A 200-pound box on a ramp 12 feet long that rises 3 feet.",
+      "question": "Ignoring friction, how much force is needed to push the box up the ramp?",
+      "choices": [
+        "50 lb",
+        "200 lb",
+        "800 lb",
+        "66 lb"
+      ],
+      "answer": 0,
+      "explanation": "Mechanical advantage of a ramp = length ÷ height = 12 ÷ 3 = 4.\nForce = 200 ÷ 4 = 50 lb."
+    },
+    {
+      "id": "mc-023",
+      "topic": "simple",
+      "difficulty": 1,
+      "question": "Compared with a short, steep ramp to the same height, a longer ramp needs:",
+      "choices": [
+        "Less force, over a longer distance",
+        "More force, over a shorter distance",
+        "The same force and distance",
+        "More force and more distance"
+      ],
+      "answer": 0,
+      "explanation": "A longer ramp is less steep, so it takes less force, but you push the load farther. The work done is about the same."
+    },
+    {
+      "id": "mc-024",
+      "topic": "simple",
+      "difficulty": 1,
+      "question": "A screw is really a type of:",
+      "choices": [
+        "Inclined plane wrapped around a post",
+        "Lever",
+        "Pulley",
+        "Gear"
+      ],
+      "answer": 0,
+      "explanation": "A screw's thread is a ramp wound around a shaft. Each turn pushes the screw forward a small distance with great force."
+    },
+    {
+      "id": "mc-025",
+      "topic": "simple",
+      "difficulty": 2,
+      "question": "Compared with a coarse-thread screw of the same size, a fine-thread screw:",
+      "choices": [
+        "Takes more turns to go in the same distance",
+        "Takes fewer turns to go in the same distance",
+        "Can't be tightened",
+        "Doesn't need a screwdriver"
+      ],
+      "answer": 0,
+      "explanation": "Fine threads are closer together, so each turn moves the screw a shorter distance. It takes more turns but less force per turn, and it holds tightly."
+    },
+    {
+      "id": "mc-026",
+      "topic": "simple",
+      "difficulty": 1,
+      "question": "An axe head is an example of which simple machine?",
+      "choices": [
+        "Wedge",
+        "Lever",
+        "Pulley",
+        "Screw"
+      ],
+      "answer": 0,
+      "explanation": "A wedge turns a downward force into a force that pushes material apart. Axes, knives and doorstops are wedges."
+    },
+    {
+      "id": "mc-027",
+      "topic": "simple",
+      "difficulty": 2,
+      "question": "A steering wheel with a 10-inch radius turns a shaft with a 1-inch radius. What is the mechanical advantage?",
+      "choices": [
+        "10",
+        "1",
+        "11",
+        "0.1"
+      ],
+      "answer": 0,
+      "explanation": "Wheel and axle: mechanical advantage = wheel radius ÷ axle radius = 10 ÷ 1 = 10."
+    },
+    {
+      "id": "mc-028",
+      "topic": "simple",
+      "difficulty": 1,
+      "question": "Which of these is a wheel and axle?",
+      "choices": [
+        "A doorknob",
+        "A ramp",
+        "A seesaw",
+        "An axe"
+      ],
+      "answer": 0,
+      "explanation": "Turning the large knob turns the small shaft inside the door with more force. Screwdrivers and steering wheels work the same way."
+    },
+    {
+      "id": "mc-029",
+      "topic": "forces",
+      "difficulty": 1,
+      "question": "How much work is done pushing a cart with a force of 50 pounds for 20 feet?",
+      "choices": [
+        "1,000 foot-pounds",
+        "70 foot-pounds",
+        "2.5 foot-pounds",
+        "500 foot-pounds"
+      ],
+      "answer": 0,
+      "explanation": "Work = force × distance = 50 × 20 = 1,000 foot-pounds."
+    },
+    {
+      "id": "mc-030",
+      "topic": "forces",
+      "difficulty": 2,
+      "question": "In which case is no work done on the box?",
+      "choices": [
+        "Holding a heavy box still",
+        "Pushing a box across the floor",
+        "Lifting a box onto a shelf",
+        "Carrying a box up the stairs"
+      ],
+      "answer": 0,
+      "explanation": "In physics, work means force times distance moved. Holding a box still is tiring, but the box doesn't move, so no work is done on it."
+    },
+    {
+      "id": "mc-031",
+      "topic": "forces",
+      "difficulty": 1,
+      "question": "What reduces friction between moving metal parts?",
+      "choices": [
+        "Oil or grease",
+        "Roughening the surfaces",
+        "Pressing the parts together harder",
+        "Removing the ball bearings"
+      ],
+      "answer": 0,
+      "explanation": "Lubricants put a thin slippery layer between surfaces. Ball bearings also cut friction by rolling instead of sliding."
+    },
+    {
+      "id": "mc-032",
+      "topic": "forces",
+      "difficulty": 2,
+      "question": "Why is a tall, narrow load more likely to tip over than a short, wide one?",
+      "choices": [
+        "Its center of gravity is higher and its base is narrower",
+        "It always weighs more",
+        "It has less friction",
+        "It has more inertia"
+      ],
+      "answer": 0,
+      "explanation": "An object tips when its center of gravity moves past the edge of its base. A high center of gravity over a narrow base gets there sooner. Keep loads low and wide."
+    },
+    {
+      "id": "mc-033",
+      "topic": "forces",
+      "difficulty": 2,
+      "question": "A spring stretches 2 inches under a 10-pound weight. How far does it stretch under a 30-pound weight?",
+      "choices": [
+        "6 inches",
+        "3 inches",
+        "2 inches",
+        "10 inches"
+      ],
+      "answer": 0,
+      "explanation": "Within its limit, a spring stretches in proportion to the force. Three times the weight gives three times the stretch: 2 × 3 = 6 inches."
+    },
+    {
+      "id": "mc-034",
+      "topic": "forces",
+      "difficulty": 2,
+      "question": "Machine A does the same work as machine B in half the time. Machine A has:",
+      "choices": [
+        "Twice the power",
+        "Half the power",
+        "The same power",
+        "Twice the work"
+      ],
+      "answer": 0,
+      "explanation": "Power = work ÷ time. The same work in half the time means twice the power."
+    },
+    {
+      "id": "mc-035",
+      "topic": "forces",
+      "difficulty": 2,
+      "question": "A car takes a sharp curve to the left. Loose items on the dashboard slide:",
+      "choices": [
+        "To the right, toward the outside of the curve",
+        "To the left, toward the inside of the curve",
+        "Straight forward",
+        "They stay in place"
+      ],
+      "answer": 0,
+      "explanation": "Inertia keeps the items moving in a straight line while the car turns under them, so they slide toward the outside of the curve."
+    },
+    {
+      "id": "mc-036",
+      "topic": "forces",
+      "difficulty": 1,
+      "question": "On a spinning wheel, which point moves fastest?",
+      "choices": [
+        "A point on the outer rim",
+        "A point halfway to the rim",
+        "A point next to the hub",
+        "Every point moves at the same speed"
+      ],
+      "answer": 0,
+      "explanation": "Every point makes one turn in the same time, but a point on the rim travels the largest circle, so it moves fastest."
+    },
+    {
+      "id": "mc-037",
+      "topic": "forces",
+      "difficulty": 2,
+      "question": "Why can no real machine be 100% efficient?",
+      "choices": [
+        "Some energy is always lost to friction and heat",
+        "Machines create extra energy",
+        "Gravity stops working inside machines",
+        "Metal parts can't move"
+      ],
+      "answer": 0,
+      "explanation": "Friction turns some input energy into heat, so the useful output is always less than the input."
+    },
+    {
+      "id": "mc-038",
+      "topic": "fluids",
+      "difficulty": 3,
+      "figure": "data/figures/mc-hydraulic.svg",
+      "figureAlt": "A hydraulic press: a small piston with an area of 2 square inches pushed down with 10 pounds, connected by fluid to a large piston with an area of 20 square inches.",
+      "question": "How much upward force does the large piston produce?",
+      "choices": [
+        "100 lb",
+        "10 lb",
+        "1 lb",
+        "200 lb"
+      ],
+      "answer": 0,
+      "explanation": "Pressure is the same throughout the fluid: 10 lb ÷ 2 sq in = 5 pounds per square inch.\nLarge piston: 5 × 20 = 100 lb.\nThe large piston moves a shorter distance, so energy is still conserved."
+    },
+    {
+      "id": "mc-039",
+      "topic": "fluids",
+      "difficulty": 1,
+      "question": "A 120-pound force presses on an area of 4 square inches. What is the pressure?",
+      "choices": [
+        "30 pounds per square inch",
+        "480 pounds per square inch",
+        "124 pounds per square inch",
+        "4 pounds per square inch"
+      ],
+      "answer": 0,
+      "explanation": "Pressure = force ÷ area = 120 ÷ 4 = 30 psi."
+    },
+    {
+      "id": "mc-040",
+      "topic": "fluids",
+      "difficulty": 1,
+      "figure": "data/figures/mc-tank.svg",
+      "figureAlt": "A tall water tank with three holes in its side: A near the top, B in the middle and C near the bottom.",
+      "question": "At which hole is the water pressure greatest?",
+      "choices": [
+        "C, the lowest hole",
+        "A, the highest hole",
+        "B, the middle hole",
+        "The pressure is the same at all three"
+      ],
+      "answer": 0,
+      "explanation": "Water pressure increases with depth, because there's more water above pushing down. Hole C is deepest."
+    },
+    {
+      "id": "mc-041",
+      "topic": "fluids",
+      "difficulty": 1,
+      "question": "Why are dams built thicker at the bottom than at the top?",
+      "choices": [
+        "Water pressure increases with depth",
+        "Water is warmer at the bottom",
+        "Fish swim near the bottom",
+        "Concrete is cheaper at the bottom"
+      ],
+      "answer": 0,
+      "explanation": "The deeper the water, the more pressure it puts on the dam, so the bottom must be strongest."
+    },
+    {
+      "id": "mc-042",
+      "topic": "fluids",
+      "difficulty": 2,
+      "question": "Hydraulic brakes and lifts work because liquids:",
+      "choices": [
+        "Can't easily be compressed",
+        "Are lighter than air",
+        "Expand when they get hot",
+        "Conduct electricity"
+      ],
+      "answer": 0,
+      "explanation": "A liquid barely compresses, so a push at one end is passed through it to the other end. That's Pascal's principle."
+    },
+    {
+      "id": "mc-043",
+      "topic": "fluids",
+      "difficulty": 2,
+      "question": "Why does a steel ship float?",
+      "choices": [
+        "It pushes aside water weighing as much as the ship",
+        "Steel is lighter than water",
+        "Air pressure holds it up",
+        "Its engines keep it afloat"
+      ],
+      "answer": 0,
+      "explanation": "A floating object displaces water equal to its own weight. A ship's hollow hull pushes aside enough water to balance its weight (Archimedes' principle)."
+    },
+    {
+      "id": "mc-044",
+      "topic": "fluids",
+      "difficulty": 2,
+      "question": "Gas in a sealed, rigid container is heated. What happens to its pressure?",
+      "choices": [
+        "It goes up",
+        "It goes down",
+        "It stays the same",
+        "It drops to zero"
+      ],
+      "answer": 0,
+      "explanation": "Heat makes gas molecules move faster and hit the container walls harder and more often, so pressure rises. That's why aerosol cans warn against heat."
+    }
+  ]
+}
