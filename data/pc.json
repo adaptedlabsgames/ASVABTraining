@@ -34,7 +34,17 @@
     "p23": "Honey almost never spoils. It contains very little water and is naturally acidic, so bacteria have a hard time growing in it. Kept in a sealed jar, honey can last for many years.",
     "p24": "The new gym on base is open from 5:00 a.m. to 10:00 p.m. every day. Service members may bring one guest. Guests must be at least 16 years old and must sign in at the front desk.",
     "p25": "Kevin failed his first driving test because he forgot to signal before changing lanes. He practiced with his uncle every weekend for a month. On his second try, he passed easily.",
-    "p26": "Volunteers planted 200 trees in the park last Saturday. The trees will provide shade in the summer and help keep soil from washing away when it rains. The city plans to hold another planting day in the fall."
+    "p26": "Volunteers planted 200 trees in the park last Saturday. The trees will provide shade in the summer and help keep soil from washing away when it rains. The city plans to hold another planting day in the fall.",
+    "p27": "For decades, students have been told that a four-year degree is the only reliable path to a good career. That advice deserves a second look. Many skilled trades, such as electrician, plumber and welder, offer paid apprenticeships in which workers earn a wage while they train. People who finish these programs often have no student debt and hold a license that employers want. None of this means college is a poor choice; for many careers, it remains essential. The point is that students should weigh every option instead of following a single script.",
+    "p28": "In summer, leaves are green because they are packed with chlorophyll, the pigment plants use to capture sunlight. Leaves also contain yellow and orange pigments, but the large amount of chlorophyll hides them. As the days grow shorter in autumn, many trees stop making chlorophyll, and the green fades. The yellow and orange that were there all along begin to show. Some trees also produce new red pigments in the fall, especially when the days are sunny and the nights are cool.",
+    "p29": "To all shift supervisors: Starting next month, overtime must be approved in writing by a department manager before the shift begins. In the past, overtime was often approved after it had already been worked, which made it hard to stay within the quarterly budget. Supervisors with urgent staffing needs should contact the on-call manager, who can approve overtime by email at any hour. Overtime worked without approval will still be paid, but it may result in a written warning for the supervisor.",
+    "p30": "Before 1869, a trip from the East Coast to California could take months by wagon or by ship. That changed when two railroad companies, one building east from Sacramento and one building west from Omaha, met at Promontory Summit, Utah. The Central Pacific relied heavily on thousands of Chinese immigrant workers, who blasted tunnels through the Sierra Nevada mountains under dangerous conditions. Once the line was finished, the journey across the country took about a week. The railroad sped the movement of people and goods, but it also brought settlers onto the lands of Native American nations, leading to conflict.",
+    "p31": "Many teenagers keep their phones beside the bed at night. Researchers have found that light from screens can delay the body's release of melatonin, a hormone that signals it is time to sleep. Notifications can also wake a sleeper or tempt them to check messages. One simple change is to charge the phone in another room. Students who try it often report falling asleep faster, though they may need a regular alarm clock to wake up on time.",
+    "p32": "Marcus checked the forecast twice before leaving and packed his heaviest jacket, gloves and an extra pair of socks. At the trailhead, he signed the hikers' log, writing down his planned route and the time he expected to return. Halfway up the mountain, the sky turned gray and the first flakes began to fall. Marcus looked at his watch, looked at the clouds and turned back toward the parking lot.",
+    "p33": "The city's new bus app promised to make commuting easier, but so far it has mostly added frustration. Arrival times are often wrong by ten minutes or more, and the app freezes when riders try to buy a ticket. Officials say an update is coming. Until it arrives, riders would be wise to leave a few minutes early and keep a few dollars in cash.",
+    "p34": "Many beginners believe the fastest way to get stronger is to exercise hard every single day. In fact, muscles grow stronger during recovery, not during the workout itself. Hard exercise causes tiny amounts of damage to muscle fibers; during rest, the body repairs them and builds them back slightly stronger. Training without enough rest can lead to fatigue, poor performance and injury. For this reason, most training programs alternate hard days with easier days or complete rest.",
+    "p35": "Some people argue that schools should require every student to learn a second language, because it builds communication skills and opens doors to more jobs. Others respond that class time is limited and that students would gain more from extra math or reading. Both sides agree that learning a language has value. They disagree about whether it should be required.",
+    "p36": "The hardware store's records show that snow shovel sales rose sharply in the first week of December, then dropped almost to zero by mid-January, even though snow kept falling. The manager suspects that most households buy only one shovel each winter, usually right after the first big storm."
   },
   "questions": [
     {
@@ -936,6 +946,441 @@
       ],
       "answer": 0,
       "explanation": "The trees will provide shade, meaning they will give shade. Test it by swapping the word in: \"The trees will give shade.\""
+    },
+    {
+      "id": "pc-061",
+      "passage": "p27",
+      "topic": "purpose",
+      "difficulty": 2,
+      "question": "What is the author's main purpose?",
+      "choices": [
+        "To encourage students to consider more than one path after high school",
+        "To argue that college is a waste of money",
+        "To explain how to become a licensed electrician",
+        "To criticize skilled trades for low pay"
+      ],
+      "answer": 0,
+      "explanation": "The author questions the idea that a degree is the only path, then says college \"remains essential\" for many careers. The last sentence states the point: \"weigh every option.\" The second choice is a trap: the author says outright that college is not a poor choice."
+    },
+    {
+      "id": "pc-062",
+      "passage": "p27",
+      "topic": "inference",
+      "difficulty": 3,
+      "question": "The author would most likely agree with which statement?",
+      "choices": [
+        "The best choice depends on a student's career goals",
+        "Every student should become an apprentice",
+        "A four-year degree always leads to debt",
+        "Skilled trades require no training"
+      ],
+      "answer": 0,
+      "explanation": "The author says college is essential for many careers but trades fit others, so the right path depends on the goal. The wrong choices use extreme words (every, always, no) that the passage doesn't support."
+    },
+    {
+      "id": "pc-063",
+      "passage": "p27",
+      "topic": "vocab",
+      "difficulty": 2,
+      "question": "As used in the passage, script most nearly means:",
+      "choices": [
+        "A fixed plan everyone is expected to follow",
+        "Handwriting",
+        "A movie screenplay",
+        "A doctor's prescription"
+      ],
+      "answer": 0,
+      "explanation": "\"Following a single script\" means doing what everyone is told to do, as if reading lines. The more common meanings (a screenplay, a prescription) don't fit this sentence."
+    },
+    {
+      "id": "pc-064",
+      "passage": "p28",
+      "topic": "detail",
+      "difficulty": 2,
+      "question": "According to the passage, the yellow color in autumn leaves:",
+      "choices": [
+        "Was in the leaves all summer, hidden by the green",
+        "Is made only after the first frost",
+        "Comes from minerals in the soil",
+        "Appears because leaves absorb more sunlight in fall"
+      ],
+      "answer": 0,
+      "explanation": "\"The yellow and orange that were there all along begin to show.\" Frost and soil are never mentioned."
+    },
+    {
+      "id": "pc-065",
+      "passage": "p28",
+      "topic": "inference",
+      "difficulty": 3,
+      "question": "Based on the passage, an autumn with mostly cloudy days and warm nights would most likely produce:",
+      "choices": [
+        "Fewer bright red leaves",
+        "More chlorophyll in the leaves",
+        "No yellow leaves at all",
+        "Leaves that stay green all winter"
+      ],
+      "answer": 0,
+      "explanation": "The passage says red pigments form \"especially when the days are sunny and the nights are cool.\" Cloudy days and warm nights are the opposite, so expect less red. The yellow is already in the leaves, so it would still show."
+    },
+    {
+      "id": "pc-066",
+      "passage": "p28",
+      "topic": "main-idea",
+      "difficulty": 2,
+      "question": "Which title best fits the passage?",
+      "choices": [
+        "Why Leaves Change Color in Autumn",
+        "How Trees Grow Taller",
+        "The Dangers of an Early Frost",
+        "Why Plants Need Water"
+      ],
+      "answer": 0,
+      "explanation": "Every sentence explains where autumn leaf colors come from. A good title covers the whole passage, not one detail."
+    },
+    {
+      "id": "pc-067",
+      "passage": "p29",
+      "topic": "purpose",
+      "difficulty": 2,
+      "question": "According to the memo, what is the main reason for the new overtime rule?",
+      "choices": [
+        "To keep overtime spending within the budget",
+        "To stop paying for overtime",
+        "To punish workers who stay late",
+        "To reduce the number of supervisors"
+      ],
+      "answer": 0,
+      "explanation": "The memo says approving overtime after the fact \"made it hard to stay within the quarterly budget.\" It also says unapproved overtime will still be paid, so the second choice is wrong."
+    },
+    {
+      "id": "pc-068",
+      "passage": "p29",
+      "topic": "inference",
+      "difficulty": 3,
+      "question": "A worker stays two hours late without approval. Based on the memo, what will most likely happen?",
+      "choices": [
+        "The worker will be paid, but the supervisor may get a warning",
+        "The worker will not be paid for the extra hours",
+        "The worker will receive a written warning",
+        "The hours will count only if a manager signs off later"
+      ],
+      "answer": 0,
+      "explanation": "The memo says unapproved overtime \"will still be paid\" and the warning goes to the supervisor, not the worker. Read carefully who each rule applies to."
+    },
+    {
+      "id": "pc-069",
+      "passage": "p29",
+      "topic": "detail",
+      "difficulty": 2,
+      "question": "How can a supervisor get overtime approved for an urgent need?",
+      "choices": [
+        "Contact the on-call manager, who can approve it by email",
+        "Wait until the next month",
+        "Approve it after the shift is over",
+        "Have the workers sign a form"
+      ],
+      "answer": 0,
+      "explanation": "\"Supervisors with urgent staffing needs should contact the on-call manager, who can approve overtime by email at any hour.\""
+    },
+    {
+      "id": "pc-070",
+      "passage": "p30",
+      "topic": "main-idea",
+      "difficulty": 3,
+      "question": "Which statement best expresses the main idea of the passage?",
+      "choices": [
+        "The first transcontinental railroad changed travel across the country, with costs as well as benefits",
+        "Chinese immigrant workers built every railroad in the United States",
+        "Ships were faster than wagons for crossing the country",
+        "Utah became the center of American trade after 1869"
+      ],
+      "answer": 0,
+      "explanation": "The passage covers how much faster travel became, who built the railroad, and the conflict it brought. The main idea has to include both the benefits and the costs. The second choice goes too far: the passage is about one railroad, not every railroad."
+    },
+    {
+      "id": "pc-071",
+      "passage": "p30",
+      "topic": "vocab",
+      "difficulty": 2,
+      "question": "As used in the passage, relied heavily on most nearly means:",
+      "choices": [
+        "Depended greatly on",
+        "Leaned against",
+        "Paid little attention to",
+        "Argued with"
+      ],
+      "answer": 0,
+      "explanation": "The company depended on thousands of Chinese workers to do the dangerous work. Swap in the choice to check: \"The Central Pacific depended greatly on thousands of … workers.\""
+    },
+    {
+      "id": "pc-072",
+      "passage": "p30",
+      "topic": "purpose",
+      "difficulty": 3,
+      "question": "The author's attitude toward the railroad is best described as:",
+      "choices": [
+        "Balanced, noting both benefits and harms",
+        "Entirely celebratory",
+        "Strongly opposed",
+        "Uninterested"
+      ],
+      "answer": 0,
+      "explanation": "The author praises the faster travel and trade, but also points out dangerous working conditions and conflict with Native American nations. A tone question asks about the whole passage, not one sentence."
+    },
+    {
+      "id": "pc-073",
+      "passage": "p31",
+      "topic": "inference",
+      "difficulty": 3,
+      "question": "Why might students who charge their phones in another room need a regular alarm clock?",
+      "choices": [
+        "Many people use their phone as an alarm",
+        "Alarm clocks help the body make melatonin",
+        "Phones can't be charged overnight",
+        "Phones stop working when moved"
+      ],
+      "answer": 0,
+      "explanation": "The passage doesn't say it directly, but if the phone is in another room, an alarm on it may not wake you. You have to connect that to how people commonly use their phones."
+    },
+    {
+      "id": "pc-074",
+      "passage": "p31",
+      "topic": "purpose",
+      "difficulty": 2,
+      "question": "What is the author's main purpose?",
+      "choices": [
+        "To suggest a simple way to sleep better",
+        "To explain how phones are built",
+        "To argue that teenagers shouldn't own phones",
+        "To describe how melatonin is made in a lab"
+      ],
+      "answer": 0,
+      "explanation": "The passage explains why phones can disturb sleep and offers one simple fix. It never says teenagers shouldn't have phones."
+    },
+    {
+      "id": "pc-075",
+      "passage": "p31",
+      "topic": "vocab",
+      "difficulty": 2,
+      "question": "As used in the passage, tempt most nearly means:",
+      "choices": [
+        "Make someone want to do something",
+        "Force someone to do something",
+        "Warn someone about something",
+        "Stop someone from doing something"
+      ],
+      "answer": 0,
+      "explanation": "Notifications tempt sleepers to check messages: they make them want to, without forcing them."
+    },
+    {
+      "id": "pc-076",
+      "passage": "p32",
+      "topic": "inference",
+      "difficulty": 2,
+      "question": "Based on his actions, Marcus can best be described as:",
+      "choices": [
+        "Cautious and well prepared",
+        "Careless",
+        "Lost",
+        "In a hurry to reach the top"
+      ],
+      "answer": 0,
+      "explanation": "He checked the forecast twice, packed warm gear, logged his route and turned back when snow started. Every action shows caution and planning."
+    },
+    {
+      "id": "pc-077",
+      "passage": "p32",
+      "topic": "inference",
+      "difficulty": 3,
+      "question": "Why did Marcus most likely write his route in the hikers' log?",
+      "choices": [
+        "So searchers would know where to look if he didn't return",
+        "Because the log is where hikers pay their fee",
+        "To show other hikers how far he planned to go",
+        "To remember the way back to his car"
+      ],
+      "answer": 0,
+      "explanation": "He wrote his route and expected return time, the information others would need to find him. The passage never mentions a fee, and he wouldn't need a log at the trailhead to find his way back."
+    },
+    {
+      "id": "pc-078",
+      "passage": "p32",
+      "topic": "inference",
+      "difficulty": 3,
+      "question": "Which statement is most likely true?",
+      "choices": [
+        "Marcus decided the weather made it unsafe to keep going",
+        "Marcus reached the top of the mountain",
+        "Marcus forgot to bring warm clothes",
+        "Marcus turned back because he was afraid of heights"
+      ],
+      "answer": 0,
+      "explanation": "He checked his watch and the clouds as snow began, then turned back. That points to a decision about the weather and the time. The passage says he packed warm clothes and mentions no fear of heights."
+    },
+    {
+      "id": "pc-079",
+      "passage": "p33",
+      "topic": "purpose",
+      "difficulty": 2,
+      "question": "The author's attitude toward the new bus app is best described as:",
+      "choices": [
+        "Critical",
+        "Enthusiastic",
+        "Neutral",
+        "Amused"
+      ],
+      "answer": 0,
+      "explanation": "Words like \"mostly added frustration,\" \"often wrong\" and \"freezes\" show a critical attitude."
+    },
+    {
+      "id": "pc-080",
+      "passage": "p33",
+      "topic": "inference",
+      "difficulty": 3,
+      "question": "Why does the author suggest that riders keep some cash?",
+      "choices": [
+        "Buying a ticket in the app may not work",
+        "Buses no longer accept the app",
+        "Cash fares are cheaper than app fares",
+        "The update will remove ticket sales from the app"
+      ],
+      "answer": 0,
+      "explanation": "The passage says the app \"freezes when riders try to buy a ticket.\" Cash is a backup. The other choices aren't stated anywhere in the passage."
+    },
+    {
+      "id": "pc-081",
+      "passage": "p33",
+      "topic": "main-idea",
+      "difficulty": 2,
+      "question": "What is the main idea of the passage?",
+      "choices": [
+        "The new bus app has problems, so riders should plan around them for now",
+        "Officials have already fixed the app",
+        "City buses are always late",
+        "Riders should stop taking the bus"
+      ],
+      "answer": 0,
+      "explanation": "The passage describes the app's problems and gives temporary advice until the update. The update is only promised, not done, and nothing suggests giving up the bus."
+    },
+    {
+      "id": "pc-082",
+      "passage": "p34",
+      "topic": "main-idea",
+      "difficulty": 2,
+      "question": "What is the main idea of the passage?",
+      "choices": [
+        "Rest is an important part of getting stronger",
+        "Beginners should not exercise at all",
+        "Exercise permanently damages muscles",
+        "All training programs are the same"
+      ],
+      "answer": 0,
+      "explanation": "The passage explains that muscles get stronger while recovering and that most programs build in rest. The damage it mentions is tiny and gets repaired, so permanent damage is wrong."
+    },
+    {
+      "id": "pc-083",
+      "passage": "p34",
+      "topic": "inference",
+      "difficulty": 3,
+      "question": "A recruit lifts weights hard every day and feels weaker each week. Based on the passage, what is the most likely explanation?",
+      "choices": [
+        "Not enough recovery time between workouts",
+        "Too much rest between workouts",
+        "Lifting too little weight",
+        "Exercising on the wrong days of the week"
+      ],
+      "answer": 0,
+      "explanation": "The passage says training without enough rest leads to fatigue and poor performance. Hard work every day leaves no time for repair."
+    },
+    {
+      "id": "pc-084",
+      "passage": "p34",
+      "topic": "vocab",
+      "difficulty": 2,
+      "question": "As used in the passage, alternate most nearly means:",
+      "choices": [
+        "Switch back and forth between",
+        "Cancel",
+        "Combine into one",
+        "Repeat exactly"
+      ],
+      "answer": 0,
+      "explanation": "Programs alternate hard days with easy days: hard, easy, hard, easy."
+    },
+    {
+      "id": "pc-085",
+      "passage": "p35",
+      "topic": "purpose",
+      "difficulty": 3,
+      "question": "What is the main purpose of the passage?",
+      "choices": [
+        "To present two sides of a debate",
+        "To prove that language classes are useless",
+        "To argue that math matters more than any other subject",
+        "To explain how to learn a second language"
+      ],
+      "answer": 0,
+      "explanation": "The passage gives one side's argument, then the other's, and says where they agree and disagree. It doesn't take a side, so it is presenting a debate, not making an argument."
+    },
+    {
+      "id": "pc-086",
+      "passage": "p35",
+      "topic": "detail",
+      "difficulty": 3,
+      "question": "On what do both sides agree?",
+      "choices": [
+        "Learning a language has value",
+        "Every student should be required to take a language",
+        "Math is more important than reading",
+        "The school day should be longer"
+      ],
+      "answer": 0,
+      "explanation": "\"Both sides agree that learning a language has value.\" They disagree about whether it should be required, so the second choice is only one side's view."
+    },
+    {
+      "id": "pc-087",
+      "passage": "p35",
+      "topic": "vocab",
+      "difficulty": 2,
+      "question": "As used in the passage, respond most nearly means:",
+      "choices": [
+        "Answer",
+        "Ignore",
+        "Agree completely",
+        "Repeat"
+      ],
+      "answer": 0,
+      "explanation": "Others respond means they answer the first argument with one of their own."
+    },
+    {
+      "id": "pc-088",
+      "passage": "p36",
+      "topic": "inference",
+      "difficulty": 3,
+      "question": "Why did shovel sales drop in mid-January even though it was still snowing?",
+      "choices": [
+        "Most households had already bought a shovel",
+        "The store ran out of shovels",
+        "Shovel prices went up",
+        "Customers started using snowblowers"
+      ],
+      "answer": 0,
+      "explanation": "The manager suspects most households buy one shovel each winter, after the first big storm. Once they own one, they stop buying. The other choices may sound reasonable, but the passage gives no support for them."
+    },
+    {
+      "id": "pc-089",
+      "passage": "p36",
+      "topic": "vocab",
+      "difficulty": 3,
+      "question": "The word suspects suggests that the manager:",
+      "choices": [
+        "Believes this explanation but isn't certain",
+        "Has proven the explanation with data",
+        "Disagrees with the explanation",
+        "Is accusing customers of something"
+      ],
+      "answer": 0,
+      "explanation": "To suspect something is to think it's likely true without proof. In this context it isn't about accusing anyone. Words like suspects, suggests and may signal a guess, not a fact."
     }
   ]
 }
