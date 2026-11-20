@@ -46,6 +46,10 @@ for (const file of readdirSync(dataDir).filter((f) => f.endsWith('.json'))) {
       }
     }
     if (!q.explanation?.trim()) at('missing explanation');
+    if (q.passage !== undefined && !bank.passages?.[q.passage]) at(`unknown passage "${q.passage}"`);
+  }
+  for (const id of Object.keys(bank.passages || {})) {
+    if (!bank.questions.some((q) => q.passage === id)) where(`passage "${id}" has no questions`);
   }
   console.log(`${file}: ${bank.questions.length} questions`);
   for (const [t, label] of Object.entries(bank.topics || {})) {

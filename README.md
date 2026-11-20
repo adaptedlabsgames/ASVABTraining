@@ -60,6 +60,7 @@ Each bank in `data/` looks like this:
 - `answer` is the position of the correct choice, counting from 0. The first choice is 0.
 - Choices are shuffled every time a question is shown, so their order in the file doesn't matter. Don't write choices like "all of the above".
 - In `explanation`, `\n` starts a new line.
+- Reading questions can share a passage. Put the passage text in a top-level `"passages"` object, such as `"passages": { "p01": "Passage text…" }`. Then give each question that uses it `"passage": "p01"`. See `data/pc.json`.
 
 After editing a bank, run:
 

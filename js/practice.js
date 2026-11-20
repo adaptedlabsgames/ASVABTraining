@@ -57,6 +57,10 @@ function topicLabel(id) {
   return bank.topics[id] || id;
 }
 
+function passageText(q) {
+  return bank.passages?.[q.passage] || '';
+}
+
 /* ---------- Setup ---------- */
 
 function renderSetup() {
@@ -174,6 +178,11 @@ function renderQuestion() {
       el('div', { style: `width:${(index / items.length) * 100}%` }),
     ),
     el('div', { class: 'card' },
+      q.passage
+        ? el('div', { class: 'passage' },
+          el('div', { class: 'passage-label' }, 'Read the passage'),
+          el('p', {}, passageText(q)))
+        : null,
       el('p', { class: 'question-text' }, q.question),
       el('ol', { class: 'choices' }, choiceButtons),
       el('div', { id: 'feedback' }),
@@ -264,6 +273,11 @@ function renderSummary(results) {
 
   const missedCards = missed.map((r) =>
     el('div', { class: 'card' },
+      r.q.passage
+        ? el('details', { class: 'passage-toggle' },
+          el('summary', {}, 'Show passage'),
+          el('p', {}, passageText(r.q)))
+        : null,
       el('p', { class: 'q' }, r.q.question),
       el('p', { class: 'ans' },
         'Your answer: ', el('span', { style: 'color:var(--bad)' }, r.q.choices[r.choice]),

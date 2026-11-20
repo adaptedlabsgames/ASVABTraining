@@ -1,0 +1,401 @@
+{
+  "subtest": "mk",
+  "name": "Math Knowledge",
+  "topics": {
+    "number": "Number Properties",
+    "fractions": "Fractions & Decimals",
+    "exponents": "Exponents & Roots",
+    "equations": "Equations & Inequalities",
+    "polynomials": "Expressions & Polynomials",
+    "angles": "Lines, Angles & Triangles",
+    "area": "Area, Perimeter & Volume",
+    "circles": "Circles",
+    "coordinates": "Coordinate Geometry"
+  },
+  "questions": [
+    {
+      "id": "mk-001", "topic": "number", "difficulty": 1,
+      "question": "Which of the following is a prime number?",
+      "choices": ["21", "27", "29", "33"], "answer": 2,
+      "explanation": "A prime number has exactly two factors: 1 and itself.\n21 = 3 × 7, 27 = 3 × 9, and 33 = 3 × 11, so they are not prime.\n29 can only be divided evenly by 1 and 29, so it is prime."
+    },
+    {
+      "id": "mk-002", "topic": "number", "difficulty": 1,
+      "question": "What is the greatest common factor of 36 and 48?",
+      "choices": ["6", "8", "12", "24"], "answer": 2,
+      "explanation": "The greatest common factor (GCF) is the largest number that divides both evenly.\n36 = 12 × 3 and 48 = 12 × 4, and 3 and 4 share no other factor.\nGCF = 12."
+    },
+    {
+      "id": "mk-003", "topic": "number", "difficulty": 1,
+      "question": "What is the least common multiple of 6 and 8?",
+      "choices": ["14", "24", "36", "48"], "answer": 1,
+      "explanation": "List multiples until one matches:\n6: 6, 12, 18, 24 …\n8: 8, 16, 24 …\nThe smallest shared multiple is 24. (48 is a common multiple, but not the least.)"
+    },
+    {
+      "id": "mk-004", "topic": "number", "difficulty": 2,
+      "question": "What is the value of 8 + 4 × 3 − 6 ÷ 2?",
+      "choices": ["15", "17", "30", "9"], "answer": 1,
+      "explanation": "Order of operations: multiply and divide before adding and subtracting.\n4 × 3 = 12 and 6 ÷ 2 = 3.\n8 + 12 − 3 = 17.\n(Working left to right without the rules gives 15.)"
+    },
+    {
+      "id": "mk-005", "topic": "number", "difficulty": 1,
+      "question": "What is −7 + (−5) − (−3)?",
+      "choices": ["−15", "−9", "−1", "9"], "answer": 1,
+      "explanation": "Subtracting a negative is the same as adding a positive.\n−7 + (−5) = −12.\n−12 − (−3) = −12 + 3 = −9."
+    },
+    {
+      "id": "mk-006", "topic": "number", "difficulty": 1,
+      "question": "Which of these numbers is divisible by 3?",
+      "choices": ["124", "241", "412", "423"], "answer": 3,
+      "explanation": "A number is divisible by 3 if its digits add up to a multiple of 3.\n4 + 2 + 3 = 9, which is divisible by 3, so 423 is (423 ÷ 3 = 141).\nThe digits of the other three choices each add up to 7."
+    },
+    {
+      "id": "mk-007", "topic": "number", "difficulty": 1,
+      "question": "What is |−8| − |3|?",
+      "choices": ["−11", "−5", "5", "11"], "answer": 2,
+      "explanation": "Absolute value is the distance from zero, so it is never negative.\n|−8| = 8 and |3| = 3.\n8 − 3 = 5."
+    },
+    {
+      "id": "mk-008", "topic": "number", "difficulty": 1,
+      "question": "What is (−3) × (−4) × (−2)?",
+      "choices": ["−24", "24", "−9", "9"], "answer": 0,
+      "explanation": "(−3) × (−4) = 12 (negative × negative = positive).\n12 × (−2) = −24.\nRule: an odd number of negative factors gives a negative answer."
+    },
+    {
+      "id": "mk-009", "topic": "fractions", "difficulty": 1,
+      "question": "What is 3/4 + 1/6?",
+      "choices": ["4/10", "11/12", "5/6", "1"], "answer": 1,
+      "explanation": "Use a common denominator of 12.\n3/4 = 9/12 and 1/6 = 2/12.\n9/12 + 2/12 = 11/12.\n(Adding tops and bottoms separately, 4/10, is a common mistake.)"
+    },
+    {
+      "id": "mk-010", "topic": "fractions", "difficulty": 2,
+      "question": "What is 2/3 ÷ 4/9?",
+      "choices": ["8/27", "3/2", "2/3", "6"], "answer": 1,
+      "explanation": "To divide by a fraction, multiply by its reciprocal (flip it).\n2/3 × 9/4 = 18/12 = 3/2.\n(8/27 comes from multiplying instead of dividing.)"
+    },
+    {
+      "id": "mk-011", "topic": "fractions", "difficulty": 2,
+      "question": "Which of the following is the largest?",
+      "choices": ["0.6", "5/8", "0.59", "3/5"], "answer": 1,
+      "explanation": "Convert everything to decimals:\n5/8 = 0.625, 3/5 = 0.6, 0.6, and 0.59.\n0.625 is the largest, so 5/8 is the answer."
+    },
+    {
+      "id": "mk-012", "topic": "fractions", "difficulty": 1,
+      "question": "Which fraction is equal to 0.375?",
+      "choices": ["3/8", "37/100", "3/5", "375/100"], "answer": 0,
+      "explanation": "0.375 = 375/1000.\nDivide top and bottom by 125: 375/1000 = 3/8.\nCheck: 3 ÷ 8 = 0.375."
+    },
+    {
+      "id": "mk-013", "topic": "fractions", "difficulty": 2,
+      "question": "What is 2 1/2 × 1 1/3?",
+      "choices": ["2 1/6", "3 1/3", "3 5/6", "2 1/3"], "answer": 1,
+      "explanation": "Change mixed numbers to improper fractions first.\n2 1/2 = 5/2 and 1 1/3 = 4/3.\n5/2 × 4/3 = 20/6 = 10/3 = 3 1/3.\n(Multiplying the whole numbers and fractions separately gives the wrong answer 2 1/6.)"
+    },
+    {
+      "id": "mk-014", "topic": "fractions", "difficulty": 1,
+      "question": "What is 0.4 × 0.03?",
+      "choices": ["0.012", "0.12", "1.2", "0.0012"], "answer": 0,
+      "explanation": "Multiply as whole numbers: 4 × 3 = 12.\nCount the decimal places in both numbers: 1 + 2 = 3.\nPut 3 decimal places in the answer: 0.012."
+    },
+    {
+      "id": "mk-015", "topic": "fractions", "difficulty": 1,
+      "question": "What is 7/20 written as a percent?",
+      "choices": ["7%", "20%", "35%", "0.35%"], "answer": 2,
+      "explanation": "Make the denominator 100: 7/20 = 35/100 (multiply top and bottom by 5).\n35/100 = 35%."
+    },
+    {
+      "id": "mk-016", "topic": "fractions", "difficulty": 2,
+      "question": "What is 4.8 ÷ 0.06?",
+      "choices": ["0.8", "8", "80", "800"], "answer": 2,
+      "explanation": "Move both decimal points two places right so the divisor is a whole number:\n4.8 ÷ 0.06 = 480 ÷ 6 = 80."
+    },
+    {
+      "id": "mk-017", "topic": "exponents", "difficulty": 1,
+      "question": "What is 2⁵?",
+      "choices": ["10", "25", "32", "64"], "answer": 2,
+      "explanation": "2⁵ means 2 multiplied by itself 5 times:\n2 × 2 × 2 × 2 × 2 = 32.\n(10 comes from 2 × 5, which is not what an exponent means.)"
+    },
+    {
+      "id": "mk-018", "topic": "exponents", "difficulty": 1,
+      "question": "Simplify: x³ · x⁴",
+      "choices": ["x⁷", "x¹²", "2x⁷", "x"], "answer": 0,
+      "explanation": "When multiplying powers with the same base, add the exponents:\nx³ · x⁴ = x³⁺⁴ = x⁷."
+    },
+    {
+      "id": "mk-019", "topic": "exponents", "difficulty": 1,
+      "question": "What is √144 + √25?",
+      "choices": ["13", "17", "60", "169"], "answer": 1,
+      "explanation": "√144 = 12 because 12 × 12 = 144.\n√25 = 5 because 5 × 5 = 25.\n12 + 5 = 17.\n(You cannot add first: √(144 + 25) = √169 = 13 is a different value.)"
+    },
+    {
+      "id": "mk-020", "topic": "exponents", "difficulty": 2,
+      "question": "Simplify: (3²)³",
+      "choices": ["3⁵", "3⁶", "3⁹", "9⁵"], "answer": 1,
+      "explanation": "A power raised to a power: multiply the exponents.\n2 × 3 = 6, so (3²)³ = 3⁶.\n(Adding the exponents, 3⁵, is the rule for multiplying, not for powers of powers.)"
+    },
+    {
+      "id": "mk-021", "topic": "exponents", "difficulty": 2,
+      "question": "Simplify: √50",
+      "choices": ["5√2", "2√5", "25√2", "10√5"], "answer": 0,
+      "explanation": "Find the largest perfect square that divides 50: 25.\n√50 = √(25 × 2) = √25 × √2 = 5√2."
+    },
+    {
+      "id": "mk-022", "topic": "exponents", "difficulty": 1,
+      "question": "What is 5⁰?",
+      "choices": ["0", "1", "5", "Undefined"], "answer": 1,
+      "explanation": "Any nonzero number raised to the power 0 equals 1.\n5⁰ = 1."
+    },
+    {
+      "id": "mk-023", "topic": "exponents", "difficulty": 2,
+      "question": "What is 2⁻³?",
+      "choices": ["−8", "−6", "1/8", "1/6"], "answer": 2,
+      "explanation": "A negative exponent means \"one over\" the positive power:\n2⁻³ = 1/2³ = 1/8.\nA negative exponent never makes the answer negative."
+    },
+    {
+      "id": "mk-024", "topic": "exponents", "difficulty": 2,
+      "question": "How is 0.00042 written in scientific notation?",
+      "choices": ["4.2 × 10⁻⁴", "4.2 × 10⁻³", "4.2 × 10⁴", "4.2 × 10⁻⁵"], "answer": 0,
+      "explanation": "Move the decimal point right until one nonzero digit is in front: 0.00042 → 4.2.\nThat took 4 moves to the right, so the exponent is −4.\n0.00042 = 4.2 × 10⁻⁴."
+    },
+    {
+      "id": "mk-025", "topic": "equations", "difficulty": 1,
+      "question": "If 3x + 7 = 22, what is x?",
+      "choices": ["3", "5", "7", "15"], "answer": 1,
+      "explanation": "Subtract 7 from both sides: 3x = 15.\nDivide both sides by 3: x = 5.\nCheck: 3(5) + 7 = 22."
+    },
+    {
+      "id": "mk-026", "topic": "equations", "difficulty": 1,
+      "question": "If x/4 − 3 = 5, what is x?",
+      "choices": ["2", "8", "20", "32"], "answer": 3,
+      "explanation": "Add 3 to both sides: x/4 = 8.\nMultiply both sides by 4: x = 32."
+    },
+    {
+      "id": "mk-027", "topic": "equations", "difficulty": 2,
+      "question": "Solve for x: 2(x − 3) = x + 4",
+      "choices": ["1", "7", "10", "−2"], "answer": 2,
+      "explanation": "Distribute: 2x − 6 = x + 4.\nSubtract x from both sides: x − 6 = 4.\nAdd 6: x = 10.\nCheck: 2(10 − 3) = 14 and 10 + 4 = 14."
+    },
+    {
+      "id": "mk-028", "topic": "equations", "difficulty": 2,
+      "question": "Solve the inequality: −3x > 12",
+      "choices": ["x > −4", "x < −4", "x > 4", "x < 4"], "answer": 1,
+      "explanation": "Divide both sides by −3.\nWhen you multiply or divide an inequality by a negative number, flip the sign.\nx < −4."
+    },
+    {
+      "id": "mk-029", "topic": "equations", "difficulty": 1,
+      "question": "If 5y − 2 = 3y + 8, what is y?",
+      "choices": ["2", "3", "5", "10"], "answer": 2,
+      "explanation": "Subtract 3y from both sides: 2y − 2 = 8.\nAdd 2: 2y = 10.\nDivide by 2: y = 5."
+    },
+    {
+      "id": "mk-030", "topic": "equations", "difficulty": 2,
+      "question": "If x = 3 and y = −2, what is the value of 2x² − 3y?",
+      "choices": ["12", "24", "42", "30"], "answer": 1,
+      "explanation": "Substitute carefully, using parentheses:\n2(3)² − 3(−2) = 2(9) + 6 = 18 + 6 = 24.\n(Squaring before multiplying by 2 matters: 2x² is 2 × 9, not 6².)"
+    },
+    {
+      "id": "mk-031", "topic": "equations", "difficulty": 2,
+      "question": "If x + y = 10 and x − y = 4, what is x?",
+      "choices": ["3", "6", "7", "14"], "answer": 2,
+      "explanation": "Add the two equations to cancel y:\n(x + y) + (x − y) = 10 + 4, so 2x = 14 and x = 7.\nThen y = 3. Check: 7 − 3 = 4."
+    },
+    {
+      "id": "mk-032", "topic": "equations", "difficulty": 2,
+      "question": "Which values of x make x² − 49 = 0 true?",
+      "choices": ["7 only", "−7 only", "7 and −7", "49 and −49"], "answer": 2,
+      "explanation": "x² = 49.\nBoth 7 × 7 and (−7) × (−7) equal 49, so x = 7 or x = −7."
+    },
+    {
+      "id": "mk-033", "topic": "polynomials", "difficulty": 1,
+      "question": "Simplify: 3a + 5b − a + 2b",
+      "choices": ["2a + 7b", "4a + 7b", "2a + 3b", "9ab"], "answer": 0,
+      "explanation": "Combine like terms only.\na terms: 3a − a = 2a.\nb terms: 5b + 2b = 7b.\nResult: 2a + 7b."
+    },
+    {
+      "id": "mk-034", "topic": "polynomials", "difficulty": 2,
+      "question": "Multiply: (x + 3)(x + 5)",
+      "choices": ["x² + 15", "x² + 8x + 15", "x² + 15x + 8", "2x + 8"], "answer": 1,
+      "explanation": "Use FOIL (First, Outer, Inner, Last):\nx·x + 5x + 3x + 15 = x² + 8x + 15."
+    },
+    {
+      "id": "mk-035", "topic": "polynomials", "difficulty": 2,
+      "question": "Factor: x² − 9",
+      "choices": ["(x − 3)²", "(x + 3)(x − 3)", "(x + 9)(x − 1)", "(x − 9)(x + 1)"], "answer": 1,
+      "explanation": "This is a difference of squares: a² − b² = (a + b)(a − b).\nx² − 9 = x² − 3² = (x + 3)(x − 3).\nCheck by FOIL: x² − 3x + 3x − 9 = x² − 9."
+    },
+    {
+      "id": "mk-036", "topic": "polynomials", "difficulty": 2,
+      "question": "Factor: x² + 5x + 6",
+      "choices": ["(x + 1)(x + 6)", "(x + 2)(x + 3)", "(x − 2)(x − 3)", "(x + 5)(x + 1)"], "answer": 1,
+      "explanation": "Find two numbers that multiply to 6 and add to 5: 2 and 3.\nx² + 5x + 6 = (x + 2)(x + 3).\n(1 and 6 multiply to 6 but add to 7.)"
+    },
+    {
+      "id": "mk-037", "topic": "polynomials", "difficulty": 2,
+      "question": "Simplify: 12x⁵ ÷ 4x²",
+      "choices": ["3x³", "8x³", "3x⁷", "48x³"], "answer": 0,
+      "explanation": "Divide the numbers: 12 ÷ 4 = 3.\nDivide the powers by subtracting exponents: x⁵ ÷ x² = x³.\nResult: 3x³."
+    },
+    {
+      "id": "mk-038", "topic": "polynomials", "difficulty": 1,
+      "question": "Expand: −2(3x − 4)",
+      "choices": ["−6x − 8", "−6x + 8", "6x − 8", "−5x + 2"], "answer": 1,
+      "explanation": "Multiply −2 by each term:\n−2 × 3x = −6x.\n−2 × (−4) = +8.\nResult: −6x + 8."
+    },
+    {
+      "id": "mk-039", "topic": "polynomials", "difficulty": 3,
+      "question": "Expand: (2x − 1)²",
+      "choices": ["4x² − 1", "4x² + 1", "4x² − 4x + 1", "4x² − 2x + 1"], "answer": 2,
+      "explanation": "(2x − 1)² = (2x − 1)(2x − 1).\nFOIL: 4x² − 2x − 2x + 1 = 4x² − 4x + 1.\n(Squaring each term separately, 4x² + 1, forgets the middle terms.)"
+    },
+    {
+      "id": "mk-040", "topic": "angles", "difficulty": 1,
+      "question": "Two angles of a triangle measure 50° and 60°. What is the measure of the third angle?",
+      "choices": ["70°", "80°", "90°", "110°"], "answer": 0,
+      "explanation": "The angles of a triangle add up to 180°.\n180° − 50° − 60° = 70°."
+    },
+    {
+      "id": "mk-041", "topic": "angles", "difficulty": 1,
+      "question": "What is the complement of a 35° angle?",
+      "choices": ["55°", "65°", "145°", "325°"], "answer": 0,
+      "explanation": "Complementary angles add up to 90°.\n90° − 35° = 55°.\nMemory tip: Complementary = Corner (90°); Supplementary = Straight line (180°)."
+    },
+    {
+      "id": "mk-042", "topic": "angles", "difficulty": 1,
+      "question": "What is the supplement of a 112° angle?",
+      "choices": ["22°", "68°", "78°", "248°"], "answer": 1,
+      "explanation": "Supplementary angles add up to 180°.\n180° − 112° = 68°."
+    },
+    {
+      "id": "mk-043", "topic": "angles", "difficulty": 1,
+      "question": "A right triangle has legs of length 6 and 8. How long is the hypotenuse?",
+      "choices": ["7", "10", "12", "14"], "answer": 1,
+      "explanation": "Pythagorean theorem: a² + b² = c².\n6² + 8² = 36 + 64 = 100.\nc = √100 = 10."
+    },
+    {
+      "id": "mk-044", "topic": "angles", "difficulty": 2,
+      "question": "A right triangle has a hypotenuse of 13 and one leg of 5. How long is the other leg?",
+      "choices": ["8", "10", "12", "18"], "answer": 2,
+      "explanation": "a² + b² = c², so b² = c² − a².\nb² = 13² − 5² = 169 − 25 = 144.\nb = √144 = 12."
+    },
+    {
+      "id": "mk-045", "topic": "angles", "difficulty": 2,
+      "question": "In an isosceles triangle, the angle between the two equal sides measures 40°. What does each of the other two angles measure?",
+      "choices": ["40°", "50°", "70°", "140°"], "answer": 2,
+      "explanation": "The two base angles of an isosceles triangle are equal.\nThey share 180° − 40° = 140°.\nEach one is 140° ÷ 2 = 70°."
+    },
+    {
+      "id": "mk-046", "topic": "angles", "difficulty": 3,
+      "question": "What is the measure of each interior angle of a regular hexagon (6 equal sides)?",
+      "choices": ["108°", "120°", "135°", "720°"], "answer": 1,
+      "explanation": "Sum of interior angles = (n − 2) × 180°.\nFor 6 sides: 4 × 180° = 720°.\nEach of the 6 equal angles: 720° ÷ 6 = 120°."
+    },
+    {
+      "id": "mk-047", "topic": "angles", "difficulty": 1,
+      "question": "Two straight lines cross, forming four angles. One of the angles is 72°. What is the angle directly across from it?",
+      "choices": ["18°", "72°", "108°", "288°"], "answer": 1,
+      "explanation": "Angles directly across from each other where two lines cross are called vertical angles, and they are always equal.\nSo the opposite angle is also 72°.\n(The angles next to it are 180° − 72° = 108°.)"
+    },
+    {
+      "id": "mk-048", "topic": "area", "difficulty": 1,
+      "question": "What is the area of a triangle with a base of 10 inches and a height of 6 inches?",
+      "choices": ["16 sq in", "30 sq in", "60 sq in", "32 sq in"], "answer": 1,
+      "explanation": "Area of a triangle = ½ × base × height.\n½ × 10 × 6 = 30 square inches.\n(60 forgets the ½.)"
+    },
+    {
+      "id": "mk-049", "topic": "area", "difficulty": 2,
+      "question": "A square has a perimeter of 36 feet. What is its area?",
+      "choices": ["36 sq ft", "81 sq ft", "144 sq ft", "1,296 sq ft"], "answer": 1,
+      "explanation": "A square has 4 equal sides: 36 ÷ 4 = 9 feet per side.\nArea = 9 × 9 = 81 square feet."
+    },
+    {
+      "id": "mk-050", "topic": "area", "difficulty": 3,
+      "question": "A rectangle's length is 3 times its width. Its perimeter is 48 cm. What is its width?",
+      "choices": ["6 cm", "8 cm", "12 cm", "18 cm"], "answer": 0,
+      "explanation": "Let width = w, so length = 3w.\nPerimeter = 2(w + 3w) = 8w.\n8w = 48, so w = 6 cm.\nCheck: length 18, and 2(6 + 18) = 48."
+    },
+    {
+      "id": "mk-051", "topic": "area", "difficulty": 1,
+      "question": "What is the volume of a cube whose edges are each 3 inches long?",
+      "choices": ["9 cu in", "18 cu in", "27 cu in", "54 cu in"], "answer": 2,
+      "explanation": "Volume of a cube = edge³.\n3 × 3 × 3 = 27 cubic inches.\n(54 is the surface area: 6 faces × 9.)"
+    },
+    {
+      "id": "mk-052", "topic": "area", "difficulty": 2,
+      "question": "A trapezoid has parallel bases of 8 m and 12 m and a height of 5 m. What is its area?",
+      "choices": ["40 sq m", "50 sq m", "100 sq m", "480 sq m"], "answer": 1,
+      "explanation": "Area of a trapezoid = ½ × (base₁ + base₂) × height.\n½ × (8 + 12) × 5 = ½ × 20 × 5 = 50 square meters."
+    },
+    {
+      "id": "mk-053", "topic": "area", "difficulty": 2,
+      "question": "If each side of a square is doubled, its area is multiplied by:",
+      "choices": ["2", "4", "6", "8"], "answer": 1,
+      "explanation": "Area = side². If the side becomes 2s, area = (2s)² = 4s².\nExample: a 3 × 3 square has area 9; a 6 × 6 square has area 36, which is 4 times as much."
+    },
+    {
+      "id": "mk-054", "topic": "area", "difficulty": 3,
+      "question": "What is the total surface area of a rectangular box that measures 5 in × 4 in × 3 in?",
+      "choices": ["47 sq in", "60 sq in", "94 sq in", "120 sq in"], "answer": 2,
+      "explanation": "A box has 3 pairs of matching faces:\n5 × 4 = 20, 5 × 3 = 15, 4 × 3 = 12.\nSurface area = 2(20 + 15 + 12) = 2 × 47 = 94 square inches.\n(60 is the volume.)"
+    },
+    {
+      "id": "mk-055", "topic": "circles", "difficulty": 1,
+      "question": "What is the area of a circle with a radius of 5 cm? (Use π ≈ 3.14)",
+      "choices": ["15.7 sq cm", "31.4 sq cm", "78.5 sq cm", "314 sq cm"], "answer": 2,
+      "explanation": "Area = πr².\n3.14 × 5² = 3.14 × 25 = 78.5 square centimeters.\n(31.4 is the circumference, 2πr.)"
+    },
+    {
+      "id": "mk-056", "topic": "circles", "difficulty": 2,
+      "question": "A circle has a circumference of 12π inches. What is its radius?",
+      "choices": ["3 in", "6 in", "12 in", "24 in"], "answer": 1,
+      "explanation": "Circumference = 2πr.\n2πr = 12π, so r = 6 inches.\n(12 is the diameter.)"
+    },
+    {
+      "id": "mk-057", "topic": "circles", "difficulty": 2,
+      "question": "A circle has an area of 49π square feet. What is its diameter?",
+      "choices": ["7 ft", "14 ft", "24.5 ft", "49 ft"], "answer": 1,
+      "explanation": "Area = πr², so r² = 49 and r = 7.\nDiameter = 2r = 14 feet."
+    },
+    {
+      "id": "mk-058", "topic": "circles", "difficulty": 1,
+      "question": "A circle has a diameter of 10. What is its area, in terms of π?",
+      "choices": ["10π", "25π", "100π", "20π"], "answer": 1,
+      "explanation": "Radius = half the diameter = 5.\nArea = πr² = π × 5² = 25π.\n(100π uses the diameter in place of the radius.)"
+    },
+    {
+      "id": "mk-059", "topic": "circles", "difficulty": 3,
+      "question": "If the radius of a circle is tripled, its area is multiplied by:",
+      "choices": ["3", "6", "9", "27"], "answer": 2,
+      "explanation": "Area = πr². With radius 3r: π(3r)² = 9πr².\nThe area becomes 9 times as large."
+    },
+    {
+      "id": "mk-060", "topic": "coordinates", "difficulty": 2,
+      "question": "What is the slope of the line through the points (1, 2) and (3, 8)?",
+      "choices": ["1/3", "2", "3", "6"], "answer": 2,
+      "explanation": "Slope = rise ÷ run = (y₂ − y₁) ÷ (x₂ − x₁).\n(8 − 2) ÷ (3 − 1) = 6 ÷ 2 = 3."
+    },
+    {
+      "id": "mk-061", "topic": "coordinates", "difficulty": 2,
+      "question": "What is the distance between the points (0, 0) and (6, 8)?",
+      "choices": ["7", "10", "14", "48"], "answer": 1,
+      "explanation": "The points form a right triangle with legs 6 and 8.\nDistance = √(6² + 8²) = √(36 + 64) = √100 = 10."
+    },
+    {
+      "id": "mk-062", "topic": "coordinates", "difficulty": 1,
+      "question": "What is the y-intercept of the line y = 2x − 5?",
+      "choices": ["2", "−5", "5", "−2.5"], "answer": 1,
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept.\nHere b = −5, so the line crosses the y-axis at (0, −5)."
+    },
+    {
+      "id": "mk-063", "topic": "coordinates", "difficulty": 2,
+      "question": "What is the midpoint of the segment joining (2, 4) and (8, 10)?",
+      "choices": ["(5, 7)", "(6, 6)", "(10, 14)", "(3, 3)"], "answer": 0,
+      "explanation": "Average the x-values and the y-values:\nx = (2 + 8) ÷ 2 = 5.\ny = (4 + 10) ÷ 2 = 7.\nMidpoint = (5, 7)."
+    },
+    {
+      "id": "mk-064", "topic": "coordinates", "difficulty": 1,
+      "question": "Which point lies on the line y = 3x + 1?",
+      "choices": ["(1, 3)", "(2, 7)", "(3, 9)", "(0, 3)"], "answer": 1,
+      "explanation": "Plug in each x and see if you get the y.\nx = 2: 3(2) + 1 = 7. ✓\nThe others fail: x = 1 gives 4, x = 3 gives 10, x = 0 gives 1."
+    }
+  ]
+}
