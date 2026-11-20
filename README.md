@@ -20,7 +20,7 @@ python3 -m http.server 8000
 ```
 index.html          The whole site. Views switch by the address part after "#"
                     (no hash = home, #ar = Arithmetic Reasoning practice,
-                    #test = timed practice test)
+                    #test = timed practice test, #progress = progress)
 css/style.css
 js/config.js        Subtest registry: add new subtests here
 js/quiz.js          Loading banks, picking and shuffling questions
@@ -30,6 +30,7 @@ js/dom.js           Small helpers for building the page
 js/practice.js      Practice view
 js/test.js          Timed test view (sections, timer, review, results)
 js/scoring.js       Test formats, section scoring and the AFQT estimate
+js/progress.js      Progress view (accuracy, missed-question review, history, reset)
 js/home.js          Home view
 data/<id>.json      Question banks
 scripts/validate.mjs  Checks question banks for mistakes
@@ -82,3 +83,11 @@ node scripts/validate.mjs
 Question counts and time limits for the timed test are in `FORMATS` in `js/scoring.js`. They follow the paper ASVAB: AR 30 questions in 36 min, WK 35 in 11, PC 15 in 13, MK 25 in 24. Half length uses roughly half of each.
 
 The estimated AFQT range weights each section the way the AFQT does: Word Knowledge and Paragraph Comprehension together count twice. It applies that weighting to percent correct and shows a band of ±8. Real AFQT scores are percentiles based on national norms that aren't public, so the estimate is only a rough guide. The site says so wherever the estimate appears.
+
+## Progress
+
+The Progress page reads everything from the browser's saved data:
+
+- **Accuracy** counts every answer a student has given, in practice and on tests. Topics are listed weakest first. A topic needs at least 3 answers before it gets a level ("Needs work" under 60%, "Getting there" from 60%, "Strong" from 80%).
+- **Review what you missed** lists questions the student got wrong the last time they answered them. A question leaves the list once it's answered correctly.
+- **Reset progress** erases this device's saved answers, scores and any test in progress, after the student confirms.

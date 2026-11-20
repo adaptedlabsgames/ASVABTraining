@@ -1,5 +1,5 @@
 import { getSubtest } from './config.js';
-import { loadBank, pickQuestions, prepare } from './quiz.js';
+import { loadBank, pickQuestions, prepare, shuffle } from './quiz.js';
 import { load, recordAnswer, recordSession, accuracy } from './storage.js';
 import { el, mount } from './dom.js';
 
@@ -12,6 +12,13 @@ let bank = null;
 let prefs = null; // last setup choices, reused for "New set"
 let session = null; // { items, index, results, answered }
 const banks = {}; // loaded banks, cached by subtest id
+
+// Another page (such as Progress) can ask practice to open with chosen
+// topics or a specific list of questions. Read once, then cleared.
+let pending = null;
+export function presetPractice(subtestId, { topics = null, questionIds = null } = {}) {
+  pending = { subtestId, topics, questionIds };
+}
 
 // Called when the router shows another view, so a stale quiz stops
 // reacting to keys and a slow bank load doesn't draw over the new view.
@@ -43,6 +50,20 @@ export async function renderPractice(container, subtestId) {
     return;
   }
   prefs = { topics: Object.keys(bank.topics), count: 10, focusWeak: true };
+  const preset = pending && pending.subtestId === wanted.id ? pending : null;
+  pending = null;
+  if (preset?.questionIds) {
+    const ids = new Set(preset.questionIds);
+    const chosen = bank.questions.filter((q) => ids.has(q.id));
+    if (chosen.length) {
+      startSession(shuffle(chosen));
+      return;
+    }
+  }
+  if (preset?.topics) {
+    const valid = preset.topics.filter((t) => bank.topics[t]);
+    if (valid.length) prefs.topics = valid;
+  }
   renderSetup();
 }
 

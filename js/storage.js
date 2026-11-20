@@ -107,3 +107,19 @@ export function lastAfqtTest() {
   const tests = load().sessions.filter((s) => s.mode === 'test' && s.estimate);
   return tests[tests.length - 1] || null;
 }
+
+// Ids of questions answered wrong the last time they were seen.
+// A question leaves this list once it is answered correctly.
+export function missedIds(history = load().questions) {
+  return Object.entries(history).filter(([, h]) => h.lastCorrect === false).map(([id]) => id);
+}
+
+// Erases all saved answers, scores and any test in progress on this device.
+export function resetAll() {
+  try {
+    localStorage.removeItem(KEY);
+    localStorage.removeItem(TEST_KEY);
+  } catch {
+    // ignore
+  }
+}
