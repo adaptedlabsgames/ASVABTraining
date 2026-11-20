@@ -761,3 +761,24 @@ td .guide-inline { margin-left: 4px; }
 .q-figure img { display: block; width: 100%; max-width: 340px; height: auto; }
 .missed .q-figure { margin-bottom: 10px; }
 .missed .q-figure img { max-width: 260px; }
+
+/* Picture answer choices (Assembling Objects) */
+.image-choices { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.image-choices .choice { flex-direction: column; align-items: stretch; gap: 6px; padding: 8px; }
+.choice-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  background: var(--figure-bg);
+}
+.answer-img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 120px;
+  height: auto;
+  margin: 4px 0;
+  border: 2px solid;
+  border-radius: 6px;
+  background: var(--figure-bg);
+}

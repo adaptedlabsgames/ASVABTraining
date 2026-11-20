@@ -1,7 +1,7 @@
 import { getSubtest } from './config.js';
 import { loadBank, pickQuestions, matchingQuestions, prepare, shuffle, LEVELS } from './quiz.js';
 import { load, recordAnswer, recordSession, accuracy } from './storage.js';
-import { el, mount, figure } from './dom.js';
+import { el, mount, figure, choiceBody, choiceListClass, answerBody } from './dom.js';
 
 const LETTERS = 'ABCDEFGH';
 const COUNTS = [10, 20, 0]; // 0 = all matching questions
@@ -200,11 +200,11 @@ function renderQuestion() {
   const q = items[index];
   session.answered = false;
 
-  const choiceButtons = q.choices.map((text, i) =>
+  const choiceButtons = q.choices.map((_, i) =>
     el('li', {},
       el('button', { class: 'choice', type: 'button', 'data-i': String(i), onclick: () => answer(i) },
         el('span', { class: 'letter', 'aria-hidden': 'true' }, LETTERS[i]),
-        el('span', { class: 'text' }, text),
+        choiceBody(q, i),
       ),
     ),
   );
@@ -225,7 +225,7 @@ function renderQuestion() {
         : null,
       figure(q),
       el('p', { class: 'question-text' }, q.question),
-      el('ol', { class: 'choices' }, choiceButtons),
+      el('ol', { class: choiceListClass(q) }, choiceButtons),
       el('div', { id: 'feedback' }),
       el('p', { class: 'kbd-hint' },
         'Keyboard: ', el('kbd', {}, 'A'), '–', el('kbd', {}, LETTERS[q.choices.length - 1]),
@@ -258,7 +258,7 @@ function answer(choice) {
     last ? 'See results' : 'Next question');
   app.querySelector('#feedback').replaceWith(
     el('div', { class: `feedback ${correct ? 'good' : 'bad'}`, role: 'status' },
-      el('strong', {}, correct ? 'Correct!' : `Not quite. The answer is ${LETTERS[q.answer]}: ${q.choices[q.answer]}`),
+      el('strong', {}, correct ? 'Correct!' : q.choiceImages ? `Not quite. The answer is ${LETTERS[q.answer]}.` : `Not quite. The answer is ${LETTERS[q.answer]}: ${q.choices[q.answer]}`),
       el('p', { class: 'explain' }, q.explanation),
       el('div', { class: 'actions', style: 'margin-top:14px' }, next),
     ),
@@ -325,9 +325,9 @@ function renderSummary(results) {
       figure(r.q),
       el('p', { class: 'q' }, r.q.question),
       el('p', { class: 'ans' },
-        'Your answer: ', el('span', { style: 'color:var(--bad)' }, r.q.choices[r.choice]),
+        'Your answer: ', answerBody(r.q, r.choice, 'var(--bad)'),
         el('br'),
-        'Correct answer: ', el('span', { style: 'color:var(--good)' }, r.q.choices[r.q.answer]),
+        'Correct answer: ', answerBody(r.q, r.q.answer, 'var(--good)'),
       ),
       el('p', { class: 'explain' }, r.q.explanation),
     ),

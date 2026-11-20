@@ -65,6 +65,7 @@ export function prepare(q) {
   return {
     ...q,
     choices: order.map((i) => q.choices[i]),
+    ...(q.choiceImages ? { choiceImages: order.map((i) => q.choiceImages[i]) } : {}),
     answer: order.indexOf(q.answer),
   };
 }

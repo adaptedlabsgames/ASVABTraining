@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 190" width="340" height="190" fill="none" stroke="#1a1f29" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" font-family="Arial, Helvetica, sans-serif" font-size="16">
+<path d="M51.0 46.0 L119.0 46.0 L119.0 114.0 L51.0 114.0 Z" fill="#ffffff"/>
+<path d="M255.0 42.0 L291.1 68.3 L277.3 110.7 L232.7 110.7 L218.9 68.3 Z" fill="#ffffff"/>
+<circle cx="51.0" cy="80.0" r="4.5" fill="#1a1f29" stroke="none"/>
+<circle cx="232.7" cy="110.7" r="4.5" fill="#1a1f29" stroke="none"/>
+<text x="34.0" y="80.0" fill="#1a1f29" stroke="none" text-anchor="middle" dominant-baseline="central" font-weight="bold">A</text>
+<text x="222.7" y="124.5" fill="#1a1f29" stroke="none" text-anchor="middle" dominant-baseline="central" font-weight="bold">B</text>
+<path d="M135 168 H205"/>
+<circle cx="135.0" cy="168.0" r="3.5" fill="#1a1f29" stroke="none"/>
+<circle cx="205.0" cy="168.0" r="3.5" fill="#1a1f29" stroke="none"/>
+<text x="123.0" y="168.0" fill="#1a1f29" stroke="none" text-anchor="middle" dominant-baseline="central" font-weight="bold">A</text>
+<text x="217.0" y="168.0" fill="#1a1f29" stroke="none" text-anchor="middle" dominant-baseline="central" font-weight="bold">B</text>
+</svg>

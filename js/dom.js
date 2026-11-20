@@ -29,3 +29,24 @@ export function figure(q) {
   return el('figure', { class: 'q-figure' },
     el('img', { src: q.figure, alt: q.figureAlt || 'Diagram for this question', loading: 'lazy', decoding: 'async' }));
 }
+
+// Answer choices can be text or pictures (q.choiceImages, with q.choices
+// holding each picture's text description).
+export function choiceBody(q, i) {
+  if (q.choiceImages) {
+    return el('img', { class: 'choice-img', src: q.choiceImages[i], alt: q.choices[i], loading: 'lazy', decoding: 'async' });
+  }
+  return el('span', { class: 'text' }, q.choices[i]);
+}
+
+export function choiceListClass(q) {
+  return q.choiceImages ? 'choices image-choices' : 'choices';
+}
+
+// A choice as shown in review lists: a small picture, or the text.
+export function answerBody(q, i, color) {
+  if (q.choiceImages) {
+    return el('img', { class: 'answer-img', src: q.choiceImages[i], alt: q.choices[i], style: `border-color:${color}` });
+  }
+  return el('span', { style: `color:${color}` }, q.choices[i]);
+}

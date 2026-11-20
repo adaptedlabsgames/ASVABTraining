@@ -19,7 +19,6 @@ const CAREER_PARTS = [
   { id: 'scitech', name: 'Science and Technical Skills', from: ['gs', 'ei', 'mc'] },
 ];
 const NAMES = {
-  ao: 'Assembling Objects', // not in config (no practice yet)
   ...Object.fromEntries(CAREER_PARTS.map((c) => [c.id, c.name])),
 };
 const nameOf = (id) => getSubtest(id)?.name || NAMES[id] || id;

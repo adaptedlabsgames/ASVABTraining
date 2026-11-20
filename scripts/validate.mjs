@@ -49,6 +49,10 @@ for (const file of readdirSync(dataDir).filter((f) => f.endsWith('.json') && !SP
     }
     if (!q.explanation?.trim()) at('missing explanation');
     if (q.passage !== undefined && !bank.passages?.[q.passage]) at(`unknown passage "${q.passage}"`);
+    if (q.choiceImages !== undefined) {
+      if (!Array.isArray(q.choiceImages) || q.choiceImages.length !== q.choices?.length) at('choiceImages must have one picture per choice');
+      else q.choiceImages.forEach((f) => { if (!existsSync(join(dataDir, '..', f))) at(`choice picture not found: ${f}`); });
+    }
     if (q.figure !== undefined) {
       if (!existsSync(join(dataDir, '..', q.figure))) at(`figure file not found: ${q.figure}`);
       if (!q.figureAlt?.trim()) at('a question with a figure needs figureAlt (a text description)');

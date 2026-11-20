@@ -1,0 +1,802 @@
+{
+  "subtest": "ao",
+  "name": "Assembling Objects",
+  "topics": {
+    "puzzles": "Shape Puzzles",
+    "connections": "Connections"
+  },
+  "questions": [
+    {
+      "id": "ao-001",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-sq-30.svg",
+      "figureAlt": "Loose pieces: a narrow rectangle and a wide rectangle.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of a narrow rectangle and a wide rectangle",
+        "A square made of four small squares",
+        "A square made of two equal rectangles",
+        "A square made of two equal triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-30.svg",
+        "data/figures/ao-whole-sq-quarters.svg",
+        "data/figures/ao-whole-sq-halves.svg",
+        "data/figures/ao-whole-sq-diagonal.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a narrow rectangle and a wide rectangle. Only one choice is a square built from exactly those pieces. The other choices are made of four small squares, two equal rectangles and two equal triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-002",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-sq-halves.svg",
+      "figureAlt": "Loose pieces: two equal rectangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of two equal rectangles",
+        "A square made of a long, thin triangle and a four-sided piece",
+        "A square made of a small square and an L-shaped piece",
+        "A square made of a narrow rectangle and a wide rectangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-halves.svg",
+        "data/figures/ao-whole-sq-wedge.svg",
+        "data/figures/ao-whole-sq-corner-square.svg",
+        "data/figures/ao-whole-sq-30.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two equal rectangles. Only one choice is a square built from exactly those pieces. The other choices are made of a long, thin triangle and a four-sided piece, a small square and an L-shaped piece and a narrow rectangle and a wide rectangle.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-003",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-sq-diagonal.svg",
+      "figureAlt": "Loose pieces: two equal triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of two equal triangles",
+        "A square made of three equal strips",
+        "A square made of two equal rectangles",
+        "A square made of a narrow rectangle and a wide rectangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-diagonal.svg",
+        "data/figures/ao-whole-sq-strips.svg",
+        "data/figures/ao-whole-sq-halves.svg",
+        "data/figures/ao-whole-sq-30.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two equal triangles. Only one choice is a square built from exactly those pieces. The other choices are made of three equal strips, two equal rectangles and a narrow rectangle and a wide rectangle.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-004",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-sq-quarters.svg",
+      "figureAlt": "Loose pieces: four small squares.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of four small squares",
+        "A square made of a narrow rectangle and a wide rectangle",
+        "A square made of a small triangle and a five-sided piece",
+        "A square made of two equal rectangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-quarters.svg",
+        "data/figures/ao-whole-sq-30.svg",
+        "data/figures/ao-whole-sq-corner-triangle.svg",
+        "data/figures/ao-whole-sq-halves.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are four small squares. Only one choice is a square built from exactly those pieces. The other choices are made of a narrow rectangle and a wide rectangle, a small triangle and a five-sided piece and two equal rectangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-005",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-sq-strips.svg",
+      "figureAlt": "Loose pieces: three equal strips.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of three equal strips",
+        "A square made of a small square and an L-shaped piece",
+        "A square made of two equal rectangles",
+        "A square made of a long, thin triangle and a four-sided piece"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-strips.svg",
+        "data/figures/ao-whole-sq-corner-square.svg",
+        "data/figures/ao-whole-sq-halves.svg",
+        "data/figures/ao-whole-sq-wedge.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are three equal strips. Only one choice is a square built from exactly those pieces. The other choices are made of a small square and an L-shaped piece, two equal rectangles and a long, thin triangle and a four-sided piece.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-006",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-sq-corner-square.svg",
+      "figureAlt": "Loose pieces: a small square and an L-shaped piece.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of a small square and an L-shaped piece",
+        "A square made of a long, thin triangle and a four-sided piece",
+        "A square made of two equal rectangles",
+        "A square made of three equal strips"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-corner-square.svg",
+        "data/figures/ao-whole-sq-wedge.svg",
+        "data/figures/ao-whole-sq-halves.svg",
+        "data/figures/ao-whole-sq-strips.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a small square and an L-shaped piece. Only one choice is a square built from exactly those pieces. The other choices are made of a long, thin triangle and a four-sided piece, two equal rectangles and three equal strips.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-007",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-sq-corner-triangle.svg",
+      "figureAlt": "Loose pieces: a small triangle and a five-sided piece.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of a small triangle and a five-sided piece",
+        "A square made of two equal triangles",
+        "A square made of a small square and an L-shaped piece",
+        "A square made of four small squares"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-corner-triangle.svg",
+        "data/figures/ao-whole-sq-diagonal.svg",
+        "data/figures/ao-whole-sq-corner-square.svg",
+        "data/figures/ao-whole-sq-quarters.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a small triangle and a five-sided piece. Only one choice is a square built from exactly those pieces. The other choices are made of two equal triangles, a small square and an L-shaped piece and four small squares.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-008",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-sq-wedge.svg",
+      "figureAlt": "Loose pieces: a long, thin triangle and a four-sided piece.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of a long, thin triangle and a four-sided piece",
+        "A square made of two equal triangles",
+        "A square made of three equal strips",
+        "A square made of a small triangle and a five-sided piece"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-wedge.svg",
+        "data/figures/ao-whole-sq-diagonal.svg",
+        "data/figures/ao-whole-sq-strips.svg",
+        "data/figures/ao-whole-sq-corner-triangle.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a long, thin triangle and a four-sided piece. Only one choice is a square built from exactly those pieces. The other choices are made of two equal triangles, three equal strips and a small triangle and a five-sided piece.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-009",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-ci-halves.svg",
+      "figureAlt": "Loose pieces: two half circles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A circle made of two half circles",
+        "A circle made of a quarter circle and a three-quarter piece",
+        "A circle made of four quarter circles",
+        "A circle made of three equal wedges"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-ci-halves.svg",
+        "data/figures/ao-whole-ci-quarter-rest.svg",
+        "data/figures/ao-whole-ci-quarters.svg",
+        "data/figures/ao-whole-ci-thirds.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two half circles. Only one choice is a circle built from exactly those pieces. The other choices are made of a quarter circle and a three-quarter piece, four quarter circles and three equal wedges.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-010",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-ci-quarters.svg",
+      "figureAlt": "Loose pieces: four quarter circles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A circle made of four quarter circles",
+        "A circle made of three equal wedges",
+        "A circle made of a quarter circle and a three-quarter piece",
+        "A circle made of two half circles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-ci-quarters.svg",
+        "data/figures/ao-whole-ci-thirds.svg",
+        "data/figures/ao-whole-ci-quarter-rest.svg",
+        "data/figures/ao-whole-ci-halves.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are four quarter circles. Only one choice is a circle built from exactly those pieces. The other choices are made of three equal wedges, a quarter circle and a three-quarter piece and two half circles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-011",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-ci-quarter-rest.svg",
+      "figureAlt": "Loose pieces: a quarter circle and a three-quarter piece.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A circle made of a quarter circle and a three-quarter piece",
+        "A circle made of four quarter circles",
+        "A circle made of three equal wedges",
+        "A circle made of two half circles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-ci-quarter-rest.svg",
+        "data/figures/ao-whole-ci-quarters.svg",
+        "data/figures/ao-whole-ci-thirds.svg",
+        "data/figures/ao-whole-ci-halves.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a quarter circle and a three-quarter piece. Only one choice is a circle built from exactly those pieces. The other choices are made of four quarter circles, three equal wedges and two half circles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-012",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-ci-thirds.svg",
+      "figureAlt": "Loose pieces: three equal wedges.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A circle made of three equal wedges",
+        "A circle made of two half circles",
+        "A circle made of four quarter circles",
+        "A circle made of a quarter circle and a three-quarter piece"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-ci-thirds.svg",
+        "data/figures/ao-whole-ci-halves.svg",
+        "data/figures/ao-whole-ci-quarters.svg",
+        "data/figures/ao-whole-ci-quarter-rest.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are three equal wedges. Only one choice is a circle built from exactly those pieces. The other choices are made of two half circles, four quarter circles and a quarter circle and a three-quarter piece.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-013",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-tr-halves.svg",
+      "figureAlt": "Loose pieces: two right triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A triangle made of two right triangles",
+        "A triangle made of a small triangle and a trapezoid",
+        "A triangle made of three equal wide triangles",
+        "A triangle made of four small triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-tr-halves.svg",
+        "data/figures/ao-whole-tr-top-cut.svg",
+        "data/figures/ao-whole-tr-center.svg",
+        "data/figures/ao-whole-tr-four.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two right triangles. Only one choice is a triangle built from exactly those pieces. The other choices are made of a small triangle and a trapezoid, three equal wide triangles and four small triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-014",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-tr-four.svg",
+      "figureAlt": "Loose pieces: four small triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A triangle made of four small triangles",
+        "A triangle made of two right triangles",
+        "A triangle made of three equal wide triangles",
+        "A triangle made of a small triangle and a trapezoid"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-tr-four.svg",
+        "data/figures/ao-whole-tr-halves.svg",
+        "data/figures/ao-whole-tr-center.svg",
+        "data/figures/ao-whole-tr-top-cut.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are four small triangles. Only one choice is a triangle built from exactly those pieces. The other choices are made of two right triangles, three equal wide triangles and a small triangle and a trapezoid.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-015",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-tr-top-cut.svg",
+      "figureAlt": "Loose pieces: a small triangle and a trapezoid.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A triangle made of a small triangle and a trapezoid",
+        "A triangle made of two right triangles",
+        "A triangle made of three equal wide triangles",
+        "A triangle made of four small triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-tr-top-cut.svg",
+        "data/figures/ao-whole-tr-halves.svg",
+        "data/figures/ao-whole-tr-center.svg",
+        "data/figures/ao-whole-tr-four.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a small triangle and a trapezoid. Only one choice is a triangle built from exactly those pieces. The other choices are made of two right triangles, three equal wide triangles and four small triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-016",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-tr-center.svg",
+      "figureAlt": "Loose pieces: three equal wide triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A triangle made of three equal wide triangles",
+        "A triangle made of two right triangles",
+        "A triangle made of a small triangle and a trapezoid",
+        "A triangle made of four small triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-tr-center.svg",
+        "data/figures/ao-whole-tr-halves.svg",
+        "data/figures/ao-whole-tr-top-cut.svg",
+        "data/figures/ao-whole-tr-four.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are three equal wide triangles. Only one choice is a triangle built from exactly those pieces. The other choices are made of two right triangles, a small triangle and a trapezoid and four small triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-017",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-01.svg",
+      "figureAlt": "A triangle with point A at its bottom-left corner, and a pentagon with point B at its upper-right corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the bottom-left corner of the triangle to the upper-right corner of the pentagon",
+        "A line from the middle of the bottom side of the triangle to the upper-right corner of the pentagon",
+        "A line from the bottom-left corner of the triangle to the top corner of the pentagon",
+        "A line from the middle of the bottom side of the triangle to the lower-right corner of the pentagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-01-0.svg",
+        "data/figures/ao-cn-01-1.svg",
+        "data/figures/ao-cn-01-2.svg",
+        "data/figures/ao-cn-01-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the bottom-left corner of the triangle, and point B is at the upper-right corner of the pentagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the triangle anywhere except its bottom-left corner, then do the same for the pentagon."
+    },
+    {
+      "id": "ao-018",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-02.svg",
+      "figureAlt": "A circle with point A at its center, and a hexagon with point B at its upper-right corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the center of the circle to the upper-right corner of the hexagon",
+        "A line from the right edge of the circle to the upper-right corner of the hexagon",
+        "A line from the center of the circle to the lower-left corner of the hexagon",
+        "A line from the left edge of the circle to the left corner of the hexagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-02-0.svg",
+        "data/figures/ao-cn-02-1.svg",
+        "data/figures/ao-cn-02-2.svg",
+        "data/figures/ao-cn-02-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the center of the circle, and point B is at the upper-right corner of the hexagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the circle anywhere except its center, then do the same for the hexagon."
+    },
+    {
+      "id": "ao-019",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-03.svg",
+      "figureAlt": "A pentagon with point A at its top corner, and a square with point B at its center. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the top corner of the pentagon to the center of the square",
+        "A line from the lower-left corner of the pentagon to the center of the square",
+        "A line from the top corner of the pentagon to the middle of the left side of the square",
+        "A line from the upper-right corner of the pentagon to the middle of the top side of the square"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-03-0.svg",
+        "data/figures/ao-cn-03-1.svg",
+        "data/figures/ao-cn-03-2.svg",
+        "data/figures/ao-cn-03-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the top corner of the pentagon, and point B is at the center of the square. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the pentagon anywhere except its top corner, then do the same for the square."
+    },
+    {
+      "id": "ao-020",
+      "topic": "connections",
+      "difficulty": 1,
+      "figure": "data/figures/ao-cn-04.svg",
+      "figureAlt": "A circle with point A at its bottom edge, and a triangle with point B at its middle of the bottom side. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the bottom edge of the circle to the middle of the bottom side of the triangle",
+        "A line from the right edge of the circle to the middle of the bottom side of the triangle",
+        "A line from the bottom edge of the circle to the center of the triangle",
+        "A line from the right edge of the circle to the bottom-right corner of the triangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-04-0.svg",
+        "data/figures/ao-cn-04-1.svg",
+        "data/figures/ao-cn-04-2.svg",
+        "data/figures/ao-cn-04-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the bottom edge of the circle, and point B is at the middle of the bottom side of the triangle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the circle anywhere except its bottom edge, then do the same for the triangle."
+    },
+    {
+      "id": "ao-021",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-05.svg",
+      "figureAlt": "A hexagon with point A at its lower-right corner, and a circle with point B at its right edge. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the lower-right corner of the hexagon to the right edge of the circle",
+        "A line from the upper-left corner of the hexagon to the right edge of the circle",
+        "A line from the lower-right corner of the hexagon to the top edge of the circle",
+        "A line from the upper-left corner of the hexagon to the bottom edge of the circle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-05-0.svg",
+        "data/figures/ao-cn-05-1.svg",
+        "data/figures/ao-cn-05-2.svg",
+        "data/figures/ao-cn-05-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the lower-right corner of the hexagon, and point B is at the right edge of the circle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the hexagon anywhere except its lower-right corner, then do the same for the circle."
+    },
+    {
+      "id": "ao-022",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-06.svg",
+      "figureAlt": "A pentagon with point A at its center, and a square with point B at its bottom-right corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the center of the pentagon to the bottom-right corner of the square",
+        "A line from the upper-left corner of the pentagon to the bottom-right corner of the square",
+        "A line from the center of the pentagon to the center of the square",
+        "A line from the lower-right corner of the pentagon to the middle of the left side of the square"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-06-0.svg",
+        "data/figures/ao-cn-06-1.svg",
+        "data/figures/ao-cn-06-2.svg",
+        "data/figures/ao-cn-06-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the center of the pentagon, and point B is at the bottom-right corner of the square. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the pentagon anywhere except its center, then do the same for the square."
+    },
+    {
+      "id": "ao-023",
+      "topic": "connections",
+      "difficulty": 1,
+      "figure": "data/figures/ao-cn-07.svg",
+      "figureAlt": "A triangle with point A at its bottom-right corner, and a square with point B at its top-left corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the bottom-right corner of the triangle to the top-left corner of the square",
+        "A line from the bottom-left corner of the triangle to the top-left corner of the square",
+        "A line from the bottom-right corner of the triangle to the top-right corner of the square",
+        "A line from the center of the triangle to the center of the square"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-07-0.svg",
+        "data/figures/ao-cn-07-1.svg",
+        "data/figures/ao-cn-07-2.svg",
+        "data/figures/ao-cn-07-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the bottom-right corner of the triangle, and point B is at the top-left corner of the square. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the triangle anywhere except its bottom-right corner, then do the same for the square."
+    },
+    {
+      "id": "ao-024",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-08.svg",
+      "figureAlt": "A square with point A at its middle of the left side, and a pentagon with point B at its lower-left corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the middle of the left side of the square to the lower-left corner of the pentagon",
+        "A line from the middle of the top side of the square to the lower-left corner of the pentagon",
+        "A line from the middle of the left side of the square to the upper-right corner of the pentagon",
+        "A line from the bottom-right corner of the square to the top corner of the pentagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-08-0.svg",
+        "data/figures/ao-cn-08-1.svg",
+        "data/figures/ao-cn-08-2.svg",
+        "data/figures/ao-cn-08-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the middle of the left side of the square, and point B is at the lower-left corner of the pentagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the square anywhere except its middle of the left side, then do the same for the pentagon."
+    },
+    {
+      "id": "ao-025",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-09.svg",
+      "figureAlt": "A square with point A at its middle of the right side, and a pentagon with point B at its upper-left corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the middle of the right side of the square to the upper-left corner of the pentagon",
+        "A line from the center of the square to the upper-left corner of the pentagon",
+        "A line from the middle of the right side of the square to the lower-left corner of the pentagon",
+        "A line from the top-left corner of the square to the top corner of the pentagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-09-0.svg",
+        "data/figures/ao-cn-09-1.svg",
+        "data/figures/ao-cn-09-2.svg",
+        "data/figures/ao-cn-09-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the middle of the right side of the square, and point B is at the upper-left corner of the pentagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the square anywhere except its middle of the right side, then do the same for the pentagon."
+    },
+    {
+      "id": "ao-026",
+      "topic": "connections",
+      "difficulty": 1,
+      "figure": "data/figures/ao-cn-10.svg",
+      "figureAlt": "A triangle with point A at its bottom-left corner, and a circle with point B at its bottom edge. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the bottom-left corner of the triangle to the bottom edge of the circle",
+        "A line from the bottom-right corner of the triangle to the bottom edge of the circle",
+        "A line from the bottom-left corner of the triangle to the right edge of the circle",
+        "A line from the top corner of the triangle to the center of the circle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-10-0.svg",
+        "data/figures/ao-cn-10-1.svg",
+        "data/figures/ao-cn-10-2.svg",
+        "data/figures/ao-cn-10-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the bottom-left corner of the triangle, and point B is at the bottom edge of the circle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the triangle anywhere except its bottom-left corner, then do the same for the circle."
+    },
+    {
+      "id": "ao-027",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-11.svg",
+      "figureAlt": "A pentagon with point A at its center, and a square with point B at its middle of the top side. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the center of the pentagon to the middle of the top side of the square",
+        "A line from the top corner of the pentagon to the middle of the top side of the square",
+        "A line from the center of the pentagon to the middle of the right side of the square",
+        "A line from the top corner of the pentagon to the center of the square"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-11-0.svg",
+        "data/figures/ao-cn-11-1.svg",
+        "data/figures/ao-cn-11-2.svg",
+        "data/figures/ao-cn-11-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the center of the pentagon, and point B is at the middle of the top side of the square. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the pentagon anywhere except its center, then do the same for the square."
+    },
+    {
+      "id": "ao-028",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-12.svg",
+      "figureAlt": "A triangle with point A at its middle of the bottom side, and a pentagon with point B at its center. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the middle of the bottom side of the triangle to the center of the pentagon",
+        "A line from the bottom-right corner of the triangle to the center of the pentagon",
+        "A line from the middle of the bottom side of the triangle to the lower-right corner of the pentagon",
+        "A line from the top corner of the triangle to the lower-right corner of the pentagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-12-0.svg",
+        "data/figures/ao-cn-12-1.svg",
+        "data/figures/ao-cn-12-2.svg",
+        "data/figures/ao-cn-12-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the middle of the bottom side of the triangle, and point B is at the center of the pentagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the triangle anywhere except its middle of the bottom side, then do the same for the pentagon."
+    },
+    {
+      "id": "ao-029",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-13.svg",
+      "figureAlt": "A triangle with point A at its middle of the bottom side, and a hexagon with point B at its upper-right corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the middle of the bottom side of the triangle to the upper-right corner of the hexagon",
+        "A line from the bottom-right corner of the triangle to the upper-right corner of the hexagon",
+        "A line from the middle of the bottom side of the triangle to the lower-right corner of the hexagon",
+        "A line from the bottom-left corner of the triangle to the right corner of the hexagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-13-0.svg",
+        "data/figures/ao-cn-13-1.svg",
+        "data/figures/ao-cn-13-2.svg",
+        "data/figures/ao-cn-13-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the middle of the bottom side of the triangle, and point B is at the upper-right corner of the hexagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the triangle anywhere except its middle of the bottom side, then do the same for the hexagon."
+    },
+    {
+      "id": "ao-030",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-14.svg",
+      "figureAlt": "A circle with point A at its bottom edge, and a pentagon with point B at its lower-left corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the bottom edge of the circle to the lower-left corner of the pentagon",
+        "A line from the left edge of the circle to the lower-left corner of the pentagon",
+        "A line from the bottom edge of the circle to the lower-right corner of the pentagon",
+        "A line from the center of the circle to the upper-left corner of the pentagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-14-0.svg",
+        "data/figures/ao-cn-14-1.svg",
+        "data/figures/ao-cn-14-2.svg",
+        "data/figures/ao-cn-14-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the bottom edge of the circle, and point B is at the lower-left corner of the pentagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the circle anywhere except its bottom edge, then do the same for the pentagon."
+    },
+    {
+      "id": "ao-031",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-15.svg",
+      "figureAlt": "A hexagon with point A at its right corner, and a triangle with point B at its bottom-right corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the right corner of the hexagon to the bottom-right corner of the triangle",
+        "A line from the center of the hexagon to the bottom-right corner of the triangle",
+        "A line from the right corner of the hexagon to the middle of the bottom side of the triangle",
+        "A line from the center of the hexagon to the bottom-left corner of the triangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-15-0.svg",
+        "data/figures/ao-cn-15-1.svg",
+        "data/figures/ao-cn-15-2.svg",
+        "data/figures/ao-cn-15-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the right corner of the hexagon, and point B is at the bottom-right corner of the triangle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the hexagon anywhere except its right corner, then do the same for the triangle."
+    },
+    {
+      "id": "ao-032",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-16.svg",
+      "figureAlt": "A triangle with point A at its bottom-left corner, and a hexagon with point B at its left corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the bottom-left corner of the triangle to the left corner of the hexagon",
+        "A line from the bottom-right corner of the triangle to the left corner of the hexagon",
+        "A line from the bottom-left corner of the triangle to the center of the hexagon",
+        "A line from the bottom-right corner of the triangle to the upper-right corner of the hexagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-16-0.svg",
+        "data/figures/ao-cn-16-1.svg",
+        "data/figures/ao-cn-16-2.svg",
+        "data/figures/ao-cn-16-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the bottom-left corner of the triangle, and point B is at the left corner of the hexagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the triangle anywhere except its bottom-left corner, then do the same for the hexagon."
+    },
+    {
+      "id": "ao-033",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-17.svg",
+      "figureAlt": "A pentagon with point A at its lower-right corner, and a triangle with point B at its bottom-left corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the lower-right corner of the pentagon to the bottom-left corner of the triangle",
+        "A line from the lower-left corner of the pentagon to the bottom-left corner of the triangle",
+        "A line from the lower-right corner of the pentagon to the center of the triangle",
+        "A line from the upper-left corner of the pentagon to the middle of the bottom side of the triangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-17-0.svg",
+        "data/figures/ao-cn-17-1.svg",
+        "data/figures/ao-cn-17-2.svg",
+        "data/figures/ao-cn-17-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the lower-right corner of the pentagon, and point B is at the bottom-left corner of the triangle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the pentagon anywhere except its lower-right corner, then do the same for the triangle."
+    },
+    {
+      "id": "ao-034",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-18.svg",
+      "figureAlt": "A hexagon with point A at its right corner, and a circle with point B at its right edge. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the right corner of the hexagon to the right edge of the circle",
+        "A line from the upper-left corner of the hexagon to the right edge of the circle",
+        "A line from the right corner of the hexagon to the bottom edge of the circle",
+        "A line from the lower-left corner of the hexagon to the center of the circle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-18-0.svg",
+        "data/figures/ao-cn-18-1.svg",
+        "data/figures/ao-cn-18-2.svg",
+        "data/figures/ao-cn-18-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the right corner of the hexagon, and point B is at the right edge of the circle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the hexagon anywhere except its right corner, then do the same for the circle."
+    },
+    {
+      "id": "ao-035",
+      "topic": "connections",
+      "difficulty": 1,
+      "figure": "data/figures/ao-cn-19.svg",
+      "figureAlt": "A circle with point A at its right edge, and a triangle with point B at its bottom-right corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the right edge of the circle to the bottom-right corner of the triangle",
+        "A line from the left edge of the circle to the bottom-right corner of the triangle",
+        "A line from the right edge of the circle to the top corner of the triangle",
+        "A line from the top edge of the circle to the top corner of the triangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-19-0.svg",
+        "data/figures/ao-cn-19-1.svg",
+        "data/figures/ao-cn-19-2.svg",
+        "data/figures/ao-cn-19-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the right edge of the circle, and point B is at the bottom-right corner of the triangle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the circle anywhere except its right edge, then do the same for the triangle."
+    },
+    {
+      "id": "ao-036",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-20.svg",
+      "figureAlt": "A square with point A at its bottom-right corner, and a pentagon with point B at its lower-left corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the bottom-right corner of the square to the lower-left corner of the pentagon",
+        "A line from the middle of the top side of the square to the lower-left corner of the pentagon",
+        "A line from the bottom-right corner of the square to the upper-right corner of the pentagon",
+        "A line from the middle of the left side of the square to the upper-right corner of the pentagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-20-0.svg",
+        "data/figures/ao-cn-20-1.svg",
+        "data/figures/ao-cn-20-2.svg",
+        "data/figures/ao-cn-20-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the bottom-right corner of the square, and point B is at the lower-left corner of the pentagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the square anywhere except its bottom-right corner, then do the same for the pentagon."
+    }
+  ]
+}

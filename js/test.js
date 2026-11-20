@@ -3,7 +3,7 @@ import { SUBTESTS, getSubtest } from './config.js';
 import { loadBank, prepare, pickBalanced } from './quiz.js';
 import { recordAnswer, recordSession, loadActiveTest, saveActiveTest, clearActiveTest } from './storage.js';
 import { FORMATS, AFQT_ORDER, afqtEstimate, scoreSection } from './scoring.js';
-import { el, mount, figure } from './dom.js';
+import { el, mount, figure, choiceBody, choiceListClass, answerBody } from './dom.js';
 
 const LETTERS = 'ABCDEFGH';
 // Subtests that can be taken as a single timed section.
@@ -292,7 +292,7 @@ function renderQuestion(focusChoice = null) {
   const q = s.items[i];
   const last = i === s.items.length - 1;
 
-  const choices = q.choices.map((text, c) =>
+  const choices = q.choices.map((_, c) =>
     el('li', {},
       el('button', {
         class: s.answers[i] === c ? 'choice selected' : 'choice',
@@ -302,7 +302,7 @@ function renderQuestion(focusChoice = null) {
         onclick: () => choose(c),
       },
       el('span', { class: 'letter', 'aria-hidden': 'true' }, LETTERS[c]),
-      el('span', { class: 'text' }, text)),
+      choiceBody(q, c)),
     ),
   );
 
@@ -319,7 +319,7 @@ function renderQuestion(focusChoice = null) {
         : null,
       figure(q),
       el('p', { class: 'question-text' }, q.question),
-      el('ol', { class: 'choices' }, choices),
+      el('ol', { class: choiceListClass(q) }, choices),
       el('div', { class: 'actions nav-row' },
         el('button', { class: 'btn', type: 'button', disabled: i === 0, onclick: () => go(i - 1) }, '← Previous'),
         last
@@ -554,8 +554,8 @@ function renderResults(finished, scores, estimate) {
           figure(q),
           el('p', { class: 'q' }, q.question),
           el('p', { class: 'ans' },
-            a != null && !right ? ['Your answer: ', el('span', { style: 'color:var(--bad)' }, q.choices[a]), el('br')] : null,
-            'Correct answer: ', el('span', { style: 'color:var(--good)' }, q.choices[q.answer]),
+            a != null && !right ? ['Your answer: ', answerBody(q, a, 'var(--bad)'), el('br')] : null,
+            'Correct answer: ', answerBody(q, q.answer, 'var(--good)'),
           ),
           el('p', { class: 'explain' }, q.explanation),
         ));

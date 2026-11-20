@@ -1689,5 +1689,68 @@
         "tip": "In hydraulics, a bigger piston means more force, but it moves a shorter distance."
       }
     ]
+  },
+  "ao": {
+    "puzzles": [
+      {
+        "p": "Shape puzzle questions show a set of loose pieces. Pick the figure that shows those exact pieces fitted together."
+      },
+      {
+        "figure": {
+          "src": "data/figures/ao-pz-sq-30.svg",
+          "alt": "Loose pieces: a narrow rectangle and a wide rectangle."
+        }
+      },
+      {
+        "h": "A step-by-step method"
+      },
+      {
+        "list": [
+          "Count the pieces. Cross out any choice with a different number of pieces.",
+          "Find the most unusual piece, such as a long triangle or an L shape, and look for it in each choice.",
+          "Compare sizes: a narrow strip and a half are not the same piece, even though both are rectangles.",
+          "Pieces may be turned around, but they are never flipped over, and their shapes never change."
+        ]
+      },
+      {
+        "example": {
+          "q": "The pieces above are a narrow rectangle and a wide rectangle. Which square is made from them?",
+          "steps": [
+            "Two pieces, so cross out squares cut into three or four parts",
+            "A square cut down the middle has two equal halves, which doesn't match",
+            "A square cut off-center, with one narrow and one wide part, matches"
+          ],
+          "answer": "The square cut into a narrow and a wide rectangle"
+        }
+      },
+      {
+        "tip": "Don't pick the first choice that looks roughly right. Check every piece, because wrong answers are often close."
+      }
+    ],
+    "connections": [
+      {
+        "p": "Connection questions show two shapes, with point A marked on one and point B on the other. Pick the figure where a line joins the shapes at exactly those points."
+      },
+      {
+        "figure": {
+          "src": "data/figures/ao-cn-01.svg",
+          "alt": "Two shapes, with point A marked on one and point B on the other, and a line with ends marked A and B."
+        }
+      },
+      {
+        "h": "A step-by-step method"
+      },
+      {
+        "list": [
+          "Name each point in words: \"bottom-left corner of the triangle\", \"center of the circle\".",
+          "Check the A end first. Cross out every choice where the line touches the first shape anywhere else.",
+          "Then check the B end on the choices that are left.",
+          "Corners, the middle of a side and the center are all different points. Look carefully at where the line ends."
+        ]
+      },
+      {
+        "tip": "The line can cross over a shape to reach a point on its far side. What matters is where each end of the line stops."
+      }
+    ]
   }
 }

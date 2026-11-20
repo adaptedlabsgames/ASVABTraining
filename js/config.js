@@ -73,6 +73,15 @@ export const SUBTESTS = [
     file: 'data/mc.json',
     blurb: 'Levers, pulleys, gears, pressure and how machines work.',
   },
+  {
+    id: 'ao',
+    name: 'Assembling Objects',
+    short: 'AO',
+    afqt: false,
+    ready: true,
+    file: 'data/ao.json',
+    blurb: 'Picture puzzles: fit pieces into a shape and connect shapes at marked points.',
+  },
 ];
 
 export function getSubtest(id) {
