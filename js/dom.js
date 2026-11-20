@@ -15,3 +15,9 @@ export function el(tag, attrs = {}, ...children) {
   }
   return node;
 }
+
+// Replaces a container's content, skipping null/false entries
+// (Element.replaceChildren would print them as the text "null").
+export function mount(container, ...children) {
+  container.replaceChildren(...children.flat().filter((c) => c != null && c !== false));
+}

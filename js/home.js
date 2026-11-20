@@ -1,6 +1,6 @@
 import { SUBTESTS } from './config.js';
-import { load } from './storage.js';
-import { el } from './dom.js';
+import { load, loadActiveTest, lastAfqtTest } from './storage.js';
+import { el, mount } from './dom.js';
 
 export function renderHome(app) {
   document.title = 'ASVAB Prep';
@@ -38,12 +38,29 @@ export function renderHome(app) {
     );
   }
 
-  app.replaceChildren(
+  const active = loadActiveTest();
+  const last = lastAfqtTest();
+  const testCard = el('div', { class: 'card test-card' },
+    el('div', { class: 'test-card-body' },
+      el('h2', {}, 'Timed practice test'),
+      el('p', { class: 'muted' },
+        'All four AFQT sections under real time limits, with an estimated AFQT range at the end.'),
+      last
+        ? el('p', { class: 'small' },
+          `Your last estimate: ${last.estimate.low}–${last.estimate.high} (Category ${last.estimate.category}), `
+          + new Date(last.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }))
+        : null,
+    ),
+    el('a', { class: 'btn primary', href: '#test' }, active ? 'Resume your test' : 'Take a practice test'),
+  );
+
+  mount(app, 
     el('h1', {}, 'Raise your ASVAB score'),
     el('p', { class: 'lead' },
       'Practice the four subtests that make up your AFQT score. Every question comes with a ' +
       'step-by-step explanation. Your progress is saved in this browser.'),
-    el('h2', {}, 'AFQT subtests'),
+    testCard,
+    el('h2', {}, 'Practice by subtest'),
     grid,
   );
 }

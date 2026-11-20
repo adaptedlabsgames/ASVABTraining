@@ -1,7 +1,7 @@
 import { getSubtest } from './config.js';
 import { loadBank, pickQuestions, prepare } from './quiz.js';
 import { load, recordAnswer, recordSession, accuracy } from './storage.js';
-import { el } from './dom.js';
+import { el, mount } from './dom.js';
 
 const LETTERS = 'ABCDEFGH';
 const COUNTS = [10, 20, 0]; // 0 = all matching questions
@@ -29,7 +29,7 @@ export async function renderPractice(container, subtestId) {
     return;
   }
   document.title = `${subtest.name} · ASVAB Prep`;
-  app.replaceChildren(el('p', { class: 'muted' }, 'Loading…'));
+  mount(app, el('p', { class: 'muted' }, 'Loading…'));
   const wanted = subtest;
   try {
     banks[wanted.id] ||= await loadBank(wanted);
@@ -47,7 +47,7 @@ export async function renderPractice(container, subtestId) {
 }
 
 function showError(message) {
-  app.replaceChildren(
+  mount(app, 
     el('p', { class: 'notice error' }, message),
     el('p', {}, el('a', { href: '#' }, '← Back to home')),
   );
@@ -136,7 +136,7 @@ function renderSetup() {
   });
   sync();
 
-  app.replaceChildren(
+  mount(app, 
     el('p', { class: 'small' }, el('a', { href: '#' }, '← All subtests')),
     el('h1', {}, subtest.name),
     el('p', { class: 'lead' },
@@ -169,7 +169,7 @@ function renderQuestion() {
     ),
   );
 
-  app.replaceChildren(
+  mount(app, 
     el('div', { class: 'quiz-top' },
       el('span', {}, `Question ${index + 1} of ${items.length} · ${topicLabel(q.topic)}`),
       el('button', { class: 'link-btn', type: 'button', onclick: endSession }, 'End session'),
@@ -291,7 +291,7 @@ function renderSummary(results) {
   // Retry uses the original (unshuffled) questions so choices get reshuffled.
   const originals = (rs) => rs.map((r) => bank.questions.find((q) => q.id === r.q.id));
 
-  app.replaceChildren(
+  mount(app, 
     el('h1', {}, 'Session complete'),
     el('div', { class: 'card' },
       el('div', { class: 'muted small' }, subtest.name),

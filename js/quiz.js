@@ -41,3 +41,28 @@ export function prepare(q) {
     answer: order.indexOf(q.answer),
   };
 }
+
+// Picks `count` questions spread evenly across topics, in random order,
+// keeping questions that share a reading passage next to each other.
+export function pickBalanced(questions, count) {
+  const groups = {};
+  for (const q of shuffle(questions)) (groups[q.topic] ||= []).push(q);
+  const lists = shuffle(Object.values(groups));
+  const picked = [];
+  while (picked.length < count && lists.some((l) => l.length)) {
+    for (const l of lists) {
+      if (l.length && picked.length < count) picked.push(l.shift());
+    }
+  }
+  return groupByPassage(shuffle(picked));
+}
+
+export function groupByPassage(questions) {
+  const groups = new Map();
+  for (const q of questions) {
+    const key = q.passage ?? `q:${q.id}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(q);
+  }
+  return [...groups.values()].flat();
+}

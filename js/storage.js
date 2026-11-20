@@ -73,3 +73,37 @@ export function accuracy(questions, history = load().questions) {
 export function sessionsFor(subtestId) {
   return load().sessions.filter((s) => s.subtest === subtestId);
 }
+
+// A timed test in progress, so a reload or a trip to the home page
+// doesn't lose it. The section clock keeps running while away.
+const TEST_KEY = 'asvab-prep.activeTest.v1';
+
+export function loadActiveTest() {
+  try {
+    const raw = localStorage.getItem(TEST_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+export function saveActiveTest(test) {
+  try {
+    localStorage.setItem(TEST_KEY, JSON.stringify(test));
+  } catch {
+    // Storage blocked: the test still works, it just can't be resumed.
+  }
+}
+
+export function clearActiveTest() {
+  try {
+    localStorage.removeItem(TEST_KEY);
+  } catch {
+    // ignore
+  }
+}
+
+export function lastAfqtTest() {
+  const tests = load().sessions.filter((s) => s.mode === 'test' && s.estimate);
+  return tests[tests.length - 1] || null;
+}
