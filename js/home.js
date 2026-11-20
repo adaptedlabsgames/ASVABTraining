@@ -5,9 +5,7 @@ import { el, mount } from './dom.js';
 export function renderHome(app) {
   document.title = 'ASVAB Prep';
   const history = load().questions;
-  const grid = el('div', { class: 'grid' });
-
-  for (const s of SUBTESTS.filter((x) => x.afqt)) {
+  function subtestCard(s) {
     // Stats come from stored history, keyed by question id prefix.
     let seen = 0;
     let correct = 0;
@@ -22,21 +20,19 @@ export function renderHome(app) {
       : seen
         ? `${Math.round((correct / seen) * 100)}% correct over ${seen} answers`
         : 'Not started yet';
-
     const action = s.ready
       ? el('a', { class: 'btn primary', href: `#${s.id}` }, 'Practice')
       : el('span', { class: 'btn', 'aria-disabled': 'true' }, 'Coming soon');
-
-    grid.append(
-      el('div', { class: 'card subtest-card' },
-        el('span', { class: s.ready ? 'badge accent' : 'badge' }, s.short),
-        el('h3', {}, s.name),
-        el('p', {}, s.blurb),
-        el('div', { class: 'meta' }, meta),
-        el('div', {}, action),
-      ),
+    return el('div', { class: 'card subtest-card' },
+      el('span', { class: s.ready ? 'badge accent' : 'badge' }, s.short),
+      el('h3', {}, s.name),
+      el('p', {}, s.blurb),
+      el('div', { class: 'meta' }, meta),
+      el('div', {}, action),
     );
   }
+  const grid = el('div', { class: 'grid' }, SUBTESTS.filter((x) => x.afqt).map(subtestCard));
+  const techGrid = el('div', { class: 'grid' }, SUBTESTS.filter((x) => !x.afqt).map(subtestCard));
 
   const active = loadActiveTest();
   const last = lastAfqtTest();
@@ -78,6 +74,10 @@ export function renderHome(app) {
     testCard,
     el('h2', {}, 'Practice by subtest'),
     grid,
+    el('h2', {}, 'Technical subtests'),
+    el('p', { class: 'small muted section-note' },
+      'These don’t count toward your AFQT score, but they decide which jobs you qualify for, especially mechanical, electronics and technical jobs.'),
+    techGrid,
     el('h2', {}, 'Study tools'),
     tools,
   );

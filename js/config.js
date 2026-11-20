@@ -37,6 +37,42 @@ export const SUBTESTS = [
     file: 'data/pc.json',
     blurb: 'Read short passages and answer questions about them.',
   },
+  {
+    id: 'gs',
+    name: 'General Science',
+    short: 'GS',
+    afqt: false,
+    ready: true,
+    file: 'data/gs.json',
+    blurb: 'Life science, the human body, earth and space, physics and chemistry.',
+  },
+  {
+    id: 'as',
+    name: 'Auto & Shop Information',
+    short: 'AS',
+    afqt: false,
+    ready: false,
+    file: 'data/as.json',
+    blurb: 'Engines, brakes and car systems, plus tools, fasteners and shop practices.',
+  },
+  {
+    id: 'ei',
+    name: 'Electronics Information',
+    short: 'EI',
+    afqt: false,
+    ready: false,
+    file: 'data/ei.json',
+    blurb: 'Current, voltage, resistance, circuits and electronic parts.',
+  },
+  {
+    id: 'mc',
+    name: 'Mechanical Comprehension',
+    short: 'MC',
+    afqt: false,
+    ready: false,
+    file: 'data/mc.json',
+    blurb: 'Levers, pulleys, gears, pressure and how machines work.',
+  },
 ];
 
 export function getSubtest(id) {

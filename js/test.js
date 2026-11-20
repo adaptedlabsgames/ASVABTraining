@@ -1,11 +1,13 @@
 // Timed practice test: setup → (section intro → questions → section review)×N → results.
-import { getSubtest } from './config.js';
+import { SUBTESTS, getSubtest } from './config.js';
 import { loadBank, prepare, pickBalanced } from './quiz.js';
 import { recordAnswer, recordSession, loadActiveTest, saveActiveTest, clearActiveTest } from './storage.js';
 import { FORMATS, AFQT_ORDER, afqtEstimate, scoreSection } from './scoring.js';
 import { el, mount } from './dom.js';
 
 const LETTERS = 'ABCDEFGH';
+// Subtests that can be taken as a single timed section.
+const SECTION_IDS = SUBTESTS.filter((s) => s.ready && FORMATS.full.sections[s.id]).map((s) => s.id);
 
 let app = null;
 let test = null; // the active test; see startTest() for its shape
@@ -92,7 +94,7 @@ function renderSetup() {
     );
 
   const subtestSelect = el('select', { id: 'single-subtest', name: 'subtest', 'aria-label': 'Section' },
-    AFQT_ORDER.map((id) => el('option', { value: id, selected: setup.subtest === id }, subtestName(id))));
+    SECTION_IDS.map((id) => el('option', { value: id, selected: setup.subtest === id }, subtestName(id))));
 
   const formatRadios = Object.entries(FORMATS).map(([key, f]) =>
     el('label', {},

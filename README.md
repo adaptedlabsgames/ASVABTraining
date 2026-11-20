@@ -1,6 +1,6 @@
 # ASVAB Prep
 
-A free, static ASVAB practice site. It focuses on the four AFQT subtests: Arithmetic Reasoning, Math Knowledge, Word Knowledge and Paragraph Comprehension.
+A free, static ASVAB practice site. It covers the four AFQT subtests (Arithmetic Reasoning, Math Knowledge, Word Knowledge and Paragraph Comprehension) and General Science. Auto & Shop, Electronics and Mechanical Comprehension are listed as coming soon.
 
 - Plain HTML, CSS and JavaScript. There is no build step and nothing to install.
 - Progress is saved in each student's browser (localStorage). Students don't need accounts.
@@ -93,7 +93,7 @@ node scripts/validate.mjs
 
 ## Timed test and AFQT estimate
 
-Question counts and time limits for the timed test are in `FORMATS` in `js/scoring.js`. They follow the paper ASVAB: AR 30 questions in 36 min, WK 35 in 11, PC 15 in 13, MK 25 in 24. Half length uses roughly half of each.
+Question counts and time limits for the timed test are in `FORMATS` in `js/scoring.js`. They follow the paper ASVAB: AR 30 questions in 36 min, WK 35 in 11, PC 15 in 13, MK 25 in 24, GS 25 in 11. Half length uses roughly half of each. Any live subtest with an entry in `FORMATS` can be taken as a single timed section. Only the four AFQT sections produce an AFQT estimate.
 
 The estimated AFQT range weights each section the way the AFQT does: Word Knowledge and Paragraph Comprehension together count twice. It applies that weighting to percent correct and shows a band of ±8. Real AFQT scores are percentiles based on national norms that aren't public, so the estimate is only a rough guide. The site says so wherever the estimate appears.
 

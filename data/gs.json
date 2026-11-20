@@ -1,0 +1,302 @@
+{
+  "subtest": "gs",
+  "name": "General Science",
+  "topics": {
+    "biology": "Life Science",
+    "body": "Human Body & Health",
+    "earth": "Earth Science",
+    "space": "Space",
+    "physics": "Physics",
+    "chemistry": "Chemistry"
+  },
+  "questions": [
+    {
+      "id": "gs-001", "topic": "biology", "difficulty": 1,
+      "question": "Which part of a plant cell carries out photosynthesis?",
+      "choices": ["Chloroplast", "Mitochondrion", "Nucleus", "Cell wall"], "answer": 0,
+      "explanation": "Chloroplasts contain chlorophyll, which captures light energy to make sugar.\nMitochondria do a different job: they release energy from food."
+    },
+    {
+      "id": "gs-002", "topic": "biology", "difficulty": 1,
+      "question": "What is the basic unit of life?",
+      "choices": ["The cell", "The atom", "The organ", "The tissue"], "answer": 0,
+      "explanation": "The cell is the smallest unit that is alive. Atoms are smaller, but they are not alive. Cells form tissues, and tissues form organs."
+    },
+    {
+      "id": "gs-003", "topic": "biology", "difficulty": 1,
+      "question": "Which molecule carries the genetic information of living things?",
+      "choices": ["DNA", "Glucose", "Starch", "Cholesterol"], "answer": 0,
+      "explanation": "DNA (deoxyribonucleic acid) holds the instructions for building and running an organism. Genes are sections of DNA."
+    },
+    {
+      "id": "gs-004", "topic": "biology", "difficulty": 1,
+      "question": "In a food chain, organisms that make their own food are called:",
+      "choices": ["Producers", "Consumers", "Decomposers", "Predators"], "answer": 0,
+      "explanation": "Producers, such as plants, make their own food through photosynthesis. Consumers eat other organisms, and decomposers break down dead material."
+    },
+    {
+      "id": "gs-005", "topic": "biology", "difficulty": 2,
+      "question": "Mushrooms belong to which kingdom?",
+      "choices": ["Fungi", "Plants", "Animals", "Bacteria"], "answer": 0,
+      "explanation": "Mushrooms are fungi. Unlike plants, fungi cannot make their own food through photosynthesis. They absorb nutrients from their surroundings, often from dead material."
+    },
+    {
+      "id": "gs-006", "topic": "biology", "difficulty": 2,
+      "question": "A trait that shows up only when an organism inherits two copies of the same allele is called:",
+      "choices": ["Recessive", "Dominant", "Mutated", "Acquired"], "answer": 0,
+      "explanation": "A recessive trait appears only with two copies of its allele. A dominant trait appears with just one copy, because it masks the recessive allele."
+    },
+    {
+      "id": "gs-007", "topic": "biology", "difficulty": 1,
+      "question": "Which gas do plants take in from the air to carry out photosynthesis?",
+      "choices": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"], "answer": 0,
+      "explanation": "Plants take in carbon dioxide and water and use light energy to make sugar. They release oxygen as a by-product."
+    },
+    {
+      "id": "gs-008", "topic": "biology", "difficulty": 1,
+      "question": "Animals that do not have a backbone are called:",
+      "choices": ["Invertebrates", "Vertebrates", "Mammals", "Amphibians"], "answer": 0,
+      "explanation": "Invertebrates have no backbone (insects, worms, jellyfish). Vertebrates have one (fish, amphibians, reptiles, birds, mammals). The prefix in- means not."
+    },
+    {
+      "id": "gs-009", "topic": "body", "difficulty": 1,
+      "question": "Which organ pumps blood through the body?",
+      "choices": ["Heart", "Lungs", "Liver", "Kidneys"], "answer": 0,
+      "explanation": "The heart is a muscle that pumps blood through the blood vessels. This is the circulatory system."
+    },
+    {
+      "id": "gs-010", "topic": "body", "difficulty": 1,
+      "question": "Which blood cells help the body fight infection?",
+      "choices": ["White blood cells", "Red blood cells", "Platelets", "Plasma"], "answer": 0,
+      "explanation": "White blood cells fight germs. Red blood cells carry oxygen, and platelets help blood clot. Plasma is the liquid part of blood, not a cell."
+    },
+    {
+      "id": "gs-011", "topic": "body", "difficulty": 2,
+      "question": "A lack of vitamin C in the diet can cause:",
+      "choices": ["Scurvy", "Rickets", "Goiter", "Night blindness"], "answer": 0,
+      "explanation": "Scurvy comes from too little vitamin C. Rickets comes from too little vitamin D, goiter from too little iodine, and night blindness from too little vitamin A."
+    },
+    {
+      "id": "gs-012", "topic": "body", "difficulty": 2,
+      "question": "Where does most digestion and absorption of nutrients take place?",
+      "choices": ["Small intestine", "Stomach", "Large intestine", "Esophagus"], "answer": 0,
+      "explanation": "Most digestion and nearly all absorption of nutrients happen in the small intestine. The stomach starts breaking down food, and the large intestine mainly absorbs water."
+    },
+    {
+      "id": "gs-013", "topic": "body", "difficulty": 1,
+      "question": "Which organs filter waste from the blood and produce urine?",
+      "choices": ["Kidneys", "Liver", "Pancreas", "Spleen"], "answer": 0,
+      "explanation": "The kidneys filter the blood, removing waste and extra water as urine."
+    },
+    {
+      "id": "gs-014", "topic": "body", "difficulty": 2,
+      "question": "The tiny air sacs in the lungs where oxygen passes into the blood are called:",
+      "choices": ["Alveoli", "Bronchi", "Villi", "Capillaries"], "answer": 0,
+      "explanation": "Oxygen moves from the alveoli into the blood. The bronchi are the airways leading into each lung, and villi are tiny folds in the small intestine."
+    },
+    {
+      "id": "gs-015", "topic": "body", "difficulty": 1,
+      "question": "The brain, spinal cord and nerves make up which body system?",
+      "choices": ["Nervous system", "Circulatory system", "Skeletal system", "Digestive system"], "answer": 0,
+      "explanation": "The nervous system carries signals between the brain and the rest of the body."
+    },
+    {
+      "id": "gs-016", "topic": "body", "difficulty": 1,
+      "question": "Which nutrient is the body's main source of quick energy?",
+      "choices": ["Carbohydrates", "Proteins", "Vitamins", "Minerals"], "answer": 0,
+      "explanation": "Carbohydrates (sugars and starches) are the body's main quick energy source. Proteins build and repair tissue, and fats store energy for later."
+    },
+    {
+      "id": "gs-017", "topic": "earth", "difficulty": 1,
+      "question": "Rock that forms when magma or lava cools and hardens is called:",
+      "choices": ["Igneous", "Sedimentary", "Metamorphic", "Mineral"], "answer": 0,
+      "explanation": "Igneous rock forms from cooled magma or lava (granite, basalt). Sedimentary rock forms from layers pressed together. Metamorphic rock is changed by heat and pressure."
+    },
+    {
+      "id": "gs-018", "topic": "earth", "difficulty": 2,
+      "question": "In which layer of the atmosphere does most weather happen?",
+      "choices": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"], "answer": 0,
+      "explanation": "The troposphere is the lowest layer, where we live and where clouds, rain and storms form. The ozone layer is in the stratosphere above it."
+    },
+    {
+      "id": "gs-019", "topic": "earth", "difficulty": 1,
+      "question": "When water vapor cools and turns into tiny droplets that form clouds, the process is called:",
+      "choices": ["Condensation", "Evaporation", "Precipitation", "Transpiration"], "answer": 0,
+      "explanation": "Condensation is gas turning into liquid. Evaporation is the reverse, liquid turning into gas. Precipitation is water falling as rain, snow, sleet or hail."
+    },
+    {
+      "id": "gs-020", "topic": "earth", "difficulty": 1,
+      "question": "Most earthquakes are caused by:",
+      "choices": ["Movement of Earth's tectonic plates", "Ocean tides", "Phases of the Moon", "Changes in air pressure"], "answer": 0,
+      "explanation": "Earth's crust is broken into large plates. When plates slide, collide or pull apart, stress builds and is released suddenly as an earthquake."
+    },
+    {
+      "id": "gs-021", "topic": "earth", "difficulty": 2,
+      "question": "Which instrument measures air pressure?",
+      "choices": ["Barometer", "Thermometer", "Anemometer", "Hygrometer"], "answer": 0,
+      "explanation": "A barometer measures air pressure. A thermometer measures temperature, an anemometer measures wind speed, and a hygrometer measures humidity."
+    },
+    {
+      "id": "gs-022", "topic": "earth", "difficulty": 1,
+      "question": "What is the outermost solid layer of Earth called?",
+      "choices": ["Crust", "Mantle", "Outer core", "Inner core"], "answer": 0,
+      "explanation": "From outside in, Earth's layers are the crust, the mantle, the liquid outer core and the solid inner core."
+    },
+    {
+      "id": "gs-023", "topic": "earth", "difficulty": 2,
+      "question": "Fossils are most often found in which type of rock?",
+      "choices": ["Sedimentary", "Igneous", "Metamorphic", "Volcanic"], "answer": 0,
+      "explanation": "Sedimentary rock forms as layers of mud and sand bury remains and harden over time. The heat that forms igneous and metamorphic rock usually destroys fossils."
+    },
+    {
+      "id": "gs-024", "topic": "earth", "difficulty": 3,
+      "question": "When a cold front passes through an area, the weather usually becomes:",
+      "choices": ["Stormy, then cooler and drier", "Steady drizzle for several days", "Suddenly much warmer", "Unchanged"], "answer": 0,
+      "explanation": "Cold air pushes under warm air and forces it up quickly. That often causes thunderstorms along the front, followed by cooler, drier air."
+    },
+    {
+      "id": "gs-025", "topic": "space", "difficulty": 1,
+      "question": "Which planet is closest to the Sun?",
+      "choices": ["Mercury", "Venus", "Mars", "Earth"], "answer": 0,
+      "explanation": "In order from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+    },
+    {
+      "id": "gs-026", "topic": "space", "difficulty": 2,
+      "question": "What causes the seasons on Earth?",
+      "choices": ["The tilt of Earth's axis", "Earth's changing distance from the Sun", "The Moon's orbit", "Sunspots"], "answer": 0,
+      "explanation": "Earth's axis is tilted, so for part of the year each hemisphere leans toward the Sun and gets more direct sunlight. Distance is not the cause: Earth is actually closest to the Sun in early January, during the Northern Hemisphere's winter."
+    },
+    {
+      "id": "gs-027", "topic": "space", "difficulty": 1,
+      "question": "What is the largest planet in our solar system?",
+      "choices": ["Jupiter", "Saturn", "Neptune", "Earth"], "answer": 0,
+      "explanation": "Jupiter is the largest planet. It is a gas giant about 11 times as wide as Earth."
+    },
+    {
+      "id": "gs-028", "topic": "space", "difficulty": 1,
+      "question": "About how long does it take Earth to travel once around the Sun?",
+      "choices": ["365 days", "24 hours", "29 days", "7 days"], "answer": 0,
+      "explanation": "One orbit around the Sun takes about 365 days (one year). Earth spins once on its axis every 24 hours (one day)."
+    },
+    {
+      "id": "gs-029", "topic": "space", "difficulty": 2,
+      "question": "A solar eclipse happens when:",
+      "choices": ["The Moon passes between the Sun and Earth", "Earth passes between the Sun and the Moon", "The Moon is on the far side of the Sun", "A comet passes in front of the Sun"], "answer": 0,
+      "explanation": "In a solar eclipse, the Moon blocks the Sun's light from reaching part of Earth. In a lunar eclipse, Earth passes between the Sun and the Moon, and Earth's shadow falls on the Moon."
+    },
+    {
+      "id": "gs-030", "topic": "space", "difficulty": 1,
+      "question": "The Sun is a:",
+      "choices": ["Star", "Planet", "Galaxy", "Comet"], "answer": 0,
+      "explanation": "The Sun is a medium-sized star. It is one of billions of stars in the Milky Way galaxy."
+    },
+    {
+      "id": "gs-031", "topic": "space", "difficulty": 2,
+      "question": "About how long does it take light from the Sun to reach Earth?",
+      "choices": ["8 minutes", "8 seconds", "8 hours", "8 days"], "answer": 0,
+      "explanation": "Sunlight takes about 8 minutes to cover the roughly 93 million miles to Earth."
+    },
+    {
+      "id": "gs-032", "topic": "space", "difficulty": 1,
+      "question": "What force keeps the planets in orbit around the Sun?",
+      "choices": ["Gravity", "Magnetism", "Friction", "Air pressure"], "answer": 0,
+      "explanation": "The Sun's gravity pulls on the planets and keeps them in orbit. Gravity also keeps the Moon in orbit around Earth."
+    },
+    {
+      "id": "gs-033", "topic": "physics", "difficulty": 2,
+      "question": "What is the metric unit of force?",
+      "choices": ["Newton", "Joule", "Watt", "Pascal"], "answer": 0,
+      "explanation": "Force is measured in newtons. Joules measure energy, watts measure power and pascals measure pressure."
+    },
+    {
+      "id": "gs-034", "topic": "physics", "difficulty": 2,
+      "question": "Which statement is Newton's third law of motion?",
+      "choices": ["For every action there is an equal and opposite reaction", "An object at rest stays at rest unless a force acts on it", "Force equals mass times acceleration", "Energy cannot be created or destroyed"], "answer": 0,
+      "explanation": "Newton's third law is about action and reaction, like a rifle's recoil. The first law is about inertia, and the second law is F = ma. Energy conservation is a separate law."
+    },
+    {
+      "id": "gs-035", "topic": "physics", "difficulty": 1,
+      "question": "A boulder sitting at the top of a hill has mostly which kind of energy?",
+      "choices": ["Potential energy", "Kinetic energy", "Sound energy", "Electrical energy"], "answer": 0,
+      "explanation": "Potential energy is stored energy, here from the boulder's height. If it rolls down, that potential energy turns into kinetic energy, the energy of motion."
+    },
+    {
+      "id": "gs-036", "topic": "physics", "difficulty": 2,
+      "question": "Sound travels fastest through which of these?",
+      "choices": ["Steel", "Water", "Air", "A vacuum"], "answer": 0,
+      "explanation": "Sound travels fastest through solids, slower through liquids and slowest through gases. It cannot travel through a vacuum at all, because there is nothing to carry the vibration."
+    },
+    {
+      "id": "gs-037", "topic": "physics", "difficulty": 1,
+      "question": "An object travels 100 meters in 20 seconds. What is its average speed?",
+      "choices": ["5 meters per second", "2,000 meters per second", "0.2 meters per second", "80 meters per second"], "answer": 0,
+      "explanation": "Speed = distance ÷ time.\n100 ÷ 20 = 5 meters per second."
+    },
+    {
+      "id": "gs-038", "topic": "physics", "difficulty": 2,
+      "question": "Which color of visible light has the longest wavelength?",
+      "choices": ["Red", "Violet", "Blue", "Green"], "answer": 0,
+      "explanation": "From longest to shortest wavelength: red, orange, yellow, green, blue, violet. Red has the longest and violet the shortest."
+    },
+    {
+      "id": "gs-039", "topic": "physics", "difficulty": 1,
+      "question": "At sea level, water boils at:",
+      "choices": ["100°C", "0°C", "212°C", "32°C"], "answer": 0,
+      "explanation": "Water boils at 100°C (212°F) and freezes at 0°C (32°F) at sea level. 212 and 32 are the Fahrenheit values, so they are wrong in Celsius."
+    },
+    {
+      "id": "gs-040", "topic": "physics", "difficulty": 1,
+      "question": "A material that lets electricity flow through it easily is called a(n):",
+      "choices": ["Conductor", "Insulator", "Rubber", "Glass"], "answer": 0,
+      "explanation": "Conductors, such as copper and other metals, let electric current flow easily. Insulators, such as rubber, glass and plastic, resist it. That's why wires are copper wrapped in plastic."
+    },
+    {
+      "id": "gs-041", "topic": "chemistry", "difficulty": 2,
+      "question": "What is the chemical symbol for sodium?",
+      "choices": ["Na", "So", "S", "Sn"], "answer": 0,
+      "explanation": "Sodium's symbol, Na, comes from its Latin name, natrium. S is sulfur and Sn is tin."
+    },
+    {
+      "id": "gs-042", "topic": "chemistry", "difficulty": 1,
+      "question": "What is the chemical formula for water?",
+      "choices": ["H₂O", "HO₂", "H₂O₂", "CO₂"], "answer": 0,
+      "explanation": "A water molecule has two hydrogen atoms and one oxygen atom: H₂O. H₂O₂ is hydrogen peroxide, and CO₂ is carbon dioxide."
+    },
+    {
+      "id": "gs-043", "topic": "chemistry", "difficulty": 1,
+      "question": "Which particle in an atom's nucleus has a positive charge?",
+      "choices": ["Proton", "Neutron", "Electron", "Photon"], "answer": 0,
+      "explanation": "Protons are positive and neutrons have no charge. Both are in the nucleus. Electrons are negative and move around the nucleus."
+    },
+    {
+      "id": "gs-044", "topic": "chemistry", "difficulty": 2,
+      "question": "A liquid with a pH of 2 is:",
+      "choices": ["Strongly acidic", "Neutral", "Strongly basic", "Slightly basic"], "answer": 0,
+      "explanation": "The pH scale runs from 0 to 14. 7 is neutral, below 7 is acidic and above 7 is basic. A pH of 2 is strongly acidic, like lemon juice."
+    },
+    {
+      "id": "gs-045", "topic": "chemistry", "difficulty": 2,
+      "question": "When a solid turns directly into a gas without becoming a liquid first, the process is called:",
+      "choices": ["Sublimation", "Melting", "Condensation", "Freezing"], "answer": 0,
+      "explanation": "Sublimation skips the liquid stage. Dry ice (frozen carbon dioxide) is a common example: it turns straight into gas."
+    },
+    {
+      "id": "gs-046", "topic": "chemistry", "difficulty": 2,
+      "question": "Which of these is a chemical change?",
+      "choices": ["Iron rusting", "Ice melting", "Salt dissolving in water", "Paper being cut"], "answer": 0,
+      "explanation": "In a chemical change, a new substance forms. Rust (iron oxide) is a new substance. Melting, dissolving and cutting are physical changes: the substance is still the same."
+    },
+    {
+      "id": "gs-047", "topic": "chemistry", "difficulty": 2,
+      "question": "Which gas makes up most of Earth's atmosphere?",
+      "choices": ["Nitrogen", "Oxygen", "Carbon dioxide", "Hydrogen"], "answer": 0,
+      "explanation": "Air is about 78% nitrogen and about 21% oxygen. Carbon dioxide is only a small fraction of 1%."
+    },
+    {
+      "id": "gs-048", "topic": "chemistry", "difficulty": 2,
+      "question": "An element's atomic number tells you the number of:",
+      "choices": ["Protons in each atom", "Neutrons in each atom", "Atoms in a molecule", "Electron shells"], "answer": 0,
+      "explanation": "The atomic number is the number of protons. It is what makes each element different: every carbon atom has 6 protons, and every oxygen atom has 8."
+    }
+  ]
+}
