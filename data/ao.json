@@ -797,6 +797,1546 @@
       ],
       "answer": 0,
       "explanation": "Point A is at the bottom-right corner of the square, and point B is at the lower-left corner of the pentagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the square anywhere except its bottom-right corner, then do the same for the pentagon."
+    },
+    {
+      "id": "ao-037",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-sq-diamond.svg",
+      "figureAlt": "Loose pieces: a diamond and four small triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of a diamond and four small triangles",
+        "A square made of a small square and an L-shaped piece",
+        "A square made of four small squares",
+        "A square made of two equal rectangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-diamond.svg",
+        "data/figures/ao-whole-sq-corner-square.svg",
+        "data/figures/ao-whole-sq-quarters.svg",
+        "data/figures/ao-whole-sq-halves.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a diamond and four small triangles. Only one choice is a square built from exactly those pieces. The other choices are made of a small square and an L-shaped piece, four small squares and two equal rectangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-038",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-sq-rect-tris.svg",
+      "figureAlt": "Loose pieces: a wide rectangle and two long, thin triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of a wide rectangle and two long, thin triangles",
+        "A square made of a diamond and four small triangles",
+        "A square made of a long, thin triangle and a four-sided piece",
+        "A square made of four small squares"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-rect-tris.svg",
+        "data/figures/ao-whole-sq-diamond.svg",
+        "data/figures/ao-whole-sq-wedge.svg",
+        "data/figures/ao-whole-sq-quarters.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a wide rectangle and two long, thin triangles. Only one choice is a square built from exactly those pieces. The other choices are made of a diamond and four small triangles, a long, thin triangle and a four-sided piece and four small squares.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-039",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-sq-30-b.svg",
+      "figureAlt": "Loose pieces: a narrow rectangle and a wide rectangle.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of a narrow rectangle and a wide rectangle",
+        "A square made of two equal triangles",
+        "A square made of a small square and an L-shaped piece",
+        "A square made of a small triangle and a five-sided piece"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-30.svg",
+        "data/figures/ao-whole-sq-diagonal.svg",
+        "data/figures/ao-whole-sq-corner-square.svg",
+        "data/figures/ao-whole-sq-corner-triangle.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a narrow rectangle and a wide rectangle. Only one choice is a square built from exactly those pieces. The other choices are made of two equal triangles, a small square and an L-shaped piece and a small triangle and a five-sided piece.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-040",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-sq-halves-b.svg",
+      "figureAlt": "Loose pieces: two equal rectangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of two equal rectangles",
+        "A square made of a narrow rectangle and a wide rectangle",
+        "A square made of a long, thin triangle and a four-sided piece",
+        "A square made of two equal triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-halves.svg",
+        "data/figures/ao-whole-sq-30.svg",
+        "data/figures/ao-whole-sq-wedge.svg",
+        "data/figures/ao-whole-sq-diagonal.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two equal rectangles. Only one choice is a square built from exactly those pieces. The other choices are made of a narrow rectangle and a wide rectangle, a long, thin triangle and a four-sided piece and two equal triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-041",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-sq-diagonal-b.svg",
+      "figureAlt": "Loose pieces: two equal triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of two equal triangles",
+        "A square made of a small square and an L-shaped piece",
+        "A square made of two equal rectangles",
+        "A square made of four small squares"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-diagonal.svg",
+        "data/figures/ao-whole-sq-corner-square.svg",
+        "data/figures/ao-whole-sq-halves.svg",
+        "data/figures/ao-whole-sq-quarters.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two equal triangles. Only one choice is a square built from exactly those pieces. The other choices are made of a small square and an L-shaped piece, two equal rectangles and four small squares.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-042",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-sq-quarters-b.svg",
+      "figureAlt": "Loose pieces: four small squares.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of four small squares",
+        "A square made of a small triangle and a five-sided piece",
+        "A square made of a small square and an L-shaped piece",
+        "A square made of three equal strips"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-quarters.svg",
+        "data/figures/ao-whole-sq-corner-triangle.svg",
+        "data/figures/ao-whole-sq-corner-square.svg",
+        "data/figures/ao-whole-sq-strips.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are four small squares. Only one choice is a square built from exactly those pieces. The other choices are made of a small triangle and a five-sided piece, a small square and an L-shaped piece and three equal strips.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-043",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-sq-strips-b.svg",
+      "figureAlt": "Loose pieces: three equal strips.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of three equal strips",
+        "A square made of two equal triangles",
+        "A square made of a diamond and four small triangles",
+        "A square made of a long, thin triangle and a four-sided piece"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-strips.svg",
+        "data/figures/ao-whole-sq-diagonal.svg",
+        "data/figures/ao-whole-sq-diamond.svg",
+        "data/figures/ao-whole-sq-wedge.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are three equal strips. Only one choice is a square built from exactly those pieces. The other choices are made of two equal triangles, a diamond and four small triangles and a long, thin triangle and a four-sided piece.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-044",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-sq-corner-square-b.svg",
+      "figureAlt": "Loose pieces: a small square and an L-shaped piece.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of a small square and an L-shaped piece",
+        "A square made of a small triangle and a five-sided piece",
+        "A square made of a narrow rectangle and a wide rectangle",
+        "A square made of four small squares"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-corner-square.svg",
+        "data/figures/ao-whole-sq-corner-triangle.svg",
+        "data/figures/ao-whole-sq-30.svg",
+        "data/figures/ao-whole-sq-quarters.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a small square and an L-shaped piece. Only one choice is a square built from exactly those pieces. The other choices are made of a small triangle and a five-sided piece, a narrow rectangle and a wide rectangle and four small squares.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-045",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-sq-corner-triangle-b.svg",
+      "figureAlt": "Loose pieces: a small triangle and a five-sided piece.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of a small triangle and a five-sided piece",
+        "A square made of a narrow rectangle and a wide rectangle",
+        "A square made of a wide rectangle and two long, thin triangles",
+        "A square made of three equal strips"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-corner-triangle.svg",
+        "data/figures/ao-whole-sq-30.svg",
+        "data/figures/ao-whole-sq-rect-tris.svg",
+        "data/figures/ao-whole-sq-strips.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a small triangle and a five-sided piece. Only one choice is a square built from exactly those pieces. The other choices are made of a narrow rectangle and a wide rectangle, a wide rectangle and two long, thin triangles and three equal strips.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-046",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-sq-wedge-b.svg",
+      "figureAlt": "Loose pieces: a long, thin triangle and a four-sided piece.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of a long, thin triangle and a four-sided piece",
+        "A square made of a wide rectangle and two long, thin triangles",
+        "A square made of four small squares",
+        "A square made of a small triangle and a five-sided piece"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-wedge.svg",
+        "data/figures/ao-whole-sq-rect-tris.svg",
+        "data/figures/ao-whole-sq-quarters.svg",
+        "data/figures/ao-whole-sq-corner-triangle.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a long, thin triangle and a four-sided piece. Only one choice is a square built from exactly those pieces. The other choices are made of a wide rectangle and two long, thin triangles, four small squares and a small triangle and a five-sided piece.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-047",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-sq-diamond-b.svg",
+      "figureAlt": "Loose pieces: a diamond and four small triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of a diamond and four small triangles",
+        "A square made of a small triangle and a five-sided piece",
+        "A square made of a wide rectangle and two long, thin triangles",
+        "A square made of two equal triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-diamond.svg",
+        "data/figures/ao-whole-sq-corner-triangle.svg",
+        "data/figures/ao-whole-sq-rect-tris.svg",
+        "data/figures/ao-whole-sq-diagonal.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a diamond and four small triangles. Only one choice is a square built from exactly those pieces. The other choices are made of a small triangle and a five-sided piece, a wide rectangle and two long, thin triangles and two equal triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-048",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-sq-rect-tris-b.svg",
+      "figureAlt": "Loose pieces: a wide rectangle and two long, thin triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A square made of a wide rectangle and two long, thin triangles",
+        "A square made of two equal triangles",
+        "A square made of a long, thin triangle and a four-sided piece",
+        "A square made of a narrow rectangle and a wide rectangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-sq-rect-tris.svg",
+        "data/figures/ao-whole-sq-diagonal.svg",
+        "data/figures/ao-whole-sq-wedge.svg",
+        "data/figures/ao-whole-sq-30.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a wide rectangle and two long, thin triangles. Only one choice is a square built from exactly those pieces. The other choices are made of two equal triangles, a long, thin triangle and a four-sided piece and a narrow rectangle and a wide rectangle.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-049",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-ci-sixths.svg",
+      "figureAlt": "Loose pieces: six equal wedges.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A circle made of six equal wedges",
+        "A circle made of two half circles",
+        "A circle made of a half circle and two quarter circles",
+        "A circle made of three equal wedges"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-ci-sixths.svg",
+        "data/figures/ao-whole-ci-halves.svg",
+        "data/figures/ao-whole-ci-half-quarters.svg",
+        "data/figures/ao-whole-ci-thirds.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are six equal wedges. Only one choice is a circle built from exactly those pieces. The other choices are made of two half circles, a half circle and two quarter circles and three equal wedges.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-050",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-ci-half-quarters.svg",
+      "figureAlt": "Loose pieces: a half circle and two quarter circles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A circle made of a half circle and two quarter circles",
+        "A circle made of three equal wedges",
+        "A circle made of two half circles",
+        "A circle made of four quarter circles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-ci-half-quarters.svg",
+        "data/figures/ao-whole-ci-thirds.svg",
+        "data/figures/ao-whole-ci-halves.svg",
+        "data/figures/ao-whole-ci-quarters.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a half circle and two quarter circles. Only one choice is a circle built from exactly those pieces. The other choices are made of three equal wedges, two half circles and four quarter circles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-051",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-ci-third-rest.svg",
+      "figureAlt": "Loose pieces: a one-third wedge and a two-thirds piece.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A circle made of a one-third wedge and a two-thirds piece",
+        "A circle made of three equal wedges",
+        "A circle made of four quarter circles",
+        "A circle made of a quarter circle and a three-quarter piece"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-ci-third-rest.svg",
+        "data/figures/ao-whole-ci-thirds.svg",
+        "data/figures/ao-whole-ci-quarters.svg",
+        "data/figures/ao-whole-ci-quarter-rest.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a one-third wedge and a two-thirds piece. Only one choice is a circle built from exactly those pieces. The other choices are made of three equal wedges, four quarter circles and a quarter circle and a three-quarter piece.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-052",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-ci-halves-b.svg",
+      "figureAlt": "Loose pieces: two half circles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A circle made of two half circles",
+        "A circle made of a one-third wedge and a two-thirds piece",
+        "A circle made of four quarter circles",
+        "A circle made of a quarter circle and a three-quarter piece"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-ci-halves.svg",
+        "data/figures/ao-whole-ci-third-rest.svg",
+        "data/figures/ao-whole-ci-quarters.svg",
+        "data/figures/ao-whole-ci-quarter-rest.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two half circles. Only one choice is a circle built from exactly those pieces. The other choices are made of a one-third wedge and a two-thirds piece, four quarter circles and a quarter circle and a three-quarter piece.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-053",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-ci-quarters-b.svg",
+      "figureAlt": "Loose pieces: four quarter circles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A circle made of four quarter circles",
+        "A circle made of a quarter circle and a three-quarter piece",
+        "A circle made of three equal wedges",
+        "A circle made of a one-third wedge and a two-thirds piece"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-ci-quarters.svg",
+        "data/figures/ao-whole-ci-quarter-rest.svg",
+        "data/figures/ao-whole-ci-thirds.svg",
+        "data/figures/ao-whole-ci-third-rest.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are four quarter circles. Only one choice is a circle built from exactly those pieces. The other choices are made of a quarter circle and a three-quarter piece, three equal wedges and a one-third wedge and a two-thirds piece.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-054",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-ci-quarter-rest-b.svg",
+      "figureAlt": "Loose pieces: a quarter circle and a three-quarter piece.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A circle made of a quarter circle and a three-quarter piece",
+        "A circle made of a one-third wedge and a two-thirds piece",
+        "A circle made of a half circle and two quarter circles",
+        "A circle made of four quarter circles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-ci-quarter-rest.svg",
+        "data/figures/ao-whole-ci-third-rest.svg",
+        "data/figures/ao-whole-ci-half-quarters.svg",
+        "data/figures/ao-whole-ci-quarters.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a quarter circle and a three-quarter piece. Only one choice is a circle built from exactly those pieces. The other choices are made of a one-third wedge and a two-thirds piece, a half circle and two quarter circles and four quarter circles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-055",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-ci-thirds-b.svg",
+      "figureAlt": "Loose pieces: three equal wedges.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A circle made of three equal wedges",
+        "A circle made of two half circles",
+        "A circle made of a half circle and two quarter circles",
+        "A circle made of a one-third wedge and a two-thirds piece"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-ci-thirds.svg",
+        "data/figures/ao-whole-ci-halves.svg",
+        "data/figures/ao-whole-ci-half-quarters.svg",
+        "data/figures/ao-whole-ci-third-rest.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are three equal wedges. Only one choice is a circle built from exactly those pieces. The other choices are made of two half circles, a half circle and two quarter circles and a one-third wedge and a two-thirds piece.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-056",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-ci-sixths-b.svg",
+      "figureAlt": "Loose pieces: six equal wedges.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A circle made of six equal wedges",
+        "A circle made of a one-third wedge and a two-thirds piece",
+        "A circle made of two half circles",
+        "A circle made of four quarter circles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-ci-sixths.svg",
+        "data/figures/ao-whole-ci-third-rest.svg",
+        "data/figures/ao-whole-ci-halves.svg",
+        "data/figures/ao-whole-ci-quarters.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are six equal wedges. Only one choice is a circle built from exactly those pieces. The other choices are made of a one-third wedge and a two-thirds piece, two half circles and four quarter circles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-057",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-ci-half-quarters-b.svg",
+      "figureAlt": "Loose pieces: a half circle and two quarter circles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A circle made of a half circle and two quarter circles",
+        "A circle made of three equal wedges",
+        "A circle made of a one-third wedge and a two-thirds piece",
+        "A circle made of a quarter circle and a three-quarter piece"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-ci-half-quarters.svg",
+        "data/figures/ao-whole-ci-thirds.svg",
+        "data/figures/ao-whole-ci-third-rest.svg",
+        "data/figures/ao-whole-ci-quarter-rest.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a half circle and two quarter circles. Only one choice is a circle built from exactly those pieces. The other choices are made of three equal wedges, a one-third wedge and a two-thirds piece and a quarter circle and a three-quarter piece.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-058",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-ci-third-rest-b.svg",
+      "figureAlt": "Loose pieces: a one-third wedge and a two-thirds piece.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A circle made of a one-third wedge and a two-thirds piece",
+        "A circle made of four quarter circles",
+        "A circle made of a quarter circle and a three-quarter piece",
+        "A circle made of six equal wedges"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-ci-third-rest.svg",
+        "data/figures/ao-whole-ci-quarters.svg",
+        "data/figures/ao-whole-ci-quarter-rest.svg",
+        "data/figures/ao-whole-ci-sixths.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a one-third wedge and a two-thirds piece. Only one choice is a circle built from exactly those pieces. The other choices are made of four quarter circles, a quarter circle and a three-quarter piece and six equal wedges.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-059",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-tr-strips.svg",
+      "figureAlt": "Loose pieces: a small triangle and two trapezoids of different sizes.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A triangle made of a small triangle and two trapezoids of different sizes",
+        "A triangle made of a small triangle and a trapezoid",
+        "A triangle made of four small triangles",
+        "A triangle made of a very small triangle and a large four-sided piece"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-tr-strips.svg",
+        "data/figures/ao-whole-tr-top-cut.svg",
+        "data/figures/ao-whole-tr-four.svg",
+        "data/figures/ao-whole-tr-corner-cut.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a small triangle and two trapezoids of different sizes. Only one choice is a triangle built from exactly those pieces. The other choices are made of a small triangle and a trapezoid, four small triangles and a very small triangle and a large four-sided piece.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-060",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-tr-corner-cut.svg",
+      "figureAlt": "Loose pieces: a very small triangle and a large four-sided piece.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A triangle made of a very small triangle and a large four-sided piece",
+        "A triangle made of three equal wide triangles",
+        "A triangle made of a small triangle and two trapezoids of different sizes",
+        "A triangle made of two right triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-tr-corner-cut.svg",
+        "data/figures/ao-whole-tr-center.svg",
+        "data/figures/ao-whole-tr-strips.svg",
+        "data/figures/ao-whole-tr-halves.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a very small triangle and a large four-sided piece. Only one choice is a triangle built from exactly those pieces. The other choices are made of three equal wide triangles, a small triangle and two trapezoids of different sizes and two right triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-061",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-tr-halves-b.svg",
+      "figureAlt": "Loose pieces: two right triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A triangle made of two right triangles",
+        "A triangle made of a small triangle and two trapezoids of different sizes",
+        "A triangle made of a small triangle and a trapezoid",
+        "A triangle made of four small triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-tr-halves.svg",
+        "data/figures/ao-whole-tr-strips.svg",
+        "data/figures/ao-whole-tr-top-cut.svg",
+        "data/figures/ao-whole-tr-four.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two right triangles. Only one choice is a triangle built from exactly those pieces. The other choices are made of a small triangle and two trapezoids of different sizes, a small triangle and a trapezoid and four small triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-062",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-tr-four-b.svg",
+      "figureAlt": "Loose pieces: four small triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A triangle made of four small triangles",
+        "A triangle made of a very small triangle and a large four-sided piece",
+        "A triangle made of two right triangles",
+        "A triangle made of a small triangle and a trapezoid"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-tr-four.svg",
+        "data/figures/ao-whole-tr-corner-cut.svg",
+        "data/figures/ao-whole-tr-halves.svg",
+        "data/figures/ao-whole-tr-top-cut.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are four small triangles. Only one choice is a triangle built from exactly those pieces. The other choices are made of a very small triangle and a large four-sided piece, two right triangles and a small triangle and a trapezoid.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-063",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-tr-top-cut-b.svg",
+      "figureAlt": "Loose pieces: a small triangle and a trapezoid.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A triangle made of a small triangle and a trapezoid",
+        "A triangle made of a very small triangle and a large four-sided piece",
+        "A triangle made of two right triangles",
+        "A triangle made of a small triangle and two trapezoids of different sizes"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-tr-top-cut.svg",
+        "data/figures/ao-whole-tr-corner-cut.svg",
+        "data/figures/ao-whole-tr-halves.svg",
+        "data/figures/ao-whole-tr-strips.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a small triangle and a trapezoid. Only one choice is a triangle built from exactly those pieces. The other choices are made of a very small triangle and a large four-sided piece, two right triangles and a small triangle and two trapezoids of different sizes.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-064",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-tr-center-b.svg",
+      "figureAlt": "Loose pieces: three equal wide triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A triangle made of three equal wide triangles",
+        "A triangle made of a very small triangle and a large four-sided piece",
+        "A triangle made of a small triangle and two trapezoids of different sizes",
+        "A triangle made of four small triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-tr-center.svg",
+        "data/figures/ao-whole-tr-corner-cut.svg",
+        "data/figures/ao-whole-tr-strips.svg",
+        "data/figures/ao-whole-tr-four.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are three equal wide triangles. Only one choice is a triangle built from exactly those pieces. The other choices are made of a very small triangle and a large four-sided piece, a small triangle and two trapezoids of different sizes and four small triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-065",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-tr-strips-b.svg",
+      "figureAlt": "Loose pieces: a small triangle and two trapezoids of different sizes.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A triangle made of a small triangle and two trapezoids of different sizes",
+        "A triangle made of two right triangles",
+        "A triangle made of a small triangle and a trapezoid",
+        "A triangle made of four small triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-tr-strips.svg",
+        "data/figures/ao-whole-tr-halves.svg",
+        "data/figures/ao-whole-tr-top-cut.svg",
+        "data/figures/ao-whole-tr-four.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a small triangle and two trapezoids of different sizes. Only one choice is a triangle built from exactly those pieces. The other choices are made of two right triangles, a small triangle and a trapezoid and four small triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-066",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-tr-corner-cut-b.svg",
+      "figureAlt": "Loose pieces: a very small triangle and a large four-sided piece.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A triangle made of a very small triangle and a large four-sided piece",
+        "A triangle made of three equal wide triangles",
+        "A triangle made of a small triangle and a trapezoid",
+        "A triangle made of four small triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-tr-corner-cut.svg",
+        "data/figures/ao-whole-tr-center.svg",
+        "data/figures/ao-whole-tr-top-cut.svg",
+        "data/figures/ao-whole-tr-four.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a very small triangle and a large four-sided piece. Only one choice is a triangle built from exactly those pieces. The other choices are made of three equal wide triangles, a small triangle and a trapezoid and four small triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-067",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-re-halves-tall.svg",
+      "figureAlt": "Loose pieces: two tall rectangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A rectangle made of two tall rectangles",
+        "A rectangle made of two long, flat rectangles",
+        "A rectangle made of a triangle and a five-sided piece",
+        "A rectangle made of a square and a narrow rectangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-re-halves-tall.svg",
+        "data/figures/ao-whole-re-halves-flat.svg",
+        "data/figures/ao-whole-re-corner-tri.svg",
+        "data/figures/ao-whole-re-square-rect.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two tall rectangles. Only one choice is a rectangle built from exactly those pieces. The other choices are made of two long, flat rectangles, a triangle and a five-sided piece and a square and a narrow rectangle.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-068",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-re-halves-flat.svg",
+      "figureAlt": "Loose pieces: two long, flat rectangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A rectangle made of two long, flat rectangles",
+        "A rectangle made of two tall rectangles",
+        "A rectangle made of a square and a narrow rectangle",
+        "A rectangle made of two equal triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-re-halves-flat.svg",
+        "data/figures/ao-whole-re-halves-tall.svg",
+        "data/figures/ao-whole-re-square-rect.svg",
+        "data/figures/ao-whole-re-diagonal.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two long, flat rectangles. Only one choice is a rectangle built from exactly those pieces. The other choices are made of two tall rectangles, a square and a narrow rectangle and two equal triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-069",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-re-diagonal.svg",
+      "figureAlt": "Loose pieces: two equal triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A rectangle made of two equal triangles",
+        "A rectangle made of two tall rectangles",
+        "A rectangle made of a triangle and a five-sided piece",
+        "A rectangle made of a square and a narrow rectangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-re-diagonal.svg",
+        "data/figures/ao-whole-re-halves-tall.svg",
+        "data/figures/ao-whole-re-corner-tri.svg",
+        "data/figures/ao-whole-re-square-rect.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two equal triangles. Only one choice is a rectangle built from exactly those pieces. The other choices are made of two tall rectangles, a triangle and a five-sided piece and a square and a narrow rectangle.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-070",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-re-quarters.svg",
+      "figureAlt": "Loose pieces: four small rectangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A rectangle made of four small rectangles",
+        "A rectangle made of a triangle and a five-sided piece",
+        "A rectangle made of two tall rectangles",
+        "A rectangle made of two equal triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-re-quarters.svg",
+        "data/figures/ao-whole-re-corner-tri.svg",
+        "data/figures/ao-whole-re-halves-tall.svg",
+        "data/figures/ao-whole-re-diagonal.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are four small rectangles. Only one choice is a rectangle built from exactly those pieces. The other choices are made of a triangle and a five-sided piece, two tall rectangles and two equal triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-071",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-re-square-rect.svg",
+      "figureAlt": "Loose pieces: a square and a narrow rectangle.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A rectangle made of a square and a narrow rectangle",
+        "A rectangle made of two long, flat rectangles",
+        "A rectangle made of two tall rectangles",
+        "A rectangle made of two equal triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-re-square-rect.svg",
+        "data/figures/ao-whole-re-halves-flat.svg",
+        "data/figures/ao-whole-re-halves-tall.svg",
+        "data/figures/ao-whole-re-diagonal.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a square and a narrow rectangle. Only one choice is a rectangle built from exactly those pieces. The other choices are made of two long, flat rectangles, two tall rectangles and two equal triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-072",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-re-corner-tri.svg",
+      "figureAlt": "Loose pieces: a triangle and a five-sided piece.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A rectangle made of a triangle and a five-sided piece",
+        "A rectangle made of two tall rectangles",
+        "A rectangle made of four small rectangles",
+        "A rectangle made of a square and a narrow rectangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-re-corner-tri.svg",
+        "data/figures/ao-whole-re-halves-tall.svg",
+        "data/figures/ao-whole-re-quarters.svg",
+        "data/figures/ao-whole-re-square-rect.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a triangle and a five-sided piece. Only one choice is a rectangle built from exactly those pieces. The other choices are made of two tall rectangles, four small rectangles and a square and a narrow rectangle.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-073",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-re-halves-tall-b.svg",
+      "figureAlt": "Loose pieces: two tall rectangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A rectangle made of two tall rectangles",
+        "A rectangle made of two long, flat rectangles",
+        "A rectangle made of a triangle and a five-sided piece",
+        "A rectangle made of two equal triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-re-halves-tall.svg",
+        "data/figures/ao-whole-re-halves-flat.svg",
+        "data/figures/ao-whole-re-corner-tri.svg",
+        "data/figures/ao-whole-re-diagonal.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two tall rectangles. Only one choice is a rectangle built from exactly those pieces. The other choices are made of two long, flat rectangles, a triangle and a five-sided piece and two equal triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-074",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-re-halves-flat-b.svg",
+      "figureAlt": "Loose pieces: two long, flat rectangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A rectangle made of two long, flat rectangles",
+        "A rectangle made of two equal triangles",
+        "A rectangle made of a triangle and a five-sided piece",
+        "A rectangle made of two tall rectangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-re-halves-flat.svg",
+        "data/figures/ao-whole-re-diagonal.svg",
+        "data/figures/ao-whole-re-corner-tri.svg",
+        "data/figures/ao-whole-re-halves-tall.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two long, flat rectangles. Only one choice is a rectangle built from exactly those pieces. The other choices are made of two equal triangles, a triangle and a five-sided piece and two tall rectangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-075",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-re-diagonal-b.svg",
+      "figureAlt": "Loose pieces: two equal triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A rectangle made of two equal triangles",
+        "A rectangle made of four small rectangles",
+        "A rectangle made of two long, flat rectangles",
+        "A rectangle made of a triangle and a five-sided piece"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-re-diagonal.svg",
+        "data/figures/ao-whole-re-quarters.svg",
+        "data/figures/ao-whole-re-halves-flat.svg",
+        "data/figures/ao-whole-re-corner-tri.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two equal triangles. Only one choice is a rectangle built from exactly those pieces. The other choices are made of four small rectangles, two long, flat rectangles and a triangle and a five-sided piece.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-076",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-re-quarters-b.svg",
+      "figureAlt": "Loose pieces: four small rectangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A rectangle made of four small rectangles",
+        "A rectangle made of two tall rectangles",
+        "A rectangle made of two long, flat rectangles",
+        "A rectangle made of two equal triangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-re-quarters.svg",
+        "data/figures/ao-whole-re-halves-tall.svg",
+        "data/figures/ao-whole-re-halves-flat.svg",
+        "data/figures/ao-whole-re-diagonal.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are four small rectangles. Only one choice is a rectangle built from exactly those pieces. The other choices are made of two tall rectangles, two long, flat rectangles and two equal triangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-077",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-re-square-rect-b.svg",
+      "figureAlt": "Loose pieces: a square and a narrow rectangle.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A rectangle made of a square and a narrow rectangle",
+        "A rectangle made of two equal triangles",
+        "A rectangle made of two long, flat rectangles",
+        "A rectangle made of four small rectangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-re-square-rect.svg",
+        "data/figures/ao-whole-re-diagonal.svg",
+        "data/figures/ao-whole-re-halves-flat.svg",
+        "data/figures/ao-whole-re-quarters.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a square and a narrow rectangle. Only one choice is a rectangle built from exactly those pieces. The other choices are made of two equal triangles, two long, flat rectangles and four small rectangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-078",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-re-corner-tri-b.svg",
+      "figureAlt": "Loose pieces: a triangle and a five-sided piece.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A rectangle made of a triangle and a five-sided piece",
+        "A rectangle made of four small rectangles",
+        "A rectangle made of two equal triangles",
+        "A rectangle made of two tall rectangles"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-re-corner-tri.svg",
+        "data/figures/ao-whole-re-quarters.svg",
+        "data/figures/ao-whole-re-diagonal.svg",
+        "data/figures/ao-whole-re-halves-tall.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a triangle and a five-sided piece. Only one choice is a rectangle built from exactly those pieces. The other choices are made of four small rectangles, two equal triangles and two tall rectangles.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-079",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-hx-halves.svg",
+      "figureAlt": "Loose pieces: two equal trapezoids.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A hexagon made of two equal trapezoids",
+        "A hexagon made of six equal triangles",
+        "A hexagon made of a trapezoid and three small triangles",
+        "A hexagon made of three equal diamonds"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-hx-halves.svg",
+        "data/figures/ao-whole-hx-six.svg",
+        "data/figures/ao-whole-hx-trap-tris.svg",
+        "data/figures/ao-whole-hx-rhombi.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two equal trapezoids. Only one choice is a hexagon built from exactly those pieces. The other choices are made of six equal triangles, a trapezoid and three small triangles and three equal diamonds.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-080",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-hx-six.svg",
+      "figureAlt": "Loose pieces: six equal triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A hexagon made of six equal triangles",
+        "A hexagon made of three equal diamonds",
+        "A hexagon made of a trapezoid and three small triangles",
+        "A hexagon made of two equal trapezoids"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-hx-six.svg",
+        "data/figures/ao-whole-hx-rhombi.svg",
+        "data/figures/ao-whole-hx-trap-tris.svg",
+        "data/figures/ao-whole-hx-halves.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are six equal triangles. Only one choice is a hexagon built from exactly those pieces. The other choices are made of three equal diamonds, a trapezoid and three small triangles and two equal trapezoids.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-081",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-hx-rhombi.svg",
+      "figureAlt": "Loose pieces: three equal diamonds.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A hexagon made of three equal diamonds",
+        "A hexagon made of six equal triangles",
+        "A hexagon made of a trapezoid and three small triangles",
+        "A hexagon made of two equal trapezoids"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-hx-rhombi.svg",
+        "data/figures/ao-whole-hx-six.svg",
+        "data/figures/ao-whole-hx-trap-tris.svg",
+        "data/figures/ao-whole-hx-halves.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are three equal diamonds. Only one choice is a hexagon built from exactly those pieces. The other choices are made of six equal triangles, a trapezoid and three small triangles and two equal trapezoids.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-082",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-hx-trap-tris.svg",
+      "figureAlt": "Loose pieces: a trapezoid and three small triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A hexagon made of a trapezoid and three small triangles",
+        "A hexagon made of six equal triangles",
+        "A hexagon made of two equal trapezoids",
+        "A hexagon made of three equal diamonds"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-hx-trap-tris.svg",
+        "data/figures/ao-whole-hx-six.svg",
+        "data/figures/ao-whole-hx-halves.svg",
+        "data/figures/ao-whole-hx-rhombi.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a trapezoid and three small triangles. Only one choice is a hexagon built from exactly those pieces. The other choices are made of six equal triangles, two equal trapezoids and three equal diamonds.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-083",
+      "topic": "puzzles",
+      "difficulty": 1,
+      "figure": "data/figures/ao-pz-hx-halves-b.svg",
+      "figureAlt": "Loose pieces: two equal trapezoids.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A hexagon made of two equal trapezoids",
+        "A hexagon made of six equal triangles",
+        "A hexagon made of a trapezoid and three small triangles",
+        "A hexagon made of three equal diamonds"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-hx-halves.svg",
+        "data/figures/ao-whole-hx-six.svg",
+        "data/figures/ao-whole-hx-trap-tris.svg",
+        "data/figures/ao-whole-hx-rhombi.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are two equal trapezoids. Only one choice is a hexagon built from exactly those pieces. The other choices are made of six equal triangles, a trapezoid and three small triangles and three equal diamonds.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-084",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-hx-six-b.svg",
+      "figureAlt": "Loose pieces: six equal triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A hexagon made of six equal triangles",
+        "A hexagon made of two equal trapezoids",
+        "A hexagon made of a trapezoid and three small triangles",
+        "A hexagon made of three equal diamonds"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-hx-six.svg",
+        "data/figures/ao-whole-hx-halves.svg",
+        "data/figures/ao-whole-hx-trap-tris.svg",
+        "data/figures/ao-whole-hx-rhombi.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are six equal triangles. Only one choice is a hexagon built from exactly those pieces. The other choices are made of two equal trapezoids, a trapezoid and three small triangles and three equal diamonds.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-085",
+      "topic": "puzzles",
+      "difficulty": 2,
+      "figure": "data/figures/ao-pz-hx-rhombi-b.svg",
+      "figureAlt": "Loose pieces: three equal diamonds.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A hexagon made of three equal diamonds",
+        "A hexagon made of a trapezoid and three small triangles",
+        "A hexagon made of six equal triangles",
+        "A hexagon made of two equal trapezoids"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-hx-rhombi.svg",
+        "data/figures/ao-whole-hx-trap-tris.svg",
+        "data/figures/ao-whole-hx-six.svg",
+        "data/figures/ao-whole-hx-halves.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are three equal diamonds. Only one choice is a hexagon built from exactly those pieces. The other choices are made of a trapezoid and three small triangles, six equal triangles and two equal trapezoids.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-086",
+      "topic": "puzzles",
+      "difficulty": 3,
+      "figure": "data/figures/ao-pz-hx-trap-tris-b.svg",
+      "figureAlt": "Loose pieces: a trapezoid and three small triangles.",
+      "question": "Which figure shows how these pieces fit together?",
+      "choices": [
+        "A hexagon made of a trapezoid and three small triangles",
+        "A hexagon made of three equal diamonds",
+        "A hexagon made of six equal triangles",
+        "A hexagon made of two equal trapezoids"
+      ],
+      "choiceImages": [
+        "data/figures/ao-whole-hx-trap-tris.svg",
+        "data/figures/ao-whole-hx-rhombi.svg",
+        "data/figures/ao-whole-hx-six.svg",
+        "data/figures/ao-whole-hx-halves.svg"
+      ],
+      "answer": 0,
+      "explanation": "The pieces shown are a trapezoid and three small triangles. Only one choice is a hexagon built from exactly those pieces. The other choices are made of three equal diamonds, six equal triangles and two equal trapezoids.\nTip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, but they are never flipped, and their shapes never change."
+    },
+    {
+      "id": "ao-087",
+      "topic": "connections",
+      "difficulty": 1,
+      "figure": "data/figures/ao-cn-21.svg",
+      "figureAlt": "A circle with point A at its right edge, and a square with point B at its middle of the top side. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the right edge of the circle to the middle of the top side of the square",
+        "A line from the top edge of the circle to the middle of the top side of the square",
+        "A line from the right edge of the circle to the middle of the right side of the square",
+        "A line from the left edge of the circle to the middle of the bottom side of the square"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-21-0.svg",
+        "data/figures/ao-cn-21-1.svg",
+        "data/figures/ao-cn-21-2.svg",
+        "data/figures/ao-cn-21-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the right edge of the circle, and point B is at the middle of the top side of the square. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the circle anywhere except its right edge, then do the same for the square."
+    },
+    {
+      "id": "ao-088",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-22.svg",
+      "figureAlt": "A pentagon with point A at its top corner, and a triangle with point B at its bottom-right corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the top corner of the pentagon to the bottom-right corner of the triangle",
+        "A line from the upper-left corner of the pentagon to the bottom-right corner of the triangle",
+        "A line from the top corner of the pentagon to the middle of the bottom side of the triangle",
+        "A line from the center of the pentagon to the top corner of the triangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-22-0.svg",
+        "data/figures/ao-cn-22-1.svg",
+        "data/figures/ao-cn-22-2.svg",
+        "data/figures/ao-cn-22-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the top corner of the pentagon, and point B is at the bottom-right corner of the triangle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the pentagon anywhere except its top corner, then do the same for the triangle."
+    },
+    {
+      "id": "ao-089",
+      "topic": "connections",
+      "difficulty": 1,
+      "figure": "data/figures/ao-cn-23.svg",
+      "figureAlt": "A square with point A at its bottom-left corner, and a circle with point B at its left edge. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the bottom-left corner of the square to the left edge of the circle",
+        "A line from the middle of the bottom side of the square to the left edge of the circle",
+        "A line from the bottom-left corner of the square to the bottom edge of the circle",
+        "A line from the middle of the left side of the square to the center of the circle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-23-0.svg",
+        "data/figures/ao-cn-23-1.svg",
+        "data/figures/ao-cn-23-2.svg",
+        "data/figures/ao-cn-23-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the bottom-left corner of the square, and point B is at the left edge of the circle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the square anywhere except its bottom-left corner, then do the same for the circle."
+    },
+    {
+      "id": "ao-090",
+      "topic": "connections",
+      "difficulty": 1,
+      "figure": "data/figures/ao-cn-24.svg",
+      "figureAlt": "A triangle with point A at its bottom-left corner, and a square with point B at its top-left corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the bottom-left corner of the triangle to the top-left corner of the square",
+        "A line from the bottom-right corner of the triangle to the top-left corner of the square",
+        "A line from the bottom-left corner of the triangle to the top-right corner of the square",
+        "A line from the top corner of the triangle to the center of the square"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-24-0.svg",
+        "data/figures/ao-cn-24-1.svg",
+        "data/figures/ao-cn-24-2.svg",
+        "data/figures/ao-cn-24-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the bottom-left corner of the triangle, and point B is at the top-left corner of the square. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the triangle anywhere except its bottom-left corner, then do the same for the square."
+    },
+    {
+      "id": "ao-091",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-25.svg",
+      "figureAlt": "A circle with point A at its left edge, and a triangle with point B at its center. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the left edge of the circle to the center of the triangle",
+        "A line from the right edge of the circle to the center of the triangle",
+        "A line from the left edge of the circle to the bottom-left corner of the triangle",
+        "A line from the top edge of the circle to the middle of the bottom side of the triangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-25-0.svg",
+        "data/figures/ao-cn-25-1.svg",
+        "data/figures/ao-cn-25-2.svg",
+        "data/figures/ao-cn-25-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the left edge of the circle, and point B is at the center of the triangle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the circle anywhere except its left edge, then do the same for the triangle."
+    },
+    {
+      "id": "ao-092",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-26.svg",
+      "figureAlt": "A hexagon with point A at its center, and a triangle with point B at its bottom-right corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the center of the hexagon to the bottom-right corner of the triangle",
+        "A line from the lower-left corner of the hexagon to the bottom-right corner of the triangle",
+        "A line from the center of the hexagon to the center of the triangle",
+        "A line from the lower-left corner of the hexagon to the top corner of the triangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-26-0.svg",
+        "data/figures/ao-cn-26-1.svg",
+        "data/figures/ao-cn-26-2.svg",
+        "data/figures/ao-cn-26-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the center of the hexagon, and point B is at the bottom-right corner of the triangle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the hexagon anywhere except its center, then do the same for the triangle."
+    },
+    {
+      "id": "ao-093",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-27.svg",
+      "figureAlt": "A pentagon with point A at its upper-left corner, and a square with point B at its middle of the right side. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the upper-left corner of the pentagon to the middle of the right side of the square",
+        "A line from the lower-left corner of the pentagon to the middle of the right side of the square",
+        "A line from the upper-left corner of the pentagon to the middle of the bottom side of the square",
+        "A line from the upper-right corner of the pentagon to the bottom-right corner of the square"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-27-0.svg",
+        "data/figures/ao-cn-27-1.svg",
+        "data/figures/ao-cn-27-2.svg",
+        "data/figures/ao-cn-27-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the upper-left corner of the pentagon, and point B is at the middle of the right side of the square. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the pentagon anywhere except its upper-left corner, then do the same for the square."
+    },
+    {
+      "id": "ao-094",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-28.svg",
+      "figureAlt": "A square with point A at its top-left corner, and a hexagon with point B at its upper-left corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the top-left corner of the square to the upper-left corner of the hexagon",
+        "A line from the bottom-left corner of the square to the upper-left corner of the hexagon",
+        "A line from the top-left corner of the square to the upper-right corner of the hexagon",
+        "A line from the bottom-left corner of the square to the lower-right corner of the hexagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-28-0.svg",
+        "data/figures/ao-cn-28-1.svg",
+        "data/figures/ao-cn-28-2.svg",
+        "data/figures/ao-cn-28-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the top-left corner of the square, and point B is at the upper-left corner of the hexagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the square anywhere except its top-left corner, then do the same for the hexagon."
+    },
+    {
+      "id": "ao-095",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-29.svg",
+      "figureAlt": "A hexagon with point A at its lower-left corner, and a triangle with point B at its top corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the lower-left corner of the hexagon to the top corner of the triangle",
+        "A line from the lower-right corner of the hexagon to the top corner of the triangle",
+        "A line from the lower-left corner of the hexagon to the middle of the bottom side of the triangle",
+        "A line from the left corner of the hexagon to the middle of the bottom side of the triangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-29-0.svg",
+        "data/figures/ao-cn-29-1.svg",
+        "data/figures/ao-cn-29-2.svg",
+        "data/figures/ao-cn-29-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the lower-left corner of the hexagon, and point B is at the top corner of the triangle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the hexagon anywhere except its lower-left corner, then do the same for the triangle."
+    },
+    {
+      "id": "ao-096",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-30.svg",
+      "figureAlt": "A pentagon with point A at its center, and a hexagon with point B at its lower-left corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the center of the pentagon to the lower-left corner of the hexagon",
+        "A line from the lower-right corner of the pentagon to the lower-left corner of the hexagon",
+        "A line from the center of the pentagon to the upper-left corner of the hexagon",
+        "A line from the top corner of the pentagon to the left corner of the hexagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-30-0.svg",
+        "data/figures/ao-cn-30-1.svg",
+        "data/figures/ao-cn-30-2.svg",
+        "data/figures/ao-cn-30-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the center of the pentagon, and point B is at the lower-left corner of the hexagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the pentagon anywhere except its center, then do the same for the hexagon."
+    },
+    {
+      "id": "ao-097",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-31.svg",
+      "figureAlt": "A triangle with point A at its top corner, and a hexagon with point B at its upper-right corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the top corner of the triangle to the upper-right corner of the hexagon",
+        "A line from the center of the triangle to the upper-right corner of the hexagon",
+        "A line from the top corner of the triangle to the left corner of the hexagon",
+        "A line from the center of the triangle to the lower-left corner of the hexagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-31-0.svg",
+        "data/figures/ao-cn-31-1.svg",
+        "data/figures/ao-cn-31-2.svg",
+        "data/figures/ao-cn-31-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the top corner of the triangle, and point B is at the upper-right corner of the hexagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the triangle anywhere except its top corner, then do the same for the hexagon."
+    },
+    {
+      "id": "ao-098",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-32.svg",
+      "figureAlt": "A hexagon with point A at its upper-right corner, and a square with point B at its center. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the upper-right corner of the hexagon to the center of the square",
+        "A line from the lower-left corner of the hexagon to the center of the square",
+        "A line from the upper-right corner of the hexagon to the top-left corner of the square",
+        "A line from the center of the hexagon to the top-right corner of the square"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-32-0.svg",
+        "data/figures/ao-cn-32-1.svg",
+        "data/figures/ao-cn-32-2.svg",
+        "data/figures/ao-cn-32-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the upper-right corner of the hexagon, and point B is at the center of the square. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the hexagon anywhere except its upper-right corner, then do the same for the square."
+    },
+    {
+      "id": "ao-099",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-33.svg",
+      "figureAlt": "A circle with point A at its center, and a hexagon with point B at its lower-right corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the center of the circle to the lower-right corner of the hexagon",
+        "A line from the right edge of the circle to the lower-right corner of the hexagon",
+        "A line from the center of the circle to the center of the hexagon",
+        "A line from the top edge of the circle to the upper-right corner of the hexagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-33-0.svg",
+        "data/figures/ao-cn-33-1.svg",
+        "data/figures/ao-cn-33-2.svg",
+        "data/figures/ao-cn-33-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the center of the circle, and point B is at the lower-right corner of the hexagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the circle anywhere except its center, then do the same for the hexagon."
+    },
+    {
+      "id": "ao-100",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-34.svg",
+      "figureAlt": "A hexagon with point A at its lower-right corner, and a triangle with point B at its bottom-right corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the lower-right corner of the hexagon to the bottom-right corner of the triangle",
+        "A line from the upper-right corner of the hexagon to the bottom-right corner of the triangle",
+        "A line from the lower-right corner of the hexagon to the center of the triangle",
+        "A line from the upper-right corner of the hexagon to the top corner of the triangle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-34-0.svg",
+        "data/figures/ao-cn-34-1.svg",
+        "data/figures/ao-cn-34-2.svg",
+        "data/figures/ao-cn-34-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the lower-right corner of the hexagon, and point B is at the bottom-right corner of the triangle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the hexagon anywhere except its lower-right corner, then do the same for the triangle."
+    },
+    {
+      "id": "ao-101",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-35.svg",
+      "figureAlt": "A hexagon with point A at its right corner, and a circle with point B at its bottom edge. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the right corner of the hexagon to the bottom edge of the circle",
+        "A line from the lower-right corner of the hexagon to the bottom edge of the circle",
+        "A line from the right corner of the hexagon to the center of the circle",
+        "A line from the center of the hexagon to the center of the circle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-35-0.svg",
+        "data/figures/ao-cn-35-1.svg",
+        "data/figures/ao-cn-35-2.svg",
+        "data/figures/ao-cn-35-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the right corner of the hexagon, and point B is at the bottom edge of the circle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the hexagon anywhere except its right corner, then do the same for the circle."
+    },
+    {
+      "id": "ao-102",
+      "topic": "connections",
+      "difficulty": 1,
+      "figure": "data/figures/ao-cn-36.svg",
+      "figureAlt": "A triangle with point A at its bottom-left corner, and a square with point B at its bottom-left corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the bottom-left corner of the triangle to the bottom-left corner of the square",
+        "A line from the middle of the bottom side of the triangle to the bottom-left corner of the square",
+        "A line from the bottom-left corner of the triangle to the middle of the right side of the square",
+        "A line from the middle of the bottom side of the triangle to the middle of the right side of the square"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-36-0.svg",
+        "data/figures/ao-cn-36-1.svg",
+        "data/figures/ao-cn-36-2.svg",
+        "data/figures/ao-cn-36-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the bottom-left corner of the triangle, and point B is at the bottom-left corner of the square. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the triangle anywhere except its bottom-left corner, then do the same for the square."
+    },
+    {
+      "id": "ao-103",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-37.svg",
+      "figureAlt": "A pentagon with point A at its upper-left corner, and a hexagon with point B at its upper-right corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the upper-left corner of the pentagon to the upper-right corner of the hexagon",
+        "A line from the lower-left corner of the pentagon to the upper-right corner of the hexagon",
+        "A line from the upper-left corner of the pentagon to the left corner of the hexagon",
+        "A line from the top corner of the pentagon to the lower-right corner of the hexagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-37-0.svg",
+        "data/figures/ao-cn-37-1.svg",
+        "data/figures/ao-cn-37-2.svg",
+        "data/figures/ao-cn-37-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the upper-left corner of the pentagon, and point B is at the upper-right corner of the hexagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the pentagon anywhere except its upper-left corner, then do the same for the hexagon."
+    },
+    {
+      "id": "ao-104",
+      "topic": "connections",
+      "difficulty": 2,
+      "figure": "data/figures/ao-cn-38.svg",
+      "figureAlt": "A hexagon with point A at its left corner, and a pentagon with point B at its upper-left corner. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the left corner of the hexagon to the upper-left corner of the pentagon",
+        "A line from the center of the hexagon to the upper-left corner of the pentagon",
+        "A line from the left corner of the hexagon to the lower-right corner of the pentagon",
+        "A line from the right corner of the hexagon to the top corner of the pentagon"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-38-0.svg",
+        "data/figures/ao-cn-38-1.svg",
+        "data/figures/ao-cn-38-2.svg",
+        "data/figures/ao-cn-38-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the left corner of the hexagon, and point B is at the upper-left corner of the pentagon. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the hexagon anywhere except its left corner, then do the same for the pentagon."
+    },
+    {
+      "id": "ao-105",
+      "topic": "connections",
+      "difficulty": 1,
+      "figure": "data/figures/ao-cn-39.svg",
+      "figureAlt": "A circle with point A at its left edge, and a square with point B at its middle of the right side. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the left edge of the circle to the middle of the right side of the square",
+        "A line from the right edge of the circle to the middle of the right side of the square",
+        "A line from the left edge of the circle to the bottom-right corner of the square",
+        "A line from the top edge of the circle to the middle of the left side of the square"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-39-0.svg",
+        "data/figures/ao-cn-39-1.svg",
+        "data/figures/ao-cn-39-2.svg",
+        "data/figures/ao-cn-39-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the left edge of the circle, and point B is at the middle of the right side of the square. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the circle anywhere except its left edge, then do the same for the square."
+    },
+    {
+      "id": "ao-106",
+      "topic": "connections",
+      "difficulty": 1,
+      "figure": "data/figures/ao-cn-40.svg",
+      "figureAlt": "A square with point A at its top-right corner, and a circle with point B at its top edge. A line has ends marked A and B.",
+      "question": "Which figure shows the line connecting the shapes at points A and B?",
+      "choices": [
+        "A line from the top-right corner of the square to the top edge of the circle",
+        "A line from the top-left corner of the square to the top edge of the circle",
+        "A line from the top-right corner of the square to the center of the circle",
+        "A line from the middle of the right side of the square to the center of the circle"
+      ],
+      "choiceImages": [
+        "data/figures/ao-cn-40-0.svg",
+        "data/figures/ao-cn-40-1.svg",
+        "data/figures/ao-cn-40-2.svg",
+        "data/figures/ao-cn-40-3.svg"
+      ],
+      "answer": 0,
+      "explanation": "Point A is at the top-right corner of the square, and point B is at the top edge of the circle. Only one choice attaches the line at both of those spots.\nTip: check one end at a time. Cross out every choice where the line meets the square anywhere except its top-right corner, then do the same for the circle."
     }
   ]
 }

@@ -97,6 +97,80 @@ FAMILIES = {
 }
 
 
+# Patterns added later. They live apart from FAMILIES so the original
+# questions (and their ids) come out exactly the same.
+R6 = 100 * math.sqrt(3) / 2  # hexagon height with side 50 is 86.6
+HX = [(100, 43.3), (75, 86.6), (25, 86.6), (0, 43.3), (25, 0), (75, 0)]
+HO = (50, 43.3)
+T13 = ((50 - 50 / 3, H / 3), (50 + 50 / 3, H / 3))
+T23 = ((50 - 100 / 3, 2 * H / 3), (50 + 100 / 3, 2 * H / 3))
+TQ = (12.5, H * 0.75)  # a quarter of the way up the left side
+
+EXTRA = {
+    'square': {
+        'sq-diamond': ('a diamond and four small triangles',
+                       [('poly', [(50, 0), (S, 50), (50, S), (0, 50)]),
+                        ('poly', [(0, 0), (50, 0), (0, 50)]), ('poly', [(50, 0), (S, 0), (S, 50)]),
+                        ('poly', [(S, 50), (S, S), (50, S)]), ('poly', [(0, 50), (50, S), (0, S)])]),
+        'sq-rect-tris': ('a wide rectangle and two long, thin triangles',
+                         [('poly', [(0, 50), (S, 50), (S, S), (0, S)]),
+                          ('poly', [(0, 0), (S, 0), (S, 50)]), ('poly', [(0, 0), (S, 50), (0, 50)])]),
+    },
+    'circle': {
+        'ci-sixths': ('six equal wedges', [('sector', a, a + 60) for a in range(0, 360, 60)]),
+        'ci-half-quarters': ('a half circle and two quarter circles',
+                             [('sector', 0, 180), ('sector', 180, 270), ('sector', 270, 360)]),
+        'ci-third-rest': ('a one-third wedge and a two-thirds piece', [('sector', 0, 120), ('sector', 120, 360)]),
+    },
+    'triangle': {
+        'tr-strips': ('a small triangle and two trapezoids of different sizes',
+                      [('poly', [TA, T13[0], T13[1]]), ('poly', [T13[0], T23[0], T23[1], T13[1]]),
+                       ('poly', [T23[0], TB, TC, T23[1]])]),
+        'tr-corner-cut': ('a very small triangle and a large four-sided piece',
+                          [('poly', [TB, (25, H), TQ]), ('poly', [TA, TQ, (25, H), TC])]),
+    },
+}
+NEW_FAMILIES = {
+    'rectangle': {
+        'noun': 'rectangle',
+        'patterns': {
+            're-halves-tall': ('two tall rectangles', [('poly', [(0, 0), (50, 0), (50, 60), (0, 60)]),
+                                                        ('poly', [(50, 0), (S, 0), (S, 60), (50, 60)])]),
+            're-halves-flat': ('two long, flat rectangles', [('poly', [(0, 0), (S, 0), (S, 30), (0, 30)]),
+                                                              ('poly', [(0, 30), (S, 30), (S, 60), (0, 60)])]),
+            're-diagonal': ('two equal triangles', [('poly', [(0, 0), (S, 0), (S, 60)]),
+                                                    ('poly', [(0, 0), (S, 60), (0, 60)])]),
+            're-quarters': ('four small rectangles', [('poly', [(x, y), (x + 50, y), (x + 50, y + 30), (x, y + 30)])
+                                                      for x in (0, 50) for y in (0, 30)]),
+            're-square-rect': ('a square and a narrow rectangle', [('poly', [(0, 0), (60, 0), (60, 60), (0, 60)]),
+                                                                   ('poly', [(60, 0), (S, 0), (S, 60), (60, 60)])]),
+            're-corner-tri': ('a triangle and a five-sided piece', [('poly', [(0, 0), (60, 0), (0, 60)]),
+                                                                    ('poly', [(60, 0), (S, 0), (S, 60), (0, 60)])]),
+        },
+    },
+    'hexagon': {
+        'noun': 'hexagon',
+        'patterns': {
+            'hx-halves': ('two equal trapezoids', [('poly', [HX[3], HX[4], HX[5], HX[0]]),
+                                                   ('poly', [HX[0], HX[1], HX[2], HX[3]])]),
+            'hx-six': ('six equal triangles', [('poly', [HO, HX[i], HX[(i + 1) % 6]]) for i in range(6)]),
+            'hx-rhombi': ('three equal diamonds', [('poly', [HO, HX[i], HX[i + 1], HX[(i + 2) % 6]]) for i in (0, 2, 4)]),
+            'hx-trap-tris': ('a trapezoid and three small triangles',
+                             [('poly', [HX[3], HX[4], HX[5], HX[0]])] + [('poly', [HO, HX[i], HX[i + 1]]) for i in (0, 1, 2)]),
+        },
+    },
+}
+HARD_PATTERNS = {'re-square-rect', 'sq-rect-tris', 'tr-strips', 'tr-corner-cut', 'ci-half-quarters', 'ci-third-rest', 're-corner-tri', 'hx-trap-tris'}
+
+
+def family_pool(fam_key):
+    """Every pattern for a family: original, added and new families."""
+    fam = FAMILIES.get(fam_key) or NEW_FAMILIES[fam_key]
+    pool = dict(fam['patterns'])
+    pool.update(EXTRA.get(fam_key, {}))
+    return fam['noun'], pool
+
+
 def sector_path(a1, a2, cx=50, cy=50, r=50):
     p1 = (cx + r * math.cos(math.radians(a1)), cy + r * math.sin(math.radians(a1)))
     p2 = (cx + r * math.cos(math.radians(a2)), cy + r * math.sin(math.radians(a2)))
@@ -138,14 +212,19 @@ def whole_svg(pieces):
 def pieces_svg(pieces, rotations):
     """Loose pieces spread out in a row, each turned by its rotation."""
     slot = 125
-    w = slot * len(pieces) + 10
+    # Up to four pieces sit in one row; more wrap into rows of three so
+    # they stay a readable size on a phone.
+    cols = len(pieces) if len(pieces) <= 4 else 3
+    rows = math.ceil(len(pieces) / cols)
+    w = slot * cols + 10
     parts = []
     for i, (p, rot) in enumerate(zip(pieces, rotations)):
         cx, cy = piece_center(p)
-        x = 5 + slot * i + slot / 2
-        parts.append(f'<g transform="translate({x:.1f} 70) rotate({rot}) translate({-cx:.2f} {-cy:.2f})">'
+        x = 5 + slot * (i % cols) + slot / 2
+        y = 70 + 130 * (i // cols)
+        parts.append(f'<g transform="translate({x:.1f} {y}) rotate({rot}) translate({-cx:.2f} {-cy:.2f})">'
                      f'<path d="{piece_path(p)}" fill="{FILL}"/></g>')
-    return svg(w, 140, '\n'.join(parts))
+    return svg(w, 140 + 130 * (rows - 1), '\n'.join(parts))
 
 
 def make_puzzles():
@@ -189,6 +268,60 @@ def make_puzzles():
             })
     for fam in FAMILIES.values():
         for key, (_, pieces) in fam['patterns'].items():
+            (FIG / f'ao-whole-{key}.svg').write_text(whole_svg(pieces))
+    return questions
+
+
+def puzzle_question(fam_key, key, r, file_suffix=''):
+    noun, pool = family_pool(fam_key)
+    desc, pieces = pool[key]
+    others = [k for k in pool if k != key]
+    r.shuffle(others)
+    distractors = others[:3]
+    steps = list(range(30, 360, 30)) if fam_key in ('triangle', 'hexagon') else [90, 180, 270]
+    rots = [r.choice([0] + steps) for _ in pieces]
+    if all(x == 0 for x in rots):
+        rots[0] = r.choice(steps)
+    order = list(range(len(pieces)))
+    r.shuffle(order)
+    loose = [pieces[i] for i in order]
+    rots = [rots[i] for i in order]
+    qid = f'ao-pz-{key}{file_suffix}'
+    (FIG / f'{qid}.svg').write_text(pieces_svg(loose, rots))
+    choice_keys = [key] + distractors
+    difficulty = 3 if key in HARD_PATTERNS else (1 if len(pieces) == 2 else 2)
+    return {
+        'topic': 'puzzles',
+        'difficulty': difficulty,
+        'figure': f'data/figures/{qid}.svg',
+        'figureAlt': f'Loose pieces: {desc}.',
+        'question': 'Which figure shows how these pieces fit together?',
+        'choices': [f'A {noun} made of {pool[k][0]}' for k in choice_keys],
+        'choiceImages': [f'data/figures/ao-whole-{k}.svg' for k in choice_keys],
+        'answer': 0,
+        'explanation': (
+            f'The pieces shown are {desc}. Only one choice is a {noun} built from exactly those pieces. '
+            f'The other choices are made of {", ".join(pool[k][0] for k in distractors[:-1])}'
+            f' and {pool[distractors[-1]][0]}.\n'
+            'Tip: count the pieces first, then match each piece’s shape and size. Pieces may be turned, '
+            'but they are never flipped, and their shapes never change.'),
+    }
+
+
+def make_extra_puzzles(r):
+    """New patterns (version A) and a second version (B) of every pattern."""
+    questions = []
+    for fam_key in ('square', 'circle', 'triangle', 'rectangle', 'hexagon'):
+        _, pool = family_pool(fam_key)
+        original = set(FAMILIES[fam_key]['patterns']) if fam_key in FAMILIES else set()
+        for key in pool:
+            if key not in original:
+                questions.append(puzzle_question(fam_key, key, r))
+        for key in pool:
+            questions.append(puzzle_question(fam_key, key, r, '-b'))
+    for fam_key in ('square', 'circle', 'triangle', 'rectangle', 'hexagon'):
+        _, pool = family_pool(fam_key)
+        for key, (_, pieces) in pool.items():
             (FIG / f'ao-whole-{key}.svg').write_text(whole_svg(pieces))
     return questions
 
@@ -286,31 +419,32 @@ def connection_choice_svg(s1, a1, s2, a2, dy):
     return svg(240, 150, '\n'.join(body))
 
 
-def make_connections(count=20):
+def make_connections(count=20, r=None, start=1, seen=None):
+    r = r or rng
     names = list(SHAPES)
     questions = []
-    seen = set()
+    seen = set() if seen is None else seen
     while len(questions) < count:
-        s1, s2 = rng.sample(names, 2)
-        a1 = rng.choice(list(SHAPES[s1]['anchors']))
-        a2 = rng.choice(list(SHAPES[s2]['anchors']))
+        s1, s2 = r.sample(names, 2)
+        a1 = r.choice(list(SHAPES[s1]['anchors']))
+        a2 = r.choice(list(SHAPES[s2]['anchors']))
         if (s1, a1, s2, a2) in seen:
             continue
         seen.add((s1, a1, s2, a2))
         others1 = [a for a in SHAPES[s1]['anchors'] if a != a1]
         others2 = [a for a in SHAPES[s2]['anchors'] if a != a2]
         # One wrong at each end, and one wrong at both ends.
-        wrong = [(rng.choice(others1), a2), (a1, rng.choice(others2)), (rng.choice(others1), rng.choice(others2))]
+        wrong = [(r.choice(others1), a2), (a1, r.choice(others2)), (r.choice(others1), r.choice(others2))]
         if len(set(wrong)) < 3:
             continue
         pairs = [(a1, a2)] + wrong
-        n = len(questions) + 1
+        n = start + len(questions)
         qid = f'ao-cn-{n:02d}'
         (FIG / f'{qid}.svg').write_text(connection_question_svg(s1, a1, s2, a2))
         images = []
         for k, (x1, x2) in enumerate(pairs):
             path = f'data/figures/{qid}-{k}.svg'
-            (ROOT / path).write_text(connection_choice_svg(s1, x1, s2, x2, rng.choice([-22, -10, 0, 10, 22])))
+            (ROOT / path).write_text(connection_choice_svg(s1, x1, s2, x2, r.choice([-22, -10, 0, 10, 22])))
             images.append(path)
         hard = 'center' in (a1, a2) or s1 in ('pentagon', 'hexagon') or s2 in ('pentagon', 'hexagon')
         questions.append({
@@ -335,11 +469,19 @@ def main():
     FIG.mkdir(parents=True, exist_ok=True)
     for old in FIG.glob('ao-*.svg'):
         old.unlink()
+    # The original 36 questions, unchanged (ids ao-001 to ao-036).
     puzzles = make_puzzles()
-    connections = make_connections()
+    seen = set()
+    connections = make_connections(seen=seen)
+    # Additions use their own random seed so the originals never shift.
+    r2 = random.Random(20261121)
+    extra_puzzles = make_extra_puzzles(r2)
+    extra_connections = make_connections(20, r=r2, start=21, seen=seen)
     questions = []
-    for i, q in enumerate(puzzles + connections, 1):
+    for i, q in enumerate(puzzles + connections + extra_puzzles + extra_connections, 1):
         questions.append({'id': f'ao-{i:03d}', **q})
+    puzzles = puzzles + extra_puzzles
+    connections = connections + extra_connections
     bank = {
         'subtest': 'ao',
         'name': 'Assembling Objects',
