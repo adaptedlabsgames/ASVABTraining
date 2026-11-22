@@ -1,6 +1,7 @@
 import { SUBTESTS } from './config.js';
 import { load, loadActiveTest, lastAfqtTest, loadCardStates, loadPlan } from './storage.js';
 import { focusOrder } from './plan.js';
+import { testLabel } from './test.js';
 import { el, mount } from './dom.js';
 
 export function renderHome(app) {
@@ -42,6 +43,9 @@ export function renderHome(app) {
       el('h2', {}, 'Timed practice test'),
       el('p', { class: 'muted' },
         'All nine ASVAB sections, technical ones included, under real time limits, or just the four AFQT sections. Ends with your scores and an estimated AFQT range.'),
+      active
+        ? el('p', { class: 'small' }, `You have an unfinished ${testLabel(active)}.`)
+        : null,
       last
         ? el('p', { class: 'small' },
           `Your last estimate: ${last.estimate.low}–${last.estimate.high} (Category ${last.estimate.category}), `

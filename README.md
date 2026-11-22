@@ -12,6 +12,8 @@ Hosted on GitHub Pages from the `main` branch: https://adaptedlabsgames.github.i
 
 To make changes, work on a separate branch and merge it into `main`. The live site updates a minute or two after each merge.
 
+**Before each publish, run `python3 scripts/stamp_version.py`.** It gives the stylesheet, every script and the question data a new version tag (`?v=…`), so phones fetch the new files right away instead of reusing old copies.
+
 ## Run it locally
 
 The pages load question files with `fetch`, so they need a web server. Opening `index.html` directly from disk won't work.

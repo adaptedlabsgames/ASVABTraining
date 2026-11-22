@@ -21,8 +21,48 @@ export function renderTest(container) {
   app = container;
   document.title = 'Practice Test · ASVAB Prep';
   test = loadActiveTest();
-  if (test) resume();
-  else renderSetup();
+  if (!test) return renderSetup();
+  // A reload in the middle of a running section goes straight back to it.
+  // Otherwise ask first, so an old unfinished test never hides the chooser.
+  const s = section();
+  const running = s.startedAt && !s.submitted && Date.now() < s.deadline;
+  if (running) resume();
+  else renderResumePrompt();
+}
+
+export function testLabel(t) {
+  if (t.kind === 'full') return 'Full ASVAB practice test';
+  if (t.kind === 'afqt') return 'AFQT practice test';
+  return `${subtestName(t.sections[0].subtest)} timed section`;
+}
+
+function renderResumePrompt(confirming = false) {
+  view = 'resume';
+  stopTimer();
+  const s = section();
+  const where = `Section ${test.current + 1} of ${test.sections.length}: ${subtestName(s.subtest)}`;
+  mount(app,
+    el('div', { class: 'card' },
+      el('h1', {}, 'You have a test in progress'),
+      el('p', {}, el('strong', {}, testLabel(test)), ` (${FORMATS[test.format]?.label.toLowerCase() || ''})`),
+      el('p', { class: 'muted' }, `Next up: ${where}`),
+      confirming === true
+        ? el('div', { class: 'notice warn', role: 'alert' },
+          el('p', { style: 'margin:0 0 10px' }, 'Your answers on the unfinished test won’t be scored or saved.'),
+          el('div', { class: 'actions', style: 'margin-top:0' },
+            el('button', {
+              class: 'btn primary',
+              type: 'button',
+              onclick: () => { clearActiveTest(); test = null; renderSetup(); },
+            }, 'Discard it and choose a new test'),
+            el('button', { class: 'btn', type: 'button', onclick: () => renderResumePrompt(false) }, 'Keep it'),
+          ))
+        : el('div', { class: 'actions' },
+          el('button', { class: 'btn primary', type: 'button', onclick: resume }, 'Resume this test'),
+          el('button', { class: 'btn', type: 'button', onclick: () => renderResumePrompt(true) }, 'Start a new test instead'),
+        ),
+    ),
+  );
 }
 
 export function leaveTest() {

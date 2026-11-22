@@ -1,10 +1,12 @@
+import { VERSION } from './config.js';
+
 // Quiz engine: loading banks, choosing questions, shuffling answer choices.
 
 // Data files are fetched once per page load and shared (read-only).
 const cache = new Map();
 export function loadData(path) {
   if (!cache.has(path)) {
-    const p = fetch(path).then((res) => {
+    const p = fetch(`${path}?v=${VERSION}`).then((res) => {
       if (!res.ok) throw new Error(`Could not load ${path} (${res.status})`);
       return res.json();
     });

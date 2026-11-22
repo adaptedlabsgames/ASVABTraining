@@ -1,3 +1,5 @@
+export const VERSION = '202611222044'; // set by scripts/stamp_version.py
+
 // Subtest registry. To add a subtest later, create data/<id>.json and add an
 // entry here with ready: true. No other code changes are needed.
 export const SUBTESTS = [
