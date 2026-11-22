@@ -41,7 +41,7 @@ export function renderHome(app) {
     el('div', { class: 'test-card-body' },
       el('h2', {}, 'Timed practice test'),
       el('p', { class: 'muted' },
-        'All four AFQT sections under real time limits, with an estimated AFQT range at the end.'),
+        'The four AFQT sections or the full nine-section ASVAB under real time limits, with an estimated AFQT range at the end.'),
       last
         ? el('p', { class: 'small' },
           `Your last estimate: ${last.estimate.low}–${last.estimate.high} (Category ${last.estimate.category}), `

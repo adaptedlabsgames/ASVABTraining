@@ -96,7 +96,7 @@ node scripts/validate.mjs
 
 ## Timed test and AFQT estimate
 
-Question counts and time limits for the timed test are in `FORMATS` in `js/scoring.js`. They follow the paper ASVAB: AR 30 questions in 36 min, WK 35 in 11, PC 15 in 13, MK 25 in 24, GS 25 in 11, AS 25 in 11, EI 20 in 9, MC 25 in 19, AO 25 in 15. Half length uses roughly half of each. Any live subtest with an entry in `FORMATS` can be taken as a single timed section. Only the four AFQT sections produce an AFQT estimate.
+Question counts and time limits for the timed test are in `FORMATS` in `js/scoring.js`. They follow the paper ASVAB: AR 30 questions in 36 min, WK 35 in 11, PC 15 in 13, MK 25 in 24, GS 25 in 11, AS 25 in 11, EI 20 in 9, MC 25 in 19, AO 25 in 15. Half length uses roughly half of each. There are three test types: the **AFQT** test (AR, WK, PC, MK), the **Full ASVAB** (all nine sections in score-report order: GS, AR, WK, PC, MK, EI, AS, MC, AO; 225 questions in 149 minutes at full length) and **one timed section**. The AFQT and Full ASVAB tests give an AFQT estimate. Section order is `FULL_ORDER` in `js/scoring.js`.
 
 The estimated AFQT range weights each section the way the AFQT does: Word Knowledge and Paragraph Comprehension together count twice. It applies that weighting to percent correct and shows a band of ±8. Real AFQT scores are percentiles based on national norms that aren't public, so the estimate is only a rough guide. The site says so wherever the estimate appears.
 

@@ -4,6 +4,12 @@
 // AFQT sections in the order they appear on the real test.
 export const AFQT_ORDER = ['ar', 'wk', 'pc', 'mk'];
 
+// All nine sections, in the order they appear on the ASVAB score report.
+export const FULL_ORDER = ['gs', 'ar', 'wk', 'pc', 'mk', 'ei', 'as', 'mc', 'ao'];
+
+// Test types that include all four AFQT sections, and so get an estimate.
+export const GIVES_AFQT = ['afqt', 'full'];
+
 // Question counts and minutes follow the paper-and-pencil ASVAB.
 // (The computer version uses fewer, adaptive questions.)
 export const FORMATS = {

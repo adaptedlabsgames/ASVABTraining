@@ -1,13 +1,13 @@
 // Timed practice test: setup → (section intro → questions → section review)×N → results.
-import { SUBTESTS, getSubtest } from './config.js';
+import { getSubtest } from './config.js';
 import { loadBank, prepare, pickBalanced } from './quiz.js';
 import { recordAnswer, recordSession, loadActiveTest, saveActiveTest, clearActiveTest } from './storage.js';
-import { FORMATS, AFQT_ORDER, afqtEstimate, scoreSection } from './scoring.js';
+import { FORMATS, AFQT_ORDER, FULL_ORDER, GIVES_AFQT, afqtEstimate, scoreSection } from './scoring.js';
 import { el, mount, figure, choiceBody, choiceListClass, answerBody } from './dom.js';
 
 const LETTERS = 'ABCDEFGH';
 // Subtests that can be taken as a single timed section.
-const SECTION_IDS = SUBTESTS.filter((s) => s.ready && FORMATS.full.sections[s.id]).map((s) => s.id);
+const SECTION_IDS = FULL_ORDER.filter((id) => getSubtest(id)?.ready && FORMATS.full.sections[id]);
 
 let app = null;
 let test = null; // the active test; see startTest() for its shape
@@ -85,7 +85,11 @@ function tick() {
 function renderSetup() {
   view = 'setup';
   stopTimer();
-  const ids = () => (setup.kind === 'afqt' ? AFQT_ORDER : [setup.subtest]);
+  const ids = () => {
+    if (setup.kind === 'afqt') return AFQT_ORDER;
+    if (setup.kind === 'full') return FULL_ORDER.filter((id) => getSubtest(id)?.ready && FORMATS.full.sections[id]);
+    return [setup.subtest];
+  };
 
   const kindRadio = (value, title, desc) =>
     el('label', { class: 'option' },
@@ -128,7 +132,8 @@ function renderSetup() {
     el('fieldset', {},
       el('legend', {}, 'Test'),
       el('div', { class: 'option-list' },
-        kindRadio('afqt', 'Full AFQT practice test', 'All four AFQT sections in real test order, each timed separately. Gives an estimated AFQT range.'),
+        kindRadio('afqt', 'AFQT practice test', 'The four AFQT sections, each timed separately. Gives an estimated AFQT range.'),
+        kindRadio('full', 'Full ASVAB practice test', 'All nine sections in score-report order, each timed separately. Gives an estimated AFQT range plus a score for every section. You can take a break between sections.'),
         el('div', { class: 'option-with-select' },
           kindRadio('single', 'One timed section', 'Practice a single section under time pressure.'),
           subtestSelect,
@@ -176,7 +181,7 @@ function renderSetup() {
   mount(app, 
     el('p', { class: 'small' }, el('a', { class: 'back-link', href: '#' }, '← Home')),
     el('h1', {}, 'Timed practice test'),
-    el('p', { class: 'lead' }, 'Take the AFQT sections under real time limits, then see your estimated score and review every question.'),
+    el('p', { class: 'lead' }, 'Take the AFQT sections, the full ASVAB or one section under real time limits, then see your scores and review every question.'),
     form,
   );
 }
@@ -464,11 +469,11 @@ function finishTest() {
       if (s.answers[i] != null) recordAnswer(q.id, s.answers[i] === q.answer);
     });
   }
-  const estimate = finished.kind === 'afqt' ? afqtEstimate(scores) : null;
+  const estimate = GIVES_AFQT.includes(finished.kind) && AFQT_ORDER.every((id) => scores[id]) ? afqtEstimate(scores) : null;
   const total = Object.values(scores).reduce((n, s) => n + s.total, 0);
   const correct = Object.values(scores).reduce((n, s) => n + s.correct, 0);
   recordSession({
-    subtest: finished.kind === 'afqt' ? 'afqt' : finished.sections[0].subtest,
+    subtest: finished.kind === 'single' ? finished.sections[0].subtest : finished.kind,
     mode: 'test',
     format: finished.format,
     total,
@@ -511,7 +516,10 @@ function renderResults(finished, scores, estimate) {
     );
   });
 
-  const weakest = [...finished.sections].sort((a, b) => scores[a.subtest].pct - scores[b.subtest].pct)[0].subtest;
+  // Suggest the weakest section, preferring AFQT sections since they decide enlistment.
+  const afqtSections = finished.sections.filter((x) => AFQT_ORDER.includes(x.subtest));
+  const pool = afqtSections.length ? afqtSections : finished.sections;
+  const weakest = [...pool].sort((a, b) => scores[a.subtest].pct - scores[b.subtest].pct)[0].subtest;
 
   let summary;
   if (estimate) {

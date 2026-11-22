@@ -125,7 +125,8 @@ function draw(items, deckSize = 0) {
           el('th', {}, 'Date'), el('th', {}, 'Test'), el('th', {}, 'Correct'), el('th', {}, 'AFQT estimate'))),
         el('tbody', {}, tests.map((t) => {
           const length = FORMATS[t.format]?.label || '';
-          const what = t.subtest === 'afqt' ? `AFQT, ${length.toLowerCase()}` : `${nameOf[t.subtest] || t.subtest}, ${length.toLowerCase()}`;
+          const label = t.subtest === 'afqt' ? 'AFQT' : t.subtest === 'full' ? 'Full ASVAB' : nameOf[t.subtest] || t.subtest;
+          const what = `${label}, ${length.toLowerCase()}`;
           return el('tr', {},
             el('td', { class: 'nowrap' }, shortDate(t.date)),
             el('td', {}, what),
