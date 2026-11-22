@@ -13,7 +13,7 @@ let app = null;
 let test = null; // the active test; see startTest() for its shape
 let view = null; // 'setup' | 'intro' | 'question' | 'review' | 'quit' | 'results'
 let timerId = null;
-let setup = { kind: 'afqt', subtest: 'ar', format: 'full' };
+let setup = { kind: 'full', subtest: 'gs', format: 'full' };
 
 /* ---------- Entry points ---------- */
 
@@ -132,8 +132,8 @@ function renderSetup() {
     el('fieldset', {},
       el('legend', {}, 'Test'),
       el('div', { class: 'option-list' },
-        kindRadio('afqt', 'AFQT practice test', 'The four AFQT sections, each timed separately. Gives an estimated AFQT range.'),
-        kindRadio('full', 'Full ASVAB practice test', 'All nine sections in score-report order, each timed separately. Gives an estimated AFQT range plus a score for every section. You can take a break between sections.'),
+        kindRadio('full', 'Full ASVAB practice test', 'All nine sections, technical ones included, in score-report order. Each is timed separately, and you can take a break between sections. Gives an estimated AFQT range plus a score for every section.'),
+        kindRadio('afqt', 'AFQT practice test', 'Only the four sections that make up the AFQT score (Arithmetic Reasoning, Word Knowledge, Paragraph Comprehension and Math Knowledge). Shorter, and gives an estimated AFQT range.'),
         el('div', { class: 'option-with-select' },
           kindRadio('single', 'One timed section', 'Practice a single section under time pressure.'),
           subtestSelect,
@@ -181,7 +181,7 @@ function renderSetup() {
   mount(app, 
     el('p', { class: 'small' }, el('a', { class: 'back-link', href: '#' }, '← Home')),
     el('h1', {}, 'Timed practice test'),
-    el('p', { class: 'lead' }, 'Take the AFQT sections, the full ASVAB or one section under real time limits, then see your scores and review every question.'),
+    el('p', { class: 'lead' }, 'Take the full ASVAB, just the AFQT sections or one section under real time limits, then see your scores and review every question.'),
     form,
   );
 }

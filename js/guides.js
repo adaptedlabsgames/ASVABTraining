@@ -61,7 +61,7 @@ export async function renderGuides(app) {
   mount(app,
     el('h1', {}, 'Study guides'),
     el('p', { class: 'lead' },
-      'Short lessons for every topic on the AFQT: the rules and formulas to know, a worked example and the trap to avoid. Each guide ends with practice questions on that topic.'),
+      'Short lessons for every topic on all nine ASVAB subtests: the rules and formulas to know, a worked example and the trap to avoid. Each guide ends with practice questions on that topic.'),
     sections,
   );
 }

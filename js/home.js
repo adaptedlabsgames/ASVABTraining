@@ -41,7 +41,7 @@ export function renderHome(app) {
     el('div', { class: 'test-card-body' },
       el('h2', {}, 'Timed practice test'),
       el('p', { class: 'muted' },
-        'The four AFQT sections or the full nine-section ASVAB under real time limits, with an estimated AFQT range at the end.'),
+        'All nine ASVAB sections, technical ones included, under real time limits, or just the four AFQT sections. Ends with your scores and an estimated AFQT range.'),
       last
         ? el('p', { class: 'small' },
           `Your last estimate: ${last.estimate.low}–${last.estimate.high} (Category ${last.estimate.category}), `
@@ -79,11 +79,13 @@ export function renderHome(app) {
   mount(app, 
     el('h1', {}, 'Raise your ASVAB score'),
     el('p', { class: 'lead' },
-      'Practice the four subtests that make up your AFQT score. Every question comes with a ' +
-      'step-by-step explanation. Your progress is saved in this browser.'),
+      'Practice all nine ASVAB subtests: the four that make up your AFQT score and the five technical subtests that decide which jobs you qualify for. ' +
+      'Every question comes with a step-by-step explanation. Your progress is saved in this browser.'),
     testCard,
     planCard,
-    el('h2', {}, 'Practice by subtest'),
+    el('h2', {}, 'AFQT subtests'),
+    el('p', { class: 'small muted section-note' },
+      'These four make up your AFQT score, which decides whether you can enlist.'),
     grid,
     el('h2', {}, 'Technical subtests'),
     el('p', { class: 'small muted section-note' },
